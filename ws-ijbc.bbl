@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{20}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -48,6 +48,23 @@ Desroches, M., Guckenheimer, J., Krauskopf, B., Kuehn, C., Osinga, H. \&
 Desroches, M., Krauskopf, B. \& Osinga, H. [2009] \enquote{{The geometry of
   mixed-mode oscillations in the Olsen model for peroxidase-oxidase reaction}.}
   \emph{Discrete \& Continuous Dynamical Systems} \textbf{2},  807--827.
+
+\bibitem[{Doedel(2007)}]{AUTO}
+Doedel, E. [2007] \emph{AUTO-07p: Continuation and Bifurcation Software for
+  Ordinary Differential Equations},
+  \urlprefix\url{http://indy.cs.concordia.ca/auto/}, with major contributions
+  from A.R. Champneys, F. Dercole, T.F. Fairgrieve, Y.A. Kuznetsov, R.C.
+  Paffenroth, B. Sandstede, X. Wang and C. Zhang.
+
+\bibitem[{Farjami \emph{et~al.}(2018)Farjami, Kirk \& Osinga}]{Saeed_Paper}
+Farjami, S., Kirk, V. \& Osinga, H. [2018] \enquote{{Computing the Stable
+  Manifold of a Saddle Slow Manifold}.} \emph{SIAM Journal on Applied Dynamical
+  Systems} \textbf{17},  350--379.
+
+\bibitem[{Fenichel(1979)}]{Fenichel}
+Fenichel, N. [1979] \enquote{Geometric singular perturbation theory for
+  ordinary differential equations,} \emph{Journal of Differential Equations}
+  \textbf{31},  53--98.
 
 \bibitem[{FitzHugh(1955)}]{fitz-hugh-nagumo}
 FitzHugh, R. [1955] \enquote{Mathematical models of threshold phenomena in the

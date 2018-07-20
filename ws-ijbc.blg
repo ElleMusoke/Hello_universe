@@ -8,44 +8,46 @@ World Scientific's Bibliography Style File for IJBC
 version 1.0 (2005/03/26), Sorted
 for support: Rajesh, rajesh@wspc.com.sg
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 17 entries,
+Warning--missing publisher in AUTO
+You've used 20 entries,
             3241 wiz_defined-function locations,
-            791 strings with 7796 characters,
-and the built_in function-call counts, 11760 in all, are:
-= -- 1063
-> -- 378
-< -- 24
-+ -- 150
-- -- 129
-* -- 854
-:= -- 1685
-add.period$ -- 34
-call.type$ -- 17
-change.case$ -- 128
-chr.to.int$ -- 17
-cite$ -- 17
-duplicate$ -- 902
-empty$ -- 885
-format.name$ -- 174
-if$ -- 2462
+            811 strings with 8422 characters,
+and the built_in function-call counts, 13516 in all, are:
+= -- 1217
+> -- 424
+< -- 28
++ -- 168
+- -- 144
+* -- 974
+:= -- 1941
+add.period$ -- 39
+call.type$ -- 20
+change.case$ -- 148
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 1045
+empty$ -- 1029
+format.name$ -- 194
+if$ -- 2829
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 158
-newline$ -- 61
-num.names$ -- 68
-pop$ -- 299
+missing$ -- 185
+newline$ -- 70
+num.names$ -- 80
+pop$ -- 350
 preamble$ -- 1
-purify$ -- 111
+purify$ -- 128
 quote$ -- 0
-skip$ -- 454
+skip$ -- 526
 stack$ -- 0
-substring$ -- 683
-swap$ -- 542
-text.length$ -- 15
+substring$ -- 776
+swap$ -- 620
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 4
-type$ -- 153
-warning$ -- 0
-while$ -- 96
+type$ -- 177
+warning$ -- 1
+while$ -- 111
 width$ -- 0
-write$ -- 194
+write$ -- 227
+(There was 1 warning)

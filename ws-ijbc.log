@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  19 JUL 2018 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  20 JUL 2018 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,21 +284,25 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
 (./ws-ijbc.aux)
 \openout1 = `ws-ijbc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -314,23 +318,46 @@ LaTeX Font Info:    ... okay on input line 18.
 \makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 33.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
- [3] [4]
+<figures.pdf, id=23, page=1, 341.4326pt x 185.6546pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 1>
+Package pdftex.def Info: figures.pdf , page1 used on input line 124.
+(pdftex.def)             Requested size: 341.43176pt x 185.65413pt.
+ [3 <./figures.pdf>]
+<figures.pdf, id=50, page=2, 398.3382pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 2>
+Package pdftex.def Info: figures.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 398.33722pt x 228.33247pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `AUTO' on page 4 undefined on input line 174.
+
+[4] [5 <./figures.pdf>] [6] [7] [8]
 Package epstopdf Info: Source file: <ijbcf1.eps>
 (epstopdf)                    date: 2018-07-19 04:01:20
 (epstopdf)                    size: 48607 bytes
@@ -339,12 +366,12 @@ Package epstopdf Info: Source file: <ijbcf1.eps>
 (epstopdf)                    size: 3489 bytes
 (epstopdf)             Command: <repstopdf --outfile=ijbcf1-eps-converted-to.pd
 f ijbcf1.eps>
-(epstopdf)             \includegraphics on input line 297.
+(epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
-<ijbcf1-eps-converted-to.pdf, id=35, 99.37125pt x 109.40875pt>
+<ijbcf1-eps-converted-to.pdf, id=93, 99.37125pt x 109.40875pt>
 File: ijbcf1-eps-converted-to.pdf Graphic file (type pdf)
 <use ijbcf1-eps-converted-to.pdf>
-Package pdftex.def Info: ijbcf1-eps-converted-to.pdf  used on input line 297.
+Package pdftex.def Info: ijbcf1-eps-converted-to.pdf  used on input line 427.
 (pdftex.def)             Requested size: 99.371pt x 109.40846pt.
 Package epstopdf Info: Source file: <ijbcf2.eps>
 (epstopdf)                    date: 2018-07-19 04:01:20
@@ -354,55 +381,68 @@ Package epstopdf Info: Source file: <ijbcf2.eps>
 (epstopdf)                    size: 15837 bytes
 (epstopdf)             Command: <repstopdf --outfile=ijbcf2-eps-converted-to.pd
 f ijbcf2.eps>
-(epstopdf)             \includegraphics on input line 305.
+(epstopdf)             \includegraphics on input line 435.
 Package epstopdf Info: Output file is already uptodate.
-<ijbcf2-eps-converted-to.pdf, id=36, 585.18625pt x 370.38374pt>
+<ijbcf2-eps-converted-to.pdf, id=94, 585.18625pt x 370.38374pt>
 File: ijbcf2-eps-converted-to.pdf Graphic file (type pdf)
 <use ijbcf2-eps-converted-to.pdf>
-Package pdftex.def Info: ijbcf2-eps-converted-to.pdf  used on input line 305.
+Package pdftex.def Info: ijbcf2-eps-converted-to.pdf  used on input line 435.
 (pdftex.def)             Requested size: 505.89pt x 320.20798pt.
+ Adding sideways figure on  left hand page
+[9 <./ijbcf1-eps-converted-to.pdf>] [10 <./ijbcf2-eps-converted-to.pdf>]
+[11] (./ws-ijbc.bbl [12])
 
-Adding sideways figure on  left hand page
+Package natbib Warning: There were undefined citations.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[13] (./ws-ijbc.aux
 
-[5 <./ijbcf1-eps-converted-to.pdf>] [6 <./ijbcf2-eps-converted-to.pdf>]
-[7] (./ws-ijbc.bbl [8]) [9] (./ws-ijbc.aux) ) 
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3372 strings out of 492649
- 43396 string characters out of 6129622
- 116596 words of memory out of 5000000
- 7180 multiletter control sequences out of 15000+600000
- 16185 words of font info for 60 fonts, out of 8000000 for 9000
+ 3434 strings out of 492649
+ 44507 string characters out of 6129622
+ 119833 words of memory out of 5000000
+ 7226 multiletter control sequences out of 15000+600000
+ 18715 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,13n,27p,1513b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/sy
-mbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msbm10.pfb>
-Output written on ws-ijbc.pdf (9 pages, 289428 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on ws-ijbc.pdf (13 pages, 459939 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 206 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

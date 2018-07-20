@@ -13,6 +13,7 @@
 \usepackage{ws-rotating}     % used only when sideways tables/figures are used
 \usepackage{graphicx}
 \usepackage{epstopdf}
+\usepackage{mathrsfs}
 \bibliographystyle{ws-ijbc}
 
 \begin{document}
@@ -54,17 +55,17 @@ We consider a prototypical four-dimensional slow-fast dynamical system which exh
 
 To better observe the separation between fast and slow variables, we use a change of coordinates described in \cite{Rescaling} and given by the system of ODEs
     
-    \begin{equation}
-        \begin{aligned}
-            \begin{cases}
-                \frac{dA}{dt} &= \mu - \alpha A - ABY, \\
-                \frac{dB}{dt} &= \varepsilon(1-BX - ABY), \\
-                \frac{dX}{dt} &= \frac{1}{\eta}(BX - X^2 +3ABY - \zeta X + \delta), \\
-                \frac{dY}{dt} &= \frac{\kappa}{\eta}(X^2 - Y - ABY),
-            \end{cases}
-        \end{aligned}
-        \label{equation_1}
-    \end{equation}
+\begin{equation}
+\begin{aligned}
+\begin{cases}
+\frac{dA}{dt} &= \mu - \alpha A - ABY, \\
+\frac{dB}{dt} &= \varepsilon(1-BX - ABY), \\
+\frac{dX}{dt} &= \frac{1}{\eta}(BX - X^2 +3ABY - \zeta X + \delta), \\
+\frac{dY}{dt} &= \frac{\kappa}{\eta}(X^2 - Y - ABY),
+\end{cases}
+\end{aligned}
+\label{equation_1}
+\end{equation}
     
 \noindent
 where $(A, B, X, Y)\in\mathbb{R}^{4}$ are positive concentrations of chemicals.  The system parameters given by Greek letters in Table 1 are functions of original system parameters given in \cite{Olsen}. They were chosen to be the same as in \cite{Rescaling} with a minor modification.  Note that for notational convenience, we have substituted  $\varepsilon_{b}$ and $\varepsilon^{2}$ \cite{Rescaling} with $\varepsilon$ and $\eta$ respectively.
@@ -82,8 +83,137 @@ $\alpha$ & $\delta$ & $\varepsilon$ & $\eta$ & $\kappa$ & $\mu$ & $\zeta$ \\[6pt
 
 The classification of variables as either slow or fast is not straightforward for the Olsen model because the variables are not consistently slow or fast over all regions of phase space.  In fact system (\ref{equation_1}) nominally has three different time scales.  The time-scaling parameters $\varepsilon$ and $\eta$ depend on the original system parameter $k_1$.  As suggested by \cite{Rescaling}, we decrease $k_{1}$ past $0.16$ to $0.1$ so that there are only two time scales.  We study a parameter regime corresponding to three fast variables, $A, X$ and $Y$, and one slow variable, $B$.
 
-%next section is background
+%Background section
+\section{Background}
+    
+In the limit as $\varepsilon \rightarrow 0$, system (\ref{equation_1}) becomes
+    
+\begin{equation}
+\begin{aligned}
+\begin{cases}
+\frac{dA}{dt} &= \mu - \alpha A - ABY, \\
+\frac{dX}{dt} &= \frac{1}{\eta}(BX - X^2 +3ABY - \zeta X + \delta), \\
+\frac{dY}{dt} &= \frac{\kappa}{\eta}(X^2 - Y - ABY),
+\end{cases}
+\end{aligned}
+\label{equation_2}
+\end{equation}
+    
+\noindent
+in which $B$ is a parameter.  We refer to the three-dimensional system (\ref{equation_2}) as the layer equation or the fast subsystem.  If one first performs a time rescaling, $\tau = \varepsilon t$, and then considers the limit as $\varepsilon \rightarrow 0$ the system reduces to
+    
+ \begin{equation}
+\begin{aligned}
+\begin{cases}
+0 &= \mu - \alpha A - ABY, \\
+\frac{dB}{d\tau} &= (1-BX - ABY), \\
+0 &= \frac{1}{\eta}(BX - X^2 +3ABY - \zeta X + \delta), \\
+0 &= \frac{\kappa}{\eta}(X^2 - Y - ABY),
+\end{cases}
+\end{aligned}
+\label{equation_3}
+\end{equation}
+    
+\noindent
+which is a differential algebraic system called the slow subsystem or the reduced system. The three algebraic equations in system (\ref{equation_3}) define a one-dimensional manifold called the critical manifold, $C$.  The flow in (\ref{equation_3}) is defined by the single differential equation for $B$ and it is confined to $C$.  
 
+The critical manifold consists of equilibria of the fast subsystem for different values of $B$. These can be linearized about and their stability determined by the $3\times3$ Jacobian matrix of (\ref{equation_2}).  Equilibria at which the Jacobian's eigenvalues all have non-zero real parts are called hyperbolic, otherwise we say that the equilibrium is non-hyperbolic.  Non-hyperbolic equilibria lying on the critical manifold correspond to local bifurcations in (\ref{equation_2}).  The critical manifold has 11 branches near a stable MMO of interest, separated from each other by non-hyperbolic equilibria of the fast subsystem.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[page=1]{figures.pdf}
+\end{center}
+\caption{Physically relevant branches of the critical manifold of system (\ref{equation_1}) shown in projection onto the ($B$,$A$)-plane.  The branches labeled $C^t$ and $C^b$ and colored teal correspond to saddle equilibria of (\ref{equation_2}), solid curves indicate stable nodes.  The two saddle-node bifurcations are represented as orange dots and labeled $F_1$ and $F_2$ respectively.  The Hopf bifurcation is represented with a light pink dot and is labeled $H$.}
+\label{critical_figure}
+\end{figure}
+
+Figure \ref{critical_figure} shows four branches of $C$ on which all variables are positive projected into the ($B$,$A$)-plane.  Seven nearby branches of $C$ are not shown, because they lie in regions where at least one of $A$, $B$, $X$, or $Y$ is negative and not physically relevant.  Of the branches shown in Figure \ref{critical_figure}, the topmost black branch consists of stable equilibria of (\ref{equation_2}) and is separated from the teal colored branch of saddle equilibria, denoted $C^t$, by a fold, shown in orange and denoted $F_1$, occurring at $B \approx 0.956$.  Equilibria $p \in C^t$ each have a two-dimensional linear stable space $E^s(p)$ and a one-dimensional linear unstable space $E^u(p)$.  The flow is from left to right near $C^t$ in the $(B,A)$-projection shown.  The fold $F_1$ has the appearance of a cusp in the ($B$,$A$)-projection, however ($B$,$X$)- and ($B$,$Y$)- projections show that this is truly a fold with respect to $B$.  Another fold, also shown in orange, separates $C^t$ from a lower raspberry colored branch of saddle equilibria and occurs at $B \approx 0.273$ and is denoted $F_2$.  The raspberry branch of saddle equilibria is denoted $C^b$ and is separated from a branch of stable equilibria on the right by a Hopf bifurcation, represented as a pink dot and denoted $H$, occurring at $B \approx 0.896$.  Equilibria on $C^b$ have each one stable and two unstable eigenvectors.  The flow is from right to left near $C^b$.
+    
+We denote the local stable and unstable manifolds of points $p \in C$ by $W^{s}_{loc}(p)$ and $W^{u}_{loc}(p)$.  These are the trajectories in \ref{equation_2} that converge to $p$ in forwards and backwards time respectively.  The saddle branch $C^t$ has a three-dimensional local stable manifold $W^{s}_{loc}(C^t)$ and a two-dimensional local unstable manifold $W^{u}_{loc}(C^t)$ defined as
+    
+$$W^{s}_{loc}(C^t) = \bigcup_{p \in C^t} W^{s}_{loc}(p), \hspace{1cm} W^{u}_{loc}(C^t) = \bigcup_{p \in C^t} W^{u}_{loc}(p).$$
+    
+\noindent
+Similarly $C^b$ has a three-dimensional local unstable manifold and a two-dimensional local stable manifold defined as
+    
+$$W^{s}_{loc}(C^b) = \bigcup_{p \in C^b} W^{s}_{loc}(p), \hspace{1cm} W^{u}_{loc}(C^b) = \bigcup_{p \in C^b} W^{u}_{loc}(p).$$
+    
+We are interested in interactions between stable and unstable manifolds of $C^t$ and $C^b$ as $\varepsilon > 0$.  Although the branches $C^t$ and $C^b$ of the critical manifold are no longer invariant for $\varepsilon > 0$, Fenichel Theory guarantees that both $C^t$ and $C^b$ persist as locally-invariant manifolds called slow manifolds, denoted $S^t_\varepsilon$ and $S^b_\varepsilon$, that are not unique \cite{Fenichel}. Orbit segments that lie on a slow manifold remain slow for an $O(1)$ amount of slow timescale time.  Locally invariant means that solutions can only enter or leave the manifold via its edges.  
+    
+We can select a unique representative $S^t_\varepsilon$ by considering the slow manifold that remains slow for the longest amount of time.  The slow manifold $S^t_\varepsilon$ has the same dimension as $C^t$ and, as $\varepsilon \rightarrow 0$, orbit segments converge to $C^t$.  Since equilibria of (\ref{equation_2}) lying on $C^t$ are of saddle type, $C^t$ and $S^t_\epsilon$ are also of saddle type.  The slow manifold, $S^b_\varepsilon$, associated with $C^b$ can be similarly defined.
+    
+Fenichel Theory also guarantees that $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ persist as locally-invariant local stable and unstable manifolds of $S^t$ \cite{Fenichel}.  We define the stable manifold of $S^t_\varepsilon$ as a family of orbit segments, $W^s(S^t_\varepsilon)$, that have a fast approach to $S^t_\varepsilon$ and then stay close to it for an $O(1)$ amount of time.  Similarly, we define the unstable manifold as a family of orbit segments, $W^s(S^t_\varepsilon)$, that approach $S^t_\varepsilon$ in backward time and then stay close to it for an $O(1)$ amount of backward time.  According to Fenichel Theory, $W^s(S^t_\varepsilon)$ and $W^u(S^t_\varepsilon)$ have the same dimensions as $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ and lie at an $O(\varepsilon)$ distance away from them, respectively.  The manifolds $W^s(S^t_\varepsilon)$ and $W^u(S^t_\varepsilon)$ are not unique, however they can be made unique by imposing additional conditions.   We can similarly define the stable and unstable manifolds associated with $C^b$, denoted $W^s(S^b_\varepsilon)$ and $W^u(S^b_\varepsilon)$, respectively.
+ 
+ %Saddle slow manifold section   
+ 
+ \section{Computation of 1D saddle slow manifolds}
+    
+For the computation of a one-dimensional saddle slow manifold, we follow the presentation in \cite{Saeed_Paper} of a one-dimensional saddle slow manifold for a three-dimensional system.  Here we consider only the slow manifold $S^t_\varepsilon$ associated with $C^t$; the slow manifold $S^b_\varepsilon$ can be found in a similar manner.
+    
+The precise definition of the slow manifold $S^t_\varepsilon$ is given with respect to a closed interval $[B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B^t_{\mathrm{in}}$ and $B^t_{\mathrm{out}}$ are chosen such that the interval is contained in the interval defined by the $B$-coordinates of the two fold points $F_1$ and $F_2$.  Note that there is a segment in $C^t$ for which each point $p \in C^t$ is uniquely associated via its $B$-coordinaate with a value for $B_p \in [B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$.  For each $B_p \in [B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^t$ such that $p_B = B_p$.  We define a solid three-sphere $D_\delta(B_p)$ in the three-dimensional subsection $B=p_B$ that has radius $\delta$ and center $p$, given formally by
+
+\begin{equation*}
+D_\delta(B_p)=\{w \in \mathbb{R}^4 | w_B = B, |w-p| \leq \delta\}.
+\end{equation*}
+    
+\noindent
+The union $\mathscr{D} = \cup_{B \in [B^t_{\mathrm{in}}, B^t_{\mathrm{out}}]} D_\delta(B)$ forms a four-dimensional compact cylinder.  The radius $\delta$ is small, but it needs to be at least of $O(\varepsilon)$ to ensure that $S^t_\varepsilon$ lies in $\mathscr{D}$.  The one-parameter family of orbit segments that enter $\mathscr{D}$ via $D_\delta(B^t_{\mathrm{in}})$ and exit via $D_\delta(B^t_{\mathrm{out}})$ are candidates for $S^t_\varepsilon$.   We impose the additional condition that $S^t_\varepsilon$ must have maximal integration time in $\mathscr{D}$ to select a unique candidate to represent $S^t_\varepsilon$.  This condition may be interpreted as selecting $S^t_\varepsilon$ such that it enters $\mathscr{D}$ via $W^{s}(S^t_\varepsilon)$ and exits via $W^{u}(S^t_\varepsilon)$.
+    
+The set-up is similar to the set-up described in \cite{Saeed_Paper} with the difference that $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ are three-spheres rather than two-dimensional disks and $\mathscr{D}$ is four dimensional rather than three dimensional.  Plotted in green in Figure \ref{tube_figure} is a projection of the unique representative of $S^t_\varepsilon$.  Sketched in purple is $\mathscr{D}$ with the spheres $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ at either end.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[page=2]{figures.pdf}
+\end{center}
+\caption{A visualization of the slow manifold definition projected into the $(B,A)$-plane.  The spheres $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ are represented by purple disks at either end of a four-dimensional cylinder, also represented in purple.  A computation of the slow manifold is plotted in green and labelled $S^t_\varepsilon$.}
+\label{tube_figure}
+\end{figure}
+
+\subsection{Boundary Value Set-Up}
+    
+We compute $S^t_\varepsilon$ by setting up an appropriately defined two-point boundary-value problem (2PBVP) with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We view $S^t_\varepsilon$ as an orbit segment $\mathbf{u} = \{\mathbf{u}(s)| 0 \leq s \leq 1 \}$ of the rescaled system
+
+
+\begin{equation}
+\frac{d\mathbf{u}}{ds} = TF(\mathbf{u}),
+\label{equation_4}
+\end{equation}
+    
+\noindent
+where $\mathbf{u}(s) = (A(s), B(s), X(s), Y(s)) \in \mathbb{R}^4$ is the vector of chemical concentrations, $F$ is the right-hand side of (\ref{equation_1}) and $T$ is the total integration time on the fast timescale, $t=Ts$.
+    
+To obtain an initial solution of (\ref{equation_4}), we perform a homotopy step as follows.  First, we choose $B^t_{\mathrm{out}} = 0.75$ at a value that corresponds to a point $p^t_{\mathrm{out}} \in C^t$ close to $F_1$.  We then impose the conditions
+    
+\begin{equation}
+\mathbf{u}(0) \in E^u(C^t),
+\label{BC3}
+\end{equation}
+and
+\begin{equation}
+\mathbf{u}(1) \in E^s(p^t_{\mathrm{out}}),
+\label{BC2}
+\end{equation}
+\noindent
+that each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$, respectively.  The point $p$ is then a solution to the two-point boundary-value problem defined by (\ref{equation_4})--(\ref{BC2}) with $T=0$.  We then  decrease $\mathbf{u}_B(0)$ towards $S1$ while the total integration time increases.  The integration is stopped when $\mathbf{u}_B(0)=0.4$, corresponding to the point $p^* \in C^t$, before it reaches $F_2$.
+    
+We remark that $D_\delta(B^t_{\mathrm{in}})$ defines a three-parameter family of orbit segments with initial conditions in the sphere.  We can refine our search for orbits that enter the cylinder via $D_\delta(B^t_{\mathrm{in}})$ and exit it via $D_\delta(B^t_{\mathrm{out}})$ by observing that, because $S^t_\varepsilon$ is of saddle type, the initial point of a candidate orbit segment must lie in a small neighborhood of $W^s(S^t_\varepsilon)$ in the sphere $D_\delta(B^t_{\mathrm{in}})$.  Similarly the end point must remain in a small neighborhood of $W^u(S^t_\varepsilon)$ in the sphere $D_\delta(B^t_{\mathrm{out}})$.
+    
+We define the two-dimensional plane $\Phi = \{E^u(p^t_{\mathrm{in}}) + \begin{bmatrix} 0 & 0 & 0 & Y \end{bmatrix}^{T}| Y \in \mathbb{R} \}$ that is transverse to $W^s(S^t_\varepsilon) \cap D_{\delta}(B^t_{\mathrm{in}})$ and contains $E^u(p^*)$.  We impose the boundary conditions
+    
+\begin{equation}
+\mathbf{u}(0) \in \Phi
+\label{BC1}
+\end{equation}
+    
+\noindent
+which also imposes two conditions on $\mathbf{u}(0)$.  The orbit segment resulting from the homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), \ref{BC2}, and (\ref{BC1}).  The total integration time $T$ is a free parameter in this 2PBVP, which means that there exists a one-parameter family of solutions.  To select a unique orbit segment from this solution family, we impose the additional condition that $T$ be locally maximal.  This will be the orbit segment which locally has the longest slow segment in the geometric sense and will be the best approximation of $S^t_\varepsilon$.  In the case where there are two such candidates, we choose one.
+    
+In the final continuation run we increase the integration time until a fold in $T$ is detected.  The resulting orbit segment approximates the saddle slow manifold, $S^t_\varepsilon$.
+   
+A projection of $S^t_\varepsilon$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{tube_figure}.  A keen observer will note that, near $D_\delta(B^t_{\mathrm{in}})$, $S^t_\varepsilon$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Sigma$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the intersection of $W^s(S^t_\varepsilon)$ with $\Sigma$ while $\mathbf{u}(1)$ moves toward the intersection of $E^s(p^t_{\mathrm{out}})$ with $W^u(S^t_\varepsilon)$.  The fold in $T$ signals when $u(0)$ and $u(1)$ are near respective intersection points and the result is an orbit segment containing fast segments lying on $W^s(S^t_\varepsilon)$ and $W^u(S^t_\varepsilon)$.  In Figure \ref{tube_figure}, the segment lying on $W^u(S^t_\varepsilon)$ is so short that it is not visible.  We obtain an approximation of $S^t_\varepsilon$ that does not include fast segments by restricting the orbit segment further within the interval $[B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$.
+   
+An approximation of the slow manifold associated with $C^b$ can be computed in the same way by choosing $B^b_{\mathrm{in}}$ near $H$, and $B^b_{\mathrm{out}}$ near $S2$ in the above definition.  We choose $B^b_{\mathrm{in}}=B^b_{\mathrm{out}}$ smaller than and near $H_B$.
+        
 
 %\begin{multicols}{2}
 \section{The Main Text}
