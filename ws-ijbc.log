@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  20 JUL 2018 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  24 JUL 2018 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -288,161 +288,237 @@ e
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(./ws-ijbc.aux)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen142
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen143
+\subfiglabelskip=\skip54
+\c@subfigure=\count125
+\c@lofdepth=\count126
+\c@subtable=\count127
+\c@lotdepth=\count128
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
+)
+(./ws-ijbc.aux
+
+LaTeX Warning: Label `step1' multiply defined.
+
+
+LaTeX Warning: Label `sub@step1' multiply defined.
+
+
+LaTeX Warning: Label `step2' multiply defined.
+
+
+LaTeX Warning: Label `sub@step2' multiply defined.
+
+
+LaTeX Warning: Label `step3' multiply defined.
+
+
+LaTeX Warning: Label `sub@step3' multiply defined.
+
+
+LaTeX Warning: Label `step4' multiply defined.
+
+
+LaTeX Warning: Label `sub@step4' multiply defined.
+
+)
 \openout1 = `ws-ijbc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen142
+\scratchcounter=\count129
+\scratchdimen=\dimen144
 \scratchbox=\box33
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count130
+\nofMParguments=\count131
 \everyMPshowfont=\toks22
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen143
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen145
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
 \everyMPtoPDFconversion=\toks23
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 33.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 34.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<figures.pdf, id=23, page=1, 341.4326pt x 185.6546pt>
+<figures.pdf, id=23, page=1, 369.8859pt x 214.1069pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 1>
-Package pdftex.def Info: figures.pdf , page1 used on input line 124.
-(pdftex.def)             Requested size: 341.43176pt x 185.65413pt.
+Package pdftex.def Info: figures.pdf , page1 used on input line 125.
+(pdftex.def)             Requested size: 369.88498pt x 214.10637pt.
  [3 <./figures.pdf>]
-<figures.pdf, id=50, page=2, 398.3382pt x 228.33304pt>
+<figures.pdf, id=50, page=2, 398.3382pt x 214.1069pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 2>
-Package pdftex.def Info: figures.pdf , page2 used on input line 166.
-(pdftex.def)             Requested size: 398.33722pt x 228.33247pt.
+Package pdftex.def Info: figures.pdf , page2 used on input line 167.
+(pdftex.def)             Requested size: 398.33722pt x 214.10637pt.
+ [4] [5 <./figures.pdf>] [6]
+<figures.pdf, id=83, page=3, 376.99846pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 3>
+Package pdftex.def Info: figures.pdf , page3 used on input line 274.
+(pdftex.def)             Requested size: 240.30083pt x 145.54382pt.
+<figures.pdf, id=84, page=4, 376.99846pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 4>
+Package pdftex.def Info: figures.pdf , page4 used on input line 275.
+(pdftex.def)             Requested size: 240.30083pt x 145.54382pt.
+<figures.pdf, id=85, page=5, 376.99846pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 5>
+Package pdftex.def Info: figures.pdf , page5 used on input line 276.
+(pdftex.def)             Requested size: 240.30083pt x 145.54382pt.
+<figures.pdf, id=86, page=6, 369.8859pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 6>
+Package pdftex.def Info: figures.pdf , page6 used on input line 277.
+(pdftex.def)             Requested size: 240.30083pt x 148.34154pt.
+<figures.pdf, id=87, page=7, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 7>
+Package pdftex.def Info: figures.pdf , page7 used on input line 283.
+(pdftex.def)             Requested size: 240.30083pt x 128.56244pt.
+<figures.pdf, id=88, page=8, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 8>
+Package pdftex.def Info: figures.pdf , page8 used on input line 284.
+(pdftex.def)             Requested size: 240.30083pt x 128.56244pt.
+ [7] [8 <./figures.pdf> <./figures.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures.pdf> <./figures.pdf>]
+<figures.pdf, id=150, page=9, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 9>
+Package pdftex.def Info: figures.pdf , page9 used on input line 297.
+(pdftex.def)             Requested size: 240.30083pt x 128.56244pt.
+<figures.pdf, id=151, page=10, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 10>
+Package pdftex.def Info: figures.pdf , page10 used on input line 298.
+(pdftex.def)             Requested size: 240.30083pt x 128.56244pt.
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 2>
+Package pdftex.def Info: figures.pdf , page2 used on input line 307.
+(pdftex.def)             Requested size: 170.71652pt x 91.76033pt.
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 3>
+Package pdftex.def Info: figures.pdf , page3 used on input line 308.
+(pdftex.def)             Requested size: 170.71652pt x 103.39694pt.
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 4>
+Package pdftex.def Info: figures.pdf , page4 used on input line 309.
+(pdftex.def)             Requested size: 170.71652pt x 103.39694pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `BC5' on page 9 undefined on input line 309.
 
 
-Package natbib Warning: Citation `AUTO' on page 4 undefined on input line 174.
+LaTeX Warning: Reference `BC5' on page 9 undefined on input line 309.
 
-[4] [5 <./figures.pdf>] [6] [7] [8]
-Package epstopdf Info: Source file: <ijbcf1.eps>
-(epstopdf)                    date: 2018-07-19 04:01:20
-(epstopdf)                    size: 48607 bytes
-(epstopdf)             Output file: <ijbcf1-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-07-19 16:01:52
-(epstopdf)                    size: 3489 bytes
-(epstopdf)             Command: <repstopdf --outfile=ijbcf1-eps-converted-to.pd
-f ijbcf1.eps>
-(epstopdf)             \includegraphics on input line 427.
-Package epstopdf Info: Output file is already uptodate.
-<ijbcf1-eps-converted-to.pdf, id=93, 99.37125pt x 109.40875pt>
-File: ijbcf1-eps-converted-to.pdf Graphic file (type pdf)
-<use ijbcf1-eps-converted-to.pdf>
-Package pdftex.def Info: ijbcf1-eps-converted-to.pdf  used on input line 427.
-(pdftex.def)             Requested size: 99.371pt x 109.40846pt.
-Package epstopdf Info: Source file: <ijbcf2.eps>
-(epstopdf)                    date: 2018-07-19 04:01:20
-(epstopdf)                    size: 57941 bytes
-(epstopdf)             Output file: <ijbcf2-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-07-19 16:01:53
-(epstopdf)                    size: 15837 bytes
-(epstopdf)             Command: <repstopdf --outfile=ijbcf2-eps-converted-to.pd
-f ijbcf2.eps>
-(epstopdf)             \includegraphics on input line 435.
-Package epstopdf Info: Output file is already uptodate.
-<ijbcf2-eps-converted-to.pdf, id=94, 585.18625pt x 370.38374pt>
-File: ijbcf2-eps-converted-to.pdf Graphic file (type pdf)
-<use ijbcf2-eps-converted-to.pdf>
-Package pdftex.def Info: ijbcf2-eps-converted-to.pdf  used on input line 435.
-(pdftex.def)             Requested size: 505.89pt x 320.20798pt.
- Adding sideways figure on  left hand page
-[9 <./ijbcf1-eps-converted-to.pdf>] [10 <./ijbcf2-eps-converted-to.pdf>]
-[11] (./ws-ijbc.bbl [12])
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 5>
+Package pdftex.def Info: figures.pdf , page5 used on input line 310.
+(pdftex.def)             Requested size: 170.71652pt x 103.39694pt.
+[9 <./figures.pdf> <./figures.pdf>] (./ws-ijbc.bbl [10]) [11] (./ws-ijbc.aux)
 
-Package natbib Warning: There were undefined citations.
+LaTeX Warning: There were undefined references.
 
-[13] (./ws-ijbc.aux
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3434 strings out of 492649
- 44507 string characters out of 6129622
- 119833 words of memory out of 5000000
- 7226 multiletter control sequences out of 15000+600000
- 18715 words of font info for 71 fonts, out of 8000000 for 9000
+ 3617 strings out of 492649
+ 47220 string characters out of 6129622
+ 124058 words of memory out of 5000000
+ 7409 multiletter control sequences out of 15000+600000
+ 17594 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,27p,1513b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,27p,1513b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texm
-f-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on ws-ijbc.pdf (13 pages, 459939 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/rsfs/rsfs10.pfb>
+Output written on ws-ijbc.pdf (11 pages, 854405 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 148 compressed objects within 2 object streams
+ 268 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

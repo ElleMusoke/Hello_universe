@@ -11,9 +11,10 @@
 %\documentclass[draft]{ws-ijbc}
 \documentclass{ws-ijbc}
 \usepackage{ws-rotating}     % used only when sideways tables/figures are used
-\usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{subfigure}
 \bibliographystyle{ws-ijbc}
 
 \begin{document}
@@ -22,7 +23,7 @@
 
 \markboth{Author's Name}{Paper Title}
 
-\title{A HETEROCLINIC CONNECTION BETWEEN TWO SADDLE SLOW MANIFOLDS IN THE OLSEN MODEL}
+\title{A Heteroclinic Connection between two Saddle Slow Manifolds in the Olsen Model}
 
 \author{Elle Musoke, Bernd Krauskopf and Hinke M. Osinga}
 
@@ -37,7 +38,7 @@ elle.musoke@auckland.ac.nz}
 \end{history}
 
 \begin{abstract}
-The abstract should summarize the context, content and conclusions
+The abstract should summarise the context, content and conclusions
 of the paper. It should not contain any references or displayed
 equations. Typeset the abstract in 10~pt Times Roman with
 baselineskip of 12 pt, making an indentation of 1.6~cm on the left
@@ -70,7 +71,7 @@ To better observe the separation between fast and slow variables, we use a chang
 \noindent
 where $(A, B, X, Y)\in\mathbb{R}^{4}$ are positive concentrations of chemicals.  The system parameters given by Greek letters in Table 1 are functions of original system parameters given in \cite{Olsen}. They were chosen to be the same as in \cite{Rescaling} with a minor modification.  Note that for notational convenience, we have substituted  $\varepsilon_{b}$ and $\varepsilon^{2}$ \cite{Rescaling} with $\varepsilon$ and $\eta$ respectively.
 
-\begin{table}[h]
+\begin{table}[!t]
 \tbl{System parameters for system (1)}
 {\begin{tabular}{c  c  c  c  c  c  c  c  c} \\[-2pt]
 \toprule
@@ -119,7 +120,7 @@ which is a differential algebraic system called the slow subsystem or the reduce
 
 The critical manifold consists of equilibria of the fast subsystem for different values of $B$. These can be linearized about and their stability determined by the $3\times3$ Jacobian matrix of (\ref{equation_2}).  Equilibria at which the Jacobian's eigenvalues all have non-zero real parts are called hyperbolic, otherwise we say that the equilibrium is non-hyperbolic.  Non-hyperbolic equilibria lying on the critical manifold correspond to local bifurcations in (\ref{equation_2}).  The critical manifold has 11 branches near a stable MMO of interest, separated from each other by non-hyperbolic equilibria of the fast subsystem.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \begin{center}
 \includegraphics[page=1]{figures.pdf}
 \end{center}
@@ -138,40 +139,40 @@ Similarly $C^b$ has a three-dimensional local unstable manifold and a two-dimens
     
 $$W^{s}_{loc}(C^b) = \bigcup_{p \in C^b} W^{s}_{loc}(p), \hspace{1cm} W^{u}_{loc}(C^b) = \bigcup_{p \in C^b} W^{u}_{loc}(p).$$
     
-We are interested in interactions between stable and unstable manifolds of $C^t$ and $C^b$ as $\varepsilon > 0$.  Although the branches $C^t$ and $C^b$ of the critical manifold are no longer invariant for $\varepsilon > 0$, Fenichel Theory guarantees that both $C^t$ and $C^b$ persist as locally-invariant manifolds called slow manifolds, denoted $S^t_\varepsilon$ and $S^b_\varepsilon$, that are not unique \cite{Fenichel}. Orbit segments that lie on a slow manifold remain slow for an $O(1)$ amount of slow timescale time.  Locally invariant means that solutions can only enter or leave the manifold via its edges.  
+We are interested in interactions between stable and unstable manifolds of $C^t$ and $C^b$ as $\varepsilon > 0$.  Although the branches $C^t$ and $C^b$ of the critical manifold are no longer invariant for $\varepsilon > 0$, Fenichel Theory guarantees that both $C^t$ and $C^b$ persist as locally-invariant manifolds called slow manifolds, denoted $S^t$ and $S^b$, that are not unique \cite{Fenichel}. Orbit segments that lie on a slow manifold remain slow for an $O(1)$ amount of slow timescale time.  Locally invariant means that solutions can only enter or leave the manifold via its edges.  
     
-We can select a unique representative $S^t_\varepsilon$ by considering the slow manifold that remains slow for the longest amount of time.  The slow manifold $S^t_\varepsilon$ has the same dimension as $C^t$ and, as $\varepsilon \rightarrow 0$, orbit segments converge to $C^t$.  Since equilibria of (\ref{equation_2}) lying on $C^t$ are of saddle type, $C^t$ and $S^t_\epsilon$ are also of saddle type.  The slow manifold, $S^b_\varepsilon$, associated with $C^b$ can be similarly defined.
+We can select a unique representative $S^t$ by considering the slow manifold that remains slow for the longest amount of time.  The slow manifold $S^t$ has the same dimension as $C^t$ and, as $\varepsilon \rightarrow 0$, orbit segments converge to $C^t$.  Since equilibria of (\ref{equation_2}) lying on $C^t$ are of saddle type, $C^t$ and $S^t$ are also of saddle type.  The slow manifold, $S^b$, associated with $C^b$ can be similarly defined.
     
-Fenichel Theory also guarantees that $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ persist as locally-invariant local stable and unstable manifolds of $S^t$ \cite{Fenichel}.  We define the stable manifold of $S^t_\varepsilon$ as a family of orbit segments, $W^s(S^t_\varepsilon)$, that have a fast approach to $S^t_\varepsilon$ and then stay close to it for an $O(1)$ amount of time.  Similarly, we define the unstable manifold as a family of orbit segments, $W^s(S^t_\varepsilon)$, that approach $S^t_\varepsilon$ in backward time and then stay close to it for an $O(1)$ amount of backward time.  According to Fenichel Theory, $W^s(S^t_\varepsilon)$ and $W^u(S^t_\varepsilon)$ have the same dimensions as $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ and lie at an $O(\varepsilon)$ distance away from them, respectively.  The manifolds $W^s(S^t_\varepsilon)$ and $W^u(S^t_\varepsilon)$ are not unique, however they can be made unique by imposing additional conditions.   We can similarly define the stable and unstable manifolds associated with $C^b$, denoted $W^s(S^b_\varepsilon)$ and $W^u(S^b_\varepsilon)$, respectively.
+Fenichel Theory also guarantees that $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ persist as locally-invariant local stable and unstable manifolds of $S^t$ \cite{Fenichel}.  We define the stable manifold of $S^t$ as a family of orbit segments, $W^s$, that have a fast approach to $S^t$ and then stay close to it for an $O(1)$ amount of time.  Similarly, we define the unstable manifold as a family of orbit segments, $W^s$, that approach $S^t$ in backward time and then stay close to it for an $O(1)$ amount of backward time.  According to Fenichel Theory, $W^s$ and $W^u$ have the same dimensions as $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ and lie at an $O(\varepsilon)$ distance away from them, respectively.  The manifolds $W^s$ and $W^u$ are not unique, however they can be made unique by imposing additional conditions.   We can similarly define the stable and unstable manifolds associated with $C^b$, denoted $W^s(S^b)$ and $W^u(S^b)$, respectively.
  
  %Saddle slow manifold section   
  
- \section{Computation of 1D saddle slow manifolds}
+ \section{Computation of One-Dimensional Saddle Slow Manifolds}
     
-For the computation of a one-dimensional saddle slow manifold, we follow the presentation in \cite{Saeed_Paper} of a one-dimensional saddle slow manifold for a three-dimensional system.  Here we consider only the slow manifold $S^t_\varepsilon$ associated with $C^t$; the slow manifold $S^b_\varepsilon$ can be found in a similar manner.
+For the computation of a one-dimensional saddle slow manifold, we follow the presentation in \cite{Saeed_Paper} of a one-dimensional saddle slow manifold for a three-dimensional system.  Here we consider only the slow manifold $S^t$ associated with $C^t$; the slow manifold $S^b$ can be found in a similar manner.
     
-The precise definition of the slow manifold $S^t_\varepsilon$ is given with respect to a closed interval $[B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B^t_{\mathrm{in}}$ and $B^t_{\mathrm{out}}$ are chosen such that the interval is contained in the interval defined by the $B$-coordinates of the two fold points $F_1$ and $F_2$.  Note that there is a segment in $C^t$ for which each point $p \in C^t$ is uniquely associated via its $B$-coordinaate with a value for $B_p \in [B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$.  For each $B_p \in [B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^t$ such that $p_B = B_p$.  We define a solid three-sphere $D_\delta(B_p)$ in the three-dimensional subsection $B=p_B$ that has radius $\delta$ and center $p$, given formally by
+The precise definition of the slow manifold $S^t$ is given with respect to a closed interval $[B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B^t_{\mathrm{in}}$ and $B^t_{\mathrm{out}}$ are chosen such that the interval is contained in the interval defined by the $B$-coordinates of the two fold points $F_1$ and $F_2$.  Note that there is a segment in $C^t$ for which each point $p \in C^t$ is uniquely associated via its $B$-coordinaate with a value for $B_p \in [B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$.  For each $B_p \in [B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^t$ such that $p_B = B_p$.  We define a solid three-sphere $D_\delta(B_p)$ in the three-dimensional subsection $B=p_B$ that has radius $\delta$ and center $p$, given formally by
 
 \begin{equation*}
 D_\delta(B_p)=\{w \in \mathbb{R}^4 | w_B = B, |w-p| \leq \delta\}.
 \end{equation*}
     
 \noindent
-The union $\mathscr{D} = \cup_{B \in [B^t_{\mathrm{in}}, B^t_{\mathrm{out}}]} D_\delta(B)$ forms a four-dimensional compact cylinder.  The radius $\delta$ is small, but it needs to be at least of $O(\varepsilon)$ to ensure that $S^t_\varepsilon$ lies in $\mathscr{D}$.  The one-parameter family of orbit segments that enter $\mathscr{D}$ via $D_\delta(B^t_{\mathrm{in}})$ and exit via $D_\delta(B^t_{\mathrm{out}})$ are candidates for $S^t_\varepsilon$.   We impose the additional condition that $S^t_\varepsilon$ must have maximal integration time in $\mathscr{D}$ to select a unique candidate to represent $S^t_\varepsilon$.  This condition may be interpreted as selecting $S^t_\varepsilon$ such that it enters $\mathscr{D}$ via $W^{s}(S^t_\varepsilon)$ and exits via $W^{u}(S^t_\varepsilon)$.
+The union $\mathscr{D} = \cup_{B \in [B^t_{\mathrm{in}}, B^t_{\mathrm{out}}]} D_\delta(B)$ forms a four-dimensional compact cylinder.  The radius $\delta$ is small, but it needs to be at least of $O(\varepsilon)$ to ensure that $S^t$ lies in $\mathscr{D}$.  The one-parameter family of orbit segments that enter $\mathscr{D}$ via $D_\delta(B^t_{\mathrm{in}})$ and exit via $D_\delta(B^t_{\mathrm{out}})$ are candidates for $S^t$.   We impose the additional condition that $S^t$ must have maximal integration time in $\mathscr{D}$ to select a unique candidate to represent $S^t$.  This condition may be interpreted as selecting $S^t$ such that it enters $\mathscr{D}$ via $W^s$ and exits via $W^u$.
     
-The set-up is similar to the set-up described in \cite{Saeed_Paper} with the difference that $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ are three-spheres rather than two-dimensional disks and $\mathscr{D}$ is four dimensional rather than three dimensional.  Plotted in green in Figure \ref{tube_figure} is a projection of the unique representative of $S^t_\varepsilon$.  Sketched in purple is $\mathscr{D}$ with the spheres $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ at either end.
+The set-up is similar to the set-up described in \cite{Saeed_Paper} with the difference that $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ are three-spheres rather than two-dimensional disks and $\mathscr{D}$ is four dimensional rather than three dimensional.  Plotted in green in Figure \ref{tube_figure} is a projection of the unique representative of $S^t$.  Sketched in purple is $\mathscr{D}$ with the spheres $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ at either end.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \begin{center}
 \includegraphics[page=2]{figures.pdf}
 \end{center}
-\caption{A visualization of the slow manifold definition projected into the $(B,A)$-plane.  The spheres $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ are represented by purple disks at either end of a four-dimensional cylinder, also represented in purple.  A computation of the slow manifold is plotted in green and labelled $S^t_\varepsilon$.}
+\caption{A visualization of the slow manifold definition projected into the $(B,A)$-plane.  The spheres $D_\delta(B^t_{\mathrm{in}})$ and $D_\delta(B^t_{\mathrm{out}})$ are represented by purple disks at either end of a four-dimensional cylinder, also represented in purple.  A computation of the slow manifold is plotted in green and labelled $S^t$.}
 \label{tube_figure}
 \end{figure}
 
-\subsection{Boundary Value Set-Up}
+\subsection{Boundary value implementation}
     
-We compute $S^t_\varepsilon$ by setting up an appropriately defined two-point boundary-value problem (2PBVP) with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We view $S^t_\varepsilon$ as an orbit segment $\mathbf{u} = \{\mathbf{u}(s)| 0 \leq s \leq 1 \}$ of the rescaled system
+We compute $S^t$ by setting up an appropriately defined two-point boundary-value problem (2PBVP) with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We view $S^t$ as an orbit segment $\mathbf{u} = \{\mathbf{u}(s)| 0 \leq s \leq 1 \}$ of the rescaled system
 
 
 \begin{equation}
@@ -196,9 +197,9 @@ and
 \noindent
 that each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$, respectively.  The point $p$ is then a solution to the two-point boundary-value problem defined by (\ref{equation_4})--(\ref{BC2}) with $T=0$.  We then  decrease $\mathbf{u}_B(0)$ towards $S1$ while the total integration time increases.  The integration is stopped when $\mathbf{u}_B(0)=0.4$, corresponding to the point $p^* \in C^t$, before it reaches $F_2$.
     
-We remark that $D_\delta(B^t_{\mathrm{in}})$ defines a three-parameter family of orbit segments with initial conditions in the sphere.  We can refine our search for orbits that enter the cylinder via $D_\delta(B^t_{\mathrm{in}})$ and exit it via $D_\delta(B^t_{\mathrm{out}})$ by observing that, because $S^t_\varepsilon$ is of saddle type, the initial point of a candidate orbit segment must lie in a small neighborhood of $W^s(S^t_\varepsilon)$ in the sphere $D_\delta(B^t_{\mathrm{in}})$.  Similarly the end point must remain in a small neighborhood of $W^u(S^t_\varepsilon)$ in the sphere $D_\delta(B^t_{\mathrm{out}})$.
+We remark that $D_\delta(B^t_{\mathrm{in}})$ defines a three-parameter family of orbit segments with initial conditions in the sphere.  We can refine our search for orbits that enter the cylinder via $D_\delta(B^t_{\mathrm{in}})$ and exit it via $D_\delta(B^t_{\mathrm{out}})$ by observing that, because $S^t$ is of saddle type, the initial point of a candidate orbit segment must lie in a small neighborhood of $W^s$ in the sphere $D_\delta(B^t_{\mathrm{in}})$.  Similarly the end point must remain in a small neighborhood of $W^u$ in the sphere $D_\delta(B^t_{\mathrm{out}})$.
     
-We define the two-dimensional plane $\Phi = \{E^u(p^t_{\mathrm{in}}) + \begin{bmatrix} 0 & 0 & 0 & Y \end{bmatrix}^{T}| Y \in \mathbb{R} \}$ that is transverse to $W^s(S^t_\varepsilon) \cap D_{\delta}(B^t_{\mathrm{in}})$ and contains $E^u(p^*)$.  We impose the boundary conditions
+We define the two-dimensional plane $\Phi = \{E^u(p^t_{\mathrm{in}}) + \begin{bmatrix} 0 & 0 & 0 & Y \end{bmatrix}^{T}| Y \in \mathbb{R} \}$ that is transverse to $W^s \cap D_{\delta}(B^t_{\mathrm{in}})$ and contains $E^u(p^*)$.  We impose the boundary conditions
     
 \begin{equation}
 \mathbf{u}(0) \in \Phi
@@ -206,373 +207,469 @@ We define the two-dimensional plane $\Phi = \{E^u(p^t_{\mathrm{in}}) + \begin{bm
 \end{equation}
     
 \noindent
-which also imposes two conditions on $\mathbf{u}(0)$.  The orbit segment resulting from the homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), \ref{BC2}, and (\ref{BC1}).  The total integration time $T$ is a free parameter in this 2PBVP, which means that there exists a one-parameter family of solutions.  To select a unique orbit segment from this solution family, we impose the additional condition that $T$ be locally maximal.  This will be the orbit segment which locally has the longest slow segment in the geometric sense and will be the best approximation of $S^t_\varepsilon$.  In the case where there are two such candidates, we choose one.
+which also imposes two conditions on $\mathbf{u}(0)$.  The orbit segment resulting from the homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), \ref{BC2}, and (\ref{BC1}).  The total integration time $T$ is a free parameter in this 2PBVP, which means that there exists a one-parameter family of solutions.  To select a unique orbit segment from this solution family, we impose the additional condition that $T$ be locally maximal.  This will be the orbit segment which locally has the longest slow segment in the geometric sense and will be the best approximation of $S^t$.  In the case where there are two such candidates, we choose one.
     
-In the final continuation run we increase the integration time until a fold in $T$ is detected.  The resulting orbit segment approximates the saddle slow manifold, $S^t_\varepsilon$.
+In the final continuation run we increase the integration time until a fold in $T$ is detected.  The resulting orbit segment approximates the saddle slow manifold, $S^t$.
    
-A projection of $S^t_\varepsilon$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{tube_figure}.  A keen observer will note that, near $D_\delta(B^t_{\mathrm{in}})$, $S^t_\varepsilon$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Sigma$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the intersection of $W^s(S^t_\varepsilon)$ with $\Sigma$ while $\mathbf{u}(1)$ moves toward the intersection of $E^s(p^t_{\mathrm{out}})$ with $W^u(S^t_\varepsilon)$.  The fold in $T$ signals when $u(0)$ and $u(1)$ are near respective intersection points and the result is an orbit segment containing fast segments lying on $W^s(S^t_\varepsilon)$ and $W^u(S^t_\varepsilon)$.  In Figure \ref{tube_figure}, the segment lying on $W^u(S^t_\varepsilon)$ is so short that it is not visible.  We obtain an approximation of $S^t_\varepsilon$ that does not include fast segments by restricting the orbit segment further within the interval $[B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$.
+A projection of $S^t$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{tube_figure}.  A keen observer will note that, near $D_\delta(B^t_{\mathrm{in}})$, $S^t$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Sigma$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the intersection of $W^s$ with $\Sigma$ while $\mathbf{u}(1)$ moves toward the intersection of $E^s(p^t_{\mathrm{out}})$ with $W^u$.  The fold in $T$ signals when $u(0)$ and $u(1)$ are near respective intersection points and the result is an orbit segment containing fast segments lying on $W^s$ and $W^u$.  In Figure \ref{tube_figure}, the segment lying on $W^u$ is so short that it is not visible.  We obtain an approximation of $S^t$ that does not include fast segments by restricting the orbit segment further within the interval $[B^t_{\mathrm{in}},B^t_{\mathrm{out}}]$.
    
 An approximation of the slow manifold associated with $C^b$ can be computed in the same way by choosing $B^b_{\mathrm{in}}$ near $H$, and $B^b_{\mathrm{out}}$ near $S2$ in the above definition.  We choose $B^b_{\mathrm{in}}=B^b_{\mathrm{out}}$ smaller than and near $H_B$.
-        
 
-%\begin{multicols}{2}
-\section{The Main Text}
-\noindent Contributions are to be in English. Authors are
-encouraged to have their contribution checked for grammar.
-American spelling should be used. Abbreviations are allowed but
-should be spelt out in full when first used. Integers ten and
-below are to be spelt out. Italicize foreign language phrases
-(e.g.~Latin, French).
+\section{The Stable Manifold of a Slow Manifold}
 
-The text is to be typeset in 11~pt Times \hbox{Roman},
-single-spaced with baselineskip of 13~pt. Text area is 17.8~cm (7
-inches) across and 24.4~cm (9.6 inches) deep (including running
-title). Final pagination and insertion of running titles will be
-done by the publisher.
-
-\section{Major Headings}
-Major headings should be typeset in boldface, with the first
-letter of important words capitalized.
-
-\subsection{Subheadings}
-Subheadings should be typeset in bold italics, with the first
-letter of first word capitalized and the section number in
-boldface.
-
-\subsubsection{Sub-subheadings}
-Typeset in italics (section number to be in roman) and capitalize
-the first letter of the first word only.
-
-\subsection{Numbering and spacing}
-Sections, subsections and sub-subsections are numbered with Arabic
-numerals. Use double spacing after major and subheadings, and
-single spacing after sub-subheadings.
-
-\section{Lists of Items}
-Lists are broadly classified into four major categories that can
-randomly be used as desired by the author:
-\begin{alphlist}[(d)]
-\item Numbered list.
-\item Lettered list.
-\item Unnumbered list.
-\item Bulleted list.
-\end{alphlist}
-
-\subsection{Numbered and lettered list}
-
-\begin{arabiclist}[(5)]
-\item The \verb|\begin{arabiclist}[]| command is used for the arabic
-number list (arabic numbers appearing within parenthesis), e.g.,
-(1), (2), etc.
-
-\smallskip
-
-\item The \verb|\begin{romanlist}[]| command is used for the roman
-number list (roman numbers appearing within parenthesis), e.g., (i),
-(ii), etc.
-
-\smallskip
-
-\item The \verb|\begin{Romanlist}[]| command is used for the cap roman
-\hbox{number list} (cap roman numbers appearing within parenthesis),
-e.g., (I), (II), etc.
-
-\smallskip
-
-\item The \verb|\begin{alphlist}[]| command is used for the alphabetic
-list (alphabets appearing within parenthesis), e.g., (a), (b), etc.
-
-\smallskip
-
-\item The \verb|\begin{Alphlist}[]| command is used for the cap
-alphabetic list (cap alphabets appearing within parenthesis),
-e.g., (A), (B), etc.
-\end{arabiclist}
-Note: For all the above mentioned lists (with the exception of
-alphabetic list), it is obligatory to enter the last entry's number
-in the list within the square bracket, to enable unit alignment.
-
-\subsection{Bulleted and unnumbered list}
-
-\begin{enumerate}
-\item[] The \verb|\begin{itemlist}| command is used for the bulleted list.
-
-\smallskip
-
-\item[] The \verb|\begin{unnumlist}| command is used for creating the
-  unnumbered list with the turnovers hangindent by 1\,pica.
-\end{enumerate}
-
-Lists may be laid out with each item marked by a dot:
-\begin{itemlist}
-\item item one
-\item item two
-\item item three.
-\end{itemlist}
-
-Items may also be numbered with lowercase Roman numerals:
-\begin{romanlist}[(iii)]
-\item item one
-\item item two
-    \begin{alphlist}[(b)]
-    \item lists within lists can be numbered with lowercase Roman letters
-    \item second item.
-    \end{alphlist}
-\item item three
-\item item four.
-\end{romanlist}
-
-\section{Theorems and Definitions}
-\noindent{\bf Input:}
-
-\begin{verbatim}
-\begin{theorem}
-We have $\# H^2 (M \supset N) < \infty$ for an inclusion ...
-\end{theorem}
-\end{verbatim}
-
-\noindent{\bf Output:}
-
-\begin{theorem}
-We have $\# H^2 (M \supset N) < \infty$ for an inclusion $M \supset
-N$ of factors of finite index.
-\end{theorem}
-
-\noindent{\bf Input:}
-
-\begin{verbatim}
-\begin{theorem}[Longo, 1998]
-For a given $Q$-system...
-\[
-N = \{x \in N; T x = \gamma (x) T, T x^* = \gamma (x^*) T\},
-\]
-and $E_\Xi (\cdot) = T^* \gamma (\cdot) T$ gives ...
-\end{theorem}
-\end{verbatim}
-
-\noindent{\bf Output:}
-
-\begin{theorem}[Longo, 1998]
-For a given $Q$-system...
-\[
-N = \{x \in N; T x = \gamma (x) T, T x^* = \gamma (x^*) T\},
-\]
-and $E_\Xi (\cdot) = T^* \gamma (\cdot) T$ gives a conditional
-expectation onto $N$.
-\end{theorem}
-
-\subsection{Proofs}
-The WSPC document styles also provide a predefined proof environment
-for proofs. The proof \hbox{environment} produces the heading
-`Proof' with appropriate spacing and punctuation. It also appends a
-`Q.E.D.' symbol, $\blacksquare$, at the end of a proof, e.g.
-
-\begin{verbatim}
-\begin{proof}
-This is just an example.
-\end{proof}
-\end{verbatim}
-
-\noindent to produce
-
-\begin{proof}
-This is just an example.
-\end{proof}
-
-The proof environment takes an argument in curly
-braces, which allows you to substitute a different name for the standard
-`Proof'. If you want to display, `Proof of Lemma', then write e.g.
-
-\begin{verbatim}
-\begin{proof}[Proof of Lemma]
-This is just an example.
-\end{proof}
-\end{verbatim}
-
-\noindent produces
-
-\begin{proof}[Proof of Lemma]
-This is just an example.
-\end{proof}
-
-\section{Equations}
-\noindent Displayed equations should be numbered consecutively in
-each section, with the number set flush right and enclosed in
-parentheses:
+Fenichel theory guarantees that each slow manifold $S^t$, associated with $C^t$, has a local, two-dimensional unstable manifold $W_{\mathrm{loc}}^u$ \cite{Fenichel}.  By definition, such an unstable manifold consists of a one-parameter family of orbit segments that have a fast approach to $S^t$ in backward time before remaining $O(\varepsilon)$ close for $O(1)$ (backward) time.  However, the unstable manifold of a saddle slow manifold is not unique and we consider only a specific candidate $W_{\mathrm{loc}}^u$ from this non-unique family of manifolds that all lie exponentially close to each other \cite{Fenichel}.  Similarly there exists a local, non-unique, three-dimensional stable manifold $W^s_{\mathrm{loc}}(S^t)$, which is defined as a two-parameter family of orbit segments that have a fast approach to $S^t$ in forward time before remaining $O(\varepsilon)$ close for $O(1)$ time.  The global unstable and stable manifolds $W^u$ and $W^s$ can be obtained from extending $W^u_{\mathrm{loc}}$ and $W^s_{\mathrm{loc}}$ in backward and forward time, respectively.  In \cite{QSSA}, a two-dimensional approximation of $W^s$ was computed in the region between $C^t$ and $C^b$.  We now turn to the computation of the three-dimensional manifold in the full system.
+    
+As $W^s$ is three-dimensional it is cumbersome to compute and difficult to visualize.  A natural way forward is to study a subset of $W^s$ as a one-parameter family of two-dimensional slices.  These can be visualized and computed with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We begin by defining a two-dimensional plane $\Sigma$ given by fixed values of $A$ and either $X$ or $Y$.  We approximate a slice with a smooth, one-parameter family of $\mathbf{u}$ that begin in $\Sigma$, enter $\mathscr{D}$ at $D_{\delta}(B)$ for some $B^* \in [B^t_{in}, B^t_{out}]$, and remain inside $\mathscr{D}$ for $O(1)$ time.  We denote such an approximation by $W^{s}_{\Sigma}$.  It is only the portions of the $\mathbf{u}$ that enter $\mathscr{D}$ in the fast direction that are considered to be part of $W^{s}_{\Sigma}$.  The portions that evolve mostly in the $B$-direction inside $\mathscr{D}$ for $O(1)$ time are considered to be part of $S^t$.  If a $\mathbf{u}$ includes a portion that has a fast exit from $\mathscr{D}$, that portion is considered an approximation of an orbit segment lying on $W^u$.
+    
+\subsection{Boundary value problem implementation}
+    
+We are interested in the geometry of $W^{s}_{\Sigma}$ in the region between $C^t$ and $C^b$ where $W^s$ was found in \cite{QSSA}.  We define the plane $\Sigma^*$, given by fixing $A\approx10.6055$ and $Y\approx2.3001 \times 10^{-4}$, and compute $W^{s}_{\Sigma^*}$ by adapting a technique outlined in \cite{Saeed_Paper} for two-dimensional stable manifolds in three-dimensional systems.  We then explain the computation of $W^{s}_{\Sigma}$ for an arbitrary $\Sigma$ that is transverse to the flow and $E^s(C^t)=\bigcup_{p \in C^t} E^u(p)$ in our region of interest.
+    
+We first perform a homotopy step by choosing $B^t_{\mathrm{out}} = 0.9$ corresponding to the point $p^t_{\text{out}}\approx[10.6055, 0.9, 4.9248 \times 10^{-2}, 2.3001 \times 10^{-4}]$.  Following the definition for $W^s_{\Sigma^*}(S^t)$, we impose the boundary condition
+    
 \begin{equation}
-\mu(n, t) = \frac{\displaystyle\sum^\infty_{i=1} 1(d_i < t, N(d_i) = n)}
-{\displaystyle\int^t_{\sigma=0} 1(N(\sigma) = n)d\sigma}\,\,
-.\label{this}
+\mathbf{u}(0) \in \Sigma^*
+\label{BC6}
 \end{equation}
+    
+ \noindent
+ which imposes two conditions on $\mathbf{u}(0)$ since $\Sigma^*$ is two dimensional.  As part of selecting a $\mathbf{u}$ that remains close to $S^t$ for $O(1)$ time, we consider the two-dimensional $E^s(p^t_{\text{out}})$ that is transverse to $W^u$.  We impose the boundary condition
+    
+\begin{equation}
+\mathbf{u}(1) \in E^s(p^t_{\text{out}})
+\label{BC7}
+\end{equation}
+    
+\noindent
+which imposes two conditions on $\mathbf{u}(1)$ and allows for the possibility of $\mathbf{u}(1)$ intersecting $W^u$.  The point $p_{\text{out}}$ is a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC6}) and (\ref{BC7}) with $T=0$.  Figure \ref{step1}(a) illustrates an example of the set up for this homotopy step.  The plane $\Sigma^*$ is represented by a pink line, $E^s(p^t_{\mathrm{out}})$ is represented by a blue cross, and a curve representing $S^t$ is sketched in neon green.
+    
+We increase $T$ while allowing $\mathbf{u}_{B}(0)$ to decrease towards $F_2$.  This step is illustrated in Figure \ref{step2} where an intermediate orbit is represented as a black curve with the fast segment indicated with double arrows and the slow segment indicated with a single arrow.  The continuation is stopped at $\mathbf{u}(0)_B = B_{\text{in}}=2.3 \times 10^{-1}$, just before it reaches $S1_B$.  A sketch of the resulting orbit segment is shown in Figure \ref{step3}.
+    
+The orbit segment illustrated in Figure \ref{step3} belongs to a two-parameter family of $\mathbf{u}$ that satisfy the boundary conditions (\ref{BC6}) and (\ref{BC7}).  To select a one-parameter family of orbit segments from these, we impose the condition
+    
+    
+\begin{equation}
+\mathbf{u}(0) \in \Sigma^*\cap \{ \begin{pmatrix} A & B & X & Y \end{pmatrix} \in \mathbb{R}^4 | B = B_{\text{stop}}\}
+\label{BCSTOP}
+\end{equation}
+    
+\noindent
+that imposes three conditions on $\mathbf{u}(0)$ and is more restrictive than (\ref{BC6}).  The boundary condition (\ref{BCSTOP}) is represented as a yellow line in Figure \ref{step3}.  We define the three-dimensional space $\Omega$ spanned by the two stable eigenvectors of $p_{\text{out}}$ and the vector parallel to the $B$- direction.  Note that $\Omega$ is transverse to $E^u(C^t)$ and hence $W^u$.  We impose the condition
+    
+\begin{equation}
+\mathbf{u}(1) \in \Omega,
+\label{BC11}
+\end{equation}
+    
+\noindent
+which imposes one condition on $\mathbf{u}(0)$ and is less restrictive than (\ref{BC7}).  Condition (\ref{BC7}) is represented in Figure \ref{step3} as two navy blue intersecting planes.  The integration time $T$ is then increased forcing $\mathbf{u}(0)$ to approach $W^s \cap \Sigma^*$ and $\mathbf{u}(1)$ to approach $W^u \cap E^s(p^t_{\text{out}})$. When a fold in $T$ is reached $\mathbf{u}(0)$ and $\mathbf{u}(1)$ have intersected $W^s$ and $W^u$, respectively and maximum integration time is attained.  
+    
+The orbit segment that is obtained begins in $\Sigma^*$ and has a fast approach to $S^t$ before remaining $O(\varepsilon)$ close for an $O(1)$ time and so it lies on $W^{s}_{\Sigma^*}$.
+    The final step is to continue the fold in $T$ while allowing $u(0)_B$ to increase to obtain the rest of $W^{s}_{\Sigma^*}$.  
+    
+Figure \ref{piece} shows two projections of $W^s_{\Sigma^*}(S^t)$.  Although the manifold is two dimensional, it is necessary to visualise it in both the $(B,A,X)$- and $(B,A,Y)$- projections because it exists in four-dimensional space.  Lying on $W^s_{\Sigma^*}(S^t)$ is a representative orbit segment, plotted in magenta.  Plotted in black is the critical manifold.  The view rotated relative to other figures to help illustrate the geometry of the slice.  Orbits lying on $W^s_{\Sigma^*}(S^t)$ have a fast approach to $S^t$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then finally remaining close for an $O(1)$ amount of time.
 
-\noindent Equations should be referred to in abbreviated form,
-e.g.~``Eq.~(\ref{this})'' or ``(2)''. In multiple-line equations,
-the number should be given on the last line.
-
-Displayed equations are to be centered on the page width. Standard
-English letters like x are to appear as $x$ (italicized) in the
-text if they are used as mathematical symbols. Punctuation marks
-are used at the end of equations as if they appeared directly in
-the text.\footnote{Sample footnote}
-
-\section{Illustrations and Photographs}
-Figures are to be inserted in the text nearest their
-first reference. Please send one set of originals with copies. If the
-publisher is required to reduce the figures, ensure that the
-figures (including lettering and numbers) are large enough to be
-clearly seen after reduction.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics{ijbcf1.eps}
-\end{center}
-\caption{Labeled tree {\it T}.}
-\label{fig2}
+\begin{figure}
+\centering
+\subfigure[A sketch of the first homotopy step in the algorithm for computing $W^{s}_{\Sigma^*}$.  A projection of the plane $\Sigma^*$ is represented as a pink line in the $(B, A)$-plane and labeled accordingly.  The linear stable space, $E^s(p^t_{\mathrm{out}})$, is represented by a blue cross and is also labeled.]{\label{step1}\includegraphics[width=0.475\textwidth, page=3]{figures.pdf}}
+\subfigure[An intermediate orbit in the first homotopy step is represented as a black curve.  Fast segments are represented with double arrows while slow segments are represented with single arrows.]{\label{step2}\includegraphics[width=0.475\textwidth, page=4]{figures.pdf}}
+\subfigure[]{\label{step3}}\includegraphics[width=0.475\textwidth, page=5]{figures.pdf}
+\subfigure[]{\label{step4}\includegraphics[width=0.475\textwidth, page=6]{figures.pdf}}\caption{The slice $W^{\mathbf{s}}_{\Sigma^*}(S^t)$, represented in blue, projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta.  Projections of the critical manifold are shown in black and the view is rotated relative to previous figures.}
+%\label{piece}
 \end{figure}
 
-\begin{sidewaysfigure}
-\begin{center}
-\includegraphics[width=7in]{ijbcf2.eps}
-\end{center}
-\caption{The bifurcating response curves of system
-$\alpha=0.5, \beta=1.8; \delta=0.2, \gamma=0$: (a)
-$\mu=-1.3$; and (b) $\mu=0.3$.}
-\label{fig1}
-\end{sidewaysfigure}
+\begin{figure}
+\centering
+\subfigure[]{\label{piece_BAX}\includegraphics[width=0.475\textwidth, page=7]{figures.pdf}}
+\subfigure[]{\label{piece_BAY}\includegraphics[width=0.475\textwidth, page=8]{figures.pdf}}
+\caption{The slice $W^{\mathbf{s}}_{\Sigma^*}(S^t)$, represented in blue, projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta.  Projections of the critical manifold are shown in black and the view is rotated relative to previous figures.}
+\label{piece}
+\end{figure}
+    
+In the case where we would like to compute $W^{s}_{\Sigma}$ for a different $\Sigma$, given by constant values of $A$ and $Y$ ($X$), we must perform a second homotopy step after the first.  Using the orbit segment represented in Figure \ref{step3} as a starting point, we impose (\ref{BC7}) while keeping as free parameters $T$, $\mathbf{u}_B(0)$, $\mathbf{u}_X(0)$ ($\mathbf{u}_Y(0)$).  In two runs, we continue $\mathbf{u}$ with each of the two coordinates that define $\Sigma$ as our main continuation parameters. Once $\mathbf{u}(0) \in \Sigma$, we follow the rest of the procedure above while considering $\Sigma$ instead of $\Sigma^*$.
+    
+Figure \ref{step4} illustrates a choice of $\Sigma$ on the opposite side of the critical manifold from $\Sigma^*$ in the $(B,A)$-projection.  The orbit segment resulting from the second homotopy step is represented as a black curve.  Conditions (\ref{BCSTOP}) and (\ref{BC11}) are again illustrated with a yellow line and two intersecting navy blue planes, respectively.
+    
+Figure \ref{pieces} shows $W^s_{\Sigma^*}(S^t)$ and four slices $W^{s}_{\Sigma}$ of $W^{\mathbf{s}}(S^t)$.  Here $\Sigma$ were selected as follows, $A\approx10.6055$ and $Y\approx2.3001 \times 10^{-4}$, $A=2.0$ and $Y\approx2.3001 \times 10^{-4}$, $A=4.0$ and $X=0.75$, $A=4.0$ and $Y=0.75$, $A=6.0$ and $X=0.5$. The slices $W^{s}_{\Sigma}$ were defined as solutions to $\ref{equation_4}$ with boundary conditions (\ref{BC6}) (\ref{BC11}) locally maximal $T$.  
 
-Figures are to be sequentially numbered with Arabic
-numerals. The caption must be placed below the figure. For those
-figures with multiple parts which appear on different pages, it is
-best to place the full caption below the first part, and have
-e.g.~``Fig.~1 ({\it continued})'' below the last part. Typeset in
-9 pt Times Roman with baselineskip of 11 pt. Use double spacing
-between a caption and the text that follows immediately.
+\begin{figure}
+\centering
+\subfigure[]{\label{pieces_BAX}\includegraphics[width=0.475\textwidth, page=9]{figures.pdf}}
+\subfigure[]{\label{pieces_BAY}\includegraphics[width=0.475\textwidth, page=10]{figures.pdf}}
+\caption{A variety of submanifolds of $W^{\mathbf{s}}(S^t)$, represented in blue, projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in magenta.  Projections of the critical manifold are shown in black and the view is rotated relative to previous figures.}
+\label{pieces}
+\end{figure}
+    
+We note that, unlike the stable manifold of $S^t$ computed in \cite{QSSA}, each $W^{s}_{\Sigma}$ in Figure \ref{pieces} diverges backwards in time in the $X$- and $Y$- directions before reaching $C^b$.  As it was an approximation of $W^s$, the stable manifold in the three-dimensional system suggests that there exists a $W^{s}_{\Sigma}$ in the four-dimensional system that spirals around $S^b$ in backward time for an appropriate choice of $\Sigma$.  Such a surface would be the intersection of the two three-dimensional manifolds $W^s$ and $W^u(S^b)$ would be a two-dimensional heteroclinic connection between $C^t$ and $C^b$ in the full four-dimensional system.  A two-dimensional heteroclinic connection between two saddle slow manifolds of different type in a four-dimensional system would indeed be a novel phenomenon that does not occur in lower-dimensional systems.
 
-Previously published material must be accompanied by written
-permission from the author and publisher.
-
-Very large figures and tables should be placed on a separate page
-by themselves. Landscape tables and figures can be typeset with the following environments:
-\begin{itemlist}
-\item \verb|sidewaystable| and
-\item \verb|sidewaysfigure|.
-\end{itemlist}
-
-\section{Tables}
-
-\noindent Tables should be inserted in the text as close to the
-point of reference as possible. Some space should be left above
-and below the table. Tables should be numbered sequentially in the
-text with Arabic numerals. Captions are to be centered above the
-tables. Typeset tables and captions in 9 pt Times Roman with
-baselineskip of 11 pt.
-
-If tables need to extend over to a second page, the continuation
-of the table should be preceded by a caption, e.g.~``Table~1 ({\it
-continued})''.
-
-\begin{table}[h]
-\tbl{Number of tests for WFF triple NA = 5, or NA = 8.}
-{\begin{tabular}{l c c c c c}\\[-2pt]
-\toprule
-{} &{} &3 &4 &8 &10\\[6pt]
-\hline\\[-2pt]
-{} &\phantom03 &1200 &2000 &\phantom02500 &\phantom03000\\[1pt]
-{\ninebf NC} &\phantom05 &2000 &2200 &\phantom02700 &\phantom03400\\[2pt]
-{} &\phantom08 &2500 &2700 &16000 &22000\\[2pt]
-{} &10 &3000 &3400 &22000 &28000\\[1pt]
-\botrule
-\end{tabular}}
-\end{table}
-
-By using \verb|\tbl| command in table environment, long captions will be justified to the table width while the short or single line captions are centered.
-\verb|\tbl{table caption}{tabullar environment}|.
-
-For most tables, the horizontal rules are obtained by:
-
-\begin{tabular}{ll}
-{\bf toprule} & one rule at the top\\
-{\bf colrule}& one rule separating column heads from data cells\\
-{\bf botrule}& one bottom rule\\
-{\bf Hline} & one thick rule at the top and bottom of the tables with multiple column heads\\
-\end{tabular}
-
-\
-
-To avoid the rules sticking out at either end
-of the table, add \verb|@{}| before the first and after the last descriptors, e.g.
-{@{}llll@{}}. Please avoid vertical rules in tables.
-But if you think the vertical rule is a must,
-you can use the standard \LaTeX{} \verb|tabular| environment.
-
-Headings which span for more than one column should be set using
-\verb|\multicolumn{#1}{#2}{#3}| where \verb|#1| is the number of
-columns to be spanned, \verb|#2| is the argument for the alignment
-of the column head which may be either {c} --- for center
-alignment; {l} --- for left alignment; or {r} --- for right
-alignment, as desired by the users. Use {c} for column heads as
-this is the WS style and \verb|#3| is the heading.
-
-\section{Cross-references}
-Use \verb|\label| and \verb|\ref| for cross-references to
-equations, figures, tables, sections, subsections, etc., instead
-of plain numbers. Every numbered part to which one wants to refer,
-should be labeled with the instruction \verb|\label|.
-For example:
-\begin{verbatim}
-\begin{equation}
-\mu(n, t)=\frac{\sum\limits^\infty_{i=1}1 (d_i < t, N(d_i)=n)}
-{\int\limits^t_{\sigma=0}1 (N(\sigma)=n)d\sigma}.\label{aba:eq1}
-\end{equation}
-\end{verbatim}
-With the instruction \verb|\ref| one can refer to a numbered part
-that has been labeled:
-\begin{verbatim}
-..., see also Eq. (\ref{aba:eq1})
-\end{verbatim}
-
-The \verb|\label| instruction should be typed
-\begin{itemlist}
-\item immediately after (or one line below), but not inside the argument of
-a number-generating instruction such as \verb|\section| or \verb|\caption|, e.g.:
-\verb|\caption{ ... caption ... }\label{aba:fig1}|.
-\item roughly in the position where the number appears, in environments
-such as an equation,
-\item labels should be unique, e.g., equation 1 can be labeled as
-\verb|\label{aba:eq1}|, where `{\tt aba}' is author's initial and
-`{\tt eq1}' the equation number.
-\end{itemlist}
-
-\section{References}
-References cited in the text should be placed within square
-brackets and stated as [surname of author(s), year of
-publication], e.g.. If the reference reads as part of
-the sentence, the square brackets enclose only the year of
-publication, e.g., ``According to Golub and Van Loan [1989], \ldots''
-
-\nonumsection{Note Added} \noindent A note can be added before
-Acknowledgments.
-
-\nonumsection{Acknowledgments} \noindent This part should come
-before References. Funding information may also be included here.
-
-\nonumsection{Appendices} \noindent Appendices should be used only
-when absolutely necessary. They should come immediately before
-References.
-
-\appendix{}
-If there is more than one appendix, number them alphabetically.
-\begin{equation}
-\mu(n, t) = \frac{\displaystyle\sum^\infty_{i=1} 1(d_i < t, N(d_i) = n)}
-{\displaystyle\int^t_{\sigma=0} 1(N(\sigma) = n)d\sigma}\,\,
-.\label{that}
-\end{equation}
-Number displayed equations occurring in the appendix as (A.1),
-(A.2), etc.
+\begin{figure}
+\centering
+\subfigure[A sketch of the first homotopy step in the algorithm for computing $W^{s}_{i}(S^t)$.  A projection of the plane $\Sigma_{-1}$ is represented as a pink line in the $(B, A)$-plane and is labeled BC(\ref{BC6}).  The linear stable space, $E^s(p^t_{\mathrm{out}})$, is represented by a blue cross and is labeled BC(\ref{BC7}).]{\label{step1}\includegraphics[width=60mm, page=2]{figures.pdf}}
+\subfigure[An intermediate orbit in the first homotopy step is represented as a black curve.  Fast segments are represented with double arrows while slow segments are represented with single arrows.]{\label{step2}\includegraphics[width=60mm, page=3]{figures.pdf}}
+\subfigure[A sketch illustrating the computation of an orbit which also satisfies the additional condition.  The linear stable spaces, $E^s(C^t)$, are represented with intersecting blue planes and are labeled BC(\ref{BC5}).  Represented in yellow is a one-dimensional section of $\Sigma := \Sigma_{-1}$ from which an orbit with locally maximal integration time is selected.]{\label{step3}\includegraphics[width=60mm, page=4]{figures.pdf}}
+\subfigure[A sketch of the selection of a different submanifold $M_{i}$.]{\label{step4}\includegraphics[width=60mm, page=5]{figures.pdf}}
+\caption{my caption}
+\end{figure}
 
 
-%\begin{thebibliography}{9}
+
+
+%\begin{multicols}{2}
+%\section{The Main Text}
+%\noindent Contributions are to be in English. Authors are
+%encouraged to have their contribution checked for grammar.
+%American spelling should be used. Abbreviations are allowed but
+%should be spelt out in full when first used. Integers ten and
+%below are to be spelt out. Italicize foreign language phrases
+%(e.g.~Latin, French).
+%
+%The text is to be typeset in 11~pt Times \hbox{Roman},
+%single-spaced with baselineskip of 13~pt. Text area is 17.8~cm (7
+%inches) across and 24.4~cm (9.6 inches) deep (including running
+%title). Final pagination and insertion of running titles will be
+%done by the publisher.
+%
+%\section{Major Headings}
+%Major headings should be typeset in boldface, with the first
+%letter of important words capitalized.
+%
+%\subsection{Subheadings}
+%Subheadings should be typeset in bold italics, with the first
+%letter of first word capitalized and the section number in
+%boldface.
+%
+%\subsubsection{Sub-subheadings}
+%Typeset in italics (section number to be in roman) and capitalize
+%the first letter of the first word only.
+%
+%\subsection{Numbering and spacing}
+%Sections, subsections and sub-subsections are numbered with Arabic
+%numerals. Use double spacing after major and subheadings, and
+%single spacing after sub-subheadings.
+%
+%\section{Lists of Items}
+%Lists are broadly classified into four major categories that can
+%randomly be used as desired by the author:
+%\begin{alphlist}[(d)]
+%\item Numbered list.
+%\item Lettered list.
+%\item Unnumbered list.
+%\item Bulleted list.
+%\end{alphlist}
+%
+%\subsection{Numbered and lettered list}
+%
+%\begin{arabiclist}[(5)]
+%\item The \verb|\begin{arabiclist}[]| command is used for the arabic
+%number list (arabic numbers appearing within parenthesis), e.g.,
+%(1), (2), etc.
+%
+%\smallskip
+%
+%\item The \verb|\begin{romanlist}[]| command is used for the roman
+%number list (roman numbers appearing within parenthesis), e.g., (i),
+%(ii), etc.
+%
+%\smallskip
+%
+%\item The \verb|\begin{Romanlist}[]| command is used for the cap roman
+%\hbox{number list} (cap roman numbers appearing within parenthesis),
+%e.g., (I), (II), etc.
+%
+%\smallskip
+%
+%\item The \verb|\begin{alphlist}[]| command is used for the alphabetic
+%list (alphabets appearing within parenthesis), e.g., (a), (b), etc.
+%
+%\smallskip
+%
+%\item The \verb|\begin{Alphlist}[]| command is used for the cap
+%alphabetic list (cap alphabets appearing within parenthesis),
+%e.g., (A), (B), etc.
+%\end{arabiclist}
+%Note: For all the above mentioned lists (with the exception of
+%alphabetic list), it is obligatory to enter the last entry's number
+%in the list within the square bracket, to enable unit alignment.
+%
+%\subsection{Bulleted and unnumbered list}
+%
+%\begin{enumerate}
+%\item[] The \verb|\begin{itemlist}| command is used for the bulleted list.
+%
+%\smallskip
+%
+%\item[] The \verb|\begin{unnumlist}| command is used for creating the
+%  unnumbered list with the turnovers hangindent by 1\,pica.
+%\end{enumerate}
+%
+%Lists may be laid out with each item marked by a dot:
+%\begin{itemlist}
+%\item item one
+%\item item two
+%\item item three.
+%\end{itemlist}
+%
+%Items may also be numbered with lowercase Roman numerals:
+%\begin{romanlist}[(iii)]
+%\item item one
+%\item item two
+%    \begin{alphlist}[(b)]
+%    \item lists within lists can be numbered with lowercase Roman letters
+%    \item second item.
+%    \end{alphlist}
+%\item item three
+%\item item four.
+%\end{romanlist}
+%
+%\section{Theorems and Definitions}
+%\noindent{\bf Input:}
+%
+%\begin{verbatim}
+%\begin{theorem}
+%We have $\# H^2 (M \supset N) < \infty$ for an inclusion ...
+%\end{theorem}
+%\end{verbatim}
+%
+%\noindent{\bf Output:}
+%
+%\begin{theorem}
+%We have $\# H^2 (M \supset N) < \infty$ for an inclusion $M \supset
+%N$ of factors of finite index.
+%\end{theorem}
+%
+%\noindent{\bf Input:}
+%
+%\begin{verbatim}
+%\begin{theorem}[Longo, 1998]
+%For a given $Q$-system...
+%\[
+%N = \{x \in N; T x = \gamma (x) T, T x^* = \gamma (x^*) T\},
+%\]
+%and $E_\Xi (\cdot) = T^* \gamma (\cdot) T$ gives ...
+%\end{theorem}
+%\end{verbatim}
+%
+%\noindent{\bf Output:}
+%
+%\begin{theorem}[Longo, 1998]
+%For a given $Q$-system...
+%\[
+%N = \{x \in N; T x = \gamma (x) T, T x^* = \gamma (x^*) T\},
+%\]
+%and $E_\Xi (\cdot) = T^* \gamma (\cdot) T$ gives a conditional
+%expectation onto $N$.
+%\end{theorem}
+%
+%\subsection{Proofs}
+%The WSPC document styles also provide a predefined proof environment
+%for proofs. The proof \hbox{environment} produces the heading
+%`Proof' with appropriate spacing and punctuation. It also appends a
+%`Q.E.D.' symbol, $\blacksquare$, at the end of a proof, e.g.
+%
+%\begin{verbatim}
+%\begin{proof}
+%This is just an example.
+%\end{proof}
+%\end{verbatim}
+%
+%\noindent to produce
+%
+%\begin{proof}
+%This is just an example.
+%\end{proof}
+%
+%The proof environment takes an argument in curly
+%braces, which allows you to substitute a different name for the standard
+%`Proof'. If you want to display, `Proof of Lemma', then write e.g.
+%
+%\begin{verbatim}
+%\begin{proof}[Proof of Lemma]
+%This is just an example.
+%\end{proof}
+%\end{verbatim}
+%
+%\noindent produces
+%
+%\begin{proof}[Proof of Lemma]
+%This is just an example.
+%\end{proof}
+%
+%\section{Equations}
+%\noindent Displayed equations should be numbered consecutively in
+%each section, with the number set flush right and enclosed in
+%parentheses:
+%\begin{equation}
+%\mu(n, t) = \frac{\displaystyle\sum^\infty_{i=1} 1(d_i < t, N(d_i) = n)}
+%{\displaystyle\int^t_{\sigma=0} 1(N(\sigma) = n)d\sigma}\,\,
+%.\label{this}
+%\end{equation}
+%
+%\noindent Equations should be referred to in abbreviated form,
+%e.g.~``Eq.~(\ref{this})'' or ``(2)''. In multiple-line equations,
+%the number should be given on the last line.
+%
+%Displayed equations are to be centered on the page width. Standard
+%English letters like x are to appear as $x$ (italicized) in the
+%text if they are used as mathematical symbols. Punctuation marks
+%are used at the end of equations as if they appeared directly in
+%the text.\footnote{Sample footnote}
+%
+%\section{Illustrations and Photographs}
+%Figures are to be inserted in the text nearest their
+%first reference. Please send one set of originals with copies. If the
+%publisher is required to reduce the figures, ensure that the
+%figures (including lettering and numbers) are large enough to be
+%clearly seen after reduction.
+%
+%\begin{figure}[!t]
+%\begin{center}
+%\includegraphics{ijbcf1.eps}
+%\end{center}
+%\caption{Labeled tree {\it T}.}
+%\label{fig2}
+%\end{figure}
+%
+%\begin{sidewaysfigure}
+%\begin{center}
+%\includegraphics[width=7in]{ijbcf2.eps}
+%\end{center}
+%\caption{The bifurcating response curves of system
+%$\alpha=0.5, \beta=1.8; \delta=0.2, \gamma=0$: (a)
+%$\mu=-1.3$; and (b) $\mu=0.3$.}
+%\label{fig1}
+%\end{sidewaysfigure}
+%
+%Figures are to be sequentially numbered with Arabic
+%numerals. The caption must be placed below the figure. For those
+%figures with multiple parts which appear on different pages, it is
+%best to place the full caption below the first part, and have
+%e.g.~``Fig.~1 ({\it continued})'' below the last part. Typeset in
+%9 pt Times Roman with baselineskip of 11 pt. Use double spacing
+%between a caption and the text that follows immediately.
+%
+%Previously published material must be accompanied by written
+%permission from the author and publisher.
+%
+%Very large figures and tables should be placed on a separate page
+%by themselves. Landscape tables and figures can be typeset with the following environments:
+%\begin{itemlist}
+%\item \verb|sidewaystable| and
+%\item \verb|sidewaysfigure|.
+%\end{itemlist}
+%
+%\section{Tables}
+%
+%\noindent Tables should be inserted in the text as close to the
+%point of reference as possible. Some space should be left above
+%and below the table. Tables should be numbered sequentially in the
+%text with Arabic numerals. Captions are to be centered above the
+%tables. Typeset tables and captions in 9 pt Times Roman with
+%baselineskip of 11 pt.
+%
+%If tables need to extend over to a second page, the continuation
+%of the table should be preceded by a caption, e.g.~``Table~1 ({\it
+%continued})''.
+%
+%\begin{table}[!t]
+%\tbl{Number of tests for WFF triple NA = 5, or NA = 8.}
+%{\begin{tabular}{l c c c c c}\\[-2pt]
+%\toprule
+%{} &{} &3 &4 &8 &10\\[6pt]
+%\hline\\[-2pt]
+%{} &\phantom03 &1200 &2000 &\phantom02500 &\phantom03000\\[1pt]
+%{\ninebf NC} &\phantom05 &2000 &2200 &\phantom02700 &\phantom03400\\[2pt]
+%{} &\phantom08 &2500 &2700 &16000 &22000\\[2pt]
+%{} &10 &3000 &3400 &22000 &28000\\[1pt]
+%\botrule
+%\end{tabular}}
+%\end{table}
+%
+%By using \verb|\tbl| command in table environment, long captions will be justified to the table width while the short or single line captions are centered.
+%\verb|\tbl{table caption}{tabullar environment}|.
+%
+%For most tables, the horizontal rules are obtained by:
+%
+%\begin{tabular}{ll}
+%{\bf toprule} & one rule at the top\\
+%{\bf colrule}& one rule separating column heads from data cells\\
+%{\bf botrule}& one bottom rule\\
+%{\bf Hline} & one thick rule at the top and bottom of the tables with multiple column heads\\
+%\end{tabular}
+%
+%\
+%
+%To avoid the rules sticking out at either end
+%of the table, add \verb|@{}| before the first and after the last descriptors, e.g.
+%{@{}llll@{}}. Please avoid vertical rules in tables.
+%But if you think the vertical rule is a must,
+%you can use the standard \LaTeX{} \verb|tabular| environment.
+%
+%Headings which span for more than one column should be set using
+%\verb|\multicolumn{#1}{#2}{#3}| where \verb|#1| is the number of
+%columns to be spanned, \verb|#2| is the argument for the alignment
+%of the column head which may be either {c} --- for center
+%alignment; {l} --- for left alignment; or {r} --- for right
+%alignment, as desired by the users. Use {c} for column heads as
+%this is the WS style and \verb|#3| is the heading.
+%
+%\section{Cross-references}
+%Use \verb|\label| and \verb|\ref| for cross-references to
+%equations, figures, tables, sections, subsections, etc., instead
+%of plain numbers. Every numbered part to which one wants to refer,
+%should be labeled with the instruction \verb|\label|.
+%For example:
+%\begin{verbatim}
+%\begin{equation}
+%\mu(n, t)=\frac{\sum\limits^\infty_{i=1}1 (d_i < t, N(d_i)=n)}
+%{\int\limits^t_{\sigma=0}1 (N(\sigma)=n)d\sigma}.\label{aba:eq1}
+%\end{equation}
+%\end{verbatim}
+%With the instruction \verb|\ref| one can refer to a numbered part
+%that has been labeled:
+%\begin{verbatim}
+%..., see also Eq. (\ref{aba:eq1})
+%\end{verbatim}
+%
+%The \verb|\label| instruction should be typed
+%\begin{itemlist}
+%\item immediately after (or one line below), but not inside the argument of
+%a number-generating instruction such as \verb|\section| or \verb|\caption|, e.g.:
+%\verb|\caption{ ... caption ... }\label{aba:fig1}|.
+%\item roughly in the position where the number appears, in environments
+%such as an equation,
+%\item labels should be unique, e.g., equation 1 can be labeled as
+%\verb|\label{aba:eq1}|, where `{\tt aba}' is author's initial and
+%`{\tt eq1}' the equation number.
+%\end{itemlist}
+%
+%\section{References}
+%References cited in the text should be placed within square
+%brackets and stated as [surname of author(s), year of
+%publication], e.g.. If the reference reads as part of
+%the sentence, the square brackets enclose only the year of
+%publication, e.g., ``According to Golub and Van Loan [1989], \ldots''
+%
+%\nonumsection{Note Added} \noindent A note can be added before
+%Acknowledgments.
+%
+%\nonumsection{Acknowledgments} \noindent This part should come
+%before References. Funding information may also be included here.
+%
+%\nonumsection{Appendices} \noindent Appendices should be used only
+%when absolutely necessary. They should come immediately before
+%References.
+%
+%\appendix{}
+%If there is more than one appendix, number them alphabetically.
+%\begin{equation}
+%\mu(n, t) = \frac{\displaystyle\sum^\infty_{i=1} 1(d_i < t, N(d_i) = n)}
+%{\displaystyle\int^t_{\sigma=0} 1(N(\sigma) = n)d\sigma}\,\,
+%.\label{that}
+%\end{equation}
+%Number displayed equations occurring in the appendix as (A.1),
+%(A.2), etc.
+
+\newpage
 \bibliography{sample}
-%\end{thebibliography}
 
 \end{document}
