@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  24 JUL 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  25 JUL 2018 18:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -128,15 +128,73 @@ e
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen107
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen108
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen107
-\ar@mcellbox=\box26
-\extrarowheight=\dimen108
-\NC@list=\toks16
-\extratabsurround=\skip43
-\backup@length=\skip44
-\ar@cellbox=\box27
+\col@sep=\dimen116
+\ar@mcellbox=\box28
+\extrarowheight=\dimen117
+\NC@list=\toks21
+\extratabsurround=\skip46
+\backup@length=\skip47
+\ar@cellbox=\box29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -161,19 +219,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count88
+\actioncount=\count100
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count89
-\FP@xia=\count90
-\FP@xib=\count91
-\FP@xfa=\count92
-\FP@xfb=\count93
-\FP@rega=\count94
-\FP@regb=\count95
-\FP@regs=\count96
-\FP@times=\count97
+\FP@xs=\count101
+\FP@xia=\count102
+\FP@xib=\count103
+\FP@xfa=\count104
+\FP@xfb=\count105
+\FP@rega=\count106
+\FP@regb=\count107
+\FP@regs=\count108
+\FP@times=\count109
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -192,7 +250,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count98
+\FPseed=\count110
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -218,11 +276,11 @@ Package: preview 2017/04/24 11.91 (AUCTeX/preview-latex)
 Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/preview/prtightpage.def
-\PreviewBorder=\dimen109
+\PreviewBorder=\dimen118
 )
-\pr@snippet=\count99
-\pr@box=\box28
-\pr@output=\toks17
+\pr@snippet=\count111
+\pr@box=\box30
+\pr@output=\toks22
 )
 
 LaTeX Warning: Unused global option(s):
@@ -231,56 +289,56 @@ LaTeX Warning: Unused global option(s):
 (./figures.aux)
 \openout1 = `figures.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen110
-\scratchbox=\box29
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen111
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count112
+\scratchdimen=\dimen119
+\scratchbox=\box31
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen120
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks24
 )
 Preview: Fontsize 10.95pt
 Preview: PDFoutput 1
 <./figures/critical_correct.png, id=1, 2275.50125pt x 1293.83376pt>
 File: ./figures/critical_correct.png Graphic file (type png)
 <use ./figures/critical_correct.png>
-Package pdftex.def Info: ./figures/critical_correct.png  used on input line 62.
+Package pdftex.def Info: ./figures/critical_correct.png  used on input line 63.
 
 (pdftex.def)             Requested size: 360.0pt x 204.68803pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 63.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 64.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 70--72
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 71--73
 [][] 
  []
 
@@ -290,10 +348,10 @@ ures/critical_correct.png>]
 <./figures/paper_slow.png, id=12, 2149.02875pt x 1213.53375pt>
 File: ./figures/paper_slow.png Graphic file (type png)
 <use ./figures/paper_slow.png>
-Package pdftex.def Info: ./figures/paper_slow.png  used on input line 81.
+Package pdftex.def Info: ./figures/paper_slow.png  used on input line 82.
 (pdftex.def)             Requested size: 360.0pt x 203.27974pt.
 
-Overfull \hbox (38.33841pt too wide) in paragraph at lines 88--90
+Overfull \hbox (38.33841pt too wide) in paragraph at lines 89--91
 [][] 
  []
 
@@ -302,10 +360,10 @@ Preview: Tightpage 0 -46616 0 0
 <./figures/step1.png, id=18, 2120.92375pt x 1293.83376pt>
 File: ./figures/step1.png Graphic file (type png)
 <use ./figures/step1.png>
-Package pdftex.def Info: ./figures/step1.png  used on input line 99.
+Package pdftex.def Info: ./figures/step1.png  used on input line 100.
 (pdftex.def)             Requested size: 360.0pt x 219.59346pt.
 
-Overfull \hbox (16.99884pt too wide) in paragraph at lines 107--109
+Overfull \hbox (16.99884pt too wide) in paragraph at lines 109--111
 [][] 
  []
 
@@ -314,10 +372,10 @@ Preview: Tightpage 0 -46616 0 0
 <./figures/step2.png, id=24, 2120.92375pt x 1293.83376pt>
 File: ./figures/step2.png Graphic file (type png)
 <use ./figures/step2.png>
-Package pdftex.def Info: ./figures/step2.png  used on input line 118.
+Package pdftex.def Info: ./figures/step2.png  used on input line 120.
 (pdftex.def)             Requested size: 360.0pt x 219.59346pt.
 
-Overfull \hbox (16.99884pt too wide) in paragraph at lines 126--128
+Overfull \hbox (16.99884pt too wide) in paragraph at lines 128--130
 [][] 
  []
 
@@ -326,22 +384,22 @@ Preview: Tightpage 0 -46616 0 0
 <./figures/step3.png, id=29, 2120.92375pt x 1293.83376pt>
 File: ./figures/step3.png Graphic file (type png)
 <use ./figures/step3.png>
-Package pdftex.def Info: ./figures/step3.png  used on input line 138.
+Package pdftex.def Info: ./figures/step3.png  used on input line 140.
 (pdftex.def)             Requested size: 360.0pt x 219.59346pt.
 
-Overfull \hbox (16.99884pt too wide) in paragraph at lines 145--147
+Overfull \hbox (16.99884pt too wide) in paragraph at lines 148--150
 [][] 
  []
 
 Preview: Tightpage 0 -46616 0 0
 [5 <./figures/step3.png>]
-<./figures/step4.png, id=34, 2120.92375pt x 1293.83376pt>
+<./figures/step4.png, id=35, 2120.92375pt x 1293.83376pt>
 File: ./figures/step4.png Graphic file (type png)
 <use ./figures/step4.png>
-Package pdftex.def Info: ./figures/step4.png  used on input line 157.
+Package pdftex.def Info: ./figures/step4.png  used on input line 160.
 (pdftex.def)             Requested size: 360.0pt x 219.59346pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 162--164
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 166--168
 [][] 
  []
 
@@ -355,16 +413,16 @@ Package epstopdf Info: Source file: <./figures/piece_BAX.eps>
 (epstopdf)                    size: 32154 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/piece_BAX-eps-co
 nverted-to.pdf ./figures/piece_BAX.eps>
-(epstopdf)             \includegraphics on input line 174.
+(epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/piece_BAX-eps-converted-to.pdf, id=39, 1023.825pt x 682.55pt>
+<./figures/piece_BAX-eps-converted-to.pdf, id=40, 1023.825pt x 682.55pt>
 File: ./figures/piece_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/piece_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/piece_BAX-eps-converted-to.pdf  used on inpu
-t line 174.
+t line 178.
 (pdftex.def)             Requested size: 360.0pt x 240.00005pt.
 
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 175--177
+Overfull \hbox (66.79115pt too wide) in paragraph at lines 179--181
 [][] 
  []
 
@@ -378,16 +436,16 @@ Package epstopdf Info: Source file: <./figures/piece_BAY.eps>
 (epstopdf)                    size: 29961 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/piece_BAY-eps-co
 nverted-to.pdf ./figures/piece_BAY.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/piece_BAY-eps-converted-to.pdf, id=54, 1023.825pt x 682.55pt>
+<./figures/piece_BAY-eps-converted-to.pdf, id=55, 1023.825pt x 682.55pt>
 File: ./figures/piece_BAY-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/piece_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/piece_BAY-eps-converted-to.pdf  used on inpu
-t line 186.
+t line 190.
 (pdftex.def)             Requested size: 360.0pt x 240.00005pt.
 
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 187--189
+Overfull \hbox (66.79115pt too wide) in paragraph at lines 191--193
 [][] 
  []
 
@@ -402,16 +460,16 @@ Package epstopdf Info: Source file: <./figures/pieces_BAX.eps>
 (epstopdf)                    size: 92997 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/pieces_BAX-eps-c
 onverted-to.pdf ./figures/pieces_BAX.eps>
-(epstopdf)             \includegraphics on input line 198.
+(epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/pieces_BAX-eps-converted-to.pdf, id=68, 1023.825pt x 682.55pt>
+<./figures/pieces_BAX-eps-converted-to.pdf, id=69, 1023.825pt x 682.55pt>
 File: ./figures/pieces_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/pieces_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/pieces_BAX-eps-converted-to.pdf  used on inp
-ut line 198.
+ut line 202.
 (pdftex.def)             Requested size: 360.0pt x 240.00005pt.
 
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 199--201
+Overfull \hbox (66.79115pt too wide) in paragraph at lines 203--205
 [][] 
  []
 
@@ -426,75 +484,76 @@ Package epstopdf Info: Source file: <./figures/pieces_BAY.eps>
 (epstopdf)                    size: 76858 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/pieces_BAY-eps-c
 onverted-to.pdf ./figures/pieces_BAY.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/pieces_BAY-eps-converted-to.pdf, id=82, 1023.825pt x 682.55pt>
+<./figures/pieces_BAY-eps-converted-to.pdf, id=83, 1023.825pt x 682.55pt>
 File: ./figures/pieces_BAY-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/pieces_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/pieces_BAY-eps-converted-to.pdf  used on inp
-ut line 210.
+ut line 214.
 (pdftex.def)             Requested size: 360.0pt x 240.00005pt.
 
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 211--213
+Overfull \hbox (66.79115pt too wide) in paragraph at lines 215--217
 [][] 
  []
 
 Preview: Tightpage 0 -46616 0 0
 [10 <./figures/pieces_BAY-eps-converted-to.pdf>]
-<./figures/lin1.png, id=96, 2006.49625pt x 1293.83376pt>
+<./figures/lin1.png, id=97, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin1.png Graphic file (type png)
 <use ./figures/lin1.png>
-Package pdftex.def Info: ./figures/lin1.png  used on input line 221.
+Package pdftex.def Info: ./figures/lin1.png  used on input line 225.
 (pdftex.def)             Requested size: 360.0pt x 232.12982pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 226--228
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 230--232
 [][] 
  []
 
 Preview: Tightpage 0 -46616 0 0
 [11 <./figures/lin1.png>]
-<./figures/lin2.png, id=101, 2006.49625pt x 1293.83376pt>
+<./figures/lin2.png, id=102, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin2.png Graphic file (type png)
 <use ./figures/lin2.png>
-Package pdftex.def Info: ./figures/lin2.png  used on input line 238.
+Package pdftex.def Info: ./figures/lin2.png  used on input line 242.
 (pdftex.def)             Requested size: 360.0pt x 232.12982pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 243--245
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 247--249
 [][] 
  []
 
 Preview: Tightpage 0 -46616 0 0
 [12 <./figures/lin2.png>]
-<./figures/lin4.png, id=106, 2006.49625pt x 1293.83376pt>
+<./figures/lin4.png, id=107, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin4.png Graphic file (type png)
 <use ./figures/lin4.png>
-Package pdftex.def Info: ./figures/lin4.png  used on input line 255.
+Package pdftex.def Info: ./figures/lin4.png  used on input line 259.
 (pdftex.def)             Requested size: 360.0pt x 232.12982pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 260--262
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 264--266
 [][] 
  []
 
 Preview: Tightpage 0 -46616 0 0
 [13 <./figures/lin4.png>] (./figures.aux) ) 
 Here is how much of TeX's memory you used:
- 3230 strings out of 492649
- 42874 string characters out of 6129622
- 119782 words of memory out of 5000000
- 7008 multiletter control sequences out of 15000+600000
+ 3821 strings out of 492649
+ 49633 string characters out of 6129622
+ 130253 words of memory out of 5000000
+ 7583 multiletter control sequences out of 15000+600000
  11552 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,35p,322b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,35p,322b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb>
-Output written on figures.pdf (13 pages, 700432 bytes).
+pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/rsfs/rsfs10.pfb>
+Output written on figures.pdf (13 pages, 702773 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 134 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
