@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  25 JUL 2018 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 JUL 2018 12:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,4 +254,217 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluat
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen142
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen143
+\subfiglabelskip=\skip54
+\c@subfigure=\count125
+\c@lofdepth=\count126
+\c@subtable=\count127
+\c@lotdepth=\count128
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
+)
+(./ws-ijbc.aux)
+\openout1 = `ws-ijbc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count129
+\scratchdimen=\dimen144
+\scratchbox=\box33
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen145
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 34.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 34.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<figures.pdf, id=23, page=1, 369.8859pt x 214.1069pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 1>
+Package pdftex.def Info: figures.pdf , page1 used on input line 125.
+(pdftex.def)             Requested size: 505.89pt x 292.83789pt.
+ [3 <./figures.pdf>] [4]
+<figures.pdf, id=55, page=2, 398.3382pt x 214.1069pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 2>
+Package pdftex.def Info: figures.pdf , page2 used on input line 166.
+(pdftex.def)             Requested size: 505.89pt x 271.93233pt.
+ [5 <./figures.pdf>] [6]
+<figures.pdf, id=82, page=3, 376.99846pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 3>
+Package pdftex.def Info: figures.pdf , page3 used on input line 228.
+(pdftex.def)             Requested size: 247.88887pt x 150.13933pt.
+<figures.pdf, id=83, page=4, 376.99846pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 4>
+Package pdftex.def Info: figures.pdf , page4 used on input line 229.
+(pdftex.def)             Requested size: 247.88887pt x 150.13933pt.
+<figures.pdf, id=84, page=5, 376.99846pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 5>
+Package pdftex.def Info: figures.pdf , page5 used on input line 230.
+(pdftex.def)             Requested size: 247.88887pt x 150.13933pt.
+<figures.pdf, id=85, page=6, 369.8859pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 6>
+Package pdftex.def Info: figures.pdf , page6 used on input line 231.
+(pdftex.def)             Requested size: 247.88887pt x 153.02414pt.
+ [7 <./figures.pdf> <./figures.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./figures.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
+<figures.pdf, id=126, page=7, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 7>
+Package pdftex.def Info: figures.pdf , page7 used on input line 280.
+(pdftex.def)             Requested size: 247.88887pt x 132.62138pt.
+<figures.pdf, id=127, page=8, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 8>
+Package pdftex.def Info: figures.pdf , page8 used on input line 281.
+(pdftex.def)             Requested size: 247.88887pt x 132.62138pt.
+ [8 <./figures.pdf> <./figures.pdf>]
+<figures.pdf, id=154, page=9, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 9>
+Package pdftex.def Info: figures.pdf , page9 used on input line 296.
+(pdftex.def)             Requested size: 247.88887pt x 132.62138pt.
+<figures.pdf, id=155, page=10, 426.79147pt x 228.33304pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 10>
+Package pdftex.def Info: figures.pdf , page10 used on input line 297.
+(pdftex.def)             Requested size: 247.88887pt x 132.62138pt.
+ [9 <./figures.pdf> <./figures.pdf>]
+(./ws-ijbc.bbl) [10] (./ws-ijbc.aux) ) 
+Here is how much of TeX's memory you used:
+ 3616 strings out of 492649
+ 47215 string characters out of 6129622
+ 122011 words of memory out of 5000000
+ 7408 multiletter control sequences out of 15000+600000
+ 17594 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,13n,27p,1542b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on ws-ijbc.pdf (10 pages, 838601 bytes).
+PDF statistics:
+ 262 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,12 +1,12 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Trim Size : 11in x 8.5in
-%% Text Area : 9.6in (include Runningheads) x 7in
-%% ws-ijbc.tex, 24 Jan 2010
-%% Tex file to use with ws-ijbc.cls written in Latex2E.
-%% The content, structure, format and layout of this style file is the
-%% property of World Scientific Publishing Co. Pte. Ltd.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Trim Size : 11in x 8.5in
+% Text Area : 9.6in (include Runningheads) x 7in
+% ws-ijbc.tex, 24 Jan 2010
+% Tex file to use with ws-ijbc.cls written in Latex2E.
+% The content, structure, format and layout of this style file is the
+% property of World Scientific Publishing Co. Pte. Ltd.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
 
 %\documentclass[draft]{ws-ijbc}
 \documentclass{ws-ijbc}
@@ -69,7 +69,7 @@ To better observe the separation between fast and slow variables, we use a chang
 \end{equation}
     
 \noindent
-where $(A, B, X, Y)\in\mathbb{R}^{4}$ are positive concentrations of chemicals.  The system parameters given by Greek letters in Table 1 are functions of original system parameters given in \cite{Olsen}. They were chosen to be the same as in \cite{Rescaling} with a minor modification.  (For notational convenience, we have substituted  $\varepsilon_{b}$ and $\varepsilon^{2}$ with $\varepsilon$ and $\eta$ respectively.)
+where $(A, B, X, Y)\in\mathbb{R}^{4}$ are positive concentrations of chemicals.  The system parameters given by Greek letters in Table 1 are functions of original system parameters given in \cite{Olsen}. They were chosen to be the same as in \cite{Rescaling} with a minor modification.  (For notational convenience, we have substituted  $\varepsilon_{b}$ and $\varepsilon^{2}$ with $\varepsilon$ and $\eta$, respectively.)
 
 \begin{table}[h]
 \tbl{System parameters for system (1)}
@@ -150,7 +150,7 @@ Fenichel Theory also guarantees that $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ p
     
 For the computation of a one-dimensional saddle slow manifold, we follow the presentation in \cite{Saeed_Paper} of a one-dimensional saddle slow manifold for a three-dimensional system.  Here we consider only the slow manifold $S^t$ associated with $C^t$; the slow manifold $S^b$ can be found in a similar manner.
     
-The precise definition of the slow manifold $S^t$ is given with respect to a closed interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that the interval is contained in the interval defined by the $B$-coordinates of the two fold points $F_1$ and $F_2$.  Note that there is a segment in $C^t$ for which each point $p \in C^t$ is uniquely associated via its $B$-coordinaate with a value for $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$.  For each $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^t$ such that $p_B = B_p$.  We define a solid three-sphere $D_\delta(B_p)$ in the three-dimensional subsection $\{ \begin{pmatrix} A & B & X & Y \end{pmatrix} \in \mathbb{R}^4| B=p_B\}$ that has radius $\delta$ and center $p$, given formally by
+The precise definition of the slow manifold $S^t$ is given with respect to a closed interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that the interval is contained in the interval defined by the $B$-coordinates of the two fold points $F_1$ and $F_2$.  Note that there is a segment in $C^t$ for which each point $p \in C^t$ is uniquely associated via its $B$-coordinate with a value for $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$.  For each $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^t$ such that $p_B = B_p$.  We define a solid three-sphere $D_\delta(B_p)$ in the three-dimensional subsection $\{ \begin{pmatrix} A & B & X & Y \end{pmatrix} \in \mathbb{R}^4| B=p_B\}$ that has radius $\delta$ and center $p$, given formally by
 
 \begin{equation*}
 D_\delta(B_p)=\{w \in \mathbb{R}^4 | w_B = B_p, |w-p| \leq \delta\}.
@@ -182,10 +182,10 @@ We compute $S^t$ by setting up an appropriately defined two-point boundary-value
 \noindent
 where $\mathbf{u}(s) = (A(s), B(s), X(s), Y(s)) \in \mathbb{R}^4$ is the vector of chemical concentrations, $F$ is the right-hand side of (\ref{equation_1}) and $T$ is the total integration time on the fast timescale, $t=Ts$.
     
-To obtain an initial solution of (\ref{equation_4}), we perform a homotopy step as follows.  First, we choose $B_{\mathrm{out}} = 0.75$ at a value that corresponds to a point $p^t_{\mathrm{out}} \in C^t$ close to $F_1$.  We then impose the conditions
+To obtain an initial solution of (\ref{equation_4}), we perform a homotopy step as follows.  First, we choose $B_{\mathrm{out}} = 0.75$ at a value that corresponds to a point $p_{\mathrm{out}} \in C^t$ close to $F_1$.  We then impose the conditions
     
 \begin{equation}
-\mathbf{u}(0) \in \cup_{p \in C^t} E^u,
+\mathbf{u}(0) \in \cup_{p \in C^t} E^u(p),
 \label{BC3}
 \end{equation}
 and
@@ -194,7 +194,7 @@ and
 \label{BC2}
 \end{equation}
 \noindent
-that each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$, respectively.  The point $p$ is then a solution to the two-point boundary-value problem defined by (\ref{equation_4})--(\ref{BC2}) with $T=0$.  We then  decrease $\mathbf{u}_B(0)$ towards $S1$ while the total integration time increases.  The integration is stopped when $\mathbf{u}_B(0)=0.4$, corresponding to a point $p_{\text{stop}} \in C^t$, before it reaches $F_2$.
+that each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$, respectively.  The point $p$ is then a solution to the two-point boundary-value problem defined by (\ref{equation_4})--(\ref{BC2}) with $T=0$.  We then  decrease $\mathbf{u}_B(0)$ towards $F_2$ while the total integration time increases.  The integration is stopped when $\mathbf{u}_B(0)=B_{\text{in}}=0.4$, corresponding to a point $p_{\text{out}} \in C^t$, before it reaches $F_2$.
     
 We remark that $D_\delta(B_{\mathrm{in}})$ defines a three-parameter family of orbit segments with initial conditions in the sphere.  We can refine our search for orbits that enter the cylinder via $D_\delta(B_{\mathrm{in}})$ and exit it via $D_\delta(B_{\mathrm{out}})$ by observing that, because $S^t$ is of saddle type, the initial point of a candidate orbit segment must lie in a small neighborhood of $W^s$ in the sphere $D_\delta(B_{\mathrm{in}})$.  Similarly the end point must remain in a small neighborhood of $W^u$ in the sphere $D_\delta(B_{\mathrm{out}})$.
     
@@ -210,22 +210,22 @@ which impose two conditions on $\mathbf{u}(0)$.  The orbit segment resulting fro
     
 In the final continuation run we increase the integration time until a fold in $T$ is detected.  The resulting orbit segment approximates the saddle slow manifold, $S^t$.
    
-A projection of $S^t$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{tube_figure}.  A keen observer will note that, near $D_\delta(B_{\mathrm{in}})$, $S^t$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Phi$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the one-dimensional $W^s \cap \Sigma$ while $\mathbf{u}(1)$ moves toward the point $W^u \cap E^s(p^t_{\mathrm{out}})$.  The fold in $T$ signals that maximal integration time is reached and $u(0)$ and $u(1)$ are near respective intersection points. The result is an orbit segment containing a slow segment between two fast segments near $W^s$ and $W^u$ respectively.  In Figure \ref{tube_figure}, the segment lying near $W^u$ is so short that it is not visible.  We obtain an approximation of $S^t$ that does not include fast segments by restricting the orbit segment further within the interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$.
+A projection of $S^t$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{tube_figure}.  A keen observer will note that, near $D_\delta(B_{\mathrm{in}})$, $S^t$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Phi$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the one-dimensional $W^s \cap \Sigma$ while $\mathbf{u}(1)$ moves toward the point $W^u \cap E^s(p^t_{\mathrm{out}})$.  The fold in $T$ signals that maximal integration time is reached and $\mathbf{u}(0)$ and $\mathbf{u}(1)$ are near respective intersection points. The result is an orbit segment containing a slow segment between two fast segments near $W^s$ and $W^u$ respectively.  In Figure \ref{tube_figure}, the segment lying near $W^u$ is so short that it is not visible.  We obtain an approximation of $S^t$ that does not include fast segments by restricting the orbit segment further within the interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$.
    
 An approximation of the slow manifold associated with $C^b$ can be computed in the same way by choosing $B_{\mathrm{in}}$ near the $B$-coordinate of $H$, and $B_{\mathrm{out}}$ near the $B$-coordinate of $F_2$ in the above definition.
 
 %Stable Manifold of Slow Manifold
 \section{The Stable Manifold of a Slow Manifold}
 
-Fenichel theory guarantees that each slow manifold $S^t$, associated with $C^t$, has a local, two-dimensional unstable manifold $W_{\mathrm{loc}}^u$ \cite{Fenichel}.  By definition, such an unstable manifold consists of a one-parameter family of orbit segments that have a fast approach to $S^t$ in backward time before remaining $O(\varepsilon)$ close for $O(1)$ (backward) time.  However, the unstable manifold of a saddle slow manifold is not unique and we consider only a specific candidate $W_{\mathrm{loc}}^u$ from this non-unique family of manifolds that all lie exponentially close to each other \cite{Fenichel}.  Similarly there exists a local, non-unique, three-dimensional stable manifold $W^s_{\mathrm{loc}}(S^t)$, which is defined as a two-parameter family of orbit segments that have a fast approach to $S^t$ in forward time before remaining $O(\varepsilon)$ close for $O(1)$ time.  The global unstable and stable manifolds $W^u$ and $W^s$ can be obtained from extending $W^u_{\mathrm{loc}}$ and $W^s_{\mathrm{loc}}$ in backward and forward time, respectively.  In the lower-dimensional model considered in \cite{QSSA}, $W^s$ was two-dimensional and computed in the region between $C^t$ and $C^b$.  We now turn to the computation of the three-dimensional manifold in the same region in the full system.
+Fenichel theory guarantees that each slow manifold $S^t$, associated with $C^t$, has a local, two-dimensional unstable manifold $W_{\mathrm{loc}}^u$ \cite{Fenichel}.  By definition, such an unstable manifold consists of a one-parameter family of orbit segments that have a fast approach to $S^t$ in backward time before remaining $O(\varepsilon)$ close for $O(1)$ (backward) slow time.  However, the unstable manifold of a saddle slow manifold is not unique and we consider only a specific candidate $W_{\mathrm{loc}}^u$ from this non-unique family of manifolds that all lie exponentially close to each other \cite{Fenichel}.  Similarly there exists a local, non-unique, three-dimensional stable manifold $W^s_{\mathrm{loc}}(S^t)$, which is defined as a two-parameter family of orbit segments that have a fast approach to $S^t$ in forward time before remaining $O(\varepsilon)$ close for $O(1)$ slow time.  The global unstable and stable manifolds $W^u$ and $W^s$ can be obtained from extending $W^u_{\mathrm{loc}}$ and $W^s_{\mathrm{loc}}$ in backward and forward time, respectively.  In the lower-dimensional model considered in \cite{QSSA}, $W^s$ was two-dimensional and computed in the region between $C^t$ and $C^b$.  We now turn to the computation of the three-dimensional manifold in the same region in the full system.
     
-As $W^s$ is three-dimensional it is cumbersome to compute and difficult to visualize.  A natural way forward is to study a subset of $W^s$ as a one-parameter family of two-dimensional slices.  These can be visualized and computed with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We begin by defining a two-dimensional plane $\Sigma$ given by fixed values of $A$ and either $X$ or $Y$.  We approximate a slice with a smooth, one-parameter family of $\mathbf{u}$ that begin in $\Sigma$, enter $\mathscr{D}$ at $D_{\delta}(B^*)$ for some $B^* \in [B_{in}, B_{out}]$, and remain inside $\mathscr{D}$ for $O(1)$ time.  We denote such an approximation by $W^{s}_{\Sigma}$.  It is only the portions of the $\mathbf{u}$ that enter $\mathscr{D}$ in the fast direction that are considered to be part of $W^{s}_{\Sigma}$.  The portions that evolve mostly in the $B$-direction inside $\mathscr{D}$ for $O(1)$ time are considered to be part of $S^t$.  If a $\mathbf{u}$ includes a portion that has a fast exit from $\mathscr{D}$, that portion is considered as an approximation of an orbit segment lying on $W^u$.
+As $W^s$ is three-dimensional it is cumbersome to compute and difficult to visualize.  A natural way forward is to study a subset of $W^s$ as a one-parameter family of two-dimensional slices.  These can be visualized and computed with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We begin by defining a two-dimensional plane $\Sigma$ given by fixed values of $A$ and either $X$ or $Y$.  We approximate a slice with a smooth, one-parameter family of $\mathbf{u}$ that begin in $\Sigma$, enter $\mathscr{D}$ at $D_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}$ for $O(1)$ slow time.  We use $W^{s}_{\Sigma}$ to denote such an approximation.  The slice $W^{s}_{\Sigma}$ is taken to be the portions of the $\mathbf{u}$ that enter $\mathscr{D}$ in the fast direction.  The portions that evolve mostly in the $B$-direction inside $\mathscr{D}$ for $O(1)$ slow time are considered to be part of $S^t$.  If a $\mathbf{u}$ includes a portion that has a fast exit from $\mathscr{D}$, that portion is considered as an approximation of an orbit segment lying on $W^u$.
     
 \subsection{Boundary value problem implementation}
 
 \begin{figure}[h]
 \centering
-\subfigure[A sketch of the first homotopy step in the algorithm for computing $W^{s}_{\Sigma^*}$.  A projection of $\Sigma^*$ is represented as a pink line in the $(B, A)$-plane.  The linear stable space $E^s(p^t_{\mathrm{out}})$ is represented by a blue cross while a sketch of $S^t$ is shown in green.]{\label{step1}\includegraphics[width=0.49\textwidth, page=3]{figures.pdf}}
+\subfigure[A sketch of the first homotopy step in the algorithm for computing $W^{s}_{\Sigma^*}$.  A projection of $\Sigma^*$ is represented as a pink line in the $(B, A)$-plane.  The linear stable space $E^s(p_{\mathrm{out}})$ is represented by a blue cross while a sketch of $S^t$ is shown in green.]{\label{step1}\includegraphics[width=0.49\textwidth, page=3]{figures.pdf}}
 \subfigure[A representative orbit segment in the first homotopy step is represented as a black curve.  Fast segments are represented with double arrows while slow segments are represented with single arrows.]{\label{step2}\includegraphics[width=0.49\textwidth, page=4]{figures.pdf}}
 \subfigure[A sketch illustrating the selection of an orbit segment with maximal integration time.  Represented by a blue cube is the space $\Omega$.  The curve $\mathscr{L}$ is represented in yellow.]{\label{step3}\includegraphics[width=0.49\textwidth, page=5]{figures.pdf}}
 \subfigure[A sketch of the selection of a different slice $W^{s}_{\Sigma}$.  This representation shows a selection of $\Sigma$ on the other side of the critical manifold from $\Sigma^*$ in the $(B, A)$-projection.]{\label{step4}\includegraphics[width=0.49\textwidth, page=6]{figures.pdf}}
@@ -234,7 +234,7 @@ As $W^s$ is three-dimensional it is cumbersome to compute and difficult to visua
     
 We are interested in the geometry of $W^{s}_{\Sigma}$ in the region between $C^t$ and $C^b$ where $W^s$ was found in \cite{QSSA}.  We define the plane $\Sigma^*$, given by fixing $A\approx10.6055$ and $Y\approx2.3001 \times 10^{-4}$, and compute $W^{s}_{\Sigma^*}$ by adapting a technique outlined in \cite{Saeed_Paper} for two-dimensional stable manifolds in three-dimensional systems.  We then explain the computation of $W^{s}_{\Sigma}$ for an arbitrary $\Sigma$ that is transverse to the flow and $\bigcup_{p \in C^t} E^u(p)$ in our region of interest.
     
-We first perform a homotopy step by choosing $B_{\mathrm{out}} = 0.9$ corresponding to the point $p^t_{\text{out}}\approx[10.6055, 0.9, 4.9248 \times 10^{-2}, 2.3001 \times 10^{-4}]$.  Following the definition for $W^s_{\Sigma^*}(S^t)$, we impose the boundary condition
+We first perform a homotopy step by choosing $B_{\mathrm{out}} = 0.9$ corresponding to the point $p_{\text{out}}\approx[10.6055, 0.9, 4.9248 \times 10^{-2}, 2.3001 \times 10^{-4}]$.  Following the definition for $W^s_{\Sigma^*}(S^t)$, we impose the boundary condition
     
 \begin{equation}
 \mathbf{u}(0) \in \Sigma^*
@@ -242,7 +242,7 @@ We first perform a homotopy step by choosing $B_{\mathrm{out}} = 0.9$ correspond
 \end{equation}
     
  \noindent
-which imposes two conditions on $\mathbf{u}(0)$ since $\Sigma^*$ is two dimensional.  As part of selecting a $\mathbf{u}$ that remains close to $S^t$ for $O(1)$ time, we consider the two-dimensional $E^s(p^t_{\text{out}})$ that is transverse to $W^u$.  We impose the boundary condition
+that imposes two conditions on $\mathbf{u}(0)$ since $\Sigma^*$ is two dimensional.  As part of selecting a $\mathbf{u}$ that remains close to $S^t$ for $O(1)$ slow time, we consider the two-dimensional $E^s(p^t_{\text{out}})$ that is transverse to $W^u$.  We impose the boundary condition
     
 \begin{equation}
 \mathbf{u}(1) \in E^s(p^t_{\text{out}})
@@ -250,7 +250,7 @@ which imposes two conditions on $\mathbf{u}(0)$ since $\Sigma^*$ is two dimensio
 \end{equation}
     
 \noindent
-which imposes two conditions on $\mathbf{u}(1)$ and allows for the possibility of $\mathbf{u}(1)$ intersecting $W^u$.  The point $p_{\text{out}}$ is a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC6}) and (\ref{BC7}) with $T=0$.  Figure \ref{step1} illustrates an example of the set up for this homotopy step.  The plane $\Sigma^*$ is represented by a pink line, $E^s(p^t_{\mathrm{out}})$ is represented by a blue cross, and a curve representing $S^t$ is sketched in neon green.
+that imposes two conditions on $\mathbf{u}(1)$ and allows for the possibility of $\mathbf{u}(1)$ intersecting $W^u$.  The point $p_{\text{out}}$ is a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC6}) and (\ref{BC7}) with $T=0$.  Figure \ref{step1} illustrates an example of the set up for this homotopy step.  The plane $\Sigma^*$ is represented by a pink line, $E^s(p^t_{\mathrm{out}})$ is represented by a blue cross, and a curve representing $S^t$ is sketched in neon green.
     
 We increase $T$ while allowing $\mathbf{u}_{B}(0)$ to decrease towards $F_2$.  This step is illustrated in Figure \ref{step2} where an intermediate orbit is represented as a black curve with the fast segment indicated with double arrows and the slow segment indicated with a single arrow.  The continuation is stopped at $\mathbf{u}(0)_B = B_{\text{in}}=2.3 \times 10^{-1}$, just before it reaches the $B$-coordinate of $F_2$.  A sketch of the resulting orbit segment is shown in Figure \ref{step3}.
     
@@ -263,7 +263,7 @@ The orbit segment illustrated in Figure \ref{step3} belongs to a two-parameter f
 \end{equation}
     
 \noindent
-that imposes three conditions on $\mathbf{u}(0)$ and is more restrictive than (\ref{BC6}).  The boundary condition (\ref{BCSTOP}) is represented as a yellow line in Figure \ref{step3}.  We define the three-dimensional space $\Omega$ spanned by the two stable eigenvectors of $p_{\text{out}}$ and the vector parallel to the $B$-direction.  Note that $\Omega$ is transverse to $\cup_{p \in C^t}E^u(p)$ and hence $W^u$.  We impose the condition
+which imposes three conditions on $\mathbf{u}(0)$ and is more restrictive than (\ref{BC6}).  The boundary condition (\ref{BCSTOP}) is represented as a yellow line in Figure \ref{step3}.  We define the three-dimensional space $\Omega$ spanned by the two stable eigenvectors of $p_{\text{out}}$ and the vector parallel to the $B$-direction.  Note that $\Omega$ is transverse to $\cup_{p \in C^t}E^u(p)$ and hence $W^u$.  We impose the condition
     
 \begin{equation}
 \mathbf{u}(1) \in \Omega,
@@ -271,25 +271,25 @@ that imposes three conditions on $\mathbf{u}(0)$ and is more restrictive than (\
 \end{equation}
     
 \noindent
-which imposes one condition on $\mathbf{u}(0)$ and is less restrictive than (\ref{BC7}).  Condition (\ref{BC11}) is represented in Figure \ref{step3} as a cube with navy blue edges.  The integration time $T$ is then increased forcing $\mathbf{u}(0)$ to approach $W^s \cap \Sigma^*$ and $\mathbf{u}(1)$ to approach $W^u \cap \Omega$. When a fold in $T$ is reached $\mathbf{u}(0)$ and $\mathbf{u}(1)$ have intersected $W^s$ and $W^u$, respectively and maximum integration time is attained.  
+which imposes one condition on $\mathbf{u}(0)$ and is less restrictive than (\ref{BC7}).  Condition (\ref{BC11}) is represented in Figure \ref{step3} as a cube with dark blue edges.  The integration time $T$ is then increased forcing $\mathbf{u}(0)$ to approach $W^s \cap \Sigma^*$ and $\mathbf{u}(1)$ to approach $W^u \cap \Omega$. When a fold in $T$ is reached $\mathbf{u}(0)$ and $\mathbf{u}(1)$ have intersected $W^s$ and $W^u$, respectively and maximum integration time is attained.  
     
-The orbit segment that is obtained begins in $\Sigma^*$ and has a fast approach to $S^t$ before remaining $O(\varepsilon)$ close for an $O(1)$ time and so it lies on $W^{s}_{\Sigma^*}$ by definition.  The final step is to continue the fold in $T$ while allowing $u(0)_B$ to increase to obtain the rest of $W^{s}_{\Sigma^*}$.  
+The orbit segment that is obtained begins in $\Sigma^*$ and has a fast approach to $S^t$ before remaining $O(\varepsilon)$ close for $O(1)$ slow time and so it lies on $W^{s}_{\Sigma^*}$ by definition.  The final step is to continue the fold in $T$ while allowing $u(0)_B$ to increase to obtain the rest of $W^{s}_{\Sigma^*}$.  
 
 \begin{figure}[h]
 \centering
 \subfigure[]{\label{piece_BAX}\includegraphics[width=0.49\textwidth, page=7]{figures.pdf}}
 \subfigure[]{\label{piece_BAY}\includegraphics[width=0.49\textwidth, page=8]{figures.pdf}}
-\caption{The slice $W^{\mathbf{s}}_{\Sigma^*}(S^t)$, represented in blue, projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta.  Projections of the critical manifold are shown in black and the view is rotated relative to previous figures.}
+\caption{The slice $W^{s}_{\Sigma^*}$, represented in blue, projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta.  Projections of the critical manifold are shown in black and the view is rotated relative to previous figures.}
 \label{piece}
 \end{figure}
    
-Figure \ref{piece} shows two projections of $W^s_{\Sigma^*}(S^t)$.  Although the manifold is two dimensional, it is necessary to visualize it in both the $(B,A,X)$- and $(B,A,Y)$- projections because it exists in four-dimensional space.  Lying on $W^s_{\Sigma^*}(S^t)$ is a representative orbit segment, plotted in magenta.  The critical manifold is plotted in black.  The view rotated relative to other figures to help illustrate the geometry of the slice.  Orbits lying on $W^s_{\Sigma^*}(S^t)$ have a fast approach to $S^t$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then finally remaining close for an $O(1)$ amount of time.
+Figure \ref{piece} shows two projections of $W^s_{\Sigma^*}$.  Although the manifold is two dimensional, it is necessary to visualize it in both the $(B,A,X)$- and $(B,A,Y)$-projections because it exists in four-dimensional space.  Lying on $W^s_{\Sigma^*}$ is a representative orbit segment, plotted in magenta.  The critical manifold is plotted in black.  The view rotated relative to other figures to help illustrate the geometry of the slice.  Orbits lying on $W^s_{\Sigma^*}$ have a fast approach to $S^t$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then finally remaining close for $O(1)$ slow time.
     
-In the case where we would like to compute $W^{s}_{\Sigma}$ for a different $\Sigma$, given by constant values of $A$ and $Y$ (respectively $X$), we must perform a second homotopy step after the first.  Using the orbit segment represented in Figure \ref{step3} as a starting point, we impose (\ref{BC7}) while keeping as free parameters $T$, $\mathbf{u}_B(0)$, $\mathbf{u}_X(0)$ (respectively $\mathbf{u}_Y(0)$).  In two runs, we continue $\mathbf{u}$ with $\mathbf{u}_A(0)$ and $\mathbf{u}(0)_Y$ (respectively $\mathbf{u}(0)_X$) main continuation parameters.  In each of these runs, we increase or decrease the main continuation parameter until it attains the value necessary for $\mathbf{u}(0) \in \Sigma$.  Once $\mathbf{u}(0) \in \Sigma$, we follow the rest of the procedure above while considering $\Sigma$ instead of $\Sigma^*$.
+In the case where we would like to compute $W^{s}_{\Sigma}$ for a different $\Sigma$, given by constant values of $A$ and $Y$ (respectively $X$), we must perform a second homotopy step after the first.  Using the orbit segment represented in Figure \ref{step3} as a starting point, we impose (\ref{BC7}) while keeping as free parameters $T$, $\mathbf{u}_B(0)$, $\mathbf{u}_X(0)$ (respectively $\mathbf{u}_Y(0)$).  In two runs, we continue $\mathbf{u}$ with $\mathbf{u}_A(0)$ and $\mathbf{u}(0)_Y$ (respectively $\mathbf{u}(0)_X$) as main continuation parameters.  In each of these runs, we increase or decrease the main continuation parameter until it attains the value necessary for $\mathbf{u}(0) \in \Sigma$.  Once $\mathbf{u}(0) \in \Sigma$, we follow the rest of the procedure above while considering $\Sigma$ instead of $\Sigma^*$.
     
 Figure \ref{step4} illustrates a choice of $\Sigma$ on the opposite side of the critical manifold from $\Sigma^*$ in the $(B,A)$-projection.  The orbit segment resulting from the second homotopy step is represented as a black curve.  Conditions (\ref{BCSTOP}) and (\ref{BC11}) are again illustrated with a yellow line and a cube with dark blue edges, respectively.
     
-Figure \ref{pieces} shows $W^s_{\Sigma^*}(S^t)$ and four slices $W^{s}_{\Sigma}$ of $W^{\mathbf{s}}(S^t)$.  Here $\Sigma$ were selected as follows, $A\approx10.6055$ and $Y\approx2.3001 \times 10^{-4}$, $A=2.0$ and $Y\approx2.3001 \times 10^{-4}$, $A=4.0$ and $X=0.75$, $A=4.0$ and $Y=0.75$, $A=6.0$ and $X=0.5$.  The slices appear to self-intersect in each projection, however they do not do so in the full four-dimensional space.  
+Figure \ref{pieces} shows $W^s_{\Sigma^*}$ and four slices $W^{s}_{\Sigma}$ of $W^{s}$.  Here $\Sigma$ were selected as follows, $A\approx10.6055$ and $Y\approx2.3001 \times 10^{-4}$, $A=2.0$ and $Y\approx2.3001 \times 10^{-4}$, $A=4.0$ and $X=0.75$, $A=4.0$ and $Y=0.75$, $A=6.0$ and $X=0.5$.  The slices appear to self-intersect in each projection, however they do not do so in the full four-dimensional space.  
 
 \begin{figure}[h]
 \centering
@@ -299,7 +299,7 @@ Figure \ref{pieces} shows $W^s_{\Sigma^*}(S^t)$ and four slices $W^{s}_{\Sigma}$
 \label{pieces}
 \end{figure}
     
-We note that, unlike the stable manifold of $S^t$ computed in \cite{QSSA}, each $W^{s}_{\Sigma}$ in Figure \ref{pieces} diverges backwards in time in the $X$- and $Y$- directions before reaching $C^b$.  As an approximation of $W^s$, the stable manifold in the three-dimensional system suggests that there exists a $W^{s}_{\Sigma}$ in the four-dimensional system that spirals around $S^b$ in backward time for an appropriate choice of $\Sigma$.  Such a surface would be the intersection of the two three-dimensional manifolds $W^s$ and $W^u$ would be a two-dimensional heteroclinic connection between $C^t$ and $C^b$ in the full four-dimensional system.  A two-dimensional heteroclinic connection between two saddle slow manifolds of different type in a four-dimensional system would indeed be a novel phenomenon that does not occur in lower-dimensional systems.
+We note that, unlike the stable manifold of $S^t$ computed in \cite{QSSA}, each $W^{s}_{\Sigma}$ in Figure \ref{pieces} diverges backwards in time in the $X$- and $Y$- directions before reaching $C^b$.  As an approximation of $W^s$, the stable manifold in the three-dimensional system suggests that there exists a $W^{s}_{\Sigma}$ in the four-dimensional system that spirals around $S^b$ in backward time for an appropriate choice of $\Sigma$.  Such a surface would be the intersection of the two three-dimensional manifolds $W^s$ and $W^u$ in the full four-dimensional system.  As two three-dimensional objects intersect generically in a two-dimensional surface in four-dimensional space, this heteroclinic connection between $S^t$ and $S^b$ would most likely be two dimensional.  Such an object would indeed be a novel phenomenon that does not occur in lower-dimensional systems.
 
 \newpage
 \bibliography{sample}
