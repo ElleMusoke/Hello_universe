@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  26 JUL 2018 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  8 AUG 2018 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -502,10 +502,10 @@ Preview: Tightpage 0 -46616 0 0
 <./figures/lin1.png, id=97, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin1.png Graphic file (type png)
 <use ./figures/lin1.png>
-Package pdftex.def Info: ./figures/lin1.png  used on input line 225.
+Package pdftex.def Info: ./figures/lin1.png  used on input line 226.
 (pdftex.def)             Requested size: 360.0pt x 232.12982pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 230--232
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 231--233
 [][] 
  []
 
@@ -514,10 +514,10 @@ Preview: Tightpage 0 -46616 0 0
 <./figures/lin2.png, id=102, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin2.png Graphic file (type png)
 <use ./figures/lin2.png>
-Package pdftex.def Info: ./figures/lin2.png  used on input line 242.
+Package pdftex.def Info: ./figures/lin2.png  used on input line 243.
 (pdftex.def)             Requested size: 360.0pt x 232.12982pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 247--249
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 248--250
 [][] 
  []
 
@@ -526,34 +526,110 @@ Preview: Tightpage 0 -46616 0 0
 <./figures/lin4.png, id=107, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin4.png Graphic file (type png)
 <use ./figures/lin4.png>
-Package pdftex.def Info: ./figures/lin4.png  used on input line 259.
+Package pdftex.def Info: ./figures/lin4.png  used on input line 260.
 (pdftex.def)             Requested size: 360.0pt x 232.12982pt.
 
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 264--266
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 265--267
 [][] 
  []
 
 Preview: Tightpage 0 -46616 0 0
-[13 <./figures/lin4.png>] (./figures.aux) ) 
+[13 <./figures/lin4.png>]
+Package epstopdf Info: Source file: <./figures/bottom_slow.eps>
+(epstopdf)                    date: 2018-08-07 18:29:29
+(epstopdf)                    size: 73796 bytes
+(epstopdf)             Output file: <./figures/bottom_slow-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2018-08-07 18:33:21
+(epstopdf)                    size: 24277 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/bottom_slow-eps-
+converted-to.pdf ./figures/bottom_slow.eps>
+(epstopdf)             \includegraphics on input line 277.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/bottom_slow-eps-converted-to.pdf, id=113, 2569.6pt x 1293.83376pt>
+File: ./figures/bottom_slow-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/bottom_slow-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/bottom_slow-eps-converted-to.pdf  used on in
+put line 277.
+(pdftex.def)             Requested size: 360.0pt x 181.25394pt.
+
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 278--280
+[][] 
+ []
+
+Preview: Tightpage 0 -46616 0 0
+[14 <./figures/bottom_slow-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/lower_unstable_correct_BAX.eps>
+(epstopdf)                    date: 2018-08-08 11:35:28
+(epstopdf)                    size: 177199 bytes
+(epstopdf)             Output file: <./figures/lower_unstable_correct_BAX-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-08-08 11:38:41
+(epstopdf)                    size: 150742 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/lower_unstable_c
+orrect_BAX-eps-converted-to.pdf ./figures/lower_unstable_correct_BAX.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/lower_unstable_correct_BAX-eps-converted-to.pdf, id=122, 1023.825pt 
+x 682.55pt>
+File: ./figures/lower_unstable_correct_BAX-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./figures/lower_unstable_correct_BAX-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/lower_unstable_correct_BAX-eps-converted-to.
+pdf  used on input line 290.
+(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
+
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 291--293
+[][] 
+ []
+
+Preview: Tightpage 0 -46616 0 0
+[15 <./figures/lower_unstable_correct_BAX-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/lower_unstable_correct_BAY.eps>
+(epstopdf)                    date: 2018-08-08 11:35:45
+(epstopdf)                    size: 150736 bytes
+(epstopdf)             Output file: <./figures/lower_unstable_correct_BAY-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2018-08-08 11:38:41
+(epstopdf)                    size: 136412 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/lower_unstable_c
+orrect_BAY-eps-converted-to.pdf ./figures/lower_unstable_correct_BAY.eps>
+(epstopdf)             \includegraphics on input line 303.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/lower_unstable_correct_BAY-eps-converted-to.pdf, id=136, 1023.825pt 
+x 682.55pt>
+File: ./figures/lower_unstable_correct_BAY-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use ./figures/lower_unstable_correct_BAY-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/lower_unstable_correct_BAY-eps-converted-to.
+pdf  used on input line 303.
+(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
+
+Overfull \hbox (9.88567pt too wide) in paragraph at lines 304--306
+[][] 
+ []
+
+Preview: Tightpage 0 -46616 0 0
+[16 <./figures/lower_unstable_correct_BAY-eps-converted-to.pdf>] (./figures.aux
+) ) 
 Here is how much of TeX's memory you used:
- 3821 strings out of 492649
- 49633 string characters out of 6129622
+ 3836 strings out of 492649
+ 50461 string characters out of 6129622
  130253 words of memory out of 5000000
- 7583 multiletter control sequences out of 15000+600000
+ 7595 multiletter control sequences out of 15000+600000
  11552 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,7n,35p,322b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/rsfs/rsfs10.pfb>
-Output written on figures.pdf (13 pages, 702744 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on figures.pdf (16 pages, 1008203 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 171 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
