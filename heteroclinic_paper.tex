@@ -165,7 +165,7 @@ The set-up is similar to the set-up described in \cite{Saeed_Paper} with the dif
 \begin{center}
 \includegraphics[page=2, width=\textwidth]{figures.pdf}
 \end{center}
-\caption{A visualization of the slow manifold definition projected into the $(B,A)$-plane.  The spheres $D_\delta(B_{\mathrm{in}})$ and $D_\delta(B_{\mathrm{out}})$ are represented by purple disks at either end of a four-dimensional cylinder, also represented in purple.  A computation of the slow manifold is plotted in green and labelled $S^t$.}
+\caption{A visualisation of the slow manifold definition projected into the $(B,A)$-plane.  The spheres $D_\delta(B_{\mathrm{in}})$ and $D_\delta(B_{\mathrm{out}})$ are represented by purple disks at either end of a four-dimensional cylinder, also represented in purple.  A computation of the slow manifold is plotted in green and labelled $S^t$.}
 \label{tube_figure}
 \end{figure}
 
@@ -212,9 +212,9 @@ In the final continuation run we increase the integration time until a fold in $
    
 A projection of $S^t$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{tube_figure}.  A keen observer will note that, near $D_\delta(B_{\mathrm{in}})$, $S^t$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Phi$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the one-dimensional $W^s \cap \Sigma$ while $\mathbf{u}(1)$ moves toward the point $W^u \cap E^s(p^t_{\mathrm{out}})$.  The fold in $T$ signals that maximal integration time is reached and $\mathbf{u}(0)$ and $\mathbf{u}(1)$ are near respective intersection points. The result is an orbit segment containing a slow segment between two fast segments near $W^s$ and $W^u$ respectively.  In Figure \ref{tube_figure}, the segment lying near $W^u$ is so short that it is not visible.  We obtain an approximation of $S^t$ that does not include fast segments by restricting the orbit segment further within the interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$.
    
-The computation of the slow manifold $S^b$ associated with $C^b$ presents some extra challenges due to a saddle equilibrium of the full system lying on $C^b$ at $B \approx 0.323$ and the Hopf bifurcation of the fast subsystem $B \approx 0.897$.  Orbit segments in the region of $C^b$ may increase in integration time without approaching a saddle slow manifold by approaching the saddle equilibrium of the full system or by following the stable slow manifold associated with the stable branch of equilibria to right of $H$ in Figure (\ref{critical_figure}).  In order to overcome these difficulties in computing $S^b$, we make slight modifications to the approach for computing $S^t$.
+The computation of the slow manifold $S^b$ associated with $C^b$ presents some extra challenges due to a saddle equilibrium of the full system lying on $C^b$ at $B \approx 0.323$ and the Hopf bifurcation of the fast subsystem at $B \approx 0.897$.  It is possible for orbit segments in the region of $C^b$ to increase in integration time by including segments that approach the stable manifold of the saddle equilibrium or that follow the nearby stable slow manifold further in backwards time.  These problematic segments may be inside or outside the tube $\cup_{B \in [B_{\textsc{in}},B_{\textsc{out}}]}\mathscr{D}(B)$ depending on our choice of $B_{\textsc{in}}$ and $B_{\textsc{out}}$.  In order to overcome these difficulties boundary conditions need to be chosen carefully to ensure that an increase in integration time results only from an approach to a saddle slow manifold $S^b$.  To this end, we follow the steps for computing $S^t$ while making necessary modifications to boundary conditions.
 
-We begin by choosing $B_{\mathrm{in}} = 0.35$ near the saddle equilibrium of the full system and $B_{\mathrm{out}}=1.0 > H_B$.  We select the unique point $p^* \in C^b$ such that $p^*_B = 0.45$.  The plane $\phi_{\textsc{hom}}$ is then defined as the plane passing through $p^*$ spanned by the real and imaginary parts of the complex conjugate eigenvectors of the stable equilibrium at $B=1.0$.  The two-dimensional section $\Gamma$ is defined by fixing the $A$- and $Y$-coordinates of $p^*$.  A homotopy step is performed by imposing the boundary conditions
+We begin by choosing $B_{\mathrm{in}} = 0.35$ slightly larger than the $B$-coordinate value of the saddle equilibrium of the full system and $B_{\mathrm{out}}=1.0 > H_B$.  We select the unique point $p^* \in C^b$ such that $p^*_B = 0.45$.  We denote by $\phi_{\textsc{hom}}$ the plane passing through $p^*$ spanned by the real and imaginary parts of the complex conjugate eigenvectors of the point $p \in C^b$ such that $p_B=1.0$.  The plane $\phi_{\textsc{hom}}$ is transverse to $W^s(p^*)$ because the complex conjugate eigenvectors are the vectors that change stability as fast-subsystem equilibria pass through the Hopf bifurcation with increasing $B$.  For this reason, they are perturbations of the vectors spanning $E^u(p^*)$ which is transverse to $W^s(p^*)$.  We also define the two-dimensional section $\Gamma = \{ w \in \mathbb{R}^4 | w_A=p^*_A, w_Y=p^*_Y \}$.  A homotopy step is performed by imposing the boundary conditions
 
 \begin{equation}
 \mathbf{u}(0) \in \phi_{\textsc{hom1}},
@@ -224,14 +224,14 @@ We begin by choosing $B_{\mathrm{in}} = 0.35$ near the saddle equilibrium of the
 and
 
 \begin{equation}
-\mathbf{u}(1) \in \Gamma.
+\mathbf{u}(1) \in \Gamma
 \label{BC_unstable2}
 \end{equation}
 
 \noindent
-The point $p^*$ is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable1}), and (\ref{BC_unstable2}).  We then increase $T$ until $\mathbf{u}(1)$ attains a Euclidean distance of $0.1$ from the intersection of $C^b$ with the three-dimensional $B = \mathbf{u}_B(1)$ section.  This occurs when $ \mathbf{u}_B(1) \approx 0.437$ corresponding to the point $\bar{p} \in C^b$.  
+which impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$ respectively.  The point $p^*$ is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable1}), and (\ref{BC_unstable2}).  We then increase $T$ until $\mathbf{u}(1)$ attains a Euclidean distance of $0.1$ from the intersection of $C^b$ with the three-dimensional $B = \mathbf{u}_B(1)$ section.  This occurs when $ \mathbf{u}_B(1) \approx 0.437$ corresponding to the point $\bar{p} \in C^b$.  The resulting orbit segment has a fast approach to $C^b$ at $B=0.45$ and remains $O(\epsilon)$ close to it for an $O(1)$ amount of slow time before making a fast exit from $\cup_{b\in[B_{\textsc{in}}, B_{\textsc{out}}]} \mathscr{D}(B)$ at $B=0.437$.
 
-We define a one-dimensional circle $l = \{w \in \mathbb{R}^4 | w_B \approx 0.437, w_Y =p^*_Y, |w-\bar{p}| = 0.1\}$ and the three-dimensional $\phi_{\textsc{hom2}} = \{\phi_{\textsc{hom1}} + \begin{bmatrix} 0 & 0 & 0 & B \end{bmatrix}^{T}| B \in \mathbb{R} \}$.  We perform a second homotopy step by imposing the boundary conditions
+A second homotopy step is performed to extend $\mathbf{u}(t)$ backwards in time past $H$.  We define a one-dimensional circle $l = \{w \in \mathbb{R}^4 | w_B \approx 0.437, w_Y =p^*_Y, |w-\bar{p}| = 0.1\}$ and the three-dimensional $\phi_{\textsc{hom2}} = \{\phi_{\textsc{hom1}} + \begin{bmatrix} 0 & 0 & 0 & B \end{bmatrix}^{T}| B \in \mathbb{R} \}$.  We perform a second homotopy step by imposing the boundary conditions
 
 \begin{equation}
 \mathbf{u}(0) \in \phi_{\textsc{hom2}},
@@ -247,7 +247,7 @@ and
 \noindent
 The orbit segment $\mathbf{u}(t)$ obtained from the first homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable3}), and (\ref{BC_unstable4}).  In the second homotopy step, we increase integration time while $\mathbf{u}(0)_B$ increases.  The continuation is stopped when $\mathbf{u}(0)_B=1.0$.  The resulting orbit segment has a fast approach to the stable slow manifold before remaining close to $C^b$ until its fast exit at $B \approx 0.437$.  
 
-We define the two-dimensional plane $\phi = \phi_{\textsc{hom2}} \cap \{w \in \mathbb{R}^4 | w_B=1.0 \}$ and the two-dimensional sphere  $\mathscr{D} = \{w \in \mathbb{R}^4 | w_B \approx 0.437, |w-\bar{p}| = 0.1\}.  We impose the boundary conditions
+In the next step, we aim to find the orbit segment that has the highest integration time in the tube $\cup_{b\in[B_{\textsc{in}}, \tilde 0.437} \mathscr{D}(B)$.  We define the two-dimensional plane $\phi = \phi_{\textsc{hom2}} \cap \{w \in \mathbb{R}^4 | w_B=1.0 \}$ and the two-dimensional sphere  $\mathscr{D} = \{w \in \mathbb{R}^4 | w_B \approx 0.437, |w-\bar{p}| = 0.1\}$.  We impose the boundary conditions
 
 \begin{equation}
 \mathbf{u}(0) \in \phi,
@@ -261,12 +261,12 @@ and
 \label{BC_unstable6}
 \end{equation}
 \noindent
-which each impose two conditions on \mathbf{u}(0) and \mathbf{u}(1) respectively.  The orbit segment resulting from the second homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable5}), and (\ref{BC_unstable6}).  The integration time is increased until maximum integration time is attained.  This is detected as a fold in $T$.
+which each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$ respectively.  The orbit segment resulting from the second homotopy step is a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable5}), and (\ref{BC_unstable6}).  Keeping the $\mathbf{u}(1)$ close to $C^b$ in the $B \approx 0.437$ section ensures that $\mathbf{u}(1)$ does not encounter a change in direction of the flow caused by the saddle equilibrium of the full system.  Maximal integration then corresponds to the orbit segment that remains slow for the longest amount of time inside $\cup_{b\in[B_{\textsc{in}}, \tilde 0.437} \mathscr{D}(B)$.  The integration time is increased until a fold in $T$ corresponding to maximal integration time is detected.
 
-Finally, we impose the boundary condition
+Finally, to we perform a final homotopy step to obtain the orbit segment $S^b$ that enters $\cup_{b\in[B_{\textsc{in}}, \tilde 0.437} \mathscr{D}(B)$ at $B_{\textsc{in}}$ and exits at $B_{\textsc{out}}$.  We impose the boundary condition
 
 \begin{equation}
-\mathbf{u}(1) \in $\cup_{p \in C^b}\{w \in \mathbb{R}^4 | w_B \approx 0.437, |w-p| = 0.1\}$,
+\mathbf{u}(1) \in \cup_{p \in C^b}\{w \in \mathbb{R}^4 | |w-p| = 0.1\},
 \label{BC_unstable7}
 \end{equation}
 
