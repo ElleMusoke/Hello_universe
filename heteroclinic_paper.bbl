@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{22}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -22,14 +22,14 @@ Benoît, E. [1985] \enquote{Enlacements de canards,} \emph{Comptes Rendus
 Benoît, E., Callot, J.~F., Diener, F. \& Diener, M. [1981] \enquote{Chasse au
   canard,} \emph{Collectanea Mathematica} \textbf{31},  37--119.
 
-\bibitem[{Br{\o}ens \& Bar-Eli(1991)}]{BZ_reaction}
-Br{\o}ens, M. \& Bar-Eli, K. [1991] \enquote{Canard explosion and excitation in
+\bibitem[{Br{\o}ns \& Bar-Eli(1991)}]{BZ_reaction}
+Br{\o}ns, M. \& Bar-Eli, K. [1991] \enquote{Canard explosion and excitation in
   a model of the belousov-zhabotinskii reaction,} \emph{Journal of Physical
   Chemistry A} \textbf{95},  8706--8713.
 
-\bibitem[{Br{\o}ens \emph{et~al.}(2006)Br{\o}ens, Krupa \&
+\bibitem[{Br{\o}ns \emph{et~al.}(2006)Br{\o}ns, Krupa \&
   Wechselberger}]{folded_node}
-Br{\o}ens, M., Krupa, M. \& Wechselberger, M. [2006] \enquote{Mixed mode
+Br{\o}ns, M., Krupa, M. \& Wechselberger, M. [2006] \enquote{Mixed mode
   oscillations due to the generalized canard phenomenon,} \emph{Fields
   Institute Communications} ,  39--63.
 
@@ -76,6 +76,13 @@ Guckenheimer, J. [1985] \enquote{Singular hopf bifurcation in systems with two
   slow variables,} \emph{SIAM Journal on Applied Dynamical Systems} \textbf{7},
    1355--1377.
 
+\bibitem[{Gunn(1993)}]{group_theory}
+Gunn, C. [1993] \enquote{Discrete groups and visualization of three-dimensional
+  manifolds, (anaheim, california, august 1-6, 1993,}  \emph{Proceedings of
+  SIG--GRAPH '93}, ed. SIGGRAPH, A., Computer Graphics Proceedings, Annual
+  Conference Series, 1993 (The publisher, New York), pp. 255--262, an optional
+  note.
+
 \bibitem[{Hudson \emph{et~al.}(1979)Hudson, Hart \& Marinko}]{BZ}
 Hudson, J.~L., Hart, M. \& Marinko, D. [1979] \enquote{An experimental study of
   multiple peak periodic and nonperiodic oscillations in the
@@ -114,5 +121,12 @@ Van~der Pol, B. [1927] \enquote{{Forced oscillations in a circuit with
   non-linear resistance. (Reception with reactive triode)}.} \emph{The London,
   Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
   \textbf{3},  65--80.
+
+\bibitem[{Wernli \emph{et~al.}(2009)Wernli, Caruso, E. \&
+  Gianturco}]{chemistry}
+Wernli, M., Caruso, D., E., B. \& Gianturco, F.~A. [2009] \enquote{Computing a
+  three-dimensional electronic energy manifold for the {$\textsc{LiH} +
+  \textsc{H} \rightleftharpoons \textsc{Li} + \textsc{H}_2$} chemical
+  reaction,} \emph{Journal of Physical Chemistry A} \textbf{113},  1121--1128.
 
 \end{thebibliography}

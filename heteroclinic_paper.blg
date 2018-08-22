@@ -9,45 +9,45 @@ version 1.0 (2005/03/26), Sorted
 for support: Rajesh, rajesh@wspc.com.sg
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing publisher in AUTO
-You've used 20 entries,
+You've used 22 entries,
             3241 wiz_defined-function locations,
-            812 strings with 8451 characters,
-and the built_in function-call counts, 13516 in all, are:
-= -- 1217
-> -- 424
-< -- 28
-+ -- 168
-- -- 144
-* -- 974
-:= -- 1941
-add.period$ -- 39
-call.type$ -- 20
-change.case$ -- 148
-chr.to.int$ -- 20
-cite$ -- 21
-duplicate$ -- 1045
-empty$ -- 1029
-format.name$ -- 194
-if$ -- 2829
+            828 strings with 8963 characters,
+and the built_in function-call counts, 15102 in all, are:
+= -- 1357
+> -- 472
+< -- 31
++ -- 186
+- -- 160
+* -- 1089
+:= -- 2159
+add.period$ -- 43
+call.type$ -- 22
+change.case$ -- 164
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 1172
+empty$ -- 1155
+format.name$ -- 214
+if$ -- 3167
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 185
-newline$ -- 70
-num.names$ -- 80
-pop$ -- 350
+missing$ -- 209
+newline$ -- 76
+num.names$ -- 90
+pop$ -- 393
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 141
 quote$ -- 0
-skip$ -- 526
+skip$ -- 586
 stack$ -- 0
-substring$ -- 776
-swap$ -- 620
-text.length$ -- 17
+substring$ -- 874
+swap$ -- 699
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 4
-type$ -- 177
+type$ -- 195
 warning$ -- 1
-while$ -- 111
+while$ -- 124
 width$ -- 0
-write$ -- 227
+write$ -- 252
 (There was 1 warning)
