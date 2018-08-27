@@ -17,6 +17,19 @@
 \usepackage{subfigure}
 \bibliographystyle{ws-ijbc}
 
+\makeatletter
+\newcommand*{\getlength}[1]{\strip@pt\dimexpr0.035136\dimexpr#1\relax\relax}
+\newcommand{\showfont}{%
+encoding: \f@encoding{},\\
+family: \f@family{},\\
+series: \f@series{},\\
+shape: \f@shape{},\\
+size: \f@size{} pt,\\
+text height: \getlength{\the\textheight} cm,\\
+text width:     \getlength{\the\textwidth} cm}
+\makeatother
+
+
 \begin{document}
 
 \catchline{}{}{}{}{} % Publisher's Area please ignore
@@ -47,7 +60,6 @@ and right margins.
 
 \keywords{A list of 3--5 keywords are to be supplied.}
 \section{Introduction}
-
 Slow-fast dynamical systems are characterized by a separation of variables into those that evolve on a fast time scale and those that evolve on a slower time scale.  The separation of variables into fast and slow can be found in many systems in the world around us: chemical systems, neurons, electric circuits, lasers, and predator-prey dynamics, among others, have been described by slow-fast models  \cite{BZ_reaction, Neurons,Circuits, lasers, Predator-Prey}.  By reason of their ubiquity, the various phenomena that arise from the multiple-time-scale nature of slow-fast systems are of significant interest. These have been be described for two- and three-dimensional systems by well-established theory \cite{canard_explosion, lents-rapides, enlacement,singular_hopf, folded_node,three}.  In particular, small-amplitude limit cycles transitioning to larger-amplitude relaxation oscillations were studied in two dimensions, for example, the Van der Pol oscillator and FitzHugh--Nagumo model \cite{canard_explosion, fitz-hugh-nagumo}.  In three-dimensional systems, periodic orbits with epochs of localized small-amplitude oscillations (SAOs) and epochs of large-amplitude oscillations (LAOs) have been observed \cite{BZ}.  The mechanisms that cause SAOs of these appropriately named mixed-mode oscillations (MMOs) are described in \cite{MMO}.  In this paper, we investigate novel phenomena that arise in four-dimensional slow-fast systems which may provide insight into undiscovered mechanisms for MMOs in higher-dimensional systems.
 
 
@@ -124,7 +136,7 @@ The critical manifold consists entirely of equilibria of the fast subsystem for 
 
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[page=1, width=\textwidth]{figures.pdf}
+\includegraphics[page=1]{figures.pdf}
 \end{center}
 \caption{Physically relevant branches of the critical manifold of system (\ref{equation_1}) shown in projection onto the ($B$,$A$)-plane.  The branches labeled $C^t$ and $C^b$ and colored teal and raspberry, respectively, correspond to saddle equilibria of (\ref{equation_2}), solid curves indicate stable nodes.  The two saddle-node bifurcations are represented as orange dots and labeled $F_1$ and $F_2$, respectively.  The Hopf bifurcation is represented by a pink dot and is labeled $H$.}
 \label{critical_figure}
@@ -146,7 +158,7 @@ Due to its finite time nature, slow manifolds are not unique.  We can select a u
 Fenichel Theory also guarantees that $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ persist as locally-invariant local stable and unstable manifolds of $S^t$ \cite{Fenichel}.  We define the stable manifold of $S^t$ as a family of orbit segments that have a fast approach to $S^t$ and then stay close to it for $O(1)$ time with respect to the slow time scale.  Similarly, we define the unstable manifold as a family of orbit segments, that approach $S^t$ in backward time and then stay close to it for $O(1)$ (backward) time with respect to the slow time scale.  According to Fenichel Theory, the stable and unstable manifolds of $S^t$ have the same dimensions as $W^{s}_{loc}(C^t)$ and $W^{u}_{loc}(C^t)$ and lie at an $O(\varepsilon)$ distance away from them, respectively.  We can similarly define the stable and unstable manifolds associated with $C^b$.  To simplify notation later, we refer to these stable and unstable manifolds as $W^s$ and $W^u$, respectively, and omit the specific reference to $S^t$ and $S^b$.  For both $S^t$ and $S^b$, the manifolds $W^s$ and $W^u$ are not unique, but we can select a unique representative in a manner similar to that for $S^t$.
  
  %Saddle slow manifold section   
- \section{Definitions}
+ \section{Saddle Slow Manifolds and their (Un)Stable Manifolds}
     
 For the definition of a one-dimensional saddle slow manifold, we follow the presentation in \cite{Saeed_Paper} of an algorithm for the computation of a stable manifold of a one-dimensional saddle slow manifold for a three-dimensional system.  Here we consider only the slow manifold $S^t$ associated with $C^t$; the slow manifold $S^b$ can be defined in a similar manner.
     
@@ -169,15 +181,10 @@ This definition is similar to that given in \cite{Saeed_Paper}, except that $D_\
 \end{figure}
 
 Fenichel theory guarantees that each slow manifold $S^t$, associated with $C^t$, has a local, two-dimensional unstable manifold $W_{\mathrm{loc}}^u$ \cite{Fenichel}.  By definition, such an unstable manifold consists of a one-parameter family of orbit segments that have a fast approach to $S^t$ in backward time before remaining $O(\varepsilon)$ close for $O(1)$ (backward) slow time.  Such an unstable manifold is not unique, but all manifolds in the family of a saddle slow manifold lie exponentially close to each other \cite{Fenichel}.  We select and approximate a specific candidate, $W_{\mathrm{loc}}^u$, from this family of manifolds.  Similarly there exists a local, non-unique, three-dimensional stable manifold $W^s_{\mathrm{loc}}(S^t)$, which is defined as a two-parameter family of orbit segments that have a fast approach to $S^t$ in forward time before remaining $O(\varepsilon)$ close for $O(1)$ slow time.  Global unstable and stable manifolds $W^u$ and $W^s$ can be obtained from extending $W^u_{\mathrm{loc}}$ and $W^s_{\mathrm{loc}}$ in backward and forward time, respectively.  In the lower-dimensional model considered in \cite{QSSA}, the manifold $W^s$ was two dimensional and computed in the region between $C^t$ and $C^b$.  We now turn to the computation of the three-dimensional manifold $W^s$ of the full system in this same region.
+
+%COMPUTATIONS
+\section{Computations}
     
-As $W^s$ is three dimensional it is challenging to compute and difficult to visualise.  Research on computing and visualising three-dimensional manifolds is limited to a few examples from group theory and chemical sciences \cite{group_theory, chemistry}.  At this time, there has been no literature written on the computation of three-dimensional stable manifolds of saddle slow manifolds in the slow-fast setting.  Computing the entire three-dimensional manifold would require a two-dimensional mesh of collocation points which is computationally expensive compared to the on-dimensional mesh of collocation points needed for the computation of two-dimensional manifolds. A natural way forward is to consider a subset of $W^s$ as a one-parameter family of two-dimensional slices.  These can be visualised and computed with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We begin by defining a two-dimensional plane $\Sigma$ given by fixed values of $A$ and either $X$ or $Y$.  We approximate a slice with a smooth, one-parameter family of solutions to $\ref{equation_4}$ $\mathbf{u}$ that begin in $\Sigma$, enter $\mathscr{D}$ at $D_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}$ for $O(1)$ slow time.  We use $W^{s}_{\Sigma}$ to denote such an approximation.  The slice $W^{s}_{\Sigma}$ is taken to be the collection of those parts of $\mathbf{u}$ that enter $\mathscr{D}$ in the fast direction.  The later parts that evolve mostly in the $B$-direction inside $\mathscr{D}$ for $O(1)$ slow time are considered to represent approximate parts of $S^t$.  If the later part of the orbit segment $\mathbf{u}$ includes a fast exit from $\mathscr{D}$, that fast part is considered as an approximation of an orbit segment lying on $W^u$.
-
-
-
-%Stable Manifold of Slow Manifold
-\section{The Stable Manifold of a Slow Manifold}
-    
-\subsection{Boundary value problem implementation}
 
 \begin{figure}[h]
 \centering
@@ -188,7 +195,24 @@ As $W^s$ is three dimensional it is challenging to compute and difficult to visu
 \caption{Set up for the computation of $W^{s}_{\Sigma}$.}
 \end{figure}
     
-We are interested in the geometry of $W^{s}_{\Sigma}$ in the region between $C^t$ and $C^b$ where $W^s$ was found in \cite{QSSA}.  We first explain the computation of $W^s_{\Sigma}$ for the specific plane $\Sigma = \Sigma^*$, given by fixing $A$- and $Y$-coordinates of the point $p_{\text{out}} \in C^t$ such that $p_B=B_{\text{out}}=0.9$, where we adapted the technique outlined in \cite{Saeed_Paper} for two-dimensional stable manifolds in three-dimensional systems.  We then explain the computation of $W^{s}_{\Sigma}$ for an arbitrary plane $\Sigma$ that is transverse to the flow as wells as $\bigcup_{p \in C^t} E^u(p)$ in our region of interest.
+As $W^s$ is three dimensional it is challenging to compute and difficult to visualise.  Research on computing and visualising three-dimensional manifolds is limited to a few examples from group theory and chemical sciences \cite{group_theory, chemistry}.  At this time, there is no literature on the computation of three-dimensional stable manifolds of saddle slow manifolds in the slow-fast setting.  Computing the entire three-dimensional manifold would require a two-dimensional mesh of collocation points which is computationally expensive compared to the on-dimensional mesh of collocation points needed for the computation of two-dimensional manifolds. A natural way forward is to consider a subset of $W^s$ as a one-parameter family of two-dimensional slices.  These can be visualised and computed with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We begin by defining a two-dimensional plane $\Sigma$ given by fixed values of $A$ and either $X$ or $Y$.  We approximate a slice with a smooth, one-parameter family of solutions to $\ref{equation_4}$ $\mathbf{u}$ that begin in $\Sigma$, enter $\mathscr{D}$ at $D_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}$ for $O(1)$ slow time.  We use $W^{s}_{\Sigma}$ to denote such an approximation.  The slice $W^{s}_{\Sigma}$ is taken to be the collection of those parts of $\mathbf{u}$ that enter $\mathscr{D}$ in the fast direction.  The later parts that evolve mostly in the $B$-direction inside $\mathscr{D}$ for $O(1)$ slow time are considered to represent approximate parts of $S^t$.  If the later part of the orbit segment $\mathbf{u}$ includes a fast exit from $\mathscr{D}$, that fast part is considered as an approximation of an orbit segment lying on $W^u$.
+  
+We first explain the computation of $W^s_{\Sigma}$ for the specific plane $\Sigma = \Sigma^*$, given by fixing $A$- and $Y$-coordinates of the point $p_{\text{out}} \in C^t$ such that $p_B=B_{\text{out}}=0.9$, where we adapted the technique outlined in \cite{Saeed_Paper} for two-dimensional stable manifolds in three-dimensional systems.  We then explain the computation of $W^{s}_{\Sigma}$ for an arbitrary plane $\Sigma$ that is transverse to the flow as well as $\bigcup_{p \in C^t} E^u(p)$ in our region of interest.
+
+The computation of slices of the three-dimensional unstable manifold $W^u$ associated with $S^b$ is more complex than that of $S^t$.  The two extra challenges are a saddle equilibrium of the full system lying on $C^b$ at $B = 0.323$ and the Hopf bifurcation of the fast subsystem at $B = 0.897$.  Additional care must be taken to ensure that the computed orbits do not increase in integration time by approaching the saddle equilibrium's stable manifold or by following the nearby stable slow manifold backward in time.  We modify the steps for computing two-dimensional slices of $W^s$ associated with $S^t$ in order to ensure that an increase in integration time results only from a more accurate approximation of a slice of $W^u$ associated with $S^b$.
+
+%stable manifold
+\subsection{The stable manifold associated with $S^t$}    
+
+We view $S^t$ as an orbit segment $\mathbf{u} = \{\mathbf{u}(s)| 0 \leq s \leq 1 \}$ of the rescaled system
+
+\begin{equation}
+\frac{d\mathbf{u}}{ds} = TF(\mathbf{u}),
+\label{equation_4}
+\end{equation}
+    
+\noindent
+where $\mathbf{u}(s) = (A(s), B(s), X(s), Y(s)) \in \mathbb{R}^4$ is the vector of chemical concentrations, $F$ is the right-hand side of (\ref{equation_1}) and $T$ is the total integration time on the fast timescale, $t=Ts$.
     
 As in section 3.1, we obtain a first solution on $W^s_{\Sigma^*}$ via a homotopy step.  Following the definition for $W^s_{\Sigma^*}(S^t)$, we set
     
@@ -265,7 +289,10 @@ We note that, unlike the stable manifold of $S^t$ computed for the reduced syste
 \label{pieces}
 \end{figure}
 
-In the computation of slices of the three-dimensional unstable manifold $W^u$ associated with $S^b$, we encounter the same complications as in the computation of $S^b$.  We modify the steps for computing two-dimensional slices of $W^s$ associated with $S^t$ in order to ensure that an increase in integration time results only from a more accurate approximation of a slice of $W^u$ associated with $S^b$.  We begin by defining for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ a two-dimensional sphere
+%unstable
+\subsection{The unstable manifold associated with $S^b$}
+
+We begin by defining for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ a two-dimensional sphere
 
 \begin{equation*}
 \bar{D}_r(B_p)=\{w \in \mathbb{R}^4 | w_B = B_p, |w-p| = r\}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  8 AUG 2018 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  27 AUG 2018 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,26 +7,53 @@ entering extended mode
 (./figures.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/epsfig.sty
-Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+(./ws-ijbc.cls
+Document Class: ws-ijbc 1994/07/13 v1.2u Standard LaTeX document class
+\draftrule=\dimen102
+\minute=\count80
+\hour=\count81
+\trimheight=\dimen103
+\trimwidth=\dimen104
+\typeheight=\dimen105
+\typewidth=\dimen106
+\tempdimen=\dimen107
+\tablewidth=\dimen108
+\normaltextheight=\dimen109
+\realtextheight=\dimen110
+\tempbox=\box26
+\tablewd=\dimen111
+\clcount=\count82
+\@tempcntc=\count83
+\topsepm@th=\skip41
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
 
+Warning: psfig.sty could not be found.
+
+
+epsfsafe.tex inputed...ok
+(./epsfsafe.tex
+\epsffilein=\read1
+\epsfxsize=\dimen112
+\epsfysize=\dimen113
+\epsftsize=\dimen114
+\epsfrsize=\dimen115
+\epsftmp=\dimen116
+\pspoints=\dimen117
+)
+
+epsfig.sty inputed...ok
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/epsfig.sty
+
+LaTeX Warning: You have requested document class `ws-ijbc',
+               but the document class provides `epsfig'.
+
+Document Class: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -48,23 +75,153 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
 )
-\epsfxsize=\dimen105
-\epsfysize=\dimen106
+\epsfxsize=\dimen120
+\epsfysize=\dimen121
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+epsf.sty inputed...ok
+(/usr/local/texlive/2018/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read2
+\epsfframemargin=\dimen122
+\epsfframethickness=\dimen123
+\epsfrsize=\dimen124
+\epsftmp=\dimen125
+\epsftsize=\dimen126
+\epsfxsize=\dimen127
+\epsfysize=\dimen128
+\pspoints=\dimen129
+)
+\captionbox=\box27
+\c@figure=\count89
+\c@table=\count90
+\c@lemma=\count91
+\c@corollary=\count92
+\c@proposition=\count93
+\c@definition=\count94
+\c@example=\count95
+\c@remark=\count96
+\c@question=\count97
+\c@notation=\count98
+\c@theorem=\count99
+\c@corollary=\count100
+\c@lemma=\count101
+\c@proposition=\count102
+\c@definition=\count103
+\c@example=\count104
+\c@remark=\count105
+\c@notation=\count106
+\c@question=\count107
+\bibindent=\dimen130
+\c@appendixc=\count108
+\c@subappendixc=\count109
+\c@subsubappendixc=\count110
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen131
 ))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen132
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count111
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count112
+\leftroot@=\count113
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count114
+\DOTSCASE@=\count115
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen133
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
+\dotsspace@=\muskip10
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks17
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks18
+\eqnshift@=\dimen134
+\alignsep@=\dimen135
+\tagshift@=\dimen136
+\tagwidth@=\dimen137
+\totwidth@=\dimen138
+\lineht@=\dimen139
+\@envbody=\toks19
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box30
+\extrarowheight=\dimen141
+\NC@list=\toks21
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box31
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count123
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen142
+\epsfysize=\dimen143
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
@@ -128,74 +285,6 @@ e
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip43
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen107
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen108
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count88
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count89
-\leftroot@=\count90
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count91
-\DOTSCASE@=\count92
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen109
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
-\dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
-\tag@help=\toks17
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
-\andhelp@=\toks18
-\eqnshift@=\dimen110
-\alignsep@=\dimen111
-\tagshift@=\dimen112
-\tagwidth@=\dimen113
-\totwidth@=\dimen114
-\lineht@=\dimen115
-\@envbody=\toks19
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen116
-\ar@mcellbox=\box28
-\extrarowheight=\dimen117
-\NC@list=\toks21
-\extratabsurround=\skip46
-\backup@length=\skip47
-\ar@cellbox=\box29
-)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -219,19 +308,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count100
+\actioncount=\count124
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count101
-\FP@xia=\count102
-\FP@xib=\count103
-\FP@xfa=\count104
-\FP@xfb=\count105
-\FP@rega=\count106
-\FP@regb=\count107
-\FP@regs=\count108
-\FP@times=\count109
+\FP@xs=\count125
+\FP@xia=\count126
+\FP@xib=\count127
+\FP@xfa=\count128
+\FP@xfb=\count129
+\FP@rega=\count130
+\FP@regb=\count131
+\FP@regs=\count132
+\FP@times=\count133
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -250,7 +339,7 @@ Package: fp-pas 1994/08/29
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count110
+\FPseed=\count134
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -276,16 +365,12 @@ Package: preview 2017/04/24 11.91 (AUCTeX/preview-latex)
 Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/preview/prtightpage.def
-\PreviewBorder=\dimen118
+\PreviewBorder=\dimen144
 )
-\pr@snippet=\count111
-\pr@box=\box30
+\pr@snippet=\count135
+\pr@box=\box32
 \pr@output=\toks22
 )
-
-LaTeX Warning: Unused global option(s):
-    [ceqn].
-
 (./figures.aux)
 \openout1 = `figures.aux'.
 
@@ -304,104 +389,91 @@ LaTeX Font Info:    ... okay on input line 54.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count112
-\scratchdimen=\dimen119
-\scratchbox=\box31
-\nofMPsegments=\count113
-\nofMParguments=\count114
+\scratchcounter=\count136
+\scratchdimen=\dimen145
+\scratchbox=\box33
+\nofMPsegments=\count137
+\nofMParguments=\count138
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count115
-\MPscratchDim=\dimen120
-\MPnumerator=\count116
-\makeMPintoPDFobject=\count117
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen146
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
 \everyMPtoPDFconversion=\toks24
 )
 Preview: Fontsize 10.95pt
 Preview: PDFoutput 1
-<./figures/critical_correct.png, id=1, 2275.50125pt x 1293.83376pt>
-File: ./figures/critical_correct.png Graphic file (type png)
-<use ./figures/critical_correct.png>
-Package pdftex.def Info: ./figures/critical_correct.png  used on input line 63.
-
-(pdftex.def)             Requested size: 360.0pt x 204.68803pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+Package epstopdf Info: Source file: <./figures/paper_critical.eps>
+(epstopdf)                    date: 2018-08-27 16:07:49
+(epstopdf)                    size: 260245 bytes
+(epstopdf)             Output file: <./figures/paper_critical-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2018-08-27 16:08:29
+(epstopdf)                    size: 62716 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/paper_critical-e
+ps-converted-to.pdf ./figures/paper_critical.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/paper_critical-eps-converted-to.pdf, id=1, 2349.77875pt x 979.66pt>
+File: ./figures/paper_critical-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/paper_critical-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/paper_critical-eps-converted-to.pdf  used on
+ input line 62.
+(pdftex.def)             Requested size: 341.40836pt x 170.7106pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 64.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 63.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 71--73
-[][] 
- []
-
 Preview: Tightpage 0 -46616 0 0
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
-ures/critical_correct.png>]
-<./figures/paper_slow.png, id=12, 2149.02875pt x 1213.53375pt>
+ures/paper_critical-eps-converted-to.pdf>]
+<./figures/paper_slow.png, id=13, 2149.02875pt x 1213.53375pt>
 File: ./figures/paper_slow.png Graphic file (type png)
 <use ./figures/paper_slow.png>
-Package pdftex.def Info: ./figures/paper_slow.png  used on input line 82.
-(pdftex.def)             Requested size: 360.0pt x 203.27974pt.
-
-Overfull \hbox (38.33841pt too wide) in paragraph at lines 89--91
-[][] 
- []
+Package pdftex.def Info: ./figures/paper_slow.png  used on input line 87.
+(pdftex.def)             Requested size: 505.89pt x 285.66191pt.
 
 Preview: Tightpage 0 -46616 0 0
 [2 <./figures/paper_slow.png>]
-<./figures/step1.png, id=18, 2120.92375pt x 1293.83376pt>
+<./figures/step1.png, id=19, 2120.92375pt x 1293.83376pt>
 File: ./figures/step1.png Graphic file (type png)
 <use ./figures/step1.png>
-Package pdftex.def Info: ./figures/step1.png  used on input line 100.
-(pdftex.def)             Requested size: 360.0pt x 219.59346pt.
-
-Overfull \hbox (16.99884pt too wide) in paragraph at lines 109--111
-[][] 
- []
+Package pdftex.def Info: ./figures/step1.png  used on input line 105.
+(pdftex.def)             Requested size: 505.89pt x 308.61143pt.
 
 Preview: Tightpage 0 -46616 0 0
 [3 <./figures/step1.png>]
-<./figures/step2.png, id=24, 2120.92375pt x 1293.83376pt>
+<./figures/step2.png, id=25, 2120.92375pt x 1293.83376pt>
 File: ./figures/step2.png Graphic file (type png)
 <use ./figures/step2.png>
-Package pdftex.def Info: ./figures/step2.png  used on input line 120.
-(pdftex.def)             Requested size: 360.0pt x 219.59346pt.
-
-Overfull \hbox (16.99884pt too wide) in paragraph at lines 128--130
-[][] 
- []
+Package pdftex.def Info: ./figures/step2.png  used on input line 125.
+(pdftex.def)             Requested size: 505.89pt x 308.61143pt.
 
 Preview: Tightpage 0 -46616 0 0
 [4 <./figures/step2.png>]
-<./figures/step3.png, id=29, 2120.92375pt x 1293.83376pt>
+<./figures/step3.png, id=30, 2120.92375pt x 1293.83376pt>
 File: ./figures/step3.png Graphic file (type png)
 <use ./figures/step3.png>
-Package pdftex.def Info: ./figures/step3.png  used on input line 140.
-(pdftex.def)             Requested size: 360.0pt x 219.59346pt.
-
-Overfull \hbox (16.99884pt too wide) in paragraph at lines 148--150
-[][] 
- []
+Package pdftex.def Info: ./figures/step3.png  used on input line 145.
+(pdftex.def)             Requested size: 505.89pt x 308.61143pt.
 
 Preview: Tightpage 0 -46616 0 0
 [5 <./figures/step3.png>]
-<./figures/step4.png, id=35, 2120.92375pt x 1293.83376pt>
+<./figures/step4.png, id=36, 2120.92375pt x 1293.83376pt>
 File: ./figures/step4.png Graphic file (type png)
 <use ./figures/step4.png>
-Package pdftex.def Info: ./figures/step4.png  used on input line 160.
-(pdftex.def)             Requested size: 360.0pt x 219.59346pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 166--168
-[][] 
- []
+Package pdftex.def Info: ./figures/step4.png  used on input line 165.
+(pdftex.def)             Requested size: 505.89pt x 308.61143pt.
 
 Preview: Tightpage 0 -46616 0 0
 [6 <./figures/step4.png>]
@@ -413,18 +485,14 @@ Package epstopdf Info: Source file: <./figures/piece_BAX.eps>
 (epstopdf)                    size: 32154 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/piece_BAX-eps-co
 nverted-to.pdf ./figures/piece_BAX.eps>
-(epstopdf)             \includegraphics on input line 178.
+(epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/piece_BAX-eps-converted-to.pdf, id=40, 1023.825pt x 682.55pt>
+<./figures/piece_BAX-eps-converted-to.pdf, id=41, 1023.825pt x 682.55pt>
 File: ./figures/piece_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/piece_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/piece_BAX-eps-converted-to.pdf  used on inpu
-t line 178.
-(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
-
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 179--181
-[][] 
- []
+t line 183.
+(pdftex.def)             Requested size: 505.89pt x 337.25403pt.
 
 Preview: Tightpage 0 -46616 0 0
 [7 <./figures/piece_BAX-eps-converted-to.pdf>]
@@ -436,18 +504,14 @@ Package epstopdf Info: Source file: <./figures/piece_BAY.eps>
 (epstopdf)                    size: 29961 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/piece_BAY-eps-co
 nverted-to.pdf ./figures/piece_BAY.eps>
-(epstopdf)             \includegraphics on input line 190.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/piece_BAY-eps-converted-to.pdf, id=55, 1023.825pt x 682.55pt>
+<./figures/piece_BAY-eps-converted-to.pdf, id=56, 1023.825pt x 682.55pt>
 File: ./figures/piece_BAY-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/piece_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/piece_BAY-eps-converted-to.pdf  used on inpu
-t line 190.
-(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
-
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 191--193
-[][] 
- []
+t line 195.
+(pdftex.def)             Requested size: 505.89pt x 337.25403pt.
 
 Preview: Tightpage 0 -46616 0 0
 [8 <./figures/piece_BAY-eps-converted-to.pdf>]
@@ -460,18 +524,14 @@ Package epstopdf Info: Source file: <./figures/pieces_BAX.eps>
 (epstopdf)                    size: 92997 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/pieces_BAX-eps-c
 onverted-to.pdf ./figures/pieces_BAX.eps>
-(epstopdf)             \includegraphics on input line 202.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/pieces_BAX-eps-converted-to.pdf, id=69, 1023.825pt x 682.55pt>
+<./figures/pieces_BAX-eps-converted-to.pdf, id=70, 1023.825pt x 682.55pt>
 File: ./figures/pieces_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/pieces_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/pieces_BAX-eps-converted-to.pdf  used on inp
-ut line 202.
-(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
-
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 203--205
-[][] 
- []
+ut line 207.
+(pdftex.def)             Requested size: 505.89pt x 337.25403pt.
 
 Preview: Tightpage 0 -46616 0 0
 [9 <./figures/pieces_BAX-eps-converted-to.pdf>]
@@ -484,54 +544,38 @@ Package epstopdf Info: Source file: <./figures/pieces_BAY.eps>
 (epstopdf)                    size: 76858 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/pieces_BAY-eps-c
 onverted-to.pdf ./figures/pieces_BAY.eps>
-(epstopdf)             \includegraphics on input line 214.
+(epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/pieces_BAY-eps-converted-to.pdf, id=83, 1023.825pt x 682.55pt>
+<./figures/pieces_BAY-eps-converted-to.pdf, id=84, 1023.825pt x 682.55pt>
 File: ./figures/pieces_BAY-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/pieces_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/pieces_BAY-eps-converted-to.pdf  used on inp
-ut line 214.
-(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
-
-Overfull \hbox (66.79115pt too wide) in paragraph at lines 215--217
-[][] 
- []
+ut line 219.
+(pdftex.def)             Requested size: 505.89pt x 337.25403pt.
 
 Preview: Tightpage 0 -46616 0 0
 [10 <./figures/pieces_BAY-eps-converted-to.pdf>]
-<./figures/lin1.png, id=97, 2006.49625pt x 1293.83376pt>
+<./figures/lin1.png, id=98, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin1.png Graphic file (type png)
 <use ./figures/lin1.png>
-Package pdftex.def Info: ./figures/lin1.png  used on input line 226.
-(pdftex.def)             Requested size: 360.0pt x 232.12982pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 231--233
-[][] 
- []
+Package pdftex.def Info: ./figures/lin1.png  used on input line 231.
+(pdftex.def)             Requested size: 505.89pt x 326.20181pt.
 
 Preview: Tightpage 0 -46616 0 0
 [11 <./figures/lin1.png>]
-<./figures/lin2.png, id=102, 2006.49625pt x 1293.83376pt>
+<./figures/lin2.png, id=103, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin2.png Graphic file (type png)
 <use ./figures/lin2.png>
-Package pdftex.def Info: ./figures/lin2.png  used on input line 243.
-(pdftex.def)             Requested size: 360.0pt x 232.12982pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 248--250
-[][] 
- []
+Package pdftex.def Info: ./figures/lin2.png  used on input line 248.
+(pdftex.def)             Requested size: 505.89pt x 326.20181pt.
 
 Preview: Tightpage 0 -46616 0 0
 [12 <./figures/lin2.png>]
-<./figures/lin4.png, id=107, 2006.49625pt x 1293.83376pt>
+<./figures/lin4.png, id=108, 2006.49625pt x 1293.83376pt>
 File: ./figures/lin4.png Graphic file (type png)
 <use ./figures/lin4.png>
-Package pdftex.def Info: ./figures/lin4.png  used on input line 260.
-(pdftex.def)             Requested size: 360.0pt x 232.12982pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 265--267
-[][] 
- []
+Package pdftex.def Info: ./figures/lin4.png  used on input line 265.
+(pdftex.def)             Requested size: 505.89pt x 326.20181pt.
 
 Preview: Tightpage 0 -46616 0 0
 [13 <./figures/lin4.png>]
@@ -544,18 +588,14 @@ Package epstopdf Info: Source file: <./figures/bottom_slow.eps>
 (epstopdf)                    size: 24277 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/bottom_slow-eps-
 converted-to.pdf ./figures/bottom_slow.eps>
-(epstopdf)             \includegraphics on input line 277.
+(epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/bottom_slow-eps-converted-to.pdf, id=113, 2569.6pt x 1293.83376pt>
+<./figures/bottom_slow-eps-converted-to.pdf, id=114, 2569.6pt x 1293.83376pt>
 File: ./figures/bottom_slow-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/bottom_slow-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/bottom_slow-eps-converted-to.pdf  used on in
-put line 277.
-(pdftex.def)             Requested size: 360.0pt x 181.25394pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 278--280
-[][] 
- []
+put line 282.
+(pdftex.def)             Requested size: 505.89pt x 254.715pt.
 
 Preview: Tightpage 0 -46616 0 0
 [14 <./figures/bottom_slow-eps-converted-to.pdf>]
@@ -568,20 +608,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 150742 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/lower_unstable_c
 orrect_BAX-eps-converted-to.pdf ./figures/lower_unstable_correct_BAX.eps>
-(epstopdf)             \includegraphics on input line 290.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/lower_unstable_correct_BAX-eps-converted-to.pdf, id=122, 1023.825pt 
+<./figures/lower_unstable_correct_BAX-eps-converted-to.pdf, id=123, 1023.825pt 
 x 682.55pt>
 File: ./figures/lower_unstable_correct_BAX-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use ./figures/lower_unstable_correct_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/lower_unstable_correct_BAX-eps-converted-to.
-pdf  used on input line 290.
-(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 291--293
-[][] 
- []
+pdf  used on input line 295.
+(pdftex.def)             Requested size: 505.89pt x 337.25403pt.
 
 Preview: Tightpage 0 -46616 0 0
 [15 <./figures/lower_unstable_correct_BAX-eps-converted-to.pdf>]
@@ -594,42 +630,76 @@ onverted-to.pdf>
 (epstopdf)                    size: 136412 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/lower_unstable_c
 orrect_BAY-eps-converted-to.pdf ./figures/lower_unstable_correct_BAY.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 308.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/lower_unstable_correct_BAY-eps-converted-to.pdf, id=136, 1023.825pt 
+<./figures/lower_unstable_correct_BAY-eps-converted-to.pdf, id=137, 1023.825pt 
 x 682.55pt>
 File: ./figures/lower_unstable_correct_BAY-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use ./figures/lower_unstable_correct_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/lower_unstable_correct_BAY-eps-converted-to.
-pdf  used on input line 303.
-(pdftex.def)             Requested size: 360.0pt x 240.00005pt.
-
-Overfull \hbox (9.88567pt too wide) in paragraph at lines 304--306
-[][] 
- []
+pdf  used on input line 308.
+(pdftex.def)             Requested size: 505.89pt x 337.25403pt.
 
 Preview: Tightpage 0 -46616 0 0
-[16 <./figures/lower_unstable_correct_BAY-eps-converted-to.pdf>] (./figures.aux
-) ) 
+[16 <./figures/lower_unstable_correct_BAY-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/MMO_BAX.eps>
+(epstopdf)                    date: 2018-08-23 16:44:13
+(epstopdf)                    size: 1248891 bytes
+(epstopdf)             Output file: <./figures/MMO_BAX-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-08-23 16:48:02
+(epstopdf)                    size: 165483 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/MMO_BAX-eps-conv
+erted-to.pdf ./figures/MMO_BAX.eps>
+(epstopdf)             \includegraphics on input line 322.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/MMO_BAX-eps-converted-to.pdf, id=151, 1399.2275pt x 925.4575pt>
+File: ./figures/MMO_BAX-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/MMO_BAX-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/MMO_BAX-eps-converted-to.pdf  used on input 
+line 322.
+(pdftex.def)             Requested size: 505.89pt x 334.5907pt.
+
+Preview: Tightpage 0 -46616 0 0
+[17 <./figures/MMO_BAX-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/MMO_BAY.eps>
+(epstopdf)                    date: 2018-08-23 16:43:24
+(epstopdf)                    size: 1248703 bytes
+(epstopdf)             Output file: <./figures/MMO_BAY-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-08-23 16:48:02
+(epstopdf)                    size: 169365 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/MMO_BAY-eps-conv
+erted-to.pdf ./figures/MMO_BAY.eps>
+(epstopdf)             \includegraphics on input line 335.
+Package epstopdf Info: Output file is already uptodate.
+<./figures/MMO_BAY-eps-converted-to.pdf, id=157, 1399.2275pt x 925.4575pt>
+File: ./figures/MMO_BAY-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/MMO_BAY-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/MMO_BAY-eps-converted-to.pdf  used on input 
+line 335.
+(pdftex.def)             Requested size: 505.89pt x 334.5907pt.
+
+Preview: Tightpage 0 -46616 0 0
+[18 <./figures/MMO_BAY-eps-converted-to.pdf>] (./figures.aux) ) 
 Here is how much of TeX's memory you used:
- 3836 strings out of 492649
- 50461 string characters out of 6129622
- 130253 words of memory out of 5000000
- 7595 multiletter control sequences out of 15000+600000
- 11552 words of font info for 44 fonts, out of 8000000 for 9000
+ 4589 strings out of 492649
+ 59318 string characters out of 6129622
+ 144712 words of memory out of 5000000
+ 8322 multiletter control sequences out of 15000+600000
+ 14484 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,35p,322b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on figures.pdf (16 pages, 1008203 bytes).
+ 42i,7n,35p,325b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on figures.pdf (18 pages, 1361242 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 184 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
