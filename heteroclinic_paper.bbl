@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{27}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -24,7 +24,7 @@ Benoît, E., Callot, J.~F., Diener, F. \& Diener, M. [1981] \enquote{Chasse au
 
 \bibitem[{Br{\o}ns \& Bar-Eli(1991)}]{BZ_reaction}
 Br{\o}ns, M. \& Bar-Eli, K. [1991] \enquote{Canard explosion and excitation in
-  a model of the belousov-zhabotinskii reaction,} \emph{Journal of Physical
+  a model of the {B}elousov-{Z}habotinskii reaction,} \emph{Journal of Physical
   Chemistry A} \textbf{95},  8706--8713.
 
 \bibitem[{Br{\o}ns \emph{et~al.}(2006)Br{\o}ns, Krupa \&
@@ -76,18 +76,32 @@ Guckenheimer, J. [1985] \enquote{Singular hopf bifurcation in systems with two
   slow variables,} \emph{SIAM Journal on Applied Dynamical Systems} \textbf{7},
    1355--1377.
 
-\bibitem[{Gunn(1993)}]{group_theory}
-Gunn, C. [1993] \enquote{Discrete groups and visualization of three-dimensional
-  manifolds, (anaheim, california, august 1-6, 1993,}  \emph{Proceedings of
-  SIG--GRAPH '93}, ed. SIGGRAPH, A., Computer Graphics Proceedings, Annual
-  Conference Series, 1993 (The publisher, New York), pp. 255--262, an optional
-  note.
+\bibitem[{H\'aro \& de~la Liave(2006)}]{Invariant_tori_again}
+H\'aro, A. \& de~la Liave, R. [2006] \enquote{A parameterization method for the
+  computation of invariant tori and their whiskers in quasi-periodic maps:
+  Rigorous results,} \emph{Journal of Differential Equations} \textbf{228},
+  530--579.
 
 \bibitem[{Hudson \emph{et~al.}(1979)Hudson, Hart \& Marinko}]{BZ}
 Hudson, J.~L., Hart, M. \& Marinko, D. [1979] \enquote{An experimental study of
   multiple peak periodic and nonperiodic oscillations in the
-  belousov–zhabotinskii reaction,} \emph{The Journal of Chemical Physics}
+  {B}elousov–{Z}habotinskii reaction,} \emph{The Journal of Chemical Physics}
   \textbf{71},  1601--1606.
+
+\bibitem[{Jorba \& Olmedo(2009)}]{Invariant_tori}
+Jorba, A. \& Olmedo, E. [2009] \enquote{On the computation of reducible
+  invariant tori on a parallel computer,} \emph{SIAM Journal on Applied
+  Mathematics} \textbf{8},  1382--1404.
+
+\bibitem[{Krauskopf \emph{et~al.}(2007)Krauskopf, Osinga \&
+  Gal\'an-Vioque}]{Red_book}
+Krauskopf, B., Osinga, H. \& Gal\'an-Vioque [2007] \emph{Numerical continuation
+  methods for dynamical systems} (Springer International Publishing).
+
+\bibitem[{Krauskopf \& Rie{\ss}(2008)}]{Lin_POs}
+Krauskopf, B. \& Rie{\ss}, T. [2008] \enquote{A lin's method approach to
+  finding and continuing heteroclinic connections involving periodic orbits,}
+  \emph{Nonlinearity} \textbf{21},  1655--1690.
 
 \bibitem[{Krupa \emph{et~al.}(2008)Krupa, Popovi\'c \& Kopell}]{three}
 Krupa, M., Popovi\'c, N. \& Kopell, N. [2008] \enquote{Mixed-mode oscillations
@@ -98,6 +112,10 @@ Krupa, M., Popovi\'c, N. \& Kopell, N. [2008] \enquote{Mixed-mode oscillations
 Kuehn, C. \& Szmolyan, P. [2015] \enquote{{Multiscale Geometry of the Olsen
   Model and Non-classical Relaxation Oscillations}.} \emph{Journal of Nonlinear
   Science} \textbf{25},  583--629.
+
+\bibitem[{Lin(1989)}]{Lin_original}
+Lin, X. [1989] \enquote{Shadowing lemma and singularly perturbed boundary value
+  problems,} \emph{SIAM Journal of Applied Mathematics} \textbf{49},  26--54.
 
 \bibitem[{Olsen(1983)}]{Olsen}
 Olsen, L. [1983] \enquote{{An enzyme reaction with a strange attractor}.}
@@ -122,11 +140,16 @@ Van~der Pol, B. [1927] \enquote{{Forced oscillations in a circuit with
   Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
   \textbf{3},  65--80.
 
-\bibitem[{Wernli \emph{et~al.}(2009)Wernli, Caruso, E. \&
-  Gianturco}]{chemistry}
-Wernli, M., Caruso, D., E., B. \& Gianturco, F.~A. [2009] \enquote{Computing a
-  three-dimensional electronic energy manifold for the {$\textsc{LiH} +
-  \textsc{H} \rightleftharpoons \textsc{Li} + \textsc{H}_2$} chemical
-  reaction,} \emph{Journal of Physical Chemistry A} \textbf{113},  1121--1128.
+\bibitem[{Waalkens \emph{et~al.}(2005)Waalkens, Burbanks \&
+  Wiggins}]{Initial_conditions_volume}
+Waalkens, H., Burbanks, A. \& Wiggins, S. [2005] \enquote{A formula to compute
+  the microcanonical volume of reactive initial conditions in transition state
+  theory,} \emph{Journal of Physics A: Mathematical and General} \textbf{38},
+  L759--L768, \urlprefix\url{http://stacks.iop.org/0305-4470/38/i=45/a=L03}.
+
+\bibitem[{Zhang \emph{et~al.}(2012)Zhang, Krauskopf \& Kirk}]{Lin_POs2}
+Zhang, W., Krauskopf, B. \& Kirk, V. [2012] \enquote{How to find a
+  codimension-one heteroclinic cycle between two periodic orbits,}
+  \emph{Discrete and Continuous Dynamical Systems} \textbf{32},  2825--2851.
 
 \end{thebibliography}
