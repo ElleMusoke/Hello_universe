@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  29 NOV 2018 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  7 MAR 2019 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,6 +371,38 @@ Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
 \pr@box=\box32
 \pr@output=\toks22
 )
+(./figures.aux)
+\openout1 = `figures.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count136
+\scratchdimen=\dimen145
+\scratchbox=\box33
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count139
+\MPscratchDim=\dimen146
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks24
+)
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
 Package epstopdf Info: Source file: <./figures/paper_critical.eps>
 (epstopdf)                    date: 2018-11-01 15:17:20
 (epstopdf)                    size: 3541914 bytes
@@ -389,7 +421,6 @@ Package pdftex.def Info: ./figures/paper_critical-eps-converted-to.pdf  used on
  input line 67.
 (pdftex.def)             Requested size: 227.60759pt x 113.80379pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 68.
-
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -417,20 +448,12 @@ Package epstopdf Info: Source file: <./figures/paper_slow.eps>
 onverted-to.pdf ./figures/paper_slow.eps>
 (epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/paper_slow-eps-converted-to.pdf, id=16, 3193.9325pt x 1705.37125pt>
+<./figures/paper_slow-eps-converted-to.pdf, id=15, 3193.9325pt x 1705.37125pt>
 File: ./figures/paper_slow-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/paper_slow-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/paper_slow-eps-converted-to.pdf  used on inp
 ut line 93.
 (pdftex.def)             Requested size: 426.7761pt x 227.613pt.
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
 
 Preview: Tightpage 0 -46616 0 0
 [2 <./figures/paper_slow-eps-converted-to.pdf>]
@@ -591,17 +614,12 @@ Package epstopdf Info: Source file: <./figures/Lin2.eps>
 (epstopdf)                    date: 2018-11-29 12:00:25
 (epstopdf)                    size: 4591930 bytes
 (epstopdf)             Output file: <./figures/Lin2-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-29 11:41:05
-(epstopdf)                    size: 68973 bytes
+(epstopdf)                    date: 2018-11-29 12:00:40
+(epstopdf)                    size: 68398 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/Lin2-eps-convert
 ed-to.pdf ./figures/Lin2.eps>
 (epstopdf)             \includegraphics on input line 306.
-runsystem(repstopdf --outfile=./figures/Lin2-eps-converted-to.pdf ./figures/Lin
-2.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <./figures/Lin2-eps-converted-to.pdf>
-(epstopdf)                    date: 2018-11-29 12:00:40
-(epstopdf)                    size: 68398 bytes.
+Package epstopdf Info: Output file is already uptodate.
 <./figures/Lin2-eps-converted-to.pdf, id=108, 1734.48pt x 933.4875pt>
 File: ./figures/Lin2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/Lin2-eps-converted-to.pdf>
@@ -693,51 +711,50 @@ d on input line 386.
 
 Preview: Tightpage 0 -46616 0 0
 [16 <./figures/unstable_piece_BAY-eps-converted-to.pdf>]
-
-LaTeX Warning: File `./figures/two_pieces_BAX.eps' not found on input line 400.
-
-
-Package epstopdf Info: Source file: <./figures/two_pieces_BAX.eps>
-(epstopdf)             Output file: <./figures/two_pieces_BAX-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2018-11-22 17:40:05
-(epstopdf)                    size: 638830 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/two_pieces_BAX-e
-ps-converted-to.pdf ./figures/two_pieces_BAX.eps>
+Package epstopdf Info: Source file: <./figures/two_pieces_paper_BAX.eps>
+(epstopdf)                    date: 2018-11-23 13:02:14
+(epstopdf)                    size: 74853817 bytes
+(epstopdf)             Output file: <./figures/two_pieces_paper_BAX-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2019-03-07 15:28:51
+(epstopdf)                    size: 638833 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/two_pieces_paper
+_BAX-eps-converted-to.pdf ./figures/two_pieces_paper_BAX.eps>
 (epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/two_pieces_BAX-eps-converted-to.pdf, id=168, 1187.43625pt x 722.7pt>
-
-File: ./figures/two_pieces_BAX-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/two_pieces_BAX-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/two_pieces_BAX-eps-converted-to.pdf  used on
- input line 400.
+<./figures/two_pieces_paper_BAX-eps-converted-to.pdf, id=168, 1187.43625pt x 72
+2.7pt>
+File: ./figures/two_pieces_paper_BAX-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./figures/two_pieces_paper_BAX-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/two_pieces_paper_BAX-eps-converted-to.pdf  u
+sed on input line 400.
 (pdftex.def)             Requested size: 512.16397pt x 355.65892pt.
+
 Preview: Tightpage 0 -46616 0 0
-[17 <./figures/two_pieces_BAX-eps-converted-to.pdf>]
-
-LaTeX Warning: File `./figures/two_pieces_BAY.eps' not found on input line 413.
-
-
-Package epstopdf Info: Source file: <./figures/two_pieces_BAY.eps>
-(epstopdf)             Output file: <./figures/two_pieces_BAY-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2018-11-22 17:40:06
-(epstopdf)                    size: 678959 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures/two_pieces_BAY-e
-ps-converted-to.pdf ./figures/two_pieces_BAY.eps>
+[17 <./figures/two_pieces_paper_BAX-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures/two_pieces_paper_BAY.eps>
+(epstopdf)                    date: 2018-11-23 13:02:26
+(epstopdf)                    size: 73977531 bytes
+(epstopdf)             Output file: <./figures/two_pieces_paper_BAY-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2019-03-07 15:28:52
+(epstopdf)                    size: 678960 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/two_pieces_paper
+_BAY-eps-converted-to.pdf ./figures/two_pieces_paper_BAY.eps>
 (epstopdf)             \includegraphics on input line 413.
 Package epstopdf Info: Output file is already uptodate.
-<./figures/two_pieces_BAY-eps-converted-to.pdf, id=176, 1160.335pt x 728.7225pt
->
-File: ./figures/two_pieces_BAY-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures/two_pieces_BAY-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures/two_pieces_BAY-eps-converted-to.pdf  used on
- input line 413.
+<./figures/two_pieces_paper_BAY-eps-converted-to.pdf, id=176, 1160.335pt x 728.
+7225pt>
+File: ./figures/two_pieces_paper_BAY-eps-converted-to.pdf Graphic file (type pd
+f)
+<use ./figures/two_pieces_paper_BAY-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/two_pieces_paper_BAY-eps-converted-to.pdf  u
+sed on input line 413.
 (pdftex.def)             Requested size: 512.14246pt x 355.65387pt.
+
 Preview: Tightpage 0 -46616 0 0
-[18 <./figures/two_pieces_BAY-eps-converted-to.pdf>]
-Missing character: There is no 6 in font nullfont!
+[18 <./figures/two_pieces_paper_BAY-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures/MMO_BAX.eps>
 (epstopdf)                    date: 2018-08-23 16:44:13
 (epstopdf)                    size: 1248891 bytes
@@ -819,20 +836,20 @@ input line 467.
 Preview: Tightpage 0 -46616 0 0
 [22 <./figures/hetclin_6_BAY-eps-converted-to.pdf>] (./figures.aux) ) 
 Here is how much of TeX's memory you used:
- 4289 strings out of 492649
- 56536 string characters out of 6129622
- 144051 words of memory out of 5000000
- 8029 multiletter control sequences out of 15000+600000
- 11523 words of font info for 43 fonts, out of 8000000 for 9000
+ 4609 strings out of 492649
+ 60869 string characters out of 6129622
+ 144712 words of memory out of 5000000
+ 8338 multiletter control sequences out of 15000+600000
+ 14484 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,35p,325b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,35p,325b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/t
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on figures.pdf (22 pages, 6246367 bytes).
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on figures.pdf (22 pages, 6247589 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
