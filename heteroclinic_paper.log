@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  8 MAR 2019 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  12 APR 2019 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,178 +374,169 @@ File: figures.pdf Graphic file (type pdf)
 Package pdftex.def Info: figures.pdf , page1 used on input line 147.
 (pdftex.def)             Requested size: 256.07405pt x 142.9748pt.
  [4 <./figures.pdf>] [5]
-<figures.pdf, id=61, page=2, 455.24379pt x 256.78635pt>
+<figures.pdf, id=67, page=2, 455.24379pt x 256.78635pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 2>
-Package pdftex.def Info: figures.pdf , page2 used on input line 183.
+Package pdftex.def Info: figures.pdf , page2 used on input line 191.
 (pdftex.def)             Requested size: 455.24268pt x 256.7857pt.
  [6 <./figures.pdf>]
-<figures.pdf, id=87, page=3, 256.07469pt x 142.97514pt>
+<figures.pdf, id=97, page=3, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 3>
-Package pdftex.def Info: figures.pdf , page3 used on input line 206.
+Package pdftex.def Info: figures.pdf , page3 used on input line 207.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=88, page=4, 256.07469pt x 142.97514pt>
+<figures.pdf, id=98, page=4, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 4>
-Package pdftex.def Info: figures.pdf , page4 used on input line 207.
+Package pdftex.def Info: figures.pdf , page4 used on input line 208.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=89, page=5, 256.07469pt x 142.97514pt>
+<figures.pdf, id=99, page=5, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 5>
-Package pdftex.def Info: figures.pdf , page5 used on input line 208.
+Package pdftex.def Info: figures.pdf , page5 used on input line 209.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=90, page=6, 256.07469pt x 142.97514pt>
+<figures.pdf, id=100, page=6, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 6>
-Package pdftex.def Info: figures.pdf , page6 used on input line 209.
+Package pdftex.def Info: figures.pdf , page6 used on input line 210.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7] [8 <./figures.pdf> <./figures.pdf> <./figures.pdf> <./figures.pdf>]
-<figures.pdf, id=153, page=7, 512.14938pt x 356.37039pt>
+[7]
+<figures.pdf, id=107, page=7, 512.14938pt x 356.37039pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 7>
-Package pdftex.def Info: figures.pdf , page7 used on input line 267.
+Package pdftex.def Info: figures.pdf , page7 used on input line 266.
 (pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=154, page=8, 512.14938pt x 356.37039pt>
+<figures.pdf, id=108, page=8, 512.14938pt x 356.37039pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 8>
-Package pdftex.def Info: figures.pdf , page8 used on input line 268.
+Package pdftex.def Info: figures.pdf , page8 used on input line 267.
 (pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=155, page=17, 512.14938pt x 356.37039pt>
+ [8 <./figures.pdf> <./figures.pdf> <./figures.pdf> <./figures.pdf>]
+<figures.pdf, id=167, page=17, 512.14938pt x 356.37039pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 17>
-Package pdftex.def Info: figures.pdf , page17 used on input line 281.
+Package pdftex.def Info: figures.pdf , page17 used on input line 274.
 (pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=156, page=18, 512.14938pt x 356.37039pt>
+<figures.pdf, id=168, page=18, 512.14938pt x 356.37039pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 18>
-Package pdftex.def Info: figures.pdf , page18 used on input line 282.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=157, page=9, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 9>
-Package pdftex.def Info: figures.pdf , page9 used on input line 289.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=158, page=10, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 10>
-Package pdftex.def Info: figures.pdf , page10 used on input line 290.
+Package pdftex.def Info: figures.pdf , page18 used on input line 275.
 (pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
 
-[9] [10 <./figures.pdf> <./figures.pdf
+[9 <./figures.pdf> <./figures.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] [11 <./figures.pdf> <./figures.pdf>] [12]
-<figures.pdf, id=191, page=15, 540.60165pt x 370.59656pt>
+>] [10 <./figures.pdf> <./figures.pdf>]
+<figures.pdf, id=221, page=9, 512.14938pt x 356.37039pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 9>
+Package pdftex.def Info: figures.pdf , page9 used on input line 282.
+(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
+<figures.pdf, id=222, page=10, 512.14938pt x 356.37039pt>
+File: figures.pdf Graphic file (type pdf)
+<use figures.pdf, page 10>
+Package pdftex.def Info: figures.pdf , page10 used on input line 283.
+(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
+ [11 <./figures.pdf> <./figures.pdf>]
+[12] [13]
+<figures.pdf, id=271, page=15, 540.60165pt x 370.59656pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 15>
-Package pdftex.def Info: figures.pdf , page15 used on input line 376.
+Package pdftex.def Info: figures.pdf , page15 used on input line 397.
 (pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
-<figures.pdf, id=192, page=16, 540.60165pt x 370.59656pt>
+<figures.pdf, id=272, page=16, 540.60165pt x 370.59656pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 16>
-Package pdftex.def Info: figures.pdf , page16 used on input line 377.
+Package pdftex.def Info: figures.pdf , page16 used on input line 398.
 (pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
-<figures.pdf, id=193, page=11, 256.07469pt x 142.97514pt>
+ [14]
+<figures.pdf, id=276, page=11, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 11>
-Package pdftex.def Info: figures.pdf , page11 used on input line 407.
+Package pdftex.def Info: figures.pdf , page11 used on input line 410.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=194, page=12, 256.07469pt x 142.97514pt>
+<figures.pdf, id=277, page=12, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 12>
-Package pdftex.def Info: figures.pdf , page12 used on input line 408.
+Package pdftex.def Info: figures.pdf , page12 used on input line 411.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=195, page=13, 256.07469pt x 142.97514pt>
+<figures.pdf, id=278, page=13, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 13>
-Package pdftex.def Info: figures.pdf , page13 used on input line 409.
+Package pdftex.def Info: figures.pdf , page13 used on input line 412.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=196, page=14, 256.07469pt x 142.97514pt>
+<figures.pdf, id=279, page=14, 256.07469pt x 142.97514pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 14>
-Package pdftex.def Info: figures.pdf , page14 used on input line 410.
+Package pdftex.def Info: figures.pdf , page14 used on input line 413.
 (pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[13] [14]
-<figures.pdf, id=206, page=21, 540.60165pt x 370.59656pt>
+ [15 <./figures.pdf> <./figures.pdf>] [16 <./figures.pdf> <./figures.pdf> <./fi
+gures.pdf> <./figures.pdf>]
+<figures.pdf, id=359, page=21, 540.60165pt x 370.59656pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 21>
-Package pdftex.def Info: figures.pdf , page21 used on input line 473.
+Package pdftex.def Info: figures.pdf , page21 used on input line 475.
 (pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
-<figures.pdf, id=207, page=22, 540.60165pt x 370.59656pt>
+<figures.pdf, id=360, page=22, 540.60165pt x 370.59656pt>
 File: figures.pdf Graphic file (type pdf)
 <use figures.pdf, page 22>
-Package pdftex.def Info: figures.pdf , page22 used on input line 474.
+Package pdftex.def Info: figures.pdf , page22 used on input line 476.
 (pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
-
-
-LaTeX Warning: Float too large for page by 4.3452pt on input line 477.
-
-
-Package natbib Warning: Citation `jacobs2014unified' on page 15 undefined on in
-put line 481.
-
-(./heteroclinic_paper.bbl [15])
-
-Package natbib Warning: There were undefined citations.
-
-[16] [17 <./figures.pdf> <./figures.pdf>] [18 <./figures.pdf> <./figures.pdf>]
-[19 <./figures.pdf> <./figures.pdf> <./figures.pdf> <./figures.pdf>] [20 <./fig
-ures.pdf> <./figures.pdf>] (./heteroclinic_paper.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [17] [18 <./figures.pdf> <./figures.pdf>] [19] (./heteroclinic_paper.bbl [20] 
+[21]) [22] (./heteroclinic_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3791 strings out of 492649
- 50424 string characters out of 6129622
- 132068 words of memory out of 5000000
- 7572 multiletter control sequences out of 15000+600000
+ 3809 strings out of 492649
+ 50728 string characters out of 6129622
+ 130435 words of memory out of 5000000
+ 7590 multiletter control sequences out of 15000+600000
  20663 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,14n,29p,2423b,319s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on heteroclinic_paper.pdf (20 pages, 6255197 bytes).
+ 42i,20n,29p,2102b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
+
+Output written on heteroclinic_paper.pdf (22 pages, 2741851 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
+ 509 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

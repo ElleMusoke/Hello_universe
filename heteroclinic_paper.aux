@@ -1,6 +1,11 @@
 \relax 
 \bibstyle{ws-ijbc}
 \citation{BZ_reaction,Neurons,Circuits,lasers,Predator-Prey}
+\citation{BZ_reaction}
+\citation{Neurons}
+\citation{Circuits}
+\citation{lasers}
+\citation{Predator-Prey}
 \citation{canard_explosion,lents-rapides,enlacement,singular_hopf,folded_node,three}
 \citation{canard_explosion,fitz-hugh-nagumo}
 \citation{BZ}
@@ -17,29 +22,29 @@
 \citation{QSSA}
 \citation{Saeed_Paper}
 \citation{Rescaling}
-\@writefile{toc}{\contentsline {section}{\numberline {2}The Olsen Model}{2}}
-\citation{Rescaling}
 \citation{Rescaling}
 \citation{Rescaling}
 \citation{MMO}
+\@writefile{toc}{\contentsline {section}{\numberline {2}The Olsen Model}{3}}
 \newlabel{equation_1}{{1}{3}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Parameters of system (1\hbox {}) as in \citep  {Rescaling} so that $(A,X,Y)$ are fast and $(B)$ is slow.}}{3}}
 \newlabel{equation_2}{{2}{3}}
-\newlabel{equation_3}{{3}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Physically relevant branches of the critical manifold of system (1\hbox {}) shown in projection onto the ($B$,$A$)-plane. The branches labeled $C^3$ (teal) and $C^2$ (raspberry), correspond to saddle equilibria of (2\hbox {}), solid curves indicate stable nodes. The two saddle-node bifurcations are represented as orange dots and labeled $F_1$ and $F_2$, respectively. The Hopf bifurcation is labeled $H$ (pink dot). A saddle equilibrium exists on $C^2$ and is labeled $\chi $ (green cross).}}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Physically relevant branches of the critical manifold of system (1\hbox {}) shown in projection onto the ($B$,$A$)-plane. The branches labeled $C^3$ (teal) and $C^2$ (raspberry) correspond to saddle equilibria of (2\hbox {}), solid curves indicate stable nodes. The two saddle-node bifurcations are represented as orange dots and labeled $F_1$ and $F_2$, respectively. The Hopf bifurcation is labeled $H$ (pink dot). A saddle equilibrium exists on $C^2$ and is labeled $\chi $ (green cross).}}{4}}
 \newlabel{critical_figure}{{1}{4}}
-\citation{Fenichel}
+\newlabel{equation_3}{{3}{4}}
 \citation{Red_book}
+\citation{Fenichel}
+\citation{Hausdorff_Distance}
 \citation{Saeed_Paper}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Saddle slow manifolds and their (Un)Stable Manifolds}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Computation of saddle slow manifolds and their (un)stable manifolds}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Definition of $S^3$}{5}}
 \citation{QSSA}
 \citation{Initial_conditions_volume,Invariant_tori_again,Invariant_tori}
 \citation{Saeed_Paper}
 \citation{AUTO}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The unique representative slow manifold $S^3$ (green curve) projected into the $(B,A)$-plane. The spheres $D_\delta (B_{\mathrm  {in}})$ and $D_\delta (B_{\mathrm  {out}})$ are indicated by purple disks at either end of a four-dimensional cylinder, indicated by the purple curves.}}{6}}
 \newlabel{tube_figure}{{2}{6}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Computations}{6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}The stable manifold associated with $S^3$}{7}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Definition of $W^{s}(S^3)$ and computation of $W^{s}(S^3)$ and $S^3$}{6}}
 \newlabel{equation_4}{{4}{7}}
 \newlabel{BC6}{{5}{7}}
 \newlabel{BC7}{{6}{7}}
@@ -51,42 +56,100 @@
 \newlabel{sub@step3}{{(c)}{8}}
 \newlabel{step4}{{3(d)}{8}}
 \newlabel{sub@step4}{{(d)}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Numerical set-up for the computation of submanifolds $W^s_{\Sigma }$ of $W^s(S^3)$. Panel (a) shows a sketch of the first homotopy step in the algorithm for computing $W^{s}_{\Sigma ^*}$. The slow manifold $S^3$ is sketched in green. The plane $\Sigma ^*$ is given by the $A$- and $Y$-coordinates of the point $p_{\text  {out}}$ and is represented as a yellow line in the $(B, A)$-plane. The linear stable space $E^s(p_{\mathrm  {out}})$ is represented by a blue cross. The saddle equilibrium, $\chi $, of the full system is represented by a green x. Panel (b) shows a representative orbit segment (purple) in the first homotopy step; fast segments are represented with double arrows while slow segments are represented with single arrows. Panel (c) shows a sketch illustrating the selection of an orbit segment (purple) with maximal integration time that ends on the blue cube $\Omega $ spanned by the two stable eigenvectors of $p_{\text  {out}}$ and the vector parallel to the $B$-direction; the one-dimensional subset $\psi $ of $\Sigma ^*$ is given by fixing $B = B_{\text  {in}}$ and represented in yellow. Panel (d) shows a sketch of the selection of a different submanifold $W^{s}_{\Sigma }$ for $\Sigma $ on the other side of the critical manifold from $\Sigma ^*$ with respect to the $A$-coordinate.}}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Numerical set-up for the computation of submanifolds $W^s_{\Sigma }$ of $W^s(S^3)$. Panel (a) shows a sketch of the first homotopy step in the algorithm for computing $W^{s}_{\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }}$. The slow manifold $S^3$ is sketched in green. The plane $\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }$ is given by the $A$- and $Y$-coordinates of the point $p_{\text  {out}}$ and is represented as a mocha line in the $(B, A)$-plane. The linear stable space $E^s(p_{\mathrm  {out}})$ is represented by a blue cross. The saddle equilibrium, $\chi $, of the full system is represented by a green x. Panel (b) shows a representative orbit segment (purple) in the first homotopy step; fast segments are represented with double arrows while slow segments are represented with single arrows. Panel (c) shows a sketch illustrating the selection of an orbit segment (purple) with maximal integration time that ends on the blue cube $\Omega $ spanned by the two stable eigenvectors of $p_{\text  {out}}$ and the vector parallel to the $B$-direction; the one-dimensional subset $\psi $ of $\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }$ is given by fixing $B = B_{\text  {in}}$ and represented in mocha. Panel (d) shows a sketch of the selection of a different submanifold $W^{s}_{\Sigma }$ for $\Sigma $ on the other side of the critical manifold from $\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }$ with respect to the $A$-coordinate.}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{8}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{8}}
 \newlabel{BCSTOP}{{7}{8}}
 \newlabel{BC11}{{8}{8}}
+\newlabel{piece_BAX}{{4(a)}{9}}
+\newlabel{sub@piece_BAX}{{(a)}{9}}
+\newlabel{piece_BAY}{{4(b)}{9}}
+\newlabel{sub@piece_BAY}{{(b)}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The submanifold $W^{s}_{\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }}$(light blue), defined as the family of orbit segments with maximal integration time that solve the 2PBVP (4\hbox {}), (7\hbox {}), (8\hbox {}) as $B$ varies. Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta. Projections of a segment of the critical manifold are shown in turquoise and the view is rotated relative to previous figures.}}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{9}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{9}}
+\newlabel{piece}{{4}{9}}
+\newlabel{two_pieces_BAX}{{5(a)}{10}}
+\newlabel{sub@two_pieces_BAX}{{(a)}{10}}
+\newlabel{two_pieces_BAY}{{5(b)}{10}}
+\newlabel{sub@two_pieces_BAY}{{(b)}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The submanifolds $W^{s}_{\Sigma }$ and $W^{s}_{\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }}$ (blue and light blue) of $W^s(S^3)$, defined as the family orbit segments with maximum integration time that solve the 2PBVP (4\hbox {}), (7\hbox {}), (8\hbox {}) as $B$ varies. Here $\Sigma $ is a plane defined by the constant values $A=2.0$ and $Y=0.0$. Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with representative orbit segments plotted in magenta on each slice. The planes $\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }$ and $\Sigma $ are plotted in plum. Note that $\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }$ and $\Sigma $ appear as black lines in (b) and $\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }$ is so near to $C^4_+$ that it is indistinguishable from it. A representative illustration of the three-dimensional $\Omega $ is sketched as a blue cube. Projections of the critical manifold are shown in black, turquoise, and raspberry and the view is rotated relative to previous figures.}}{10}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{10}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{10}}
+\newlabel{two_pieces}{{5}{10}}
+\newlabel{pieces_BAX}{{6(a)}{11}}
+\newlabel{sub@pieces_BAX}{{(a)}{11}}
+\newlabel{pieces_BAY}{{6(b)}{11}}
+\newlabel{sub@pieces_BAY}{{(b)}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The submanifold $W^{s}_{\setbox \z@ \hbox {\frozen@everymath \@emptytoks \mathsurround \z@ $\textstyle \Sigma $}\mathaccent "0362{\Sigma }}$ and a selection of four additional $W^{s}_{\Sigma }$ (blues), defined as the family orbit segments with maximum integration time that solve the 2PBVP (4\hbox {}), (7\hbox {}), (8\hbox {}) as $B$ varies. Here, the $\Sigma $ are the planes defined by the constant values $A=2.0$ and $Y=0.0$, $A=4.0$ and $Y=0.75$, $A=4.0$ and $X=0.75$, and $A=6.0$ and $X=0.5$. Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in magenta. Projections of the critical manifold are shown in black, turquoise, and raspberry and the view is rotated relative to previous figures.}}{11}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{11}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{11}}
+\newlabel{pieces}{{6}{11}}
 \citation{QSSA}
 \citation{QSSA}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}The unstable manifold associated with $S^2$}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The submanifold $W^{s}_{\Sigma ^*}$(light blue), defined as the family of orbit segments with maximal integration time that solve the 2PBVP (4\hbox {}), (7\hbox {}), (8\hbox {}) as $B$ varies. Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta. Projections of a segment of the critical manifold are shown in turquoise and the view is rotated relative to previous figures.}}{10}}
-\newlabel{piece}{{4}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The submanifolds $W^{s}_{\Sigma }$ and $W^{s}_{\Sigma ^*}$ (blue and light blue) of $W^s(S^3)$, defined as the family orbit segments with maximum integration time that solve the 2PBVP (4\hbox {}), (7\hbox {}), (8\hbox {}) as $B$ varies. Here $\Sigma $ is a plane defined by the constant values $A=2.0$ and $Y=0.0$. Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with representative orbit segments plotted in magenta on each slice. Projections of the critical manifold are shown in black, turquoise, and raspberry and the view is rotated relative to previous figures.}}{11}}
-\newlabel{two_pieces}{{5}{11}}
-\newlabel{BC1_unstable}{{9}{12}}
-\newlabel{BC2_unstable}{{10}{12}}
-\newlabel{BC3_unstable}{{11}{12}}
-\newlabel{BC4_unstable}{{12}{12}}
-\newlabel{BC5_unstable}{{13}{12}}
-\newlabel{BC6_unstable}{{14}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Definition and computation of $W^{u}(S^2)$}{12}}
+\newlabel{BC1_unstable}{{9}{13}}
+\newlabel{BC2_unstable}{{10}{13}}
+\newlabel{BC3_unstable}{{11}{13}}
+\newlabel{BC4_unstable}{{12}{13}}
+\newlabel{BC5_unstable}{{13}{14}}
+\newlabel{BC6_unstable}{{14}{14}}
+\newlabel{BC7_unstable}{{15}{14}}
+\newlabel{BC8_unstable}{{16}{14}}
+\newlabel{BC9_unstable}{{17}{14}}
+\newlabel{piece_BAX_unstable}{{7(a)}{15}}
+\newlabel{sub@piece_BAX_unstable}{{(a)}{15}}
+\newlabel{piece_BAY_unstable}{{7(b)}{15}}
+\newlabel{sub@piece_BAY_unstable}{{(b)}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The submanifold $W^u_{r^*}$ (red) of $W^u(S^2)$ computed as the family of orbit segments with maximal integration time that are solutions to the 2PBVP $(4\hbox {})$, $(13\hbox {})$, and $(15\hbox {})$ projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in forest green. Projections of a segments of the critical manifold are shown in black and raspberry and the view is rotated relative to previous figures.}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{15}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{15}}
+\newlabel{unstable_piece}{{7}{15}}
 \citation{Lin_original,Lin_POs,Lin_POs2}
 \citation{AUTO}
-\newlabel{BC7_unstable}{{15}{13}}
-\newlabel{BC8_unstable}{{16}{13}}
-\newlabel{BC9_unstable}{{17}{13}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}A heteroclinic connection between two saddle slow manifolds}{13}}
-\newlabel{Lin_vector}{{18}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Computing an initial orbit segment on $W^s(S^3)$}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Computing an initial orbit segment on $W^u(S^2)$}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Finding a initial orbit segment on $\mathscr  {H}$}{14}}
-\newlabel{Z}{{19}{14}}
-\newlabel{fix_B}{{20}{14}}
-\citation{jacobs2014unified}
+\@writefile{toc}{\contentsline {section}{\numberline {4}A heteroclinic connection between two saddle slow manifolds}{16}}
+\newlabel{hetclin1}{{8(a)}{16}}
+\newlabel{sub@hetclin1}{{(a)}{16}}
+\newlabel{hetclin2}{{8(b)}{16}}
+\newlabel{sub@hetclin2}{{(b)}{16}}
+\newlabel{hetclin3}{{8(c)}{16}}
+\newlabel{sub@hetclin3}{{(c)}{16}}
+\newlabel{hetclin4}{{8(d)}{16}}
+\newlabel{sub@hetclin4}{{(d)}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces }}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{16}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{16}}
+\newlabel{Lin_vector}{{18}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Computing an initial orbit segment on $W^s(S^3)$}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Computing an initial orbit segment on $W^u(S^2)$}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Closing the Lin gap}{17}}
+\newlabel{Z}{{19}{17}}
+\newlabel{fix_B}{{20}{17}}
+\newlabel{hetclin_BAX}{{9(a)}{18}}
+\newlabel{sub@hetclin_BAX}{{(a)}{18}}
+\newlabel{hetclin_BAY}{{9(b)}{18}}
+\newlabel{sub@hetclin_BAY}{{(b)}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The heteroclinic connection $\mathscr  {H}$ projected into (a) $(B,A,X)$- and (b) $(B,A,Y)$-space. The portion of $\mathscr  {H}$ that was computed as orbit segments in $W^s(S^3)$ is plotted in blue while the portion that was computed as orbit segments laying on $W^u$ associated with $S^2$ is plotted in red. Three representative orbit segments laying on $\mathscr  {H}$ are plotted. The portions of the orbit segments computed as $\mathbf  {u}$ are plotted in magenta while the segments that were computed as $\mathbf  {w}$ are plotted in forest green. The Lin section $\mathscr  {L}$ is plotted in charcoal. Although $\mathscr  {L}$ appears as a plane in the two projections, it is indeed three dimensional. The saddle equilibrium $\chi $ is plotted as a green cross, partially obstructed by $\mathscr  {H}$, $\mathscr  {L}$, and its unstable manifold, $W^{u}(\chi )$. The unstable manifold $W^{u}(\chi )$ is plotted in burgundy. The critical manifold is plotted and the view is rotated relative to previous figures to facilitate viewing.}}{18}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{18}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{18}}
+\newlabel{heteroclinic}{{9}{18}}
+\citation{Red_book}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Computing the singular surface of heteroclinic connections}{19}}
+\newlabel{fast_rescale}{{21}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Real eigenvalues}{19}}
+\newlabel{top_end}{{22}{19}}
+\newlabel{bottom_start}{{24}{19}}
 \bibdata{elle}
 \bibcite{lents-rapides}{{1}{1982}{{Beno\IeC {\^\i }t}}{{}}}
 \bibcite{enlacement}{{2}{1985}{{Beno\IeC {\^\i }t}}{{}}}
+\newlabel{Lin_vector_singular}{{26}{20}}
+\newlabel{singular_Z}{{27}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Complex conjugate eigenvalues}{20}}
+\newlabel{bottom_start_complex}{{28}{20}}
 \bibcite{canard_explosion}{{3}{1981}{{Beno\IeC {\^\i }t \emph  {et~al.}}}{{Beno\IeC {\^\i }t, Callot, Diener \& Diener}}}
 \bibcite{BZ_reaction}{{4}{1991}{{Br{\o }ns \& Bar-Eli}}{{}}}
 \bibcite{folded_node}{{5}{2006}{{Br{\o }ns \emph  {et~al.}}}{{Br{\o }ns, Krupa \& Wechselberger}}}
@@ -102,7 +165,6 @@
 \bibcite{Emily_Harvey_paper}{{15}{2010}{{Harvey \emph  {et~al.}}}{{Harvey, Kirk, Osinga, Sneyd \& Wechselberger}}}
 \bibcite{Cris_paper}{{16}{2018}{{Hasan \emph  {et~al.}}}{{Hasan, Krauskopf \& Osinga}}}
 \bibcite{BZ}{{17}{1979}{{Hudson \emph  {et~al.}}}{{Hudson, Hart \& Marinko}}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}stuff left to talk about later on}{15}}
 \bibcite{Invariant_tori}{{18}{2009}{{Jorba \& Olmedo}}{{}}}
 \bibcite{Red_book}{{19}{2007}{{Krauskopf \emph  {et~al.}}}{{Krauskopf, Osinga \& Gal\'an-Vioque}}}
 \bibcite{Lin_POs}{{20}{2008}{{Krauskopf \& Rie{\ss }}}{{}}}
@@ -113,46 +175,10 @@
 \bibcite{Olsen}{{25}{1983}{{Olsen}}{{}}}
 \bibcite{lasers}{{26}{2012}{{Otto \emph  {et~al.}}}{{Otto, Ludge, Vladimirov, Wolfrum \& Scholl}}}
 \bibcite{Predator-Prey}{{27}{2017}{{Piltz \emph  {et~al.}}}{{Piltz, Veerman, Maini \& Porter}}}
-\bibcite{Circuits}{{28}{1927}{{Van~der Pol}}{{}}}
-\bibcite{Vo_paper}{{29}{2013{a}}{{Vo \emph  {et~al.}}}{{Vo, Bertram \& Wechselberger}}}
-\bibcite{Vo_paper2}{{30}{2013{b}}{{Vo \emph  {et~al.}}}{{Vo, Tabak, Bertram \& Wechselberger}}}
-\bibcite{Initial_conditions_volume}{{31}{2005}{{Waalkens \emph  {et~al.}}}{{Waalkens, Burbanks \& Wiggins}}}
-\bibcite{Lin_POs2}{{32}{2012}{{Zhang \emph  {et~al.}}}{{Zhang, Krauskopf \& Kirk}}}
-\newlabel{eof}{{5.4}{16}}
-\newlabel{pieces_BAX}{{6(a)}{17}}
-\newlabel{sub@pieces_BAX}{{(a)}{17}}
-\newlabel{pieces_BAY}{{6(b)}{17}}
-\newlabel{sub@pieces_BAY}{{(b)}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The submanifold $W^{s}_{\Sigma ^*}$ and a selection of four additional $W^{s}_{\Sigma }$ (blues), defined as the family orbit segments with maximum integration time that solve the 2PBVP (4\hbox {}), (7\hbox {}), (8\hbox {}) as $B$ varies. Here, the $\Sigma $ are the planes defined by the constant values $A=2.0$ and $Y=0.0$, $A=4.0$ and $Y=0.75$, $A=4.0$ and $X=0.75$, and $A=6.0$ and $X=0.5$. Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in magenta. Projections of the critical manifold are shown in black, turquoise, and raspberry and the view is rotated relative to previous figures.}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{17}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{17}}
-\newlabel{pieces}{{6}{17}}
-\newlabel{piece_BAX_unstable}{{7(a)}{18}}
-\newlabel{sub@piece_BAX_unstable}{{(a)}{18}}
-\newlabel{piece_BAY_unstable}{{7(b)}{18}}
-\newlabel{sub@piece_BAY_unstable}{{(b)}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The submanifold $W^u_{r^*}$ (red) of $W^u(S^2)$ computed as the family of orbit segments with maximal integration time that are solutions to the 2PBVP $(4\hbox {})$, $(13\hbox {})$, and $(15\hbox {})$ projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in forest green. Projections of a segments of the critical manifold are shown in black and raspberry and the view is rotated relative to previous figures.}}{18}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{18}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{18}}
-\newlabel{unstable_piece}{{7}{18}}
-\newlabel{hetclin1}{{8(a)}{19}}
-\newlabel{sub@hetclin1}{{(a)}{19}}
-\newlabel{hetclin2}{{8(b)}{19}}
-\newlabel{sub@hetclin2}{{(b)}{19}}
-\newlabel{hetclin3}{{8(c)}{19}}
-\newlabel{sub@hetclin3}{{(c)}{19}}
-\newlabel{hetclin4}{{8(d)}{19}}
-\newlabel{sub@hetclin4}{{(d)}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces }}{19}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{19}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{19}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{19}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{19}}
-\newlabel{hetclin_BAX}{{9(a)}{20}}
-\newlabel{sub@hetclin_BAX}{{(a)}{20}}
-\newlabel{hetclin_BAY}{{9(b)}{20}}
-\newlabel{sub@hetclin_BAY}{{(b)}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The heteroclinic connection $\mathscr  {H}$ projected into (a) $(B,A,X)$- and (b) $(B,A,Y)$-space. The portion of $\mathscr  {H}$ that was computed as orbit segments in $W^s(S^3)$ is plotted in blue while the portion that was computed as orbit segments laying on $W^u$ associated with $S^2$ is plotted in red. Three representative orbit segments laying on $\mathscr  {H}$ are plotted. The portions of the orbit segments computed as $\mathbf  {u}$ are plotted in magenta while the segments that were computed as $\mathbf  {w}$ are plotted in forest green. The saddle equilibrium is plotted as a green cross, partially obstructed by $\mathscr  {H}$. The critical manifold is plotted and the view is rotated relative to previous figures to facilitate viewing.}}{20}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{20}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{20}}
-\newlabel{heteroclinic}{{9}{20}}
+\bibcite{Hausdorff_Distance}{{28}{2009}{{Rockafellar \& Wets}}{{}}}
+\bibcite{Circuits}{{29}{1927}{{Van~der Pol}}{{}}}
+\bibcite{Vo_paper}{{30}{2013{a}}{{Vo \emph  {et~al.}}}{{Vo, Bertram \& Wechselberger}}}
+\bibcite{Vo_paper2}{{31}{2013{b}}{{Vo \emph  {et~al.}}}{{Vo, Tabak, Bertram \& Wechselberger}}}
+\bibcite{Initial_conditions_volume}{{32}{2005}{{Waalkens \emph  {et~al.}}}{{Waalkens, Burbanks \& Wiggins}}}
+\bibcite{Lin_POs2}{{33}{2012}{{Zhang \emph  {et~al.}}}{{Zhang, Krauskopf \& Kirk}}}
+\newlabel{eof}{{5.2}{22}}
