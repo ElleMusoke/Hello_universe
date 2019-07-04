@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  12 APR 2019 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  5 JUL 2019 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,7 +316,20 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box34
 )
-(./heteroclinic_paper.aux)
+(./heteroclinic_paper.aux
+
+LaTeX Warning: Label `heteroclinic' multiply defined.
+
+
+LaTeX Warning: Label `heteroclinic' multiply defined.
+
+
+LaTeX Warning: Label `heteroclinic' multiply defined.
+
+
+LaTeX Warning: Label `heteroclinic' multiply defined.
+
+)
 \openout1 = `heteroclinic_paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -331,8 +344,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
-
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
 \scratchdimen=\dimen144
@@ -368,175 +380,253 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 50.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
  [3]
-<figures.pdf, id=28, page=1, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 1>
-Package pdftex.def Info: figures.pdf , page1 used on input line 147.
-(pdftex.def)             Requested size: 256.07405pt x 142.9748pt.
- [4 <./figures.pdf>] [5]
-<figures.pdf, id=67, page=2, 455.24379pt x 256.78635pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 2>
-Package pdftex.def Info: figures.pdf , page2 used on input line 191.
-(pdftex.def)             Requested size: 455.24268pt x 256.7857pt.
- [6 <./figures.pdf>]
-<figures.pdf, id=97, page=3, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 3>
-Package pdftex.def Info: figures.pdf , page3 used on input line 207.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=98, page=4, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 4>
-Package pdftex.def Info: figures.pdf , page4 used on input line 208.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=99, page=5, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 5>
-Package pdftex.def Info: figures.pdf , page5 used on input line 209.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=100, page=6, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 6>
-Package pdftex.def Info: figures.pdf , page6 used on input line 210.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_1.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_1.pdf, id=28, 241.84753pt x 125.90237pt>
+File: ./figures/MKMO_1.pdf Graphic file (type pdf)
+<use ./figures/MKMO_1.pdf>
+Package pdftex.def Info: ./figures/MKMO_1.pdf  used on input line 147.
+(pdftex.def)             Requested size: 241.84694pt x 125.90205pt.
+
+LaTeX Warning: Reference `critical_figure' on page 4 undefined on input line 15
+4.
+
+[4 <./figures/MKMO_1.pdf>]
+
+LaTeX Warning: Reference `critical_figure' on page 5 undefined on input line 15
+6.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `Fenichel' on page 5 undefined on input line 158.
 
-[7]
-<figures.pdf, id=107, page=7, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 7>
-Package pdftex.def Info: figures.pdf , page7 used on input line 266.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=108, page=8, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 8>
-Package pdftex.def Info: figures.pdf , page8 used on input line 267.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
- [8 <./figures.pdf> <./figures.pdf> <./figures.pdf> <./figures.pdf>]
-<figures.pdf, id=167, page=17, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 17>
-Package pdftex.def Info: figures.pdf , page17 used on input line 274.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=168, page=18, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 18>
-Package pdftex.def Info: figures.pdf , page18 used on input line 275.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
+[5]
 
-[9 <./figures.pdf> <./figures.pdf
+LaTeX Warning: Reference `tube_figure' on page 6 undefined on input line 186.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
->] [10 <./figures.pdf> <./figures.pdf>]
-<figures.pdf, id=221, page=9, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 9>
-Package pdftex.def Info: figures.pdf , page9 used on input line 282.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
-<figures.pdf, id=222, page=10, 512.14938pt x 356.37039pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 10>
-Package pdftex.def Info: figures.pdf , page10 used on input line 283.
-(pdftex.def)             Requested size: 505.91194pt x 282.6062pt.
- [11 <./figures.pdf> <./figures.pdf>]
-[12] [13]
-<figures.pdf, id=271, page=15, 540.60165pt x 370.59656pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 15>
-Package pdftex.def Info: figures.pdf , page15 used on input line 397.
-(pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
-<figures.pdf, id=272, page=16, 540.60165pt x 370.59656pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 16>
-Package pdftex.def Info: figures.pdf , page16 used on input line 398.
-(pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
- [14]
-<figures.pdf, id=276, page=11, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 11>
-Package pdftex.def Info: figures.pdf , page11 used on input line 410.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=277, page=12, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 12>
-Package pdftex.def Info: figures.pdf , page12 used on input line 411.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=278, page=13, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 13>
-Package pdftex.def Info: figures.pdf , page13 used on input line 412.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
-<figures.pdf, id=279, page=14, 256.07469pt x 142.97514pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 14>
-Package pdftex.def Info: figures.pdf , page14 used on input line 413.
-(pdftex.def)             Requested size: 227.63222pt x 113.81522pt.
- [15 <./figures.pdf> <./figures.pdf>] [16 <./figures.pdf> <./figures.pdf> <./fi
-gures.pdf> <./figures.pdf>]
-<figures.pdf, id=359, page=21, 540.60165pt x 370.59656pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 21>
-Package pdftex.def Info: figures.pdf , page21 used on input line 475.
-(pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
-<figures.pdf, id=360, page=22, 540.60165pt x 370.59656pt>
-File: figures.pdf Graphic file (type pdf)
-<use figures.pdf, page 22>
-Package pdftex.def Info: figures.pdf , page22 used on input line 476.
-(pdftex.def)             Requested size: 505.88892pt x 282.58936pt.
- [17] [18 <./figures.pdf> <./figures.pdf>] [19] (./heteroclinic_paper.bbl [20] 
-[21]) [22] (./heteroclinic_paper.aux) ) 
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_2.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_2.pdf, id=69, 332.8957pt x 184.23029pt>
+File: ./figures/MKMO_2.pdf Graphic file (type pdf)
+<use ./figures/MKMO_2.pdf>
+Package pdftex.def Info: ./figures/MKMO_2.pdf  used on input line 190.
+(pdftex.def)             Requested size: 332.89488pt x 184.22983pt.
+[6 <./figures/MKMO_2.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_3.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_3.pdf, id=110, 491.51831pt x 253.93971pt>
+File: ./figures/MKMO_3.pdf Graphic file (type pdf)
+<use ./figures/MKMO_3.pdf>
+Package pdftex.def Info: ./figures/MKMO_3.pdf  used on input line 206.
+(pdftex.def)             Requested size: 491.5171pt x 253.93907pt.
+[7 <./figures/MKMO_3.pdf>]
+
+LaTeX Warning: Reference `step1' on page 8 undefined on input line 237.
+
+
+LaTeX Warning: Reference `step2' on page 8 undefined on input line 239.
+
+
+LaTeX Warning: Reference `step3' on page 8 undefined on input line 239.
+
+
+LaTeX Warning: Reference `step3' on page 8 undefined on input line 241.
+
+
+LaTeX Warning: Reference `step3' on page 8 undefined on input line 250.
+
+
+LaTeX Warning: Reference `step3' on page 8 undefined on input line 258.
+
+[8]
+
+LaTeX Warning: Reference `step4' on page 9 undefined on input line 266.
+
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_4.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_4.pdf, id=185, 381.26541pt x 510.01341pt>
+File: ./figures/MKMO_4.pdf Graphic file (type pdf)
+<use ./figures/MKMO_4.pdf>
+Package pdftex.def Info: ./figures/MKMO_4.pdf  used on input line 272.
+(pdftex.def)             Requested size: 381.26447pt x 510.01216pt.
+[9]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_5.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_5.pdf, id=189, 344.2762pt x 485.82805pt>
+File: ./figures/MKMO_5.pdf Graphic file (type pdf)
+<use ./figures/MKMO_5.pdf>
+Package pdftex.def Info: ./figures/MKMO_5.pdf  used on input line 281.
+(pdftex.def)             Requested size: 344.27536pt x 485.82686pt.
+[10 <./figures/MKMO_4.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_6.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_6.pdf, id=222, 341.4316pt x 558.38213pt>
+File: ./figures/MKMO_6.pdf Graphic file (type pdf)
+<use ./figures/MKMO_6.pdf>
+Package pdftex.def Info: ./figures/MKMO_6.pdf  used on input line 288.
+(pdftex.def)             Requested size: 341.43076pt x 558.38075pt.
+[11 <./figures/MKMO_5.pdf>] [12 <./figures/MKMO_6.pdf>] [13] [14]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_7.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_7.pdf, id=303, 372.72952pt x 406.16142pt>
+File: ./figures/MKMO_7.pdf Graphic file (type pdf)
+<use ./figures/MKMO_7.pdf>
+Package pdftex.def Info: ./figures/MKMO_7.pdf  used on input line 397.
+(pdftex.def)             Requested size: 372.7286pt x 406.16043pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_8.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_8.pdf, id=304, 492.22995pt x 253.93971pt>
+File: ./figures/MKMO_8.pdf Graphic file (type pdf)
+<use ./figures/MKMO_8.pdf>
+Package pdftex.def Info: ./figures/MKMO_8.pdf  used on input line 409.
+(pdftex.def)             Requested size: 492.22874pt x 253.93907pt.
+[15 <./figures/MKMO_7.pdf>] [16 <./figures/MKMO_8.pdf>]
+
+LaTeX Warning: Reference `hetclin1' on page 17 undefined on input line 430.
+
+[17]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_9.pdf): PDF i
+nclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_9.pdf, id=406, 347.12186pt x 492.94164pt>
+File: ./figures/MKMO_9.pdf Graphic file (type pdf)
+<use ./figures/MKMO_9.pdf>
+Package pdftex.def Info: ./figures/MKMO_9.pdf  used on input line 471.
+(pdftex.def)             Requested size: 347.121pt x 492.94043pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_10.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_10.pdf, id=407, 352.81209pt x 498.6319pt>
+File: ./figures/MKMO_10.pdf Graphic file (type pdf)
+<use ./figures/MKMO_10.pdf>
+Package pdftex.def Info: ./figures/MKMO_10.pdf  used on input line 478.
+(pdftex.def)             Requested size: 352.81122pt x 498.63068pt.
+[18 <./figures/MKMO_9.pdf>] [19 <./figures/MKMO_10.pdf>] [20]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_11.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_11.pdf, id=477, 352.81209pt x 481.56009pt>
+File: ./figures/MKMO_11.pdf Graphic file (type pdf)
+<use ./figures/MKMO_11.pdf>
+Package pdftex.def Info: ./figures/MKMO_11.pdf  used on input line 582.
+(pdftex.def)             Requested size: 352.81122pt x 481.5589pt.
+[21]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_12.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_12.pdf, id=481, 352.81209pt x 184.23029pt>
+File: ./figures/MKMO_12.pdf Graphic file (type pdf)
+<use ./figures/MKMO_12.pdf>
+Package pdftex.def Info: ./figures/MKMO_12.pdf  used on input line 600.
+(pdftex.def)             Requested size: 352.81122pt x 184.22983pt.
+[22 <./figures/MKMO_11.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_13.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_13.pdf, id=511, 304.44238pt x 265.32024pt>
+File: ./figures/MKMO_13.pdf Graphic file (type pdf)
+<use ./figures/MKMO_13.pdf>
+Package pdftex.def Info: ./figures/MKMO_13.pdf  used on input line 607.
+(pdftex.def)             Requested size: 304.44164pt x 265.31958pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_14.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_14.pdf, id=512, 455.24176pt x 547.0016pt>
+File: ./figures/MKMO_14.pdf Graphic file (type pdf)
+<use ./figures/MKMO_14.pdf>
+Package pdftex.def Info: ./figures/MKMO_14.pdf  used on input line 614.
+(pdftex.def)             Requested size: 455.24063pt x 547.00026pt.
+[23 <./figures/MKMO_12.pdf> <./figures/MKMO_13.pdf>] [24 <./figures/MKMO_14.pdf
+>]
+
+LaTeX Warning: Reference `MMO_hetclin' on page 25 undefined on input line 622.
+
+
+LaTeX Warning: Reference `MMO1' on page 25 undefined on input line 624.
+
+
+LaTeX Warning: Reference `MMO1' on page 25 undefined on input line 624.
+
+
+LaTeX Warning: Reference `MMO2' on page 25 undefined on input line 626.
+
+
+LaTeX Warning: Reference `MMO2' on page 25 undefined on input line 626.
+
+
+LaTeX Warning: Reference `MMO3' on page 25 undefined on input line 628.
+
+
+LaTeX Warning: Reference `MMO3' on page 25 undefined on input line 628.
+
+[25] (./heteroclinic_paper.bbl [26]) [27] (./heteroclinic_paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3809 strings out of 492649
- 50728 string characters out of 6129622
- 130435 words of memory out of 5000000
- 7590 multiletter control sequences out of 15000+600000
+ 3795 strings out of 492649
+ 50492 string characters out of 6129622
+ 129061 words of memory out of 5000000
+ 7562 multiletter control sequences out of 15000+600000
  20663 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,20n,29p,2102b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
-pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb>
-
-Output written on heteroclinic_paper.pdf (22 pages, 2741851 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1095.pfb>
+Output written on heteroclinic_paper.pdf (27 pages, 16596233 bytes).
 PDF statistics:
- 509 PDF objects out of 1000 (max. 8388607)
- 327 compressed objects within 4 object streams
+ 704 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

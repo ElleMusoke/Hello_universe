@@ -25,6 +25,7 @@
 \usepackage{array}
 \usepackage{xcolor}    % \nopagecolor
 \usepackage{fp}
+\usepackage[T1]{fontenc}
 \usepackage{bm}    % boldmath \bm{}
 \usepackage[pdftex,active,tightpage]{preview}    % should be loaded lasts
 % adjust borders added to figures: left, lower, right and upper borders. - useful to increase lower border not to cut off labels placed below figure bounds. 
@@ -34,7 +35,7 @@
 		\renewcommand{\caption}[2][]{}}
 	{\end{preview}}
 
-\setlength{\unitlength}{1cm}
+\setlength{\unitlength}{1mm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Get various dimensions for the documentclass %
@@ -59,454 +60,678 @@ text width:     \getlength{\the\textwidth} cm}
 %\end{figure}
 %\newpage
 %%%%%%%%%%%%%%%%
-%%% Critical manifold %%%
+%%% Figure 1: Critical manifold %%%
 %%%%%%%%%%%%%%%%
 \nopagecolor
 \begin{figure}
-	\begin{picture}(9,5)(0,0)
-	\put(0.74,0.74){\includegraphics[width=8cm,height=4cm]{./figures/paper_critical.eps}}
-	\put(7.9,4.12){$F_1$}
-        \put(1.55,2.65){$F_2$}
-        \put(7,1.2){$H$}
-        \put(7.9,1.1){$C^4_-$}
-        \put(1.75,3.8){$C^4_+$}
-        \put(4.4,3.65){$C^3$}
-        \put(4.4,1.35){$C^2$}
-        \put(0.5,4.5){$A$}
-        \put(0.2,3.65){$9.0$}
-        \put(0.2,1.65){$3.0$}
-	\put(2.12,0.35){$0.3$}
-	\put(3.72,0.35){$0.5$}
-	\put(5.32,0.35){$0.7$}
-	\put(6.92,0.35){$0.9$}
-	\put(8.4,0.45){$B$}
-	\put(2.1,1.75){$\chi$}
+	\begin{picture}(85,44)(5.5,6.5)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/paper_critical.eps}}
+	\put(81,44){$F_1$}
+        \put(19,29){$F_2$}
+        \put(72.5,13.5){$H$}
+        \put(80,13){$C^4_-$}
+        \put(20,41.5){$C^4_+$}
+        \put(50,40){$C^3$}
+        \put(50,15){$C^2$}
+        \put(7,46){$A$}
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(25,20){$q$}
 	\end{picture}
 	\caption{}
 \end{figure}
 \newpage
 
-%%%%%%%%%%%%%%%%%
-%%%% Tube figure %%%
-%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%
+%%%% Figure 2: Tube figure %%%
+%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(16,9)(0,0)
-	    \put(0.75,0.75){\includegraphics[width=15cm, height=8cm]{./figures/paper_slow.eps}}
-	    \put(14.0,7.97){$F_1$}
-	    \put(9.85,6.1){$D_\delta(B_{\mathrm{out}})$}
-	    \put(4,2.85){$D_\delta(B_{\mathrm{in}})$}
-	    \put(2.9,1.5){$C^3$}
-	    \put(2.9,7.6){$C^4_+$}
-	    \put(7.0,5.97){$S^3$}
-	    \put(0.45,8.47){$A$}
-	    \put(0.0,2.65){7.25}
-	    \put(0.0,6.6){9.75}
-            \put(15.45,0.45){$B$}
-            \put(3.52,0.35){$0.3$}
-            \put(6.5,0.35){$0.5$}
-            \put(9.51,0.35){$0.7$}
-            \put(12.5,0.35){$0.9$}
+	\begin{picture}(117,64.5)(93,96.5)
+	    \put(100,100){\includegraphics[width=11cm]{./figures/paper_slow.eps}}
+	    \put(196.5,153.5){$F_1$}
+	    \put(173.5,148){$D_\delta(B_{\mathrm{out}})$}
+	    \put(107,127){$D_\delta(B_{\mathrm{in}})$}
+	    \put(121.5,110){$C^3$}
+	    \put(120,151){$C^4_+$}
+	    \put(147.5,135.25){$S^3$}
+	    \put(148,139.25){$\uparrow$}
+	    \put(96.5,156){$A$}
+	    \put(94,144){\footnotesize $9.75$}
+	    \put(94,114){\footnotesize $7.25$}
+            \put(206,97){$B$}
+            \put(120.5,97){\footnotesize$0.3$}
+            \put(142.5,97){\footnotesize$0.5$}
+            \put(164,97){\footnotesize$0.7$}
+            \put(186,97){\footnotesize$0.9$}
 	\end{picture}
 	\caption{}
 \end{figure}
 
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Step 1 %%%
-%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Figure 3: Stable manifold numerical set up %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0.0,0.0)
-	\put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/step1.eps}}
-	\put(7.9,4.1){$F_1$}
-        \put(1.55,2.68){$F_2$}
-        \put(7,3.5){$E^s(p^t_{\mathrm{out}})$}
-        \put(6.95,1.25){$H$}
-        \put(1.4,3.8){$\widehat{\Sigma}$}
-        \put(4.5,3.35){$S^3$}
-        \put(2.15,0.35){$0.3$}
-        \put(3.73,0.35){$0.5$}
-        \put(5.3,0.35){$0.7$}
-        \put(6.85,0.35){$0.9$}
-        \put(0.25,1.6){$3.0$}
-        \put(0.25,3.6){$9.0$}
-        \put(0.5,4.45){$A$}
-        \put(8.4,0.47){$B$}
-        \put(2.2,1.68){$\chi$}
-
+\begin{picture}(172.75,89)(2,-0.5)
+\put(0,45){
+	\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/step1.eps}}
+        \put(72,37){$E^s(p_{\mathrm{out}})$}
+        \put(20,40){$\widehat{\Sigma}$}
+	\put(81,44){$F_1$}
+        \put(19,29){$F_2$}
+        \put(72.5,13.5){$H$}
+        \put(80,13){$C^4_-$}
+        \put(50,38){$S^3$}
+        \put(50,15){$C^2$}
+        \put(7,46){$A$}
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(13,13.5){(a)}
+	\put(25,20){$q$}
 	\end{picture}
 	\caption{}
+	}
+
+\put(88,45){
+	\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/step2.eps}}
+        \put(72,37){$E^s(p_{\mathrm{out}})$}
+        \put(18,40){$\widehat{\Sigma}$}
+	\put(81,44){$F_1$}
+        \put(19,29){$F_2$}
+        \put(72.5,13.5){$H$}
+        \put(80,13){$C^4_-$}
+        \put(7,46){$A$}
+        \put(50,15){$C^2$}
+        \put(55,39.25){$\mathbf{u}$}
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(13,13.5){(b)}
+	\put(25,20){$q$}
+	\end{picture}
+	\caption{}
+	}
+	
+\put(0,0){
+	\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/step3.eps}}
+ 	\put(72,36.5){$\Omega$}
+        \put(19,40){$\psi$}
+	\put(81,44){$F_1$}
+        \put(19,29){$F_2$}
+        \put(72.5,13.5){$H$}
+        \put(7,46){$A$}
+        \put(80,13){$C^4_-$}
+        \put(50,15){$C^2$}
+        \put(50,38.5){$\mathbf{u}$}        
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(13,13.5){(c)}
+	\put(25,20){$q$}
+	\end{picture}
+	}
+\put(89,0){\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/step4.eps}}
+	\put(72,36.5){$\Omega$}
+        \put(33,20){$\psi$}
+	\put(81,44){$F_1$}
+        \put(19,29){$F_2$}
+        \put(72.5,13.5){$H$}
+        \put(7,46){$A$}
+        \put(50,15){$C^2$}
+        \put(80,13){$C^4_-$}   
+        \put(20,41.5){$C^4_+$}
+        \put(50,38.5){$\mathbf{u}$}        
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(13,13.5){(d)}
+	\put(25,20){$q$}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
 \end{figure}
 
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Step 2 %%%
-%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Figure 4: One piece of the stable manifold %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0.0,0.0)
-	\put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/step2.eps}}
-	\put(7.9,4.1){$F_1$}
-        \put(1.55,2.68){$F_2$}
-        \put(7,3.5){$E^s(p^t_{\mathrm{out}})$}
-        \put(6.95,1.25){$H$}
-        \put(1.4,3.85){$\Sigma^*$}
-        \put(4.5,3.35){$S^3$}
-        \put(2.15,0.35){$0.3$}
-        \put(3.73,0.35){$0.5$}
-        \put(5.3,0.35){$0.7$}
-        \put(6.85,0.35){$0.9$}
-        \put(0.25,1.6){$3.0$}
-        \put(0.25,3.6){$9.0$}
-        \put(0.5,4.45){$A$}
-        \put(8.4,0.47){$B$}
-
+\begin{picture}(134,179)(47.5,59.5)
+\put(50,140){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/one_piece_paper_BAX.png}}
+	    \put(115,65){$W^{s}_{\widehat{\Sigma}}$}
+	    \put(120,24){$\widehat{\Sigma}$}
+	    \put(-0.75,6){$\Omega$}
+	    \put(101,94){$C^3$}
+	    \put(70,3){$C^{4}_{+}$}
+	    \put(13,81){(a)}
 	\end{picture}
 	\caption{}
+}
+
+\put(50,58){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/one_piece_paper_BAY.png}}
+	    \put(123.5,46){$W^{s}_{\widehat{\Sigma}}$}
+	    \put(-3,5.5){$\Omega$}
+	    \put(108,79.5){$C^3$}
+	    \put(70,3){$C^{4}_{+}$}
+	    \put(123,4.5){$\widehat{\Sigma}$}
+	    \put(13,60){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
 \end{figure}
 
 
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Step 3 %%%
-%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Figure 5: Two pieces of the stable manifold %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0.0,0.0)
-	\put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/step3.eps}}
-	\put(7.9,4.1){$F_1$}
-        \put(1.55,2.68){$F_2$}
-        \put(6.9,3.4){$\Omega$}
-        \put(6.95,1.25){$H$}
-        \put(1.5,3.55){$\psi$}
-        \put(4.5,3.35){$S^3$}
-        \put(2.15,0.35){$0.3$}
-        \put(3.73,0.35){$0.5$}
-        \put(5.3,0.35){$0.7$}
-        \put(6.85,0.35){$0.9$}
-        \put(0.25,1.6){$3.0$}
-        \put(0.25,3.6){$9.0$}
-        \put(0.5,4.45){$A$}
-        \put(8.4,0.47){$B$}
-
+\begin{picture}(121,170.5)(57,62.5)
+\put(50,140){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/two_pieces_paper_BAX.eps}}
+	    \put(110,50.5){$W^{s}_{\widehat{\Sigma}}$}
+	    \put(122,32){$\widehat{\Sigma}$}
+	    \put(13,62){$\Sigma_1$}
+	    \put(47.5,5){$\Omega$}
+	    \put(30,83){$C^2$}
+	    \put(99,56){$C^3$}
+	    \put(94,64){$F_2$}
+	    \put(88,9){$C^{4}_{+}$}
+	    \put(13,89.5){(a)}
 	\end{picture}
 	\caption{}
+}
+
+\put(50,60){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,2){\includegraphics[width=12.6cm]{./figures/two_pieces_paper_BAY.eps}}
+	    \put(110,39.5){$W^{s}_{\widehat{\Sigma}}$}
+	    \put(13,27){$\Sigma_1$}
+	    \put(47.25,7){$\Omega$}
+	    \put(82.5,60){$C^2$}
+	    \put(92,45){$C^3$}
+	    \put(88,12){$C^{4}_{+}$}
+	    \put(123.5,22.5){$\widehat{\Sigma}$}
+	    \put(94.5,54){$F_2$}
+	    \put(13,60){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
 \end{figure}
 
 
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Step 4 %%%
-%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Figure 6: Five pieces of the stable manifold %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0.0,0.0)
-	\put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/step4.eps}}
-	\put(7.9,4.1){$F_1$}
-        \put(1.55,2.68){$F_2$}
-        \put(6.9,3.4){$\Omega$}
-        \put(6.95,1.25){$H$}
-        \put(3,1.75){$\psi$}
-        \put(4.5,3.35){$S^3$}
-        \put(2.15,0.35){$0.3$}
-        \put(3.73,0.35){$0.5$}
-        \put(5.3,0.35){$0.7$}
-        \put(6.85,0.35){$0.9$}
-        \put(0.25,1.6){$3.0$}
-        \put(0.25,3.6){$9.0$}
-        \put(0.5,4.45){$A$}
-        \put(8.4,0.47){$B$}
-
+\begin{picture}(120,196)(58,36.5)
+\put(50,140){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/five_pieces_paper_BAX.eps}}
+	    \put(110,51){$W^{s}_{\widehat{\Sigma}}$}
+	    \put(122,35){$\widehat{\Sigma}$}
+	    \put(13,62){$\Sigma_1$}
+	    \put(22,57){$\Sigma_2$}
+	    \put(24,46.5){$\Sigma_3$}
+	    \put(27,30){$\Sigma_4$}
+	    \put(48.25,5){$\Omega$}
+	    \put(94,64){$F_2$}
+	    \put(30,83){$C^2$}
+	    \put(99,56){$C^3$}
+	    \put(88,9.75){$C^{4}_{+}$}
+	    \put(13,89.5){(a)}
 	\end{picture}
 	\caption{}
+}
+
+\put(50,35){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/five_pieces_paper_BAY.eps}}
+	    \put(110,38.5){$W^{s}_{\widehat{\Sigma}}$}
+	    \put(13,26){$\Sigma_1$}
+	    \put(23,72){$\Sigma_2$}
+	    \put(22,53){$\Sigma_3$}
+	    \put(33,65){$\Sigma_4$}
+	    \put(48,6){$\Omega$}
+	    \put(56.5,90){$C^2$}
+	    \put(98.5,45){$C^3$}
+	    \put(88,11.5){$C^{4}_{+}$}
+	    \put(94.5,54){$F_2$}
+	    \put(122,21){$\widehat{\Sigma}$}
+	    \put(13,81){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
+\newpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Figure 7: One piece of the unstable manifold %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+\begin{picture}(131,142.5)(99.5,104.5)
+\put(100,160){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,24){\includegraphics[width=12.6cm]{./figures/unstable_piece_BAX.eps}}
+	    \put(70,59.5){$W^{u}_{r^*}\cap\mathscr{R}$}
+	    \put(70,36){$W^{u}_{r^*}$}
+	    \put(11,70){$\Phi$}
+	     \put(15,55){$H$}
+	    \put(0,70){$C^4_-$}
+	    \put(118,49){$C^2$}
+	    \put(2,81){(a)}
+	\end{picture}
+	\caption{}
+}
+
+\put(100,85){
+	\begin{picture}(180,100)(0,0)
+	    \put(3,19.5){\includegraphics[width=12.6cm]{./figures/unstable_piece_BAY.eps}}
+	    \put(70,40){$W^{u}_{r^*}\cap\mathscr{R}$}
+	    \put(70,23.5){$W^{u}_{r^*}$}
+	    \put(14,62.5){$\Phi$}
+	    \put(18,45){$H$}
+	    \put(4.5,73){$C^4_-$}
+	    \put(118,34){$C^2$}
+	    \put(2,87){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
 \end{figure}
 
 
-\newpage
 
-%%%%%%%%%%%%%%%%
-%% One submanifold BAX %%
-%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Figure 8: Lin's method numerical set up %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(18,12.5)(0,0)
-	\put(0,0){\includegraphics[width=18cm, height=12.5cm]{./figures/one_piece_BAX_copy.png}}
-	\put(6.75,11.75){\huge $C^3$}
-	\put(10,0.3){\huge $C^{4}_{+}$}	
-	\put(7.25,8.75){\huge $W^{s}_{\widehat{\Sigma}}$}	
+\begin{picture}(173,89)(2,-0.5)
+\put(0,45){
+	\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin1.eps}}
+        \put(50,38){$S^3$}
+        \put(50,17){$S^2$}
+        \put(7,46){$A$}
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(25,20){$q$}
+	\put(81,44){$F_1$}
+        \put(73,13.5){$H$}
+        	\put(80,13){$C^4_-$}
+        \put(20,41.5){$C^4_+$}
+	\put(13,13.5){(a)}
 	\end{picture}
 	\caption{}
+	}
+
+\put(88,42){
+	\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin2.eps}}
+        \put(49.5,41.5){$\mathbf{u}$}
+        \put(7,49){$A$}
+        \put(6,41.5){\footnotesize $9.0$}
+        \put(6,22.5){\footnotesize $3.0$}
+	\put(24.5,10.5){\footnotesize $0.3$}
+	\put(40.2,10.5){\footnotesize $0.5$}
+	\put(55.8,10.5){\footnotesize $0.7$}
+	\put(71.5,10.5){\footnotesize $0.9$}
+	\put(86,10.1){$B$}
+	\put(72,40){$E^s(p_{\mathrm{out}})$}
+	\put(25,23){$q$}
+	\put(80,16){$C^4_-$}
+        \put(20,44.5){$C^4_+$}
+        \put(50,18){$C^2$}
+        	\put(81,47){$F_1$}
+        \put(73,16.5){$H$}
+	\put(13,16){(b)}
+	\end{picture}
+	\caption{}
+	}
+	
+\put(0,0){
+	\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin3.eps}}
+        \put(7,46){$A$}
+        \put(49.25,38.5){$\mathbf{u}$}
+        \put(62,16){$\mathbf{w}$}
+        \put(35,26.5){$\eta/Z$}
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(72,37){$E^s(p_{\mathrm{out}})$}
+	\put(72,17){$E^u(p_{\mathrm{in}})$}
+	\put(20,41.5){$C^4_+$}
+	\put(25,20){$q$}
+	\put(13,13.5){(c)}
+	\end{picture}
+	}
+\put(89,0){\begin{picture}(85,43)(5,7)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin4.eps}}
+	\put(61.25,40){$\mathbf{u}$}
+        \put(62,16){$\mathbf{w}$}
+        \put(7,46){$A$}
+        \put(6,38.5){\footnotesize $9.0$}
+        \put(6,19.5){\footnotesize $3.0$}
+	\put(24.5,7.5){\footnotesize $0.3$}
+	\put(40.2,7.5){\footnotesize $0.5$}
+	\put(55.8,7.5){\footnotesize $0.7$}
+	\put(71.5,7.5){\footnotesize $0.9$}
+	\put(86,6.9){$B$}
+	\put(72,37){$E^s(p_{\mathrm{out}})$}
+	\put(72,17){$E^u(p_{\mathrm{in}})$}
+	\put(20,41.5){$C^4_+$}
+	\put(25,20){$q$}
+	\put(13,13.5){(d)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
 \end{figure}
 
 \newpage
-%%%%%%%%%%%%%%%%
-%% One submanifold BAY %%
-%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure 9: Heteroclinic surface, numerical set up %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(18,12.5)(0,0)
-	    \put(0,0){\includegraphics[width=18cm, height=12.5cm]{./figures/one_piece_BAY_copy.png}}   
-	\put(6.25,11.75){\huge $C^3$}
-	\put(10,0.55){\huge $C^{4}_{+}$}	
-	\put(6.5,8){\huge $W^{s}_{\widehat{\Sigma}}$}	
-
+\begin{picture}(122,173)(52,48.5)
+\put(50,140){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/hetclin_6_BAX.eps}}
+	    \put(92.5,34){$\mathscr{L}$}
+	    \put(90,41){$C^2$}
+	    \put(105.5,28){$C^3$}
+	    \put(108,4.5){$C^{4}_{+}$}
+	     \put(2.5,54.5){$C^{4}_{-}$}
+	     \put(48,7){$\mathscr{H}$}
+	     \put(6.75,48){$H$}
+	     \put(79,46){$q$}
+	     \put(99,37.5){$F_2$}
+	     \put(91,-2){$F_1$}
+	    \put(5,77){(a)}
 	\end{picture}
 	\caption{}
-\end{figure}
+}
 
+\put(50,50){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,-0.5){\includegraphics[width=12.6cm]{./figures/hetclin_6_BAY.eps}}
+	    \put(92.5,32){$\mathscr{L}$}
+	    \put(90,22.5){$C^2$}
+	    \put(106,13){$C^3$}
+	    \put(108,6.5){$C^{4}_{+}$}
+	    \put(2.5,42){$C^{4}_{-}$}
+	    \put(48,3){$\mathscr{H}$}
+	    \put(6.75,34.5){$H$}
+	    \put(79,26.5){$q$}
+	    \put(99,20.5){$F_2$}
+	    \put(91,-0.5){$F_1$}
+	    \put(5,81){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Pieces BAX %%%
-%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure 10: Faded heteroclinic surface with unstable manifold %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(18,12.5)(0,0)
-	    \put(0,0){\includegraphics[width=18cm, height=12.5cm]{./figures/five_pieces_paper_BAX.eps}}
-	    \put(15,7.75){\huge $W^{s}_{\widehat{\Sigma}}$}
-	    \put(17.3,7.2){\huge $\widehat{\Sigma}$}
-	    \put(5.95,0.9){\huge $\Omega$}
-	    \put(2,11.6){\huge $C^2$}
-	    \put(13.6,8.5){\huge $C^3$}
-	    \put(12.5,1.8){\huge $C^{4}_{+}$}
+\begin{picture}(124,175)(51,69.5)
+\put(50,162){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_saddle_unstable_BAX.eps}}
+	    \put(91,72){$W^u(q)$}
+	    \put(105.5,28){$C^3$}
+	    \put(108,4.5){$C^{4}_{+}$}
+	    \put(91,-1){$F_1$}
+	     \put(2.5,54.5){$C^{4}_{-}$}
+	      \put(6.75,48){$H$}
+	     \put(48,7){$\mathscr{H}$}
+	     \put(81,43.5){$q$}
+	    \put(5,77){(a)}
 	\end{picture}
 	\caption{}
-\end{figure}
+}
 
+\put(50,71.5){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_saddle_unstable_BAY.eps}}
+	    \put(87,51){$W^u(q)$}
+	    \put(105.5,13){$C^3$}
+	    \put(108,4.5){$C^{4}_{+}$}
+	    \put(2.5,41.5){$C^{4}_{-}$}
+	    \put(6.75,34){$H$}
+	    \put(48,1.5){$\mathscr{H}$}
+	    \put(91,-1){$F_1$}
+	    \put(81,23){$q$}
+	    \put(5,81){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Pieces BAY %%%
-%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure 11: Compare non-singular with singular heteroclinic surface %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(18,12.5)(0,0)
-	    \put(0,0){\includegraphics[width=18cm, height=12.5cm]{./figures/five_pieces_paper_BAY.eps}}
-	    \put(15.2,5.15){\huge $W^{s}_{\widehat{\Sigma}}$}
-	    \put(5.95,0.9){\huge $\Omega$}
-	    \put(2,11.1){\huge $C^2$}
-	    \put(13.6,6){\huge $C^3$}
-	    \put(12.5,1.8){\huge $C^{4}_{+}$,$\widehat{\Sigma}$}
+\begin{picture}(124,169)(51,53)
+\put(50,140){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_BAX.eps}}
+	    \put(90,41){$C^2$}
+	     \put(81.5,45){$q$}
+	    \put(105.5,28){$C^3$}
+	    \put(99.5,37.5){$F_2$}
+	    \put(108,4.5){$C^{4}_{+}$}
+	    \put(91,-1){$F_1$}
+	     \put(2.5,54.5){$C^{4}_{-}$}
+	      \put(6.75,48){$H$}
+	     \put(48,7){$\mathscr{H}$}
+	    \put(5,77){(a)}
 	\end{picture}
 	\caption{}
-\end{figure}
+}
 
+\put(50,55){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_singular_BAX.eps}}
+ \put(90,41){$C^2$}
+	     \put(81.5,45){$q$}
+	    \put(105.5,28){$C^3$}
+	    \put(99.5,37.5){$F_2$}
+	    \put(108,4.5){$C^{4}_{+}$}
+	    \put(91,-1){$F_1$}
+	     \put(2.5,54.5){$C^{4}_{-}$}
+	      \put(6.75,48){$H$}
+	     \put(48,7){$\mathscr{H}_0$}
+	    \put(5,81){(b)}
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Lin 1 %%%
-%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%
+%%%% Figure 12: Isola figure %%%
+%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0,0)
-	   	\put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/Lin1.eps}}
-	    	\put(4.5,3.35){$S^3$}
-		\put(4.5,1.6){$S^2$}
-        		\put(2.15,0.35){$0.3$}
-        		\put(3.73,0.35){$0.5$}
-        		\put(5.3,0.35){$0.7$}
-        		\put(6.85,0.35){$0.9$}
-        		\put(0.25,1.6){$3.0$}
-        		\put(0.25,3.6){$9.0$}
-        		\put(0.5,4.45){$A$}
-        		\put(8.4,0.47){$B$}
-		\put(8.2,2.35){$\mathscr{L}$}
+	\begin{picture}(124,64.5)(86.5,96.5)
+	    \put(100,100){\includegraphics[width=11cm]{./figures/paper_isola.eps}}
+	    \put(87,157){max($A$)}
+	    \put(94,139){\footnotesize $9.75$}
+	    \put(94,119){\footnotesize $7.25$}
+            \put(207,96.75){\Large $\varepsilon$}
+            \put(120.5,97){\footnotesize$0.3$}
+            \put(144.5,97){\footnotesize$0.5$}
+            \put(167.5,97){\footnotesize$0.7$}
+            \put(190.5,97){\footnotesize$0.9$}
+            \put(194,149.5){(a)}
+            \put(104,138){(b)}
+            \put(196.5,110){(c)}
+            
 	\end{picture}
 	\caption{}
 \end{figure}
 
 \newpage
-%%%%%%%%%%%%%%%%
-%%% Lin 2 %%%
-%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Figure 13: MMO surface interaction %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0,0)
-	    \put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/Lin2.eps}}
-	        \put(2.15,0.35){$0.3$}
-        		\put(3.73,0.35){$0.5$}
-        		\put(5.3,0.35){$0.7$}
-        		\put(6.85,0.35){$0.9$}
-        		\put(0.25,1.6){$3.0$}
-        		\put(0.25,3.6){$9.0$}
-        		\put(0.5,4.45){$A$}
-        		\put(8.4,0.47){$B$}
-		\put(4.6,3.65){$\mathbf{u}$}
+\begin{picture}(107,93)(64,137.5)
+\put(50,140){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_surface_interaction_BAX.eps}}
+	    \put(114,13.25){$C^2$}
+	    \put(107,4){$C^3$}
+	    \put(108,81){(b)}
+	    \put(95,37){$\mathscr{H}$}
+	    \put(65,-1){$C^{4}_{+}$}
+	    \put(16,1){$F_1$}
+	    \put(20,17.5){$C^{4}_{-}$}
+	    \put(80,19){$\mathscr{H}$}
+	    \put(14,50){$\Gamma$}
+	    \put(13,81){(a)}
+	    \put(115.5,8){$F_2$}
 	\end{picture}
 	\caption{}
+}
+\end{picture}
 \end{figure}
-
 \newpage
 
-%%%%%%%%%%%%%%%%
-%%% Lin 3 %%%
-%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure 14: Compare MMOs and singular objects%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(9,5)(0,0)
-	    \put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/Lin3.eps}}        		
-	     \put(2.15,0.35){$0.3$}
-        	      \put(3.73,0.35){$0.5$}
-        		\put(5.3,0.35){$0.7$}
-        		\put(6.85,0.35){$0.9$}
-        		\put(0.25,1.6){$3.0$}
-        		\put(0.25,3.6){$9.0$}
-        		\put(0.5,4.45){$A$}
-        		\put(8.4,0.47){$B$}
-		\put(3.4,2.37){$Z$}
-		\put(4.6,3.6){$\mathbf{u}$}
-		\put(5.95,1.35){$\mathbf{w}$}
+\begin{picture}(160,192)(76,81)
+
+
+\put(50,163){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_2_BAX.eps}}
+	    \put(70,-2){$C^{4}_{+}$}
+	     \put(26,16){$C^{4}_{-}$}
+	     \put(90,18){$\mathscr{H}_0$}
+	     \put(65,50){$\mathscr{P}$}
+	     \put(56,40){$\Gamma$}
+	     \put(34,49){$\mathscr{J}$}
+	     \put(105.5,17.5){$\mathscr{J}^*$}
+	     \put(33,-1){$F_1$}
+	    \put(25,60){(b)}
 	\end{picture}
 	\caption{}
-\end{figure}
+}
 
-\newpage
-
-%%%%%%%%%%%%%%%%
-%%% Lin 3 %%%
-%%%%%%%%%%%%%%%%
-
-
-\begin{figure}
-	\begin{picture}(9,5)(0,0)
-	    \put(0.75,0.75){\includegraphics[width=8cm, height=4cm]{./figures/Lin4.eps}}
-	        \put(2.15,0.35){$0.3$}
-        		\put(3.73,0.35){$0.5$}
-        		\put(5.3,0.35){$0.7$}
-        		\put(6.85,0.35){$0.9$}
-        		\put(0.25,1.6){$3.0$}
-        		\put(0.25,3.6){$9.0$}
-        		\put(0.5,4.45){$A$}
-        		\put(8.4,0.47){$B$}
-		\put(4.6,3.6){$\mathbf{u}$}
-		\put(5.95,1.35){$\mathbf{w}$}
-	   \end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-
-%%%%%%%%%%%%%%%%
-%%% Figure %%%
-%%%%%%%%%%%%%%%%
-
-
-\begin{figure}
-	\begin{picture}(19,13)(0,0)
-	    \put(0,0){\includegraphics[width=\textwidth]{./figures/unstable_piece_BAX.eps}}
+\put(120,199){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_1_BAX.eps}}
+	    \put(70,-2){$C^{4}_{+}$}
+	     \put(26,16){$C^{4}_{-}$}
+	     \put(90,18){$\mathscr{H}_0$}
+	     \put(64,50){$\mathscr{P}$}
+	     \put(24.5,40){$\Gamma$}
+	     \put(34,49){$\mathscr{J}$}
+	     \put(105.5,17.5){$\mathscr{J}^*$}
+	     \put(33,-1){$F_1$}
+	    \put(25,60){(a)}
 	\end{picture}
 	\caption{}
-\end{figure}
+}
 
-\newpage
-%%%%%%%%%%%%%%%%
-%%% Figure %%%
-%%%%%%%%%%%%%%%%
-
-
-\begin{figure}
-	\begin{picture}(19,13)(0,0)
-	    \put(0,0){\includegraphics[width=\textwidth]{./figures/unstable_piece_BAY.eps}}
+\put(120,85){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_3_BAX.eps}}
+	    \put(70,-2){$C^{4}_{+}$}
+	     \put(26,16){$C^{4}_{-}$}
+	     \put(90,18){$\mathscr{H}_0$}
+	     \put(64,50){$\mathscr{P}$}
+	     \put(25,40){$\Gamma$}
+	     \put(34,49){$\mathscr{J}$}
+	     \put(105.5,17.5){$\mathscr{J}^*$}
+	     \put(33,-1){$F_1$}
+	    \put(25,60){(c)}
 	\end{picture}
 	\caption{}
+}
+
+\end{picture}
 \end{figure}
-
 \newpage
-
-%%%%%%%%%%%%%%%%
-%% Two submanifold BAX %%
-%%%%%%%%%%%%%%%%
-
-\begin{figure}
-	\begin{picture}(18,12.5)(0,0)
-       
-	\put(0,0){\includegraphics[width=18cm, height=12.5cm]{./figures/two_pieces_paper_BAX.eps}}
-	    \put(15.1,7.7){\huge $W^{s}_{\widehat{\Sigma}}$}
-	    \put(17.3,7.15){\huge $\widehat{\Sigma}$}
-	    \put(6.65,0.9){\huge $\Omega$}
-	    \put(2,11.6){\huge $C^2$}
-	    \put(13.8,8.5){\huge $C^3$}
-	    \put(12.5,1.7){\huge $C^{4}_{+}$}
-	\end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-%%%%%%%%%%%%%%%%
-%% Two submanifold BAY %%
-%%%%%%%%%%%%%%%%
-
-\begin{figure}
-	\begin{picture}(18,12.5)(0,0)
-	    \put(0,0){\includegraphics[width=18cm, height=12.5cm]{./figures/two_pieces_paper_BAY.eps}}
-	    \put(15.4,5.1){\huge $W^{s}_{\widehat{\Sigma}}$}
-	    \put(6.65,0.9){\huge $\Omega$}
-	    \put(2,11.5){\huge $C^2$}
-	    \put(14,5.8){\huge $C^3$}
-	    \put(12.5,1.7){\huge $C^{4}_{+}$,$\widehat{\Sigma}$}
-	\end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-
-%%%%%%%%%%%%%%%%
-%%% MMO %%%
-%%%%%%%%%%%%%%%%
-
-
-\begin{figure}6
-	\begin{picture}(17,10)(0,0)
-	    \put(0,0){\includegraphics[width=\textwidth]{./figures/MMO_BAX.eps}}
-	\end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-
-%%%%%%%%%%%%%%%%
-%%% MMO %%%
-%%%%%%%%%%%%%%%%
-
-\begin{figure}
-	\begin{picture}(16,10)(0,0)
-	    \put(0,0){\includegraphics[width=\textwidth]{./figures/MMO_BAY.eps}}
-	\end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-
-%%%%%%%%%%%%%%%%
-%%% Figure %%%
-%%%%%%%%%%%%%%%%
-
-\begin{figure}
-	\begin{picture}(19,13)(0,0)
-	    \put(0,0){\includegraphics[width=19cm, height=13cm]{./figures/hetclin_6_BAX.eps}}
-	    \put(15.25,11.5){\huge$\mathscr{L}$}
-	    \put(7.55,10){\huge$W^u(\chi)$}
-	\end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-
-%%%%%%%%%%%%%%%%
-%%% Figure %%%
-%%%%%%%%%%%%%%%%
-
-\begin{figure}
-	\begin{picture}(19,13)(0,0)
-	    \put(0,0){\includegraphics[width=19cm, height=13cm]{./figures/hetclin_6_BAY.eps}}
-	    \put(15.25,11.5){\huge$\mathscr{L}$}
-	    \put(7.55,10){\huge$W^u(\chi)$}
-	\end{picture}
-	\caption{}
-\end{figure}
-
-\newpage
-
-
 
 \end{document}

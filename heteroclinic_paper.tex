@@ -109,7 +109,7 @@ $\alpha$ & $\delta$ & $\varepsilon$ & $\lambda$ & $\kappa$ & $\mu$ & $\zeta$ \\[
 \end{tabular}}
 \end{table}
     
-The classical analysis of slow-fast systems considers the two singular limits \cite{MMO}.  In the limit of $\varepsilon = 0$, system (\ref{equation_1}) reduces to
+The classical analysis of slow-fast systems considers the two singular limits, for example \cite{MMO}.  In the limit of $\varepsilon = 0$, system (\ref{equation_1}) reduces to
     
 \begin{equation}
 \begin{aligned}
@@ -123,7 +123,7 @@ The classical analysis of slow-fast systems considers the two singular limits \c
 \end{equation}
     
 \noindent
-with $\frac{dB}{dt}$=0, meaning that $B$ is a parameter of (\ref{equation_2}).  We refer to the three-dimensional system (\ref{equation_2}) as the fast subsystem.  Performing the time rescaling $\tau = \varepsilon t$ and then considering the limit of $\varepsilon = 0$, the system reduces to the differential algebraic reduced system
+with $\frac{dB}{dt}$=0, meaning that $B$ is a parameter of (\ref{equation_2}).  We refer to the three-dimensional system (\ref{equation_2}) as the fast subsystem.  Performing the time rescaling $\tau = \varepsilon t$ and then considering the limit of $\varepsilon = 0$, system (\ref{equation_1}) reduces to the differential algebraic reduced system
     
  \begin{equation}
 \begin{aligned}
@@ -140,32 +140,31 @@ with $\frac{dB}{dt}$=0, meaning that $B$ is a parameter of (\ref{equation_2}).  
 \noindent
 The three algebraic equations in system (\ref{equation_3}) define a one-dimensional manifold, called the critical manifold, denoted $C$.
 
-The critical manifold $C$ consists of equilibria of the fast subsystem (\ref{equation_2}), which exist in ($A$,$B$,$X$,$Y$)-space for different values of $B$.  Their stability can be determined from the eigenvalues of the $3\times3$ Jacobian matrix of (\ref{equation_2}) evaluated at each point on the critical manifold.  Points $p \in C$ at which the Jacobian has eigenvalues with non-zero real parts are called hyperbolic.  The eigenvectors associated with the eigenvalues are categorized based on the sign of the real part of the associated eigenvalue.  Eigenvectors whose associated eigenvalues have negative real parts are called stable directions of $p$ and these span the stable eigenspace $E^{s}(p)$ of $p$.  The unstable directions and the unstable eigenspace, $E^{u}(p)$, can be defined similarly by the eigenvectors associated with eigenvalues having positive real part.  Note that the dimensions of the stable and unstable eigenspaces are equal to the number of eigenvalues with negative and positive real parts respectively.  Equilibria at which the Jacobian has eigenvalues with zero real-part are called non-hyperbolic and these correspond to bifurcations of system (\ref{equation_2}) (there are lots of introductory ODEs books, are you particular about which one I reference).
+The critical manifold $C$ consists of equilibria of the fast subsystem (\ref{equation_2}), which exist in ($A$,$B$,$X$,$Y$)-space for different values of $B$.  Their stability can be determined from the eigenvalues of the $3\times3$ Jacobian matrix of (\ref{equation_2}) evaluated at each point on the critical manifold.  Points $p \in C$ at which the Jacobian of (\ref{equation_2}) has eigenvalues with non-zero real parts are called hyperbolic.  The eigenvectors associated with the eigenvalues are categorized based on the sign of the real part of the associated eigenvalue.  Eigenvectors whose associated eigenvalues have negative real parts are called stable directions of $p$ and these span the stable eigenspace $E^{s}(p)$ of $p$.  The unstable directions and the unstable eigenspace, $E^{u}(p)$, can be defined similarly by the eigenvectors associated with eigenvalues having positive real part.  Note that the dimensions of the stable and unstable eigenspaces are equal to the number of eigenvalues with negative and positive real parts respectively.  Equilibria at which the Jacobian has eigenvalues with zero real-part are called non-hyperbolic and these correspond to bifurcations of system (\ref{equation_2}) (there are lots of introductory ODEs books, are you particular about which one I reference).
 
 \begin{figure}[!t]
-\begin{center}
-\includegraphics[page=1]{figures.pdf}
-\end{center}
-\caption{Physically relevant branches of the critical manifold of system (\ref{equation_1}) shown in projection onto the ($B$,$A$)-plane.  The branches labeled $C^3$ (teal) and $C^2$ (raspberry) correspond to saddle equilibria of (\ref{equation_2}), solid curves indicate stable nodes.  The two saddle-node bifurcations are represented as orange dots and labeled $F_1$ and $F_2$, respectively.  The Hopf bifurcation is labeled $H$ (pink dot).  A saddle equilibrium exists on $C^2$ and is labeled $\chi$ (green cross).}
-\label{critical_figure}
+\centering
+\includegraphics[]{./figures/MKMO_1.pdf}
+\caption{Physically relevant branches $C^2$, $C^3$, $C^4_\pm$ of the critical manifold of (\ref{equation_1}) shown in projection onto the ($B$,$A$)-plane.  Branches $C^2$ (raspberry curve) and $C^3$ (teal curve) consist of saddles of (\ref{equation_2}) and $C^4_\pm$ (black curve) consist of stable equilibria of (\ref{equation_2}).  Superscripts indicate the number of stable directions possessed by a single equilibrium on a branch and subscripts are used to distinguish between the two branches of stable equilibria.  Branches are divided by saddle-node bifurcation points $F_1$ and $F_2$ (orange dots) and a Hopf point $H$ (pink dot).  Also shown is a saddle equilibrium $q$ (green cross) of (\ref{equation_1}) existing on $C^2$.  Parameters are as in Table 1.}
+\label{MKMO_1}
 \end{figure}
 
 The critical manifold $C$ in ($A$,$B$,$X$,$Y$)-space is divided into branches by bifurcation points of the fast subsystem (\ref{equation_2}), so that points on each branch have the same dimensions of stable and unstable eigenspaces.  In other words, the branches of $C$ are one-parameter families in $B$ of hyperbolic equilibria of system (\ref{equation_2}).  In our notation for branches, superscripts indicate the dimension in ($A$,$B$,$X$,$Y$)-space of the stable eigenspace of the branch, which are defined as the collection of stable eigenspaces of all the points on the branch.  The dimension of the stable eigenspaces of the branches is, hence, one plus than the dimension of the stable eigenspace of each point on the branch.  Further, we use subscripts to distinguish the two branches on which equilibria have three-dimensional stable eigenspaces; i.e. are attracting.  
 
-Four branches of the critical manifold lie in the physically relevant region where all phase-space variables are positive, these are shown in Figure \ref{critical_figure} projected into the ($B$,$A$)-plane.  The uppermost, black branch, denoted $C^4_+$, consists of stable equilibria of (\ref{equation_2}).  It is separated from the teal-colored branch of saddle equilibria, denoted $C^3$, by a very sharp fold point $F_1$ at $B \approx 0.956$ (orange dot).  Folds in the critical manifold correspond to saddle-node bifurcations of system (\ref{equation_2}) with respect to the parameter $B$, these are points at which one of the real eigenvalues of the Jacobian evaluated at the point switches signs.  Another fold at $B \approx 0.273$ denoted $F_2$ (orange dot), separates $C^3$ from a lower raspberry-colored branch of saddle equilibria, denoted $C^2$.   The branch $C^2$ ends at a Hopf bifurcation $H$ (pink dot) at $B \approx 0.897$.  For a Hopf bifurcation two complex-conjugate eigenvalues of the Jacobian pass through the imaginary axis of the complex plane.  To the right of $H$, there is again a stable branch of equilibria denoted $C^4_-$,.  
+Four branches of the critical manifold lie in the physically relevant region where all phase-space variables are positive, these are shown in Figure \ref{critical_figure} projected into the ($B$,$A$)-plane.  The uppermost, black branch, denoted $C^4_+$, consists of stable equilibria of (\ref{equation_2}).  It is separated from the teal-colored branch of saddle equilibria, denoted $C^3$, by a very sharp fold point $F_1$ at $B \approx 0.956$ (orange dot).  Folds in the critical manifold correspond to saddle-node bifurcations of system (\ref{equation_2}) with respect to the parameter $B$, these are points at which one of the real eigenvalues of the Jacobian evaluated at the point switches signs.  Another fold at $B \approx 0.273$ denoted $F_2$ (orange dot), separates $C^3$ from a lower raspberry-colored branch of saddle equilibria, denoted $C^2$.   The branch $C^2$ ends at a Hopf bifurcation $H$ (pink dot) at $B \approx 0.897$, where two complex-conjugate eigenvalues of the Jacobian pass through the imaginary axis of the complex plane.  To the right of $H$, there is again a stable branch of equilibria denoted $C^4_-$.  
 
-The point on $C^2$ at $B \approx 0.323$ is an equilibrium of system (\ref{equation_3}) and is hence an equilibrium for the full system (\ref{equation_1}).  We denote this equilibrium by $\chi$.  To the right of $W^u(\chi)$ in the $(B,A)$-projection, the flow is from right to left near $C^2$ in the full system (\ref{equation_1}).  To the left of $W^u(\chi)$ the flow is from left to right near $C^2$.  The equilibrium $\chi$ has two-dimensional stable and unstable manifolds that are denoted $W^s(\chi)$ and $W^u(\chi)$ respectively.  The manifolds $W^{s}(\chi)$ and $W^{u}(\chi)$ can be computed with conventional methods \cite{Red_book}.
+The point $q$ on $C^2$ at $B \approx 0.323$ is an equilibrium of system (\ref{equation_3}) and is, hence, an equilibrium for the full system (\ref{equation_1}).  The equilibrium $q$ has a two-dimensional stable and two-dimensional unstable manifold that are denoted $W^s(q)$ and $W^u(q)$, respectively.  The manifolds $W^{s}(q)$ and $W^{u}(q)$ can be computed with the methods in \cite{Red_book}.  To the right of $W^u(q)$ in the $(B,A)$-projection of Figure \ref{critical_figure}, the flow is from right to left near $C^2$ in the full system (\ref{equation_1}).  To the left of $W^u(q)$ the flow is from left to right near $C^2$.
 
-Our interest is in the branches $C^3$ and $C^2$ because they are crucial for organising the phase space and are saddle objects of different type.  The branches $C^3$ and $C^2$ of the critical manifold are invariant for $\varepsilon = 0$, but not for $\varepsilon > 0$.  However, they do persist as locally invariant manifolds called slow manifolds \cite{Fenichel}.  The associated slow manifolds are traditionally denoted by $S^3_\varepsilon$ and $S^2_\varepsilon$ but, for notational convenience, we drop the subscript indicating dependence on $\varepsilon$ and refer to the slow manifolds for $\varepsilon > 0$ simply as $S^3$ and $S^2$.  The slow manifold $S^3$ has the same dimension and stability and lies at an $O(\varepsilon)$ Hausdorff distance from $C^3$.  In particular, $S^3$ converges to $C^3$ as $\varepsilon \rightarrow 0$.  For a definition of Hausdorff distance, see \cite{Hausdorff_Distance}.  Orbit segments that lie on a slow manifold remain slow for an $O(1)$ time with respect to the slow time scale.  Any trajectory that remains slow for an $O(1)$ amount of slow time can be considered to be a slow manifold.  Due to this finite time nature, slow manifolds are not unique; however any two slow manifolds lie exponentially close to each other in a suitable, $\varepsilon$-dependent neighbourhood of $C$.  A unique slow manifold, $S^2$, associated with the critical manifold branch $C^2$ can be similarly defined and selected.  To select a unique representative $S^3$ and $S^2$, we consider the slow manifold that remains slow for the longest amount of time.
+Our interest is in the branches $C^3$ and $C^2$ because they are saddle objects of different type and are crucial for organising the phase space.  These branches of the critical manifold are invariant for $\varepsilon = 0$, but not for $\varepsilon > 0$.  However, they do persist as locally invariant manifolds called slow manifolds \cite{Fenichel}.  The associated slow manifolds are traditionally denoted by $S^3_\varepsilon$ and $S^2_\varepsilon$ but, for notational convenience, we drop the subscript indicating dependence on $\varepsilon$ and refer to these slow manifolds for $\varepsilon > 0$ simply as $S^3$ and $S^2$.  The slow manifold $S^3$ has the same dimension and stability and lies at an $O(\varepsilon)$ Hausdorff distance from $C^3$.  In particular, $S^3$ converges to $C^3$ as $\varepsilon \rightarrow 0$.  (For a definition of Hausdorff distance, see e.g. \cite{Hausdorff_Distance}.)  Orbit segments that lie on a slow manifold remain slow for $O(1)$ time with respect to the slow time scale.  It follows that any trajectory that remains slow for an $O(1)$ amount of slow time can be considered (to be on) a slow manifold.  However, eventually trajectories on a slow manifold may become fast. Due to their finite time nature, slow manifolds are not unique; however, any two slow manifolds lie exponentially close to each other in a suitable $O(\varepsilon)$ neighbourhood of $C$ \ref{Fenichel}.  To select a unique representative $S^3$ and $S^2$, we consider the slow manifold that remains slow for the longest amount of time.
 
-The stable manifold theorem tells us that for $\frac{dB}{dt} = 0$, each $p \in C^3$ has a stable and an unstable manifold that are tangent to and have the same dimensions as $E^{s}(p)$ and $E^{u}(p)$, respectively.  We denote the stable manifold of a point $p \in C^3$ by $W^{s}(p)$ and its unstable manifold by $W^{u}(p)$.  The manifolds $W^{s}(p)$ and $W^{u}(p)$ consist of trajectories in ($A$,$B$,$X$,$Y$)-space that converge to $p$ in forward and backward time respectively.  We can then define the collection of stable manifolds for $p \in C^3$ by $W^{s}(C^3) = \bigcup_{p \in C^3} W^{s}(p)$ which is three dimensional.  We can similarly define the three-dimensional $W^{u}(C^2)$ .
+The Stable Manifold Theorem tells us that each $p \in C^3$ has a stable and an unstable manifold that are tangent to and have the same dimensions as $E^{s}(p)$ and $E^{u}(p)$, respectively.  We denote the stable manifold of a point $p \in C^3$ by $W^{s}(p)$ and its unstable manifold by $W^{u}(p)$.  The manifolds $W^{s}(p)$ and $W^{u}(p)$ consist of trajectories in ($A$,$B$,$X$,$Y$)-space that converge to $p$ in forward and backward time respectively.  We can then define the collection of stable manifolds for $p \in C^3$ as $W^{s}(C^3) = \bigcup_{p \in C^3} W^{s}(p)$, which a three-dimensional manifold.  We can similarly define the three-dimensional unstable manifold $W^{u}(C^2)$ of $C^2$ .
 
-According to Fenichel Theory, for $\varepsilon > 0$, $W^{s}(C^3)$ also persists in an $O(\varepsilon)$ neighbourhood as the three-dimensional local stable manifold $W^{s}_{loc}(S^3)$ of $S^3$.  The local stable manifold $W^{s}_{loc}(S^3)$ consists of families of trajectories that have a fast approach to $S^3$ then remain close to $S^3$ for $O(1)$ slow time.  The three-dimensional unstable manifold $W^{u}(S^2)$ associated with $S^2$ is similarly defined for backwards time.  Again, due to the finite-time nature of the definitions for the three-dimensional manifolds $W^{s}(S^3)$ and $W^{u}(S^2)$, they are not unique.  To select unique representatives, we consider two-parameter families of orbit segments that remain slow for the longest amount of time subject to boundary conditions described in further sections.  
+According to Fenichel Theory, for $\varepsilon > 0$, the manifold $W^{s}(C^3)$ also persists in an $O(\varepsilon)$ neighbourhood as a three-dimensional local stable manifold $W^{s}_{loc}(S^3)$ of $S^3$.  The local stable manifold $W^{s}_{loc}(S^3)$ consists of families of trajectories that have a fast approach to $S^3$ then remain close to $S^3$ for $O(1)$ slow time.  The three-dimensional unstable manifold $W^{u}(S^2)$ associated with $S^2$ is similarly defined for backwards time.  Again, due to the finite-time nature of the definitions for the three-dimensional manifolds $W^{s}(S^3)$ and $W^{u}(S^2)$, they are not unique.  To select unique representatives, we consider two-parameter families of orbit segments that remain slow for the longest amount of time subject to boundary conditions described in further sections.  
  
  %Saddle slow manifold section   
  \section{Computation of saddle slow manifolds and their (un)stable manifolds}
     
-The definition of a one-dimensional saddle slow manifold and its (un)stable manifolds are given in \cite{Saeed_Paper} which presents algorithms for their computation in a three-dimensional system.  We are going to define only the slow manifold $S^3$ associated with $C^3$; the slow manifold $S^2$ can be defined in a similar manner.
+The definition of a one-dimensional saddle slow manifold and its (un)stable manifolds are given in \cite{Saeed_Paper} which presents algorithms for their computation in a three-dimensional system.  We are going to define only a unique representative of $S^3$ associated with $C^3$; the slow manifold $S^2$ can be defined in a similar manner.
 
 \subsection{Definition of $S^3$}    
 The precise definition of the slow manifold $S^3$ is given with respect to a closed interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that the interval is contained in the interval defined by the $B$-coordinates of the two fold points $F_1$ and $F_2$.  Note that there is a segment in $C^3$ for which each point $p \in C^3$ is uniquely associated via its $B$-coordinate with a value $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$.  Hence, for each $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^3$ such that $p_B = B_p$.  In the three-dimensional subsection $\{ \begin{pmatrix} A & B & X & Y \end{pmatrix} \in \mathbb{R}^4 \; | \; B=p_B\}$ we define a solid three-sphere $D_\delta(B_p)$ with radius $\delta$ and centre $p$ , given formally by
@@ -188,10 +187,10 @@ Figure \ref{tube_figure} shows a sketch of the unique representative, $S^3$ in g
 
 \begin{figure}[!t]
 \begin{center}
-\includegraphics[page=2]{figures.pdf}
+\includegraphics{./figures/MKMO_2.pdf}
 \end{center}
-\caption{The unique representative slow manifold $S^3$ (green curve) projected into the $(B,A)$-plane.  The spheres $D_\delta(B_{\mathrm{in}})$ and $D_\delta(B_{\mathrm{out}})$ are indicated by purple disks at either end of a four-dimensional cylinder, indicated by the purple curves.}
-\label{tube_figure}
+\caption{A sketch of the unique representative slow manifold $S^3$ (green curve) projected into the ($B$,$A$)-plane.  The representative slow manifold $S^3$ is defined by having the longest integration time while entering and exiting  $D_\delta(B_{\mathrm{in}})$ and $D_\delta(B_{\mathrm{out}})$ (purple disks) at either end of a four-dimensional cylinder.  Also shown are $C^3$, $C^4_+$, and $F_1$.}
+\label{MKMO_2}
 \end{figure}
 
 \subsection{Definition of $W^{s}(S^3)$ and computation of $W^{s}(S^3)$ and  $S^3$}
@@ -204,11 +203,8 @@ We explain first how to compute a specific submanifold $W^s_{\widehat{\Sigma}}$ 
 
 \begin{figure}[h]
 \centering
-\subfigure[]{\label{step1}\includegraphics[width=8cm, height=4cm, page=3]{figures.pdf}}
-\subfigure[]{\label{step2}\includegraphics[width=8cm, height=4cm, page=4]{figures.pdf}}
-\subfigure[]{\label{step3}\includegraphics[width=8cm, height=4cm, page=5]{figures.pdf}}
-\subfigure[]{\label{step4}\includegraphics[width=8cm, height=4cm, page=6]{figures.pdf}}
-\caption{Numerical set-up for the computation of submanifolds $W^s_{\Sigma}$ of $W^s(S^3)$.  Panel (a) shows a sketch of the first homotopy step in the algorithm for computing $W^{s}_{\widehat{\Sigma}}$.  The slow manifold $S^3$ is sketched in green.  The plane $\widehat{\Sigma}$ is given by the $A$- and $Y$-coordinates of the point $p_{\text{out}}$ and is represented as a mocha line in the $(B, A)$-plane.  The linear stable space $E^s(p_{\mathrm{out}})$ is represented by a blue cross. The saddle equilibrium, $\chi$, of the full system is represented by a green x.  Panel (b) shows a representative orbit segment (purple) in the first homotopy step; fast segments are represented with double arrows while slow segments are represented with single arrows.  Panel (c) shows a sketch illustrating the selection of an orbit segment (purple) with maximal integration time that ends on the blue cube $\Omega$ spanned by the two stable eigenvectors of $p_{\text{out}}$ and the vector parallel to the $B$-direction; the one-dimensional subset $\psi$ of $\widehat{\Sigma}$ is given by fixing $B = B_{\text{in}}$ and represented in mocha.  Panel (d) shows a sketch of the selection of a different submanifold $W^{s}_{\Sigma}$ for $\Sigma$ on the other side of the critical manifold from $\widehat{\Sigma}$ with respect to the $A$-coordinate.}
+\includegraphics[]{./figures/MKMO_3.pdf}
+\caption{A sketch of the numerical set-up for the computation of submanifolds of $W^s(S^3)$ in projection onto the ($B$,$A$)-plane.  Panel (a) shows a sketch at the start of the first homotopy step for computing $W^{s}_{\widehat{\Sigma}}$ with $S^3$ (represented by a green curve), $E^s(p_{\text{out}})$ (represented by a blue cross), and the plane $\widehat{\Sigma}$ (represented by a mocha line) which is defined by the $A$- and $Y$-coordinates of the point $p_{\text{out}}$.  Panel (b) shows a representative orbit segment $\mathbf{u}$ (represented by a magenta curve) of the first homotopy step.  Panel (c) shows an illustration of the selection of a $\mathbf{u}$ (represented by a magenta curve) with maximal integration time that starts at $\psi$ (represented by a mocha line) and ends on $\Omega$ (represented by a blue cube) which is spanned by $E^s(p_{\text{out}})$ and a vector in the $B$-direction; the one-dimensional subset $\psi \subset \widehat{\Sigma}$ is defined by fixing $B = B_{\text{in}}$.  Panel (d) shows a sketch of the selection of a different submanifold $W^{s}_{\Sigma}$ for $\Sigma$ on the other side of the critical manifold.  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$ and $q$.}
 \end{figure}
 
 
@@ -231,14 +227,14 @@ We obtain a first solution on $W^s_{\widehat{\Sigma}}$ via a homotopy step.  Fol
     
  \noindent
 that is, we impose two restrictions on the startpoint of the orbit segment $\mathbf{u}$, $\mathbf{u}(0)$ because $\widehat{\Sigma}$ is two dimensional.  As part of selecting a $\mathbf{u}$ that has a fast approach and remains close to $S^3$ for $O(1)$ slow time, we consider the two-dimensional eigenspace $E^s(p^t_{\text{out}})$ that is transverse to $W^u(S^3)$.  We define the boundary condition
-    
+ 
 \begin{equation}
 \mathbf{u}(1) \in E^s(p^t_{\text{out}})
 \label{BC7}
 \end{equation}
     
 \noindent
-that imposes two restrictions on the endpoint of $\mathbf{u}$, $\mathbf{u}(1)$ and allows for the possibility of $\mathbf{u}(1)$ intersecting $W^u(S^3)$.  The point $p_{\text{out}}$ is then a solution of the 2PBVP defined by (\ref{equation_4}), (\ref{BC6}) and (\ref{BC7}) with $T=0$.  Figure \ref{step1} illustrates the set up for this homotopy step in projection onto the $(B,A)$-plane.  Here, the plane $\widehat{\Sigma}$ is projected to a line (mocha), $E^s(p^t_{\mathrm{out}})$ is represented by a blue cross, and a line representing $S^3$ is sketched in green.  Note that in the ($B$,$A$)-projection, $\widehat{\Sigma}$ is directly underneath $C^4_+$ with respect to the variable $A$.  The saddle equilibrium $\chi$ is represented as a green x.
+that imposes two restrictions on the endpoint of $\mathbf{u}$, $\mathbf{u}(1)$ and allows for the possibility of $\mathbf{u}(1)$ intersecting $W^u(S^3)$.  The point $p_{\text{out}}$ is then a solution of the 2PBVP defined by (\ref{equation_4}), (\ref{BC6}) and (\ref{BC7}) with $T=0$.  Figure \ref{step1} illustrates the set up for this homotopy step in projection onto the $(B,A)$-plane.  Here, the plane $\widehat{\Sigma}$ is projected to a line (mocha), $E^s(p^t_{\mathrm{out}})$ is represented by a blue cross, and a line representing $S^3$ is sketched in green.  Note that in the ($B$,$A$)-projection, $\widehat{\Sigma}$ is directly underneath $C^4_+$ with respect to the variable $A$.  The saddle equilibrium $q$ is represented as a green x.
     
 We increase the total integration time while allowing the $B$-coordinate value of $\mathbf{u}(0)$ to decrease towards $F_2$.  Note that increasing integration time in this fashion causes $T$ to become negative.  This step is illustrated in Figure \ref{step2} where an intermediate orbit segment is represented as a magenta curve illustrating the presence of a fast segment (double arrows) followed by a slow segment (single arrow).  The continuation is stopped at $\mathbf{u}(0)_B = B_{\text{in}}=0.275$, just before $\mathbf{u}(0)_B$ reaches the $B$-coordinate value of $F_2$.  A sketch of the resulting orbit segment is shown in Figure \ref{step3}.
     
@@ -259,51 +255,55 @@ which imposes three conditions on $\mathbf{u}(0)$ and is more restrictive than (
 \end{equation}
     
 \noindent
-which imposes only one condition on $\mathbf{u}(0)$.  Condition (\ref{BC11}) is represented in Figure \ref{step3} as a cube with dark blue edges.  We now track the solution $\mathbf{u}$ of the 2PBVP (\ref{equation_4}), (\ref{BCSTOP}), (\ref{BC11}) as $T$ becomes more negative, forcing $\mathbf{u}(0)$ to approach $W^s(S^3) \cap \widehat{\Sigma}$ and $\mathbf{u}(1)$ to approach $W^u(S^3) \cap \Omega$. When a fold in $T$ is reached, a (local) minimum in the total integration time $T$ is attained.  
+which imposes only one condition on $\mathbf{u}(0)$.  Condition (\ref{BC11}) is represented in Figure \ref{step3} as a cube with dark blue edges.  We now track the solution $\mathbf{u}$ of the 2PBVP (\ref{equation_4}), (\ref{BCSTOP}), (\ref{BC11}) as $T$ becomes more negative, forcing $\mathbf{u}(0)$ to approach $W^s(S^3) \cap \widehat{\Sigma}$ and $\mathbf{u}(1)$ to approach $W^u(S^3) \cap \Omega$. When a fold in $T$ is reached, a (local) minimum in the total integration time $T$ is attained.
+
+The orbit segment that is obtained is not represented in a figure because it is almost identical to the orbit segment illustrated in Figure 3(c): it begins in $\widehat{\Sigma}$ and has a fast approach to $S^3$ before remaining $O(\varepsilon)$ close for $O(1)$ slow time, and so it lies on $W^{s}_{\widehat{\Sigma}}$ by definition.  In addition to finding an orbit segment that approximates a solution to (\ref{equation_4}) laying on $W^s_{\widehat{\Sigma}}$, we can approximate $S^3$ by restricting the orbit segment further inside $[B_{\text{in}},B_{\text{out}}]$ to exclude fast segments. At this stage the entire solution family lying on $W^s_{\widehat{\Sigma}}$ can be computed by continuing the fold in $T$, while allowing $u(0)_B$ to increase.
+
+Figure \ref{piece} shows two projections of $W^s_{\widehat{\Sigma}}$.  Although the manifold is two dimensional, it is necessary to visualise it in both $(B,A,X)$- and $(B,A,Y)$-projections because it exists in four-dimensional space.  Lying on $W^s_{\widehat{\Sigma}}$ is a representative orbit segment, plotted in magenta.  The critical manifold is plotted and the view is rotated relative to earlier figures to help illustrate the geometry of the submanifold.  Orbits lying on $W^s_{\widehat{\Sigma}}$ have a fast approach to $S^3$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then finally remaining close to $C^3$ for $O(1)$ slow time.
+
+In the case where we would like to compute $W^{s}_{\Sigma}$ where $\Sigma$ is defined by different constant values of $A$ and $Y$ (or $X$), we can obtain a first orbit segment on $W^{s}_{\Sigma}$ via a second homotopy step.  Using an intermediate orbit segment from the first homotopy step as a starting point, we impose (\ref{BC7}) while keeping as free parameters $T$, $\mathbf{u}(0)_B$, and the $X$-coordinate $\mathbf{u}(0)_X$ of $\mathbf{u}(0)$ (or the $Y$-coordinate  $\mathbf{u}(0)_Y$ of $\mathbf{u}(0)$).  In two runs, we continue $\mathbf{u}$ with $\mathbf{u}(0)_A$ and $\mathbf{u}(0)_Y$ (or $\mathbf{u}(0)_X$) as main continuation parameters.  In each of these runs, we increase or decrease the main continuation parameter until it attains the value necessary for $\mathbf{u}(0) \in \Sigma$.  Once $\mathbf{u}(0) \in \Sigma$, we follow the rest of the procedure described above while considering $\Sigma$ instead of $\widehat{\Sigma}$.
+
+Figure \ref{step4} illustrates a choice of $\Sigma$ on the opposite side of the critical manifold from $\widehat{\Sigma}$ with respect to the $A$-coordinate in the ($B$,$A$)-projection.  The orbit segment resulting from the second homotopy step is represented as a magenta curve.  Conditions (\ref{BCSTOP}) and (\ref{BC11}) are again illustrated with a mocha line and a cube with dark blue edges, respectively.
+
+Figure \ref{two_pieces} shows $W^s_{\widehat{\Sigma}}$ together with one other submanifold $W^{s}_{\Sigma}$ of $W^{s}(S^3)$.  The additional submanifold was selected with $\Sigma$ given by $A=2.0$ and $Y=0.0$.  Figure \ref{pieces} shows the two submanifolds of $W^{s}$ shown in Figure \ref{two_pieces} along with three additional submanifolds and the planes $\Sigma$ that define them.  The additional submanifolds were selected with $\Sigma$ given by $A=4.0$ and $X=0.75$, $A=4.0$ and $Y=0.75$, and $A=6.0$ and $X=0.5$.  Note that the $\Sigma$ appear as lines in one of the two projections, depending on whether they are defined by constant values of $X$ or $Y$.  The submanifolds appear to intersect, however this is due to the variable $A$ being slower than variables $X$ and $Y$.  This causes orbit segments to approach $S^3$ in the $X$- and $Y$-directions before approaching in the $A$-direction and is the reason for the portions of the submanifolds that come very near to each other.
 
 \begin{figure}[H]
 \centering
-\subfigure[]{\label{piece_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=7]{figures.pdf}}
-\subfigure[]{\label{piece_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=8]{figures.pdf}}
-\caption{The submanifold $W^{s}_{\widehat{\Sigma}}$(light blue), defined as the family of orbit segments with maximal integration time that solve the 2PBVP (\ref{equation_4}), (\ref{BCSTOP}), (\ref{BC11}) as $B$ varies.  Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with a representative orbit segment plotted in magenta.  Projections of a segment of the critical manifold are shown in turquoise and the view is rotated relative to previous figures.}
+\includegraphics[]{./figures/MKMO_4.pdf}
+\caption{The submanifold $W^{s}_{\widehat{\Sigma}}$ (light blue surface) of $W^s(S^3)$ shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b) with a representative orbit segment (magenta curve), $\widehat{\Sigma}$ (mint surface and line), and $\Omega$ (represented by a blue cube).  Also shown are $C^3$, $C^4_+$, and $F_1$.  The view is rotated relative to previous figures.}
 \label{piece}
 \end{figure}
 
+
+
 \begin{figure}[H]
 \centering
-\subfigure[]{\label{two_pieces_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=17]{figures.pdf}}
-\subfigure[]{\label{two_pieces_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=18]{figures.pdf}}
-\caption{The submanifolds $W^{s}_{\Sigma}$ and $W^{s}_{\widehat{\Sigma}}$ (blue and light blue) of $W^s(S^3)$, defined as the family orbit segments with maximum integration time that solve the 2PBVP (\ref{equation_4}), (\ref{BCSTOP}), (\ref{BC11}) as $B$ varies.  Here $\Sigma$ is a plane defined by the constant values $A=2.0$ and $Y=0.0$.  Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with representative orbit segments plotted in magenta on each slice.  The planes $\widehat{\Sigma}$ and $\Sigma$ are plotted in plum.  Note that $\widehat{\Sigma}$ and $\Sigma$ appear as black lines in (b) and $\widehat{\Sigma}$ is so near to $C^4_+$ that it is indistinguishable from it.  A representative illustration of the three-dimensional $\Omega$ is sketched as a blue cube.  Projections of the critical manifold are shown in black, turquoise, and raspberry and the view is rotated relative to previous figures.}
+\includegraphics[]{./figures/MKMO_5.pdf}
+\caption{The submanifolds $W^{s}_{\Sigma_1}$ (blue surface) and $W^{s}_{\widehat{\Sigma}}$ (light blue surface) of $W^s(S^3)$ shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b) with representative orbit segments (magenta curves), planes $\widehat{\Sigma}$ (mint surface and line) and $\Sigma_1$ (mint surface and line), and $\Omega$ (represented by a blue cube).  Also shown are $C^2$, $C^3$, $C^4_+$, $F_1$, and $F_2$.}
 \label{two_pieces}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\subfigure[]{\label{pieces_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=9]{figures.pdf}}
-\subfigure[]{\label{pieces_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=10]{figures.pdf}}
-\caption{The submanifold $W^{s}_{\widehat{\Sigma}}$ and a selection of four additional $W^{s}_{\Sigma}$ (blues), defined as the family orbit segments with maximum integration time that solve the 2PBVP (\ref{equation_4}), (\ref{BCSTOP}), (\ref{BC11}) as $B$ varies.  Here, the $\Sigma$ are the planes defined by the constant values $A=2.0$ and $Y=0.0$, $A=4.0$ and $Y=0.75$, $A=4.0$ and $X=0.75$, and $A=6.0$ and $X=0.5$.  Shown are projections into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in magenta.  Projections of the critical manifold are shown in black, turquoise, and raspberry and the view is rotated relative to previous figures.}
+\includegraphics[]{./figures/MKMO_6.pdf}
+\caption{The submanifolds from Figure 5. with three additional submanifolds $W^s_{\Sigma_i}$ (blue surfaces) defined by $\Sigma_2$, $\Sigma_3$, and $\Sigma_4$ (mint planes and lines) shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b) with $\Omega$ (represented by a blue cube).  An example orbit segment (magenta curve) is plotted on each $W^s_{\Sigma_i}$.  Also shown are $C^2$, $C^3$, $C^4_+$, $F_1$, and $F_2$.}
 \label{pieces}
 \end{figure}
-
-    
-The orbit segment that is obtained is not represented in a figure because it is almost identical to the orbit segment illustrated in Figure 3(c): it begins in $\widehat{\Sigma}$ and has a fast approach to $S^3$ before remaining $O(\varepsilon)$ close for $O(1)$ slow time, and so it lies on $W^{s}_{\widehat{\Sigma}}$ by definition.  In addition to finding an orbit segment that approximates a solution to (\ref{equation_4}) laying on $W^s_{\widehat{\Sigma}}$, we can approximate $S^3$ by restricting the orbit segment further inside $[B_{\text{in}},B_{\text{out}}]$ to exclude fast segments. At this stage the entire solution family lying on $W^s_{\widehat{\Sigma}}$ can be computed by continuing the fold in $T$, while allowing $u(0)_B$ to increase.
-   
-Figure \ref{piece} shows two projections of $W^s_{\widehat{\Sigma}}$.  Although the manifold is two dimensional, it is necessary to visualise it in both $(B,A,X)$- and $(B,A,Y)$-projections because it exists in four-dimensional space.  Lying on $W^s_{\widehat{\Sigma}}$ is a representative orbit segment, plotted in magenta.  The critical manifold is plotted and the view is rotated relative to earlier figures to help illustrate the geometry of the submanifold.  Orbits lying on $W^s_{\widehat{\Sigma}}$ have a fast approach to $S^3$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then finally remaining close to $C^3$ for $O(1)$ slow time.
-    
-In the case where we would like to compute $W^{s}_{\Sigma}$ where $\Sigma$ is defined by different constant values of $A$ and $Y$ (or $X$), we can obtain a first orbit segment on $W^{s}_{\Sigma}$ via a second homotopy step.  Using an intermediate orbit segment from the first homotopy step as a starting point, we impose (\ref{BC7}) while keeping as free parameters $T$, $\mathbf{u}(0)_B$, and the $X$-coordinate $\mathbf{u}(0)_X$ of $\mathbf{u}(0)$ (or the $Y$-coordinate  $\mathbf{u}(0)_Y$ of $\mathbf{u}(0)$).  In two runs, we continue $\mathbf{u}$ with $\mathbf{u}(0)_A$ and $\mathbf{u}(0)_Y$ (or $\mathbf{u}(0)_X$) as main continuation parameters.  In each of these runs, we increase or decrease the main continuation parameter until it attains the value necessary for $\mathbf{u}(0) \in \Sigma$.  Once $\mathbf{u}(0) \in \Sigma$, we follow the rest of the procedure described above while considering $\Sigma$ instead of $\widehat{\Sigma}$.
-    
-Figure \ref{step4} illustrates a choice of $\Sigma$ on the opposite side of the critical manifold from $\widehat{\Sigma}$ with respect to the $A$-coordinate in the ($B$,$A$)-projection.  The orbit segment resulting from the second homotopy step is represented as a magenta curve.  Conditions (\ref{BCSTOP}) and (\ref{BC11}) are again illustrated with a mocha line and a cube with dark blue edges, respectively.
-
-Figure \ref{two_pieces} shows $W^s_{\widehat{\Sigma}}$ together with one other submanifold $W^{s}_{\Sigma}$ of $W^{s}(S^3)$.  The additional submanifold was selected with $\Sigma$ given by $A=2.0$ and $Y=0.0$.  Figure \ref{pieces} shows the two submanifolds of $W^{s}$ shown in Figure \ref{two_pieces} along with three additional submanifolds and the planes $\Sigma$ that define them.  The additional submanifolds were selected with $\Sigma$ given by $A=4.0$ and $X=0.75$, $A=4.0$ and $Y=0.75$, and $A=6.0$ and $X=0.5$.  Note that the $\Sigma$ appear as lines in one of the two projections, depending on whether they are defined by constant values of $X$ or $Y$.  The submanifolds appear to intersect, however this is due to the variable $A$ being slower than variables $X$ and $Y$.  This causes orbit segments to approach $S^3$ in the $X$- and $Y$-directions before approaching in the $A$-direction and is the reason for the portions of the submanifolds that come very near to each other.
     
 We note that, unlike the stable manifold of $S^3$ computed for the reduced system in \cite{QSSA}, each submanifold $W^{s}_{\Sigma}$ in Figure \ref{pieces} diverges backwards in time in the $X$- and $Y$- directions before reaching $S^2$.  The computations in \cite{QSSA} suggest that there exists a  submanifold of $W^s(S^3)$ in the four-dimensional system that spirals around $S^2$ in backward time for an appropriate choice of $\Sigma$.  Such a surface would be the intersection of the two three-dimensional manifolds $W^s(S^3)$ and $W^u(S^2)$ in the full four-dimensional system.  
+
+
+Stuff to add into text:
+Here $\Sigma_1$ is given by $A=2.0$ and $Y=0.0$.
+Here, $\Sigma_2$ is given by $A=4.0$ and $Y=0.75$, $\Sigma_3$ by $A=4.0$ and $X=0.75$, and $\Sigma_4$ by $A=6.0$ and $X=0.5$.
+
 
 %unstable
 \subsection{Definition and computation of $W^{u}(S^2)$}  
 
-Before investigating the existence of such an intersection, we first consider the unstable manifold $W^{u}(S^2)$ of $S^2$.  The computation of submanifolds of $W^{u}(S^2)$ is similar to the computation of $W^{s}_\Sigma$, however adjustments must be made in light of some complicating challenges.  Two extra challenges are the saddle equilibrium, $\chi$, of the full system lying on $C^2$ at $B = 0.323$ and the Hopf bifurcation of the fast subsystem at $B = 0.897$.  Additional care must be taken to ensure that the computed orbits do not increase in integration time solely by approaching the saddle equilibrium's stable manifold or by following the nearby stable slow manifold backward in time.  Values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that $\chi_B < B_{\mathrm{out}} < B_{\mathrm{in}}< H_B$.  We can then define the four-dimensional cylinder $\mathscr{D}$ similarly to how it was defined for $W^s(S^3)$.  The unstable manifold can then be defined as a two-parameter family of orbit segments composed of a collection of one-parameter families that enter $\mathscr{D}$ at $B_{\mathrm{in}}$, follow $S^2$ for an $O(1)$ amount of slow time and then exit at $B_p$ for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$.  We modify the steps for computing two-dimensional submanifolds of $W^s(S^3)$ in order to ensure that an increase in integration time results only from a more accurate approximation of a submanifold of $W^u(S^2)$.
+Before investigating the existence of such an intersection, we first consider the unstable manifold $W^{u}(S^2)$ of $S^2$.  The computation of submanifolds of $W^{u}(S^2)$ is similar to the computation of $W^{s}_\Sigma$, however adjustments must be made in light of some complicating challenges.  Two extra challenges are the saddle equilibrium, $q$, of the full system lying on $C^2$ at $B = 0.323$ and the Hopf bifurcation of the fast subsystem at $B = 0.897$.  Additional care must be taken to ensure that the computed orbits do not increase in integration time solely by approaching the saddle equilibrium's stable manifold or by following the nearby stable slow manifold backward in time.  Values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that $q_B < B_{\mathrm{out}} < B_{\mathrm{in}}< H_B$.  We can then define the four-dimensional cylinder $\mathscr{D}$ similarly to how it was defined for $W^s(S^3)$.  The unstable manifold can then be defined as a two-parameter family of orbit segments composed of a collection of one-parameter families that enter $\mathscr{D}$ at $B_{\mathrm{in}}$, follow $S^2$ for an $O(1)$ amount of slow time and then exit at $B_p$ for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$.  We modify the steps for computing two-dimensional submanifolds of $W^s(S^3)$ in order to ensure that an increase in integration time results only from a more accurate approximation of a submanifold of $W^u(S^2)$.
 
-Namely, we must make adjustments to boundary conditions so that orbit segments do not increase in integration time by approaching $\chi$ or by following the attracting slow manifold to the right of the Hopf bifurcation in the $(B,A)$-projection in backwards time.  To compute a submanifold of $W^u(S^2)$, we define for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ a sphere in the subspace $\{B=B_p\}$, centered at $p$ and with radius $r$; here $p \in C^2$ is the unique point such that $p_B = B_p$.  More formally,
+Namely, we must make adjustments to boundary conditions so that orbit segments do not increase in integration time by approaching $q$ or by following the attracting slow manifold to the right of the Hopf bifurcation in the $(B,A)$-projection in backwards time.  To compute a submanifold of $W^u(S^2)$, we define for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ a sphere in the subspace $\{B=B_p\}$, centered at $p$ and with radius $r$; here $p \in C^2$ is the unique point such that $p_B = B_p$.  More formally,
 
 \begin{equation*}
 \widetilde{D}_r(B_p)=\{w \in \mathbb{R}^4 \;|\; w_B = B_p, \left\lVert w-p \right\lVert  = r\}.
@@ -312,7 +312,7 @@ Namely, we must make adjustments to boundary conditions so that orbit segments d
 \noindent
 We can then define the three-dimensional cylinder $\mathscr{R} = \cup_{B \in [B_{\mathrm{in}}, B_{\mathrm{out}}]}\widetilde{D}_r(B)$.  
 
-We define a submanifold $W^u_r$ for $r>\delta$, as the one-parameter family of orbit segments that enter $\mathscr{D}$ at $B_{\mathrm{in}}$ and, for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$, intersect $\mathscr{R}$ after exiting $\mathscr{D}$ at $B_p$ an $O(1)$ amount of slow time afterwards.  The radius $\delta$ is chosen small enough so that $\mathscr{R}$ does not contain a locus of points at which the flow is not transverse to $\mathscr{R}$.  We use the cylinder $\mathscr{R}$ instead of the plane $\Sigma$ described in section 4.1 to keep the endpoints of orbit segments $\mathbf{u}$ close enough to $C^2$ so that the $\mathbf{u}$ cannot contain segments that approach $\chi$.  In the following steps, the computation of a submanifold $W^u_{r^*}$ is outlined for $r^*=0.7$ before the description of the necessary modifications to obtain $W^u_r$ for more general $r$. 
+We define a submanifold $W^u_r$ for $r>\delta$, as the one-parameter family of orbit segments that enter $\mathscr{D}$ at $B_{\mathrm{in}}$ and, for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$, intersect $\mathscr{R}$ after exiting $\mathscr{D}$ at $B_p$ an $O(1)$ amount of slow time afterwards.  The radius $\delta$ is chosen small enough so that $\mathscr{R}$ does not contain a locus of points at which the flow is not transverse to $\mathscr{R}$.  We use the cylinder $\mathscr{R}$ instead of the plane $\Sigma$ described in section 4.1 to keep the endpoints of orbit segments $\mathbf{u}$ close enough to $C^2$ so that the $\mathbf{u}$ cannot contain segments that approach $q$.  In the following steps, the computation of a submanifold $W^u_{r^*}$ is outlined for $r^*=0.7$ before the description of the necessary modifications to obtain $W^u_r$ for more general $r$. 
 
 We perform an initial homotopy step analogous to the homotopy step in section 4.1 to obtain an orbit segment that enters $\mathscr{D}$ at $B_{\mathrm{in}}$ and intersects $\mathscr{R}$ after exiting $\mathscr{D}$ at some $B^* \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$.  We select the unique point $\bar{p} \in C^2$ such that $\bar{p}_B=0.7$.  The plane $\bar{\Sigma}$ is defined by fixing the $A$- and $Y$- coordinates of $\bar{p}$, which are $A \approx 0.940272$ and $Y \approx 1.342954$.  We impose the boundary conditions
 
@@ -394,9 +394,8 @@ imposes two conditions on $\mathbf{u}(1)$.  The radius $r$ is then increased or 
 
 \begin{figure}[H]
 \centering
-\subfigure[]{\label{piece_BAX_unstable}\includegraphics[width=\textwidth, height=0.42\textheight, page=15]{figures.pdf}}
-\subfigure[]{\label{piece_BAY_unstable}\includegraphics[width=\textwidth, height=0.42\textheight, page=16]{figures.pdf}}
-\caption{The submanifold $W^u_{r^*}$ (red) of $W^u(S^2)$ computed as the family of orbit segments with maximal integration time that are solutions to the 2PBVP $(\ref{equation_4})$, $(\ref{BC5_unstable})$, and $(\ref{BC7_unstable})$ projected into $(B,A,X)$-space (a) and $(B,A,Y)$-space (b) with example orbit segments plotted in forest green.  Projections of a segments of the critical manifold are shown in black and raspberry and the view is rotated relative to previous figures.}
+\includegraphics[]{./figures/MKMO_7.pdf}
+\caption{The submanifold $W^u_{r^*}$ (red surface) of $W^u(S^2)$ shown in projection onto $(B,A,X)$-space (a) and $(B,A,Y)$-space (b); also shown are two representative orbit segments (forest green curves) on $W^u_{r^*}$, $\Phi$ (mint surface), and the intersection $W^s_{r^*}\cap\mathscr{R}$ (mint curve).  Branches $C^2$ and $C^4_-$ are also shown and the view is rotated relative to previous figures.  Also shown are $C^2$, $C^4_-$, and $H$.}
 \label{unstable_piece}
 \end{figure}
 
@@ -407,11 +406,8 @@ imposes two conditions on $\mathbf{u}(1)$.  The radius $r$ is then increased or 
 
 \begin{figure}[h]
 \centering
-\subfigure[]{\label{hetclin1}\includegraphics[width=8cm, height=4cm, page=11]{figures.pdf}}
-\subfigure[]{\label{hetclin2}\includegraphics[width=8cm, height=4cm, page=12]{figures.pdf}}
-\subfigure[]{\label{hetclin3}\includegraphics[width=8cm, height=4cm, page=13]{figures.pdf}}
-\subfigure[]{\label{hetclin4}\includegraphics[width=8cm, height=4cm, page=14]{figures.pdf}}
-\caption{}
+\includegraphics[]{./figures/MKMO_8.pdf}
+\caption{Numerical set up for the computation of $\mathscr{H}$ with Lin's method.  Panel (a) shows the critical manifold with $S^3$ and $S^2$ sketched in green.  The Lin section $\mathscr{L}$ is sketched in charcoal.  Panel (b) shows an initial orbit segment $\mathbf{u}$ laying on $W^s(S^3)$ such that $\mathbf{u}(0) \in \mathscr{L}$.  Also shown in (b) is $E^s(p_{\text{out}})$ for $\mathbf{u}$ is sketched as a blue cross.  Panel (c) additionally shows a sketch of an initial orbit segment $\mathbf{w}$ on $W^u(S^2)$ such that $\mathbf{w}(1) \in \mathscr{L}$.  The unstable eigenspace $E^u(p_{\text{in}})$ for $\mathbf{w}$ is sketched as a red cross.  The Lin vector $Z$, connecting $\mathbf{u}(0)$ and $\mathbf{w}(1)$ inside $\mathscr{L}$, is sketched in gold on top of the sketch of $\mathscr{L}$.  Panel (d) shows $\mathbf{u}$ and $\mathbf{w}$ after the Lin gap $\eta$ is closed and $\mathbf{u}(0)=\mathbf{w}(1) \in \mathscr{L}$.}
 \end{figure}
 
 
@@ -431,7 +427,7 @@ In our computations of $\mathbf{u}$ and $\mathbf{w}$ we do not find the orbit se
 
 \subsection{Computing an initial orbit segment on $W^s(S^3)$}
 
-The Lin section $\mathscr{L}$ is a three-dimensional section given by a constant $A$-coordinate.  We choose $\mathscr{L} = \{\omega \in \mathbb{R}^4 \; | \; \omega_A = 6.0 \}$ so that, in the ($B$,$A$)-projection and with respect to the variable $A$, it lies between $\chi$ and the point on $C^3$ with the same $B$-coordinate as $\chi$.  Our choice of $\mathscr{L}$ allows us to avoid stopping the continuation because $\mathscr{L}$ has intersected $C^2$.  We can instead compute the largest possible portion of $\mathscr{H}$ by continuing orbit segments as close as possible to $\chi$.  Although $\mathscr{L}$ is three dimensional, it is illustrated as a purple line in the ($B$, $A$)-projection in Figure \ref{hetclin1}.
+The Lin section $\mathscr{L}$ is a three-dimensional section given by a constant $A$-coordinate.  We choose $\mathscr{L} = \{\omega \in \mathbb{R}^4 \; | \; \omega_A = 6.0 \}$ so that, in the ($B$,$A$)-projection and with respect to the variable $A$, it lies between $q$ and the point on $C^3$ with the same $B$-coordinate as $q$.  Our choice of $\mathscr{L}$ allows us to avoid stopping the continuation because $\mathscr{L}$ has intersected $C^2$.  We can instead compute the largest possible portion of $\mathscr{H}$ by continuing orbit segments as close as possible to $q$.  Although $\mathscr{L}$ is three dimensional, it is illustrated as a purple line in the ($B$, $A$)-projection in Figure \ref{hetclin1}.
 
 We compute the orbit segment $\mathbf{u}$ as in the computation of an initial orbit segment on a submanifold $W^s_{\Sigma}$ in section~3.2 with the exception that we omit last the step and do not compute the orbit with maximal integration time.  Here, $\Sigma$ is the plane given by $A=6.0$ and $Y\approx1.342954$.
 
@@ -439,7 +435,7 @@ We compute the orbit segment $\mathbf{u}$ as in the computation of an initial or
 
 We perform three homotopy steps to obtain an initial orbit segment on $W^u(S^2)$.  We begin with the point $\bar{p}$ that is a solution to the 2PBVP defined by $(\ref{equation_4})$, (\ref{BC1_unstable}), and (\ref{BC2_unstable}) for $T=0$.  We obtain an orbit segment $\mathbf{w}$ by imposing conditions (\ref{BC1_unstable}) and (\ref{BC2_unstable}) while increasing integration time.  The continuation is stopped when $\mathbf{w}(1)_B = 0.6$.
 
-We then impose (\ref{BC3_unstable}) and (\ref{BC2_unstable}) while additionally requiring $\mathbf{w}(1)_B=0.6$.  We continue $\mathbf{w}$ while increasing integration time once more while $\mathbf{w}(0)_B$ increases, and stop the continuation when $\mathbf{w}(0)_B=1.0$.
+We then impose (\ref{BC3_unstable}) and (\ref{BC2_unstable}) while additionally requiring $\mathbf{w}(1)_B=0.6$.  We continue $\mathbf{w}$ while increasing integration time once more while $\mathbf{w}(0)_B$ increases, and stop the continuation when $\mathbf{w}(0)_B=0.96$.
 
 In the third homotopy step, we impose (\ref{BC5_unstable}) while keeping $\mathbf{w}(0)_B$, $\mathbf{w}(1)_B$ and $\mathbf{w}(1)_Y$ fixed.  The $A$-coordinate of $\mathbf{w}(1)$ increases as $T$ is increased.  The continuation is stopped when $\mathbf{w}(1)_A = 6.0$.  In other words, we stop the continuation when $\mathbf{w}(1) \in \mathscr{L}$.
 
@@ -466,24 +462,31 @@ to restrict  $[\mathbf{u}(0) -\mathbf{w}(1)] \in Z$.  Additionally, we impose co
 \noindent
 and continue $\mathbf{u}$ and $\mathbf{w}$ while $\eta$ is decreased.  We stop the continuation as soon as $\eta = 0$, at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection in $\mathscr{H}$.
 
-To obtain a one-parameter family of concatenations approximating $\mathscr{H}$, we require $\eta = 0$ while relaxing condition (\ref{fix_B}).  We then decrease $\mathbf{w}(1)_B$ and stop the continuation before $\mathbf{u}$ and $\mathbf{w}$ reach the intersection of $\mathscr{H}$ with $W^u(\chi)$.  We sweep out the other side of the manifold by continuation in the opposite direction (of increasing $\mathbf{w}(1)_B$) and stop just before $\mathbf{w}(1)_B$ reaches the $B$-coordinate of the Hopf bifurcation point $H$ on $C^2$.
+To obtain a one-parameter family of concatenations approximating $\mathscr{H}$, we require $\eta = 0$ while relaxing condition (\ref{fix_B}).  We then decrease $\mathbf{w}(1)_B$ and stop the continuation before $\mathbf{u}$ and $\mathbf{w}$ reach the intersection of $\mathscr{H}$ with $W^u(q)$.  We sweep out the other side of the manifold by continuation in the opposite direction (of increasing $\mathbf{w}(1)_B$) and stop just before $\mathbf{w}(1)_B$ reaches the $B$-coordinate of the Hopf bifurcation point $H$ on $C^2$.
 
-Figure \ref{heteroclinic} shows $\mathscr{H}$ projected into $(B,A,X)$- and $(B,A,Y)$-space.  The portion of $\mathscr{H}$ composed of the collection of orbit segments $\mathbf{w}$ is colored in red and the portion composed of orbit segments $\mathbf{u}$ is blue.  Orbit segments on $\mathscr{H}$ spiral around $S^2$ for an $O(1)$ amount of slow time before exiting via $W^u(S^2)$ and following $S^3$ for an $O(1)$ amount of slow time via $W^s(S^3)$.  Three representative orbit segments are shown, their $\mathbf{w}$ segments in magenta and their $\mathbf{u}$ segments in forest green.
+Figure \ref{heteroclinic} shows $\mathscr{H}$ projected into ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-space.  The portion of $\mathscr{H}$ composed of the collection of orbit segments $\mathbf{w}$ is colored in red and the portion composed of orbit segments $\mathbf{u}$ is blue.  Orbit segments on $\mathscr{H}$ spiral around $S^2$ for an $O(1)$ amount of slow time before exiting via $W^u(S^2)$ and following $S^3$ for an $O(1)$ amount of slow time via $W^s(S^3)$.  Three representative orbit segments are shown, their $\mathbf{w}$ segments in magenta and their $\mathbf{u}$ segments in forest green.
 
 \begin{figure}[H]
 \centering
-\subfigure[]{\label{hetclin_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=21]{figures.pdf}}
-\subfigure[]{\label{hetclin_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=22]{figures.pdf}}
-\caption{The heteroclinic connection $\mathscr{H}$ projected into (a) $(B,A,X)$- and (b) $(B,A,Y)$-space.  The portion of $\mathscr{H}$ that was computed as orbit segments in $W^s(S^3)$ is plotted in blue while the portion that was computed as orbit segments laying on $W^u$ associated with $S^2$ is plotted in red.  Three representative orbit segments laying on $\mathscr{H}$ are plotted.  The portions of the orbit segments computed as $\mathbf{u}$ are plotted in magenta while the segments that were computed as $\mathbf{w}$ are plotted in forest green.  The Lin section $\mathscr{L}$ is plotted in charcoal.  Although $\mathscr{L}$ appears as a plane in the two projections, it is indeed three dimensional.  The saddle equilibrium $\chi$ is plotted as a green cross, partially obstructed by $\mathscr{H}$, $\mathscr{L}$, and its unstable manifold, $W^{u}(\chi)$.  The unstable manifold $W^{u}(\chi)$ is plotted in burgundy.  The critical manifold is plotted and the view is rotated relative to previous figures to facilitate viewing.}
+\includegraphics[]{./figures/MKMO_9.pdf}
+\caption{The surface of heteroclinic connections $\mathscr{H}$, $\mathscr{L}$, and the critical manifold projected into (a) $(B,A,X)$- and (b) $(B,A,Y)$-space.  The portion of $\mathscr{H}$ that was computed as orbit segments in $W^s(S^3)$ is plotted in blue while the portion that was computed as orbit segments laying on $W^u(S^2)$ is plotted in red.  Three representative orbit segments laying on $\mathscr{H}$ are plotted.  The portions of the orbit segments computed as $\mathbf{u}$ are plotted in magenta while the segments that were computed as $\mathbf{w}$ are plotted in forest green.  The three-dimensional Lin section $\mathscr{L}$ is plotted as a charcoal plane in each projection.  The saddle equilibrium $q$ is plotted as a green cross, partially obstructed by $\mathscr{H}$ and $\mathscr{L}$.}
 \label{heteroclinic}
 \end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_10.pdf}
+\caption{The surface of heteroclinic connections $\mathscr{H}$ (red-blue fade) shown with $W^u(q)$ (burgundy) and the critical manifold projected into (a) $(B,A,X)$- and (b) $(B,A,Y)$-space.  The saddle equilibrium $q$ (green cross) is partially obstructed by $\mathscr{H}$ and $W^{u}(q)$.}
+\label{heteroclinic}
+\end{figure}
+
 
 
 %Singular surface computation
 
 \section{Computing the singular surface of heteroclinic connections}
 
-The computation of the surface of heteroclinic connections, $\mathscr{H}^*$, for $\varepsilon=0$ is slightly different from the computation of $\mathscr{H}$ for $\varepsilon > 0$.  The time scaling parameter, $\varepsilon$, being zero means that $\mathscr{H}^* = W^s(C^3) \cap W^u(C^2)$.  The surface $\mathscr{H}^*$ is then composed of the family of heteroclinic connections in (\ref{equation_2}) parameterized by $B$.  In the ($B$,$A$)-projection on $C^2$, the equilibria to the left of $B \approx 0.476858$ have all real eigenvectors and equilibria to the right have a complex conjugate pair of eigenvectors.  Due to the change in the type of eigenvectors, two slightly different algorithms are used to compute $\mathscr{H}$ in two pieces.  We first describe the computation for equilibria with real eigenvectors and then for equilibria with complex conjugate eigenvectors.  
+The computation of the surface of heteroclinic connections, $\mathscr{H}_0$, for $\varepsilon=0$ is slightly different from the computation of $\mathscr{H}$ for $\varepsilon > 0$.  The time scaling parameter, $\varepsilon$, being zero means that $\mathscr{H}_0 = W^s(C^3) \cap W^u(C^2)$.  The surface $\mathscr{H}_0$ is then composed of the family of heteroclinic connections in (\ref{equation_2}) parameterized by $B$.  In the ($B$,$A$)-projection on $C^2$, the equilibria to the left of $B \approx 0.476858$ have all real eigenvectors and equilibria to the right have a complex conjugate pair of eigenvectors.  Due to the change in the type of eigenvectors, two slightly different algorithms are used to compute $\mathscr{H}$ in two pieces.  We first describe the computation for equilibria with real eigenvectors and then for equilibria with complex conjugate eigenvectors.  
 
 For both computations, we consider solutions to the rescaled system
 
@@ -548,7 +551,7 @@ that is three dimensional.  We also define a normal vector $\mathbf{n} = \begin{
 \end{align}
 
 \noindent
-To close the Lin gap, $\eta$ we impose conditions (\ref{top_end}), (\ref{bottom_start}), and (\ref{singular_Z}) while decreasing $\eta$ and allowing integration time to move freely.  The continuation is stopped when $\eta = 0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}^*$.  We can then sweep out the portion of $\mathscr{H}^*$ corresponding to real eigenvalues increasing and decreasing the parameter $B$ inside the interval ($F_{2_B}$, 0.47685750162] while requiring that $\eta=0$.  We choose to stop our continuation at $B = 0.47685750162$, before the eigenvalues switch from real to complex conjugate.
+To close the Lin gap, $\eta$ we impose conditions (\ref{top_end}), (\ref{bottom_start}), and (\ref{singular_Z}) while decreasing $\eta$ and allowing integration time to move freely.  The continuation is stopped when $\eta = 0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}_0$.  We can then sweep out the portion of $\mathscr{H}_0$ corresponding to real eigenvalues increasing and decreasing the parameter $B$ inside the interval ($F_{2_B}$, 0.47685750162] while requiring that $\eta=0$.  We choose to stop our continuation at $B = 0.47685750162$, before the eigenvalues switch from real to complex conjugate.  Unlike the computation of $\mathscr{H}$, the computational set up for $\mathscr{H^*}$ allows us to decrease $B$ past the value of $q_B$.  We are thus able to compute the entire portion of $\mathscr{H}_0$ corresponding to real eigenvalues.
 
 \subsection{Complex conjugate eigenvalues}
 
@@ -572,27 +575,94 @@ and
 \noindent
 for $T=0$.  To obtain a $\mathbf{w}$ such that $\mathbf{w}(1) \in \mathscr{L}$, we increase $\mathbf{w}(1)_A$ while allowing $T$ to increase and stop the continuation when $\mathbf{w}(1)_A=6.0$.
 
-We close the Lin gap by imposing the conditions (\ref{top_end}), (\ref{Lin_vector_singular}), and (\ref{bottom_start_complex}) while decreasing $\eta$ and allowing integration to move freely.  The continuation is stopped when $\eta=0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}^*$.  We can then sweep out the portion of the manifold corresponding to complex conjugate eigenvalues by increasing and decreasing the parameter B inside the interval $[0.47685750164, H)$ while requiring that $\eta=0$.  We choose to stop the continuation at $B=0.47685750164$ before the eigenvalues switch from complex conjugate to real.
+We close the Lin gap by imposing the conditions (\ref{top_end}), (\ref{Lin_vector_singular}), and (\ref{bottom_start_complex}) while decreasing $\eta$ and allowing integration to move freely.  The continuation is stopped when $\eta=0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}_0$.  We can then sweep out the portion of the manifold corresponding to complex conjugate eigenvalues by increasing and decreasing the parameter B inside the interval $[0.47685750164, H)$ while requiring that $\eta=0$.  We choose to stop the continuation at $B=0.47685750164$ before the eigenvalues switch from complex conjugate to real.
 
-%\subsection{Complex eigenvalues}
-%
-%We compute an initial orbit segment, $\mathbf{w}$, on $W^{u}(C^2)$ by imposing
-%
-%We consider the equilibrium $\tilde{p} \in C^2$ and define a one-dimensional circle $\Gamma = \{ \omega \in \mathbb{R}^3  \; | \; \tilde{p} + r(\mathbf{v}_1\sin(\theta) + \mathbf{v}_2\cos(\theta)), \theta \in [0,2\pi) \}$ where $r=0.0001$ and $\mathbf{v}_1$ and $\mathbf{v}_2$ are respectively the real and imaginary parts of the complex conjugate eigenvectors of $\tilde{p}$.  We also define the plane $\widetilde{\Sigma} = \{ \omega \in \mathbb{R}^3 \; | \;  \omega_B = \tilde{p}_Y \}$.  The point $\tilde{p} + r\mathbf{v}_2$ is then a solution to the 2PBVP defined by (\ref{equation_4}) and the conditions.  
-%
-%\begin{equation}
-%	\mathbf{u}(0) \in \Gamma,
-%\end{equation}
-%
-%and
-%
-%\begin{equation}
-%	\mathbf{u}(1) \in \widetilde{\Sigma}
-%\end{equation}
-%
-%\noindent
-%for $T=0$.  The radius $r$ is chosen small enough that it approximates a point on $W^{u}(\tilde{p})$ and large enough that $\textsc{Auto}$ can distinguish $\tilde{p} + r\mathbf{v}_2$ from $\tilde{p}$.  It is important that $r$ be chosen large enough, otherwise the arclength of $\mathbf{u}$ will not increase in the second step of the continuation.  An initial orbit segment on $W^{u}(C^2)$ is obtained by increasing $\mathbf{u}(1)_A$ while also allowing $T$ to increase.  The continuation is stopped when $\mathbf{u}(1) \in \mathscr{L}$, in other words, when $\mathbf{u}(1)_A = 6.0$.
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_11.pdf}
+\caption{Projections into($B$, $A$, $X$)-space of (a) $\mathscr{H}$ (red-blue fade) and (b) the portion of $\mathscr{H}_0$ lying in the region $B < 0.781$ (red-blue fade).  Representative orbit segments are plotted fading from forest green to magenta.  The intersection of the singular unstable manifold of $q$ is plotted in (b) as a green orbit segment on $\mathscr{H}_0$.  The critical manifold is also shown.}
+\label{heteroclinic_singular}
+\end{figure}
 
+Figure \ref{heteroclinic_singular} shows $\mathscr{H}_0$ projected into ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-space.  For visual comparison with $\mathscr{H}$, we show only the portion of $\mathscr{H}_0$ that lies in the region $B < 0.781$.  The computational set up is not visualized in figure \ref{heteroclinic_singular} and the color of $\mathscr{H}_0$ fades from red to blue in colouring to illustrate its non-dependence on our choice of $\mathscr{L}$.
+
+\subsection{Distance from $\mathscr{H}_0$}
+
+We analyse the difference between $\mathscr{H}$ and $\mathscr{H}_0$ using the integral norm to measure the distance between intersection curves of $\mathscr{H}$ and $\mathscr{H}_0$ with different subspaces of the phase space defined by constant values of $B$.
+
+
+%%MMO section
+\section{Implications for mixed-mode oscillation geometry}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_12.pdf}
+\caption{The isola of MMOs for different values for $\varepsilon$.  The segment of the isola on which $\Gamma$ is unstable is plotted in red and the much smaller segment on which $\Gamma$ is stable is plotted in blue.  Green dots labeled (a), (b), and (c) correspond to MMOs shown in Figure 14.}
+\label{heteroclinic}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_13.pdf}
+\caption{The surface of heteroclinic connections $\mathscr{H}$ (red-blue fade) is extended in backwards time and projected into $(B,A,X)$-space.  The MMO of interest $\Gamma$ (green) and the critical manifold are also plotted in the ($B$, $A$, $X$)-space.  The global view (a) shows $\Gamma$ tracking $\mathscr{H}$ from the region of SAOs near $C^2$ to $C^3$.  The MMO passes $F_1$ and makes a single LAO.  The LAO ends at the stable branch $C^4_-$ and enters the region of SAOs via the spiralling region of $\mathscr{H}$.  An enlargement of $\Gamma$ entering the spiralling region of $\mathscr{H}$ is shown in inlay (b).  The MMO makes a slow passage through the Hopf point $H$ before exiting the region of SAOs.}
+\label{heteroclinic}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_14.pdf}
+\caption{In panels (a), (b), and (c) the singular surface $\mathscr{H}_0$ (red-blue fade) is projected into $(B,A,X)$-space with several other singular objects.  The jump back trajectory $\mathscr{J}$ and its dual $\mathscr{J}^*$ are plotted in magenta.  The surface of singular POs $\mathscr{P}$ is plotted in midnight grape.  Panel (a) shows $\Gamma$ for the original value of $\varepsilon=0.0037$ corresponding to the green dot labeled (a) in Figure 13.  The MMO's entry and exits from the region of SAOs track $\mathscr{J}$ and $\mathscr{J}^*$.  Panel (b) shows $\Gamma$ for $\varepsilon=5.45544 \times 10^{-4}$, corresponding to the rightmost fold of the isola, shown as a green dot in Figure 13 and labeled (b).  This $\Gamma$ tracks $\mathscr{P}$ and enters the region of SAOs via a homoclinic connection of a saddle equilibrium of (\ref{equation_2}) lying on $C^3$.  The MMO exits the region of SAOs before reaching $C^2$.  Panel (c) shows $\Gamma$ for $\varepsilon=0.00383456$ corresponding to the green dot shown in Figure 13 labeled (c).  The MMO is very similar to the $\Gamma$ shown in (a) with the exception that it makes an additional large amplitude to $C^2$ before returning to the region of SAOs.}
+
+\label{heteroclinic}
+\end{figure}
+
+We investigate the interaction between the MMO and $\mathscr{H}$ and $\mathscr{H}_0$ respectively for varying $\varepsilon$.  We consider the original MMO of interest corresponding to the original value $\varepsilon=0.0037$ as well as MMOs corresponding to $\varepsilon=0.0038$ and $\varepsilon=0.0005$.  These are representative MMOs of different type within the MMO parameter regime.  For the original MMO, we consider the effect of the surface $\mathscr{H}$ and then explore the singular objects, including $\mathscr{H}_0$, that also affect the geometry.  For the MMOs corresponding to $\varepsilon=0.0038$ and $\varepsilon=0.0005$ we only consider the singular objects that organize the MMO geometry.  Our analysis in section 5.3 shows that the difference between $\mathscr{H}$ and $\mathscr{H}_0$ is minimal and so it is reasonable to only consider $\mathscr{H}_0$ for MMOs corresponding to small $\varepsilon$.
+
+Figures \ref{MMO_hetclin}(a) and (b)  show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections of the mixed-mode oscillation, neon green, plotted with $\mathscr{H}$, red to blue fade.  In this figure, we have extended $\mathscr{H}$ so that $\mathbf{u}(0)_B = \mathbf{w}(1)_B = 0.8724$. This facilitates comprehension of the MMO's entry into the region of SAOs, although it obscures some of the geometry of $\mathscr{H}$.  The surface serves as a reinjection mechanism from the region of SAOs into the region of LAOs.  The MMO begins near $C^4_-$ and spirals as it passes through the $H$ point to $C^2$.  The distance in $B$ between $H$ and the MMO's exit from the region of SAOs is approximately the same as the distance in $B$ between the MMO's entry and $H$.  After exiting the region of SAOs, the MMO traverses $\mathscr{H}$ to reach $C^3$.  The MMO follows $C^3$ and then makes a large, fast excursion mostly in the $X$ and $Y$ directions before being attracted back to $C^4_-$ again.  Shown in the inlays are enlargements of the region of SAOs.  In these enlargements, we see the details of the scrolling region of $\mathscr{H}$ and the slow passage of the MMO through the Hopf bifurcation.
+
+Figure \ref{MMO1}(a) and (b) show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)- projections of an enlargement of the original MMO with several singular objects.  The singular surface of heteroclinic connections $\mathscr{H}_0$ is plotted fading from red to blue.  The jump back trajectory, plotted in magenta, is the trajectory in \ref{equation_2} that connects $F_1$ to the equilibrium of (\ref{equation_2}) for $B=F_{1_B}$ lying on $C^4_-$.  The jump trajectory's dual is the trajectory lying on $\mathscr{H}_0$ that is at the same distance from $H$ with respect to $B$ as the jump trajectory.  A surface of saddle periodic orbits (POs) of system (\ref{equation_2}) is plotted in midnight grape.  These originate from $H$ and terminate in a homoclinic connection of an equilibrium of (\ref{equation_2}) lying on $C^3$.  The MMO's entry into and exit from the region of SAOs remain close to the jump orbit and it's dual respectively.  A significant amount of drift in the $B$ direction can be seen in the MMO away from the slow manifolds.  Figure \ref{MMO1}(c) shows an isola in parameter space that the MMO lies on.  The horizontal axis indicates the value of $\varepsilon$ and the vertical axis indicates the maximum value of the variable $A$ on the MMO.  Red curves indicate where the MMO has at least one unstable Floquet multiplier while blue curves indicate where the MMO is stable.  The location of the MMO on the isola is indicated with a green dot and signifies that the original MMO is stable.
+
+Figure \ref{MMO2}(a) and (b) show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections of a zoom of the MMO for $\varepsilon=0.0005$ with the singular objects described above.  The MMO, plotted in neon green, remains close to the surface of singular POs.  The MMO enters the region of SAOs via the homoclinic connection of the equilibrium lying on $C^3$ and the SAOs track the interior of the surface of singular POs in the ($B$,$A$,$X$)- and ($B$,$A$,$Y$)- projections.  The MMO exits the region of SAOs by passing through the surface of singular POs in the ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections and then being repelled away from it.  Figure \ref{MMO2}(a) shows the location of the MMO on the leftmost fold of the isola.
+
+Figure \ref{MMO3}(a) and (b) show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections of a zoom of the MMO for $\varepsilon=0.0005$ with the singular objects described above.  Similarly to the MMO at $\varepsilon=0.0037$, the SAOs for the MMO at $\varepsilon = 0.0038$ are due to a slow passage through $H$.  The entry and exits from the region of SAOs are close to the jump trajectory and its dual.  An early return to $C^2$ occurs between the MMO's exit and reentry into the region of SAOs.  This MMO differs from the other MMOs discussed as it has two LAOs instead of one.  Figure \ref{MMO3}(c) shows the location of the MMO at $\varepsilon=0.0038$ on the isola, near to the rightmost fold.
+
+%\newpage
+%\vspace*{22cm}
+%
+%\begin{figure}[H]
+%\begin{picture}(9,5)(0,0)
+%\put(-60,350){\subfigure[]{\label{MMO2_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
+%\put(-60,15){\subfigure[]{\label{MMO2_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
+%\put(340,200){\subfigure[]{\label{MMO2_isola}\includegraphics[width=0.4\textwidth, height=0.2\textheight, page=28]{figures.pdf}}}
+%\put(440,207){\Large $\varepsilon$}
+%\put(335,250){\Large \rotatebox{90}{max  $A$}}
+%\end{picture}
+%\caption{The MMO for $\varepsilon = 0.0005$, neon green, is shown with $\mathscr{H}_0$, red to blue fade, in ($B$,$A$,$X$)-, (a), and ($B$,$A$,$Y$)-, (b), projections.  Also shown is the critical manifold, the jump back trajectory and its dual in magenta, and the surface of singular POs in midnight grape.  The isola on which the MMO lies is shown in (c) where red curves indicate where the MMO has at least one unstable Floquet multiplier and blue curves indicate where the MMO is stable.  A neon green dot indicates the MMOs on the rightmost fold of the isola.}
+%\label{MMO2}
+%\end{figure}
+%
+%
+%\newpage
+%
+%
+%\newpage
+%\vspace*{22cm}
+%
+%\begin{figure}[H]
+%\begin{picture}(9,5)(0,0)
+%\put(-60,350){\subfigure[]{\label{MMO3_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
+%\put(-60,15){\subfigure[]{\label{MMO3_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
+%\put(340,200){\subfigure[]{\label{MMO3_isola}\includegraphics[width=0.4\textwidth, height=0.2\textheight, page=28]{figures.pdf}}}
+%\put(440,207){\Large $\varepsilon$}
+%\put(335,250){\Large \rotatebox{90}{max  $A$}}
+%\end{picture}
+%\caption{The MMO for $\varepsilon = 0.0038$, neon green, is shown with $\mathscr{H}_0$, red to blue fade, in ($B$,$A$,$X$)-, (a), and ($B$,$A$,$Y$)-, (b), projections.  Also shown is the critical manifold, the jump back trajectory and its dual in magenta, and the surface of singular POs in midnight grape.  The isola on which the MMO lies is shown in (c) where red curves indicate where the MMO has at least one unstable Floquet multiplier and blue curves indicate where the MMO is stable.  A neon green dot indicates the MMOs near the leftmost fold of the isola.}
+%\label{MMO3}
+%\end{figure}
+
+
+\newpage
 \bibliography{elle}
 
 \end{document}
