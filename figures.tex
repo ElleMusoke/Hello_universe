@@ -3,8 +3,8 @@
 %%%%%%%%%%%%%%%%
 % Instructions %
 %%%%%%%%%%%%%%%%
-% Set the document class and settings to match the final document that these figures will be included into
-% This will output a pdf with a page for each figure, nicely cropped according to picture dimenstions as defined below in the `Figure' Section. Inlcude in the final document by using package 'graphicx' and command \includegraphics[page=<page of figure>]{figures.pdf}
+% Set the document class and settings to match the final document that these figures_raw will be included into
+% This will output a pdf with a page for each figure, nicely cropped according to picture dimenstions as defined below in the `Figure' Section. Inlcude in the final document by using package 'graphicx' and command \includegraphics[page=<page of figure>]{figures_raw.pdf}
 % The following package is used to create the cropping mentioned above, and apparently should be the last loaded package: \usepackage[active,tightpage]{preview}
 % The following command re-writes the figure enviroment to become a preview enviroment - without this spacing is off, and captions and labels may appear
 %\renewenvironment{figure}[1][]{%
@@ -28,7 +28,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{bm}    % boldmath \bm{}
 \usepackage[pdftex,active,tightpage]{preview}    % should be loaded lasts
-% adjust borders added to figures: left, lower, right and upper borders. - useful to increase lower border not to cut off labels placed below figure bounds. 
+% adjust borders added to figures_raw: left, lower, right and upper borders. - useful to increase lower border not to cut off labels placed below figure bounds. 
 \renewcommand{\PreviewBbAdjust}{0mm -0.25mm 0mm 0mm}
 \renewenvironment{figure}[1][]{%
 	\begin{preview}%
@@ -65,7 +65,7 @@ text width:     \getlength{\the\textwidth} cm}
 \nopagecolor
 \begin{figure}
 	\begin{picture}(85,44)(5.5,6.5)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/paper_critical.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/paper_critical.eps}}
 	\put(81,44){$F_1$}
         \put(19,29){$F_2$}
         \put(72.5,13.5){$H$}
@@ -93,7 +93,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \begin{figure}
 	\begin{picture}(117,64.5)(93,96.5)
-	    \put(100,100){\includegraphics[width=11cm]{./figures/paper_slow.eps}}
+	    \put(100,100){\includegraphics[width=11cm]{./figures_raw/paper_slow.eps}}
 	    \put(196.5,153.5){$F_1$}
 	    \put(173.5,148){$D_\delta(B_{\mathrm{out}})$}
 	    \put(107,127){$D_\delta(B_{\mathrm{in}})$}
@@ -124,7 +124,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(172.75,89)(2,-0.5)
 \put(0,45){
 	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/step1.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/step1.eps}}
         \put(72,37){$E^s(p_{\mathrm{out}})$}
         \put(20,40){$\widehat{\Sigma}$}
 	\put(81,44){$F_1$}
@@ -149,7 +149,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(88,45){
 	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/step2.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/step2.eps}}
         \put(72,37){$E^s(p_{\mathrm{out}})$}
         \put(18,40){$\widehat{\Sigma}$}
 	\put(81,44){$F_1$}
@@ -174,7 +174,7 @@ text width:     \getlength{\the\textwidth} cm}
 	
 \put(0,0){
 	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/step3.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/step3.eps}}
  	\put(72,36.5){$\Omega$}
         \put(19,40){$\psi$}
 	\put(81,44){$F_1$}
@@ -196,7 +196,7 @@ text width:     \getlength{\the\textwidth} cm}
 	\end{picture}
 	}
 \put(89,0){\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/step4.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/step4.eps}}
 	\put(72,36.5){$\Omega$}
         \put(33,20){$\psi$}
 	\put(81,44){$F_1$}
@@ -232,7 +232,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(134,179)(47.5,59.5)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/one_piece_paper_BAX.png}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/one_piece_paper_BAX.png}}
 	    \put(115,65){$W^{s}_{\widehat{\Sigma}}$}
 	    \put(120,24){$\widehat{\Sigma}$}
 	    \put(-0.75,6){$\Omega$}
@@ -245,7 +245,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,58){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/one_piece_paper_BAY.png}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/one_piece_paper_BAY.png}}
 	    \put(123.5,46){$W^{s}_{\widehat{\Sigma}}$}
 	    \put(-3,5.5){$\Omega$}
 	    \put(108,79.5){$C^3$}
@@ -271,7 +271,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(121,170.5)(57,62.5)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/two_pieces_paper_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/two_pieces_paper_BAX.eps}}
 	    \put(110,50.5){$W^{s}_{\widehat{\Sigma}}$}
 	    \put(122,32){$\widehat{\Sigma}$}
 	    \put(13,62){$\Sigma_1$}
@@ -287,7 +287,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,60){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,2){\includegraphics[width=12.6cm]{./figures/two_pieces_paper_BAY.eps}}
+	    \put(0,2){\includegraphics[width=12.6cm]{./figures_raw/two_pieces_paper_BAY.eps}}
 	    \put(110,39.5){$W^{s}_{\widehat{\Sigma}}$}
 	    \put(13,27){$\Sigma_1$}
 	    \put(47.25,7){$\Omega$}
@@ -315,7 +315,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(120,196)(58,36.5)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/five_pieces_paper_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/five_pieces_paper_BAX.eps}}
 	    \put(110,51){$W^{s}_{\widehat{\Sigma}}$}
 	    \put(122,35){$\widehat{\Sigma}$}
 	    \put(13,62){$\Sigma_1$}
@@ -334,7 +334,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,35){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/five_pieces_paper_BAY.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/five_pieces_paper_BAY.eps}}
 	    \put(110,38.5){$W^{s}_{\widehat{\Sigma}}$}
 	    \put(13,26){$\Sigma_1$}
 	    \put(23,72){$\Sigma_2$}
@@ -362,7 +362,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(131,142.5)(99.5,104.5)
 \put(100,160){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,24){\includegraphics[width=12.6cm]{./figures/unstable_piece_BAX.eps}}
+	    \put(0,24){\includegraphics[width=12.6cm]{./figures_raw/unstable_piece_BAX.eps}}
 	    \put(70,59.5){$W^{u}_{r^*}\cap\mathscr{R}$}
 	    \put(70,36){$W^{u}_{r^*}$}
 	    \put(11,70){$\Phi$}
@@ -376,7 +376,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(100,85){
 	\begin{picture}(180,100)(0,0)
-	    \put(3,19.5){\includegraphics[width=12.6cm]{./figures/unstable_piece_BAY.eps}}
+	    \put(3,19.5){\includegraphics[width=12.6cm]{./figures_raw/unstable_piece_BAY.eps}}
 	    \put(70,40){$W^{u}_{r^*}\cap\mathscr{R}$}
 	    \put(70,23.5){$W^{u}_{r^*}$}
 	    \put(14,62.5){$\Phi$}
@@ -400,7 +400,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(173,89)(2,-0.5)
 \put(0,45){
 	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin1.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/Lin1.eps}}
         \put(50,38){$S^3$}
         \put(50,17){$S^2$}
         \put(7,46){$A$}
@@ -423,7 +423,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(88,42){
 	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin2.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/Lin2.eps}}
         \put(49.5,41.5){$\mathbf{u}$}
         \put(7,49){$A$}
         \put(6,41.5){\footnotesize $9.0$}
@@ -447,7 +447,7 @@ text width:     \getlength{\the\textwidth} cm}
 	
 \put(0,0){
 	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin3.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/Lin3.eps}}
         \put(7,46){$A$}
         \put(49.25,38.5){$\mathbf{u}$}
         \put(62,16){$\mathbf{w}$}
@@ -467,7 +467,7 @@ text width:     \getlength{\the\textwidth} cm}
 	\end{picture}
 	}
 \put(89,0){\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=8cm]{./figures/Lin4.eps}}
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/Lin4.eps}}
 	\put(61.25,40){$\mathbf{u}$}
         \put(62,16){$\mathbf{w}$}
         \put(7,46){$A$}
@@ -501,7 +501,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(122,173)(52,48.5)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/hetclin_6_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/hetclin_6_BAX.eps}}
 	    \put(92.5,34){$\mathscr{L}$}
 	    \put(90,41){$C^2$}
 	    \put(105.5,28){$C^3$}
@@ -519,7 +519,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,50){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,-0.5){\includegraphics[width=12.6cm]{./figures/hetclin_6_BAY.eps}}
+	    \put(0,-0.5){\includegraphics[width=12.6cm]{./figures_raw/hetclin_6_BAY.eps}}
 	    \put(92.5,32){$\mathscr{L}$}
 	    \put(90,22.5){$C^2$}
 	    \put(106,13){$C^3$}
@@ -546,7 +546,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(124,175)(51,69.5)
 \put(50,162){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_saddle_unstable_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/paper_saddle_unstable_BAX.eps}}
 	    \put(91,72){$W^u(q)$}
 	    \put(105.5,28){$C^3$}
 	    \put(108,4.5){$C^{4}_{+}$}
@@ -562,7 +562,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,71.5){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_saddle_unstable_BAY.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/paper_saddle_unstable_BAY.eps}}
 	    \put(87,51){$W^u(q)$}
 	    \put(105.5,13){$C^3$}
 	    \put(108,4.5){$C^{4}_{+}$}
@@ -587,7 +587,7 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(124,169)(51,53)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/paper_BAX.eps}}
 	    \put(90,41){$C^2$}
 	     \put(81.5,45){$q$}
 	    \put(105.5,28){$C^3$}
@@ -604,7 +604,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,55){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/paper_singular_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/paper_singular_BAX.eps}}
  \put(90,41){$C^2$}
 	     \put(81.5,45){$q$}
 	    \put(105.5,28){$C^3$}
@@ -628,7 +628,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \begin{figure}
 	\begin{picture}(124,64.5)(86.5,96.5)
-	    \put(100,100){\includegraphics[width=11cm]{./figures/paper_isola.eps}}
+	    \put(100,100){\includegraphics[width=11cm]{./figures_raw/paper_isola.eps}}
 	    \put(87,157){max($A$)}
 	    \put(94,139){\footnotesize $9.75$}
 	    \put(94,119){\footnotesize $7.25$}
@@ -655,11 +655,11 @@ text width:     \getlength{\the\textwidth} cm}
 \begin{picture}(107,93)(64,137.5)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_surface_interaction_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/MMO_surface_interaction_BAX.eps}}
 	    \put(114,13.25){$C^2$}
 	    \put(107,4){$C^3$}
 	    \put(108,81){(b)}
-	    \put(95,37){$\mathscr{H}$}
+	    \put(95,42){$\mathscr{H}$}
 	    \put(65,-1){$C^{4}_{+}$}
 	    \put(16,1){$F_1$}
 	    \put(20,17.5){$C^{4}_{-}$}
@@ -684,7 +684,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(50,163){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_2_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/MMO_2_BAX.eps}}
 	    \put(70,-2){$C^{4}_{+}$}
 	     \put(26,16){$C^{4}_{-}$}
 	     \put(90,18){$\mathscr{H}_0$}
@@ -700,7 +700,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(120,199){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_1_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/MMO_1_BAX.eps}}
 	    \put(70,-2){$C^{4}_{+}$}
 	     \put(26,16){$C^{4}_{-}$}
 	     \put(90,18){$\mathscr{H}_0$}
@@ -716,7 +716,7 @@ text width:     \getlength{\the\textwidth} cm}
 
 \put(120,85){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures/MMO_3_BAX.eps}}
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/MMO_3_BAX.eps}}
 	    \put(70,-2){$C^{4}_{+}$}
 	     \put(26,16){$C^{4}_{-}$}
 	     \put(90,18){$\mathscr{H}_0$}
