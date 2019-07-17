@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{34}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -125,6 +125,10 @@ Krupa, M., Popovi\'c, N. \& Kopell, N. [2008] \enquote{Mixed-mode oscillations
 Kuehn, C. \& Szmolyan, P. [2015] \enquote{{Multiscale Geometry of the Olsen
   Model and Non-classical Relaxation Oscillations}.} \emph{Journal of Nonlinear
   Science} \textbf{25},  583--629.
+
+\bibitem[{Kuznetsov(2009)}]{The_Kuz}
+Kuznetsov, Y.~A. [2009] \emph{Elements of Applied Bifurcation Theory}, 2nd ed.
+  (Springer International Publishing).
 
 \bibitem[{Lin(1989)}]{Lin_original}
 Lin, X. [1989] \enquote{Shadowing lemma and singularly perturbed boundary value
