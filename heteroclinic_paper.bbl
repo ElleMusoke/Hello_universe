@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{35}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -43,6 +43,11 @@ De~Maesschalck, P. \& Wechselberger, M. [2015] \enquote{{Neural Excitability
 Desroches, M., Guckenheimer, J., Krauskopf, B., Kuehn, C., Osinga, H. \&
   Wechselberger, M. [2012] \enquote{{Mixed-Mode Oscillations with Multiple Time
   Scales}.} \emph{SIAM Review} \textbf{54},  211--288.
+
+\bibitem[{DesRoches \emph{et~al.}(2009)DesRoches, Krauskopf \&
+  Osinga}]{homotopy_example}
+DesRoches, M., Krauskopf, B. \& Osinga, H. [2009] \emph{Elements of Applied
+  Bifurcation Theory}, 2nd ed. (Springer International Publishing).
 
 \bibitem[{Desroches \emph{et~al.}(2009)Desroches, Krauskopf \& Osinga}]{QSSA}
 Desroches, M., Krauskopf, B. \& Osinga, H. [2009] \enquote{{The geometry of
