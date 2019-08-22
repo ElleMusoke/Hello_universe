@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  21 AUG 2019 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  22 AUG 2019 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,7 +728,7 @@ rted-to.pdf>
 (epstopdf)                    size: 1659028 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/almost_hetcl
 in_BAX-eps-converted-to.pdf ./figures_raw/almost_hetclin_BAX.eps>
-(epstopdf)             \includegraphics on input line 465.
+(epstopdf)             \includegraphics on input line 464.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf, id=121, 854.19125pt x 5
 83.17876pt>
@@ -736,27 +736,27 @@ File: ./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf Graphic file (type
 pdf)
 <use ./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf 
- used on input line 465.
+ used on input line 464.
 (pdftex.def)             Requested size: 358.5049pt x 244.75543pt.
 Package epstopdf Info: Source file: <./figures_raw/almost_hetclin_BAY.eps>
-(epstopdf)                    date: 2019-08-21 17:38:50
-(epstopdf)                    size: 123961408 bytes
+(epstopdf)                    date: 2019-08-22 12:27:34
+(epstopdf)                    size: 123062305 bytes
 (epstopdf)             Output file: <./figures_raw/almost_hetclin_BAY-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-08-21 17:42:38
-(epstopdf)                    size: 1173251 bytes
+(epstopdf)                    date: 2019-08-22 12:27:48
+(epstopdf)                    size: 1172406 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/almost_hetcl
 in_BAY-eps-converted-to.pdf ./figures_raw/almost_hetclin_BAY.eps>
 (epstopdf)             \includegraphics on input line 479.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf, id=122, 854.19125pt x 6
-31.35875pt>
+<./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf, id=122, 853.1875pt x 62
+7.34375pt>
 File: ./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf 
  used on input line 479.
-(pdftex.def)             Requested size: 358.5049pt x 264.9762pt.
+(pdftex.def)             Requested size: 358.5049pt x 263.60701pt.
 
 Preview: Tightpage 0 -46616 0 0
 [9 <./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf> <./figures_raw/almos
@@ -1083,7 +1083,7 @@ r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on figures.pdf (16 pages, 19106681 bytes).
+Output written on figures.pdf (16 pages, 19107826 bytes).
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  163 compressed objects within 2 object streams
