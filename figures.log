@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  22 AUG 2019 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  23 OCT 2019 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -467,11 +467,11 @@ Package pdftex.def Info: ./figures_raw/paper_slow-eps-converted-to.pdf  used on
 Preview: Tightpage 0 -46616 0 0
 [2 <./figures_raw/paper_slow-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/step1.eps>
-(epstopdf)                    date: 2019-07-03 11:13:46
-(epstopdf)                    size: 3926130 bytes
+(epstopdf)                    date: 2019-09-20 11:49:48
+(epstopdf)                    size: 3926994 bytes
 (epstopdf)             Output file: <./figures_raw/step1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:01
-(epstopdf)                    size: 43391 bytes
+(epstopdf)                    date: 2019-09-20 11:56:44
+(epstopdf)                    size: 43542 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/step1-eps-co
 nverted-to.pdf ./figures_raw/step1.eps>
 (epstopdf)             \includegraphics on input line 149.
@@ -483,52 +483,52 @@ Package pdftex.def Info: ./figures_raw/step1-eps-converted-to.pdf  used on inpu
 t line 149.
 (pdftex.def)             Requested size: 227.62204pt x 113.80379pt.
 Package epstopdf Info: Source file: <./figures_raw/step2.eps>
-(epstopdf)                    date: 2019-08-15 17:31:21
-(epstopdf)                    size: 3916206 bytes
+(epstopdf)                    date: 2019-09-20 12:04:35
+(epstopdf)                    size: 3917162 bytes
 (epstopdf)             Output file: <./figures_raw/step2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-15 17:33:21
-(epstopdf)                    size: 43741 bytes
+(epstopdf)                    date: 2019-09-20 12:04:52
+(epstopdf)                    size: 43855 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/step2-eps-co
 nverted-to.pdf ./figures_raw/step2.eps>
-(epstopdf)             \includegraphics on input line 175.
+(epstopdf)             \includegraphics on input line 176.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/step2-eps-converted-to.pdf, id=26, 1736.4875pt x 865.2325pt>
 File: ./figures_raw/step2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/step2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/step2-eps-converted-to.pdf  used on inpu
-t line 175.
+t line 176.
 (pdftex.def)             Requested size: 227.62204pt x 113.40834pt.
 Package epstopdf Info: Source file: <./figures_raw/step3.eps>
-(epstopdf)                    date: 2019-08-15 17:29:59
-(epstopdf)                    size: 3924134 bytes
+(epstopdf)                    date: 2019-09-20 11:51:18
+(epstopdf)                    size: 3924870 bytes
 (epstopdf)             Output file: <./figures_raw/step3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-15 17:33:21
-(epstopdf)                    size: 44244 bytes
+(epstopdf)                    date: 2019-09-20 11:56:45
+(epstopdf)                    size: 44297 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/step3-eps-co
 nverted-to.pdf ./figures_raw/step3.eps>
-(epstopdf)             \includegraphics on input line 200.
+(epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/step3-eps-converted-to.pdf, id=27, 1734.48pt x 867.24pt>
 File: ./figures_raw/step3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/step3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/step3-eps-converted-to.pdf  used on inpu
-t line 200.
+t line 202.
 (pdftex.def)             Requested size: 227.62204pt x 113.80379pt.
 Package epstopdf Info: Source file: <./figures_raw/step4.eps>
-(epstopdf)                    date: 2019-08-15 17:29:24
-(epstopdf)                    size: 3920790 bytes
+(epstopdf)                    date: 2019-09-20 11:53:04
+(epstopdf)                    size: 3921486 bytes
 (epstopdf)             Output file: <./figures_raw/step4-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-15 17:33:22
-(epstopdf)                    size: 44011 bytes
+(epstopdf)                    date: 2019-09-20 11:56:46
+(epstopdf)                    size: 44152 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/step4-eps-co
 nverted-to.pdf ./figures_raw/step4.eps>
-(epstopdf)             \includegraphics on input line 224.
+(epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/step4-eps-converted-to.pdf, id=28, 1734.48pt x 867.24pt>
 File: ./figures_raw/step4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/step4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/step4-eps-converted-to.pdf  used on inpu
-t line 224.
+t line 227.
 (pdftex.def)             Requested size: 227.62204pt x 113.80379pt.
 
 Preview: Tightpage 0 -46616 0 0
@@ -539,13 +539,13 @@ onverted-to.pdf>]
 File: ./figures_raw/one_piece_paper_BAX.png Graphic file (type png)
 <use ./figures_raw/one_piece_paper_BAX.png>
 Package pdftex.def Info: ./figures_raw/one_piece_paper_BAX.png  used on input l
-ine 247.
+ine 251.
 (pdftex.def)             Requested size: 358.5049pt x 270.1955pt.
 <./figures_raw/one_piece_paper_BAY.png, id=56, 854.9541pt x 562.5015pt>
 File: ./figures_raw/one_piece_paper_BAY.png Graphic file (type png)
 <use ./figures_raw/one_piece_paper_BAY.png>
 Package pdftex.def Info: ./figures_raw/one_piece_paper_BAY.png  used on input l
-ine 260.
+ine 265.
 (pdftex.def)             Requested size: 358.5049pt x 235.87135pt.
 
 Preview: Tightpage 0 -46616 0 0
@@ -560,7 +560,7 @@ verted-to.pdf>
 (epstopdf)                    size: 463806 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/two_pieces_p
 aper_BAX-eps-converted-to.pdf ./figures_raw/two_pieces_paper_BAX.eps>
-(epstopdf)             \includegraphics on input line 289.
+(epstopdf)             \includegraphics on input line 296.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/two_pieces_paper_BAX-eps-converted-to.pdf, id=63, 853.1875pt x 5
 97.23125pt>
@@ -568,7 +568,7 @@ File: ./figures_raw/two_pieces_paper_BAX-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use ./figures_raw/two_pieces_paper_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/two_pieces_paper_BAX-eps-converted-to.pd
-f  used on input line 289.
+f  used on input line 296.
 (pdftex.def)             Requested size: 358.5049pt x 250.95387pt.
 Package epstopdf Info: Source file: <./figures_raw/two_pieces_paper_BAY.eps>
 (epstopdf)                    date: 2019-06-25 15:52:44
@@ -579,7 +579,7 @@ verted-to.pdf>
 (epstopdf)                    size: 375035 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/two_pieces_p
 aper_BAY-eps-converted-to.pdf ./figures_raw/two_pieces_paper_BAY.eps>
-(epstopdf)             \includegraphics on input line 305.
+(epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/two_pieces_paper_BAY-eps-converted-to.pdf, id=64, 846.16125pt x 
 471.7625pt>
@@ -587,7 +587,7 @@ File: ./figures_raw/two_pieces_paper_BAY-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use ./figures_raw/two_pieces_paper_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/two_pieces_paper_BAY-eps-converted-to.pd
-f  used on input line 305.
+f  used on input line 314.
 (pdftex.def)             Requested size: 358.5049pt x 199.87373pt.
 
 Preview: Tightpage 0 -46616 0 0
@@ -602,7 +602,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 1543266 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/five_pieces_
 paper_BAX-eps-converted-to.pdf ./figures_raw/five_pieces_paper_BAX.eps>
-(epstopdf)             \includegraphics on input line 336.
+(epstopdf)             \includegraphics on input line 345.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/five_pieces_paper_BAX-eps-converted-to.pdf, id=76, 853.1875pt x 
 600.2425pt>
@@ -610,7 +610,7 @@ File: ./figures_raw/five_pieces_paper_BAX-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use ./figures_raw/five_pieces_paper_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/five_pieces_paper_BAX-eps-converted-to.p
-df  used on input line 336.
+df  used on input line 345.
 (pdftex.def)             Requested size: 358.5049pt x 252.2192pt.
 Package epstopdf Info: Source file: <./figures_raw/five_pieces_paper_BAY.eps>
 (epstopdf)                    date: 2019-06-25 15:53:46
@@ -621,7 +621,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 1375011 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/five_pieces_
 paper_BAY-eps-converted-to.pdf ./figures_raw/five_pieces_paper_BAY.eps>
-(epstopdf)             \includegraphics on input line 355.
+(epstopdf)             \includegraphics on input line 364.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/five_pieces_paper_BAY-eps-converted-to.pdf, id=77, 853.1875pt x 
 644.4075pt>
@@ -629,22 +629,22 @@ File: ./figures_raw/five_pieces_paper_BAY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use ./figures_raw/five_pieces_paper_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/five_pieces_paper_BAY-eps-converted-to.p
-df  used on input line 355.
+df  used on input line 364.
 (pdftex.def)             Requested size: 358.5049pt x 270.77713pt.
 
 Preview: Tightpage 0 -46616 0 0
 [6 <./figures_raw/five_pieces_paper_BAX-eps-converted-to.pdf> <./figures_raw/fi
 ve_pieces_paper_BAY-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/unstable_step1.eps>
-(epstopdf)                    date: 2019-08-20 14:48:24
-(epstopdf)                    size: 609798 bytes
+(epstopdf)                    date: 2019-10-02 12:21:31
+(epstopdf)                    size: 609006 bytes
 (epstopdf)             Output file: <./figures_raw/unstable_step1-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2019-08-20 16:56:39
-(epstopdf)                    size: 21595 bytes
+(epstopdf)                    date: 2019-10-02 12:21:45
+(epstopdf)                    size: 21242 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/unstable_ste
 p1-eps-converted-to.pdf ./figures_raw/unstable_step1.eps>
-(epstopdf)             \includegraphics on input line 385.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/unstable_step1-eps-converted-to.pdf, id=89, 683.55376pt x 227.85
 126pt>
@@ -652,18 +652,18 @@ File: ./figures_raw/unstable_step1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures_raw/unstable_step1-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/unstable_step1-eps-converted-to.pdf  use
-d on input line 385.
+d on input line 393.
 (pdftex.def)             Requested size: 227.62204pt x 75.87257pt.
 Package epstopdf Info: Source file: <./figures_raw/unstable_step2.eps>
-(epstopdf)                    date: 2019-08-21 15:28:53
-(epstopdf)                    size: 615834 bytes
+(epstopdf)                    date: 2019-10-02 12:21:12
+(epstopdf)                    size: 616346 bytes
 (epstopdf)             Output file: <./figures_raw/unstable_step2-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2019-08-21 15:29:08
-(epstopdf)                    size: 23096 bytes
+(epstopdf)                    date: 2019-10-02 12:21:45
+(epstopdf)                    size: 23208 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/unstable_ste
 p2-eps-converted-to.pdf ./figures_raw/unstable_step2.eps>
-(epstopdf)             \includegraphics on input line 405.
+(epstopdf)             \includegraphics on input line 414.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/unstable_step2-eps-converted-to.pdf, id=90, 683.55376pt x 227.85
 126pt>
@@ -671,165 +671,132 @@ File: ./figures_raw/unstable_step2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./figures_raw/unstable_step2-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/unstable_step2-eps-converted-to.pdf  use
-d on input line 405.
+d on input line 414.
 (pdftex.def)             Requested size: 227.62204pt x 75.87257pt.
 
 Preview: Tightpage 0 -46616 0 0
 [7 <./figures_raw/unstable_step1-eps-converted-to.pdf> <./figures_raw/unstable_
 step2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/unstable_piece_BAX.eps>
-(epstopdf)                    date: 2019-07-02 17:47:23
-(epstopdf)                    size: 80868805 bytes
+(epstopdf)                    date: 2019-09-26 17:44:24
+(epstopdf)                    size: 81906465 bytes
 (epstopdf)             Output file: <./figures_raw/unstable_piece_BAX-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:15
-(epstopdf)                    size: 419044 bytes
+(epstopdf)                    date: 2019-09-26 17:45:38
+(epstopdf)                    size: 446154 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/unstable_pie
 ce_BAX-eps-converted-to.pdf ./figures_raw/unstable_piece_BAX.eps>
-(epstopdf)             \includegraphics on input line 430.
+(epstopdf)             \includegraphics on input line 439.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/unstable_piece_BAX-eps-converted-to.pdf, id=105, 854.19125pt x 4
-20.57124pt>
+<./figures_raw/unstable_piece_BAX-eps-converted-to.pdf, id=106, 854.19125pt x 4
+25.59pt>
 File: ./figures_raw/unstable_piece_BAX-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./figures_raw/unstable_piece_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/unstable_piece_BAX-eps-converted-to.pdf 
- used on input line 430.
-(pdftex.def)             Requested size: 358.5049pt x 176.51036pt.
+ used on input line 439.
+(pdftex.def)             Requested size: 358.5049pt x 178.61668pt.
 Package epstopdf Info: Source file: <./figures_raw/unstable_piece_BAY.eps>
-(epstopdf)                    date: 2019-07-02 17:44:09
-(epstopdf)                    size: 94417571 bytes
+(epstopdf)                    date: 2019-09-26 17:45:05
+(epstopdf)                    size: 95951614 bytes
 (epstopdf)             Output file: <./figures_raw/unstable_piece_BAY-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:17
-(epstopdf)                    size: 381256 bytes
+(epstopdf)                    date: 2019-09-26 17:45:39
+(epstopdf)                    size: 403106 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/unstable_pie
 ce_BAY-eps-converted-to.pdf ./figures_raw/unstable_piece_BAY.eps>
-(epstopdf)             \includegraphics on input line 444.
+(epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/unstable_piece_BAY-eps-converted-to.pdf, id=106, 854.19125pt x 4
-76.78125pt>
+<./figures_raw/unstable_piece_BAY-eps-converted-to.pdf, id=107, 854.19125pt x 4
+83.8075pt>
 File: ./figures_raw/unstable_piece_BAY-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./figures_raw/unstable_piece_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/unstable_piece_BAY-eps-converted-to.pdf 
- used on input line 444.
-(pdftex.def)             Requested size: 358.5049pt x 200.10124pt.
+ used on input line 454.
+(pdftex.def)             Requested size: 358.5049pt x 203.05011pt.
 
 Preview: Tightpage 0 -46616 0 0
 [8 <./figures_raw/unstable_piece_BAX-eps-converted-to.pdf> <./figures_raw/unsta
 ble_piece_BAY-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/almost_hetclin_BAX.eps>
-(epstopdf)                    date: 2019-08-21 17:38:17
-(epstopdf)                    size: 114701978 bytes
+(epstopdf)                    date: 2019-10-03 17:12:57
+(epstopdf)                    size: 107624752 bytes
 (epstopdf)             Output file: <./figures_raw/almost_hetclin_BAX-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-08-21 17:42:36
-(epstopdf)                    size: 1659028 bytes
+(epstopdf)                    date: 2019-10-03 17:13:17
+(epstopdf)                    size: 1440322 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/almost_hetcl
 in_BAX-eps-converted-to.pdf ./figures_raw/almost_hetclin_BAX.eps>
-(epstopdf)             \includegraphics on input line 464.
+(epstopdf)             \includegraphics on input line 474.
 Package epstopdf Info: Output file is already uptodate.
 <./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf, id=121, 854.19125pt x 5
-83.17876pt>
+38.01pt>
 File: ./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf 
- used on input line 464.
-(pdftex.def)             Requested size: 358.5049pt x 244.75543pt.
+ used on input line 474.
+(pdftex.def)             Requested size: 358.5049pt x 225.79846pt.
 Package epstopdf Info: Source file: <./figures_raw/almost_hetclin_BAY.eps>
-(epstopdf)                    date: 2019-08-22 12:27:34
-(epstopdf)                    size: 123062305 bytes
+(epstopdf)                    date: 2019-10-03 17:12:27
+(epstopdf)                    size: 111650514 bytes
 (epstopdf)             Output file: <./figures_raw/almost_hetclin_BAY-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-08-22 12:27:48
-(epstopdf)                    size: 1172406 bytes
+(epstopdf)                    date: 2019-10-03 17:13:20
+(epstopdf)                    size: 1001535 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/almost_hetcl
 in_BAY-eps-converted-to.pdf ./figures_raw/almost_hetclin_BAY.eps>
-(epstopdf)             \includegraphics on input line 479.
+(epstopdf)             \includegraphics on input line 489.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf, id=122, 853.1875pt x 62
-7.34375pt>
+<./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf, id=122, 854.19125pt x 5
+62.1pt>
 File: ./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use ./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/almost_hetclin_BAY-eps-converted-to.pdf 
- used on input line 479.
-(pdftex.def)             Requested size: 358.5049pt x 263.60701pt.
+ used on input line 489.
+(pdftex.def)             Requested size: 358.5049pt x 235.90884pt.
 
 Preview: Tightpage 0 -46616 0 0
 [9 <./figures_raw/almost_hetclin_BAX-eps-converted-to.pdf> <./figures_raw/almos
 t_hetclin_BAY-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./figures_raw/Lin1.eps>
-(epstopdf)                    date: 2019-07-03 11:59:28
-(epstopdf)                    size: 3487662 bytes
-(epstopdf)             Output file: <./figures_raw/Lin1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:17
-(epstopdf)                    size: 69989 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures_raw/Lin1-eps-con
-verted-to.pdf ./figures_raw/Lin1.eps>
-(epstopdf)             \includegraphics on input line 512.
-Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/Lin1-eps-converted-to.pdf, id=134, 1733.47626pt x 870.25125pt>
-File: ./figures_raw/Lin1-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures_raw/Lin1-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures_raw/Lin1-eps-converted-to.pdf  used on input
- line 512.
-(pdftex.def)             Requested size: 227.62204pt x 114.26534pt.
-Package epstopdf Info: Source file: <./figures_raw/Lin2.eps>
-(epstopdf)                    date: 2019-07-03 11:59:00
-(epstopdf)                    size: 3714062 bytes
-(epstopdf)             Output file: <./figures_raw/Lin2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:18
-(epstopdf)                    size: 69624 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures_raw/Lin2-eps-con
-verted-to.pdf ./figures_raw/Lin2.eps>
-(epstopdf)             \includegraphics on input line 537.
-Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/Lin2-eps-converted-to.pdf, id=135, 1733.47626pt x 935.495pt>
-File: ./figures_raw/Lin2-eps-converted-to.pdf Graphic file (type pdf)
-<use ./figures_raw/Lin2-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures_raw/Lin2-eps-converted-to.pdf  used on input
- line 537.
-(pdftex.def)             Requested size: 227.62204pt x 122.83194pt.
 Package epstopdf Info: Source file: <./figures_raw/Lin3.eps>
-(epstopdf)                    date: 2019-07-03 11:58:11
-(epstopdf)                    size: 3495654 bytes
+(epstopdf)                    date: 2019-10-07 17:05:58
+(epstopdf)                    size: 3513862 bytes
 (epstopdf)             Output file: <./figures_raw/Lin3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:18
-(epstopdf)                    size: 73241 bytes
+(epstopdf)                    date: 2019-10-07 17:07:49
+(epstopdf)                    size: 79433 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/Lin3-eps-con
 verted-to.pdf ./figures_raw/Lin3.eps>
-(epstopdf)             \includegraphics on input line 561.
+(epstopdf)             \includegraphics on input line 572.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/Lin3-eps-converted-to.pdf, id=136, 1733.47626pt x 870.25125pt>
+<./figures_raw/Lin3-eps-converted-to.pdf, id=134, 1733.47626pt x 870.25125pt>
 File: ./figures_raw/Lin3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/Lin3-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/Lin3-eps-converted-to.pdf  used on input
- line 561.
+ line 572.
 (pdftex.def)             Requested size: 227.62204pt x 114.26534pt.
 Package epstopdf Info: Source file: <./figures_raw/Lin4.eps>
-(epstopdf)                    date: 2019-07-03 11:58:32
-(epstopdf)                    size: 3495150 bytes
+(epstopdf)                    date: 2019-10-07 17:35:07
+(epstopdf)                    size: 3512886 bytes
 (epstopdf)             Output file: <./figures_raw/Lin4-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-04 10:34:19
-(epstopdf)                    size: 72671 bytes
+(epstopdf)                    date: 2019-10-07 17:35:35
+(epstopdf)                    size: 78878 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/Lin4-eps-con
 verted-to.pdf ./figures_raw/Lin4.eps>
-(epstopdf)             \includegraphics on input line 583.
+(epstopdf)             \includegraphics on input line 594.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/Lin4-eps-converted-to.pdf, id=137, 1733.47626pt x 870.25125pt>
+<./figures_raw/Lin4-eps-converted-to.pdf, id=135, 1733.47626pt x 870.25125pt>
 File: ./figures_raw/Lin4-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/Lin4-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/Lin4-eps-converted-to.pdf  used on input
- line 583.
+ line 594.
 (pdftex.def)             Requested size: 227.62204pt x 114.26534pt.
 
 Preview: Tightpage 0 -46616 0 0
-[10 <./figures_raw/Lin1-eps-converted-to.pdf> <./figures_raw/Lin2-eps-converted
--to.pdf> <./figures_raw/Lin3-eps-converted-to.pdf> <./figures_raw/Lin4-eps-conv
-erted-to.pdf>]
+[10 <./figures_raw/Lin3-eps-converted-to.pdf> <./figures_raw/Lin4-eps-converted
+-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/hetclin_6_BAX.eps>
 (epstopdf)                    date: 2019-07-03 15:19:25
 (epstopdf)                    size: 112130026 bytes
@@ -839,14 +806,14 @@ to.pdf>
 (epstopdf)                    size: 1484358 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/hetclin_6_BA
 X-eps-converted-to.pdf ./figures_raw/hetclin_6_BAX.eps>
-(epstopdf)             \includegraphics on input line 613.
+(epstopdf)             \includegraphics on input line 624.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/hetclin_6_BAX-eps-converted-to.pdf, id=157, 854.19125pt x 553.06
+<./figures_raw/hetclin_6_BAX-eps-converted-to.pdf, id=147, 854.19125pt x 553.06
 625pt>
 File: ./figures_raw/hetclin_6_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/hetclin_6_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/hetclin_6_BAX-eps-converted-to.pdf  used
- on input line 613.
+ on input line 624.
 (pdftex.def)             Requested size: 358.5049pt x 232.11745pt.
 Package epstopdf Info: Source file: <./figures_raw/hetclin_6_BAY.eps>
 (epstopdf)                    date: 2019-07-03 15:18:55
@@ -857,14 +824,14 @@ to.pdf>
 (epstopdf)                    size: 1153848 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/hetclin_6_BA
 Y-eps-converted-to.pdf ./figures_raw/hetclin_6_BAY.eps>
-(epstopdf)             \includegraphics on input line 631.
+(epstopdf)             \includegraphics on input line 642.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/hetclin_6_BAY-eps-converted-to.pdf, id=158, 854.19125pt x 593.21
+<./figures_raw/hetclin_6_BAY-eps-converted-to.pdf, id=148, 854.19125pt x 593.21
 625pt>
 File: ./figures_raw/hetclin_6_BAY-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/hetclin_6_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/hetclin_6_BAY-eps-converted-to.pdf  used
- on input line 631.
+ on input line 642.
 (pdftex.def)             Requested size: 358.5049pt x 248.9681pt.
 
 Preview: Tightpage 0 -46616 0 0
@@ -881,15 +848,15 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/paper_saddle
 _unstable_BAX-eps-converted-to.pdf ./figures_raw/paper_saddle_unstable_BAX.eps>
 
-(epstopdf)             \includegraphics on input line 656.
+(epstopdf)             \includegraphics on input line 667.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/paper_saddle_unstable_BAX-eps-converted-to.pdf, id=170, 854.1912
+<./figures_raw/paper_saddle_unstable_BAX-eps-converted-to.pdf, id=160, 854.1912
 5pt x 553.06625pt>
 File: ./figures_raw/paper_saddle_unstable_BAX-eps-converted-to.pdf Graphic file
  (type pdf)
 <use ./figures_raw/paper_saddle_unstable_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/paper_saddle_unstable_BAX-eps-converted-
-to.pdf  used on input line 656.
+to.pdf  used on input line 667.
 (pdftex.def)             Requested size: 358.5049pt x 232.11745pt.
 Package epstopdf Info: Source file: <./figures_raw/paper_saddle_unstable_BAY.ep
 s>
@@ -902,20 +869,39 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/paper_saddle
 _unstable_BAY-eps-converted-to.pdf ./figures_raw/paper_saddle_unstable_BAY.eps>
 
-(epstopdf)             \includegraphics on input line 672.
+(epstopdf)             \includegraphics on input line 683.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/paper_saddle_unstable_BAY-eps-converted-to.pdf, id=171, 854.1912
+<./figures_raw/paper_saddle_unstable_BAY-eps-converted-to.pdf, id=161, 854.1912
 5pt x 599.23875pt>
 File: ./figures_raw/paper_saddle_unstable_BAY-eps-converted-to.pdf Graphic file
  (type pdf)
 <use ./figures_raw/paper_saddle_unstable_BAY-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/paper_saddle_unstable_BAY-eps-converted-
-to.pdf  used on input line 672.
+to.pdf  used on input line 683.
 (pdftex.def)             Requested size: 358.5049pt x 251.49568pt.
 
 Preview: Tightpage 0 -46616 0 0
 [12 <./figures_raw/paper_saddle_unstable_BAX-eps-converted-to.pdf> <./figures_r
 aw/paper_saddle_unstable_BAY-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures_raw/paper_singular_BAX.eps>
+(epstopdf)                    date: 2019-10-23 17:05:35
+(epstopdf)                    size: 112629351 bytes
+(epstopdf)             Output file: <./figures_raw/paper_singular_BAX-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2019-10-23 17:07:07
+(epstopdf)                    size: 1023519 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures_raw/paper_singul
+ar_BAX-eps-converted-to.pdf ./figures_raw/paper_singular_BAX.eps>
+(epstopdf)             \includegraphics on input line 709.
+Package epstopdf Info: Output file is already uptodate.
+<./figures_raw/paper_singular_BAX-eps-converted-to.pdf, id=173, 854.19125pt x 5
+57.08125pt>
+File: ./figures_raw/paper_singular_BAX-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use ./figures_raw/paper_singular_BAX-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures_raw/paper_singular_BAX-eps-converted-to.pdf 
+ used on input line 709.
+(pdftex.def)             Requested size: 358.5049pt x 233.80252pt.
 Package epstopdf Info: Source file: <./figures_raw/paper_BAX.eps>
 (epstopdf)                    date: 2019-07-03 15:57:11
 (epstopdf)                    size: 112657804 bytes
@@ -925,37 +911,59 @@ df>
 (epstopdf)                    size: 1553863 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/paper_BAX-ep
 s-converted-to.pdf ./figures_raw/paper_BAX.eps>
-(epstopdf)             \includegraphics on input line 698.
+(epstopdf)             \includegraphics on input line 726.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/paper_BAX-eps-converted-to.pdf, id=183, 854.19125pt x 554.07pt>
+<./figures_raw/paper_BAX-eps-converted-to.pdf, id=174, 854.19125pt x 554.07pt>
 File: ./figures_raw/paper_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/paper_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/paper_BAX-eps-converted-to.pdf  used on 
-input line 698.
+input line 726.
 (pdftex.def)             Requested size: 358.5049pt x 232.53873pt.
-Package epstopdf Info: Source file: <./figures_raw/paper_singular_BAX.eps>
-(epstopdf)                    date: 2019-07-04 10:39:48
-(epstopdf)                    size: 112654101 bytes
-(epstopdf)             Output file: <./figures_raw/paper_singular_BAX-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2019-08-06 15:14:50
-(epstopdf)                    size: 1074610 bytes
-(epstopdf)             Command: <repstopdf --outfile=./figures_raw/paper_singul
-ar_BAX-eps-converted-to.pdf ./figures_raw/paper_singular_BAX.eps>
-(epstopdf)             \includegraphics on input line 715.
-Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/paper_singular_BAX-eps-converted-to.pdf, id=184, 854.19125pt x 5
-57.08125pt>
-File: ./figures_raw/paper_singular_BAX-eps-converted-to.pdf Graphic file (type 
-pdf)
-<use ./figures_raw/paper_singular_BAX-eps-converted-to.pdf>
-Package pdftex.def Info: ./figures_raw/paper_singular_BAX-eps-converted-to.pdf 
- used on input line 715.
-(pdftex.def)             Requested size: 358.5049pt x 233.80252pt.
 
 Preview: Tightpage 0 -46616 0 0
-[13 <./figures_raw/paper_BAX-eps-converted-to.pdf> <./figures_raw/paper_singula
+[13 <./figures_raw/paper_singular_BAX-eps-converted-to.pdf> <./figures_raw/pape
 r_BAX-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./figures_raw/error_75_a1_a2.eps>
+(epstopdf)                    date: 2019-10-21 14:24:51
+(epstopdf)                    size: 86974 bytes
+(epstopdf)             Output file: <./figures_raw/error_75_a1_a2-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2019-10-21 14:29:13
+(epstopdf)                    size: 29702 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures_raw/error_75_a1_
+a2-eps-converted-to.pdf ./figures_raw/error_75_a1_a2.eps>
+(epstopdf)             \includegraphics on input line 744.
+Package epstopdf Info: Output file is already uptodate.
+<./figures_raw/error_75_a1_a2-eps-converted-to.pdf, id=187, 853.1875pt x 532.99
+126pt>
+File: ./figures_raw/error_75_a1_a2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./figures_raw/error_75_a1_a2-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures_raw/error_75_a1_a2-eps-converted-to.pdf  use
+d on input line 744.
+(pdftex.def)             Requested size: 358.5049pt x 223.96053pt.
+Package epstopdf Info: Source file: <./figures_raw/error_75_b.eps>
+(epstopdf)                    date: 2019-10-21 15:58:58
+(epstopdf)                    size: 36575984 bytes
+(epstopdf)             Output file: <./figures_raw/error_75_b-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-10-21 15:59:11
+(epstopdf)                    size: 193295 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures_raw/error_75_b-e
+ps-converted-to.pdf ./figures_raw/error_75_b.eps>
+(epstopdf)             \includegraphics on input line 752.
+Package epstopdf Info: Output file is already uptodate.
+<./figures_raw/error_75_b-eps-converted-to.pdf, id=188, 435.6275pt x 344.28625p
+t>
+File: ./figures_raw/error_75_b-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures_raw/error_75_b-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures_raw/error_75_b-eps-converted-to.pdf  used on
+ input line 752.
+(pdftex.def)             Requested size: 358.5049pt x 283.33044pt.
+
+Preview: Tightpage 0 -46616 0 0
+[14 <./figures_raw/error_75_a1_a2-eps-converted-to.pdf> <./figures_raw/error_75
+_b-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/paper_isola.eps>
 (epstopdf)                    date: 2019-07-03 16:54:47
 (epstopdf)                    size: 62411 bytes
@@ -965,18 +973,18 @@ Package epstopdf Info: Source file: <./figures_raw/paper_isola.eps>
 (epstopdf)                    size: 17305 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/paper_isola-
 eps-converted-to.pdf ./figures_raw/paper_isola.eps>
-(epstopdf)             \includegraphics on input line 726.
+(epstopdf)             \includegraphics on input line 765.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/paper_isola-eps-converted-to.pdf, id=197, 616.3025pt x 337.26pt>
+<./figures_raw/paper_isola-eps-converted-to.pdf, id=198, 616.3025pt x 337.26pt>
 
 File: ./figures_raw/paper_isola-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/paper_isola-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/paper_isola-eps-converted-to.pdf  used o
-n input line 726.
+n input line 765.
 (pdftex.def)             Requested size: 312.9803pt x 171.2747pt.
 
 Preview: Tightpage 0 -46616 0 0
-[14 <./figures_raw/paper_isola-eps-converted-to.pdf>]
+[15 <./figures_raw/paper_isola-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/MMO_surface_interaction_BAX.
 eps>
 (epstopdf)                    date: 2019-07-03 16:50:33
@@ -988,19 +996,19 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/MMO_surface_
 interaction_BAX-eps-converted-to.pdf ./figures_raw/MMO_surface_interaction_BAX.
 eps>
-(epstopdf)             \includegraphics on input line 767.
+(epstopdf)             \includegraphics on input line 806.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/MMO_surface_interaction_BAX-eps-converted-to.pdf, id=204, 854.19
+<./figures_raw/MMO_surface_interaction_BAX-eps-converted-to.pdf, id=205, 854.19
 125pt x 613.29124pt>
 File: ./figures_raw/MMO_surface_interaction_BAX-eps-converted-to.pdf Graphic fi
 le (type pdf)
 <use ./figures_raw/MMO_surface_interaction_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/MMO_surface_interaction_BAX-eps-converte
-d-to.pdf  used on input line 767.
+d-to.pdf  used on input line 806.
 (pdftex.def)             Requested size: 358.5049pt x 257.3934pt.
 
 Preview: Tightpage 0 -46616 0 0
-[15 <./figures_raw/MMO_surface_interaction_BAX-eps-converted-to.pdf>]
+[16 <./figures_raw/MMO_surface_interaction_BAX-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figures_raw/MMO_2_BAX.eps>
 (epstopdf)                    date: 2019-07-04 10:21:34
 (epstopdf)                    size: 100915711 bytes
@@ -1010,13 +1018,13 @@ df>
 (epstopdf)                    size: 397338 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/MMO_2_BAX-ep
 s-converted-to.pdf ./figures_raw/MMO_2_BAX.eps>
-(epstopdf)             \includegraphics on input line 794.
+(epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/MMO_2_BAX-eps-converted-to.pdf, id=213, 853.1875pt x 493.845pt>
+<./figures_raw/MMO_2_BAX-eps-converted-to.pdf, id=214, 853.1875pt x 493.845pt>
 File: ./figures_raw/MMO_2_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/MMO_2_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/MMO_2_BAX-eps-converted-to.pdf  used on 
-input line 794.
+input line 833.
 (pdftex.def)             Requested size: 358.5049pt x 207.51144pt.
 Package epstopdf Info: Source file: <./figures_raw/MMO_1_BAX.eps>
 (epstopdf)                    date: 2019-07-04 10:22:12
@@ -1027,14 +1035,14 @@ df>
 (epstopdf)                    size: 402632 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/MMO_1_BAX-ep
 s-converted-to.pdf ./figures_raw/MMO_1_BAX.eps>
-(epstopdf)             \includegraphics on input line 810.
+(epstopdf)             \includegraphics on input line 849.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/MMO_1_BAX-eps-converted-to.pdf, id=214, 853.1875pt x 495.8525pt>
+<./figures_raw/MMO_1_BAX-eps-converted-to.pdf, id=215, 853.1875pt x 495.8525pt>
 
 File: ./figures_raw/MMO_1_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/MMO_1_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/MMO_1_BAX-eps-converted-to.pdf  used on 
-input line 810.
+input line 849.
 (pdftex.def)             Requested size: 358.5049pt x 208.35498pt.
 Package epstopdf Info: Source file: <./figures_raw/MMO_3_BAX.eps>
 (epstopdf)                    date: 2019-07-04 10:20:56
@@ -1045,23 +1053,23 @@ df>
 (epstopdf)                    size: 444598 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures_raw/MMO_3_BAX-ep
 s-converted-to.pdf ./figures_raw/MMO_3_BAX.eps>
-(epstopdf)             \includegraphics on input line 826.
+(epstopdf)             \includegraphics on input line 865.
 Package epstopdf Info: Output file is already uptodate.
-<./figures_raw/MMO_3_BAX-eps-converted-to.pdf, id=215, 853.1875pt x 496.85625pt
+<./figures_raw/MMO_3_BAX-eps-converted-to.pdf, id=216, 853.1875pt x 496.85625pt
 >
 File: ./figures_raw/MMO_3_BAX-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures_raw/MMO_3_BAX-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures_raw/MMO_3_BAX-eps-converted-to.pdf  used on 
-input line 826.
+input line 865.
 (pdftex.def)             Requested size: 358.5049pt x 208.77675pt.
 
 Preview: Tightpage 0 -46616 0 0
-[16 <./figures_raw/MMO_2_BAX-eps-converted-to.pdf> <./figures_raw/MMO_1_BAX-eps
+[17 <./figures_raw/MMO_2_BAX-eps-converted-to.pdf> <./figures_raw/MMO_1_BAX-eps
 -converted-to.pdf> <./figures_raw/MMO_3_BAX-eps-converted-to.pdf>]
 (./figures.aux) ) 
 Here is how much of TeX's memory you used:
  4936 strings out of 492649
- 66660 string characters out of 6129622
+ 66740 string characters out of 6129622
  147788 words of memory out of 5000000
  8628 multiletter control sequences out of 15000+600000
  27154 words of font info for 95 fonts, out of 8000000 for 9000
@@ -1071,21 +1079,21 @@ Here is how much of TeX's memory you used:
 m-super-t1.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on figures.pdf (16 pages, 19107826 bytes).
+extra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on figures.pdf (17 pages, 18813351 bytes).
 PDF statistics:
- 280 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  163 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  166 words of extra memory for PDF output out of 10000 (max. 10000000)

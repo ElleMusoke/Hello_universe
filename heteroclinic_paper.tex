@@ -8,7 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 
-%\documentclass[draft]{ws-ijbc}
+%\documentclass[•]{•}ass[draft]{ws-ijbc}
 \documentclass{ws-ijbc}
 \usepackage{ws-rotating}     % used only when sideways tables/figures are used
 \usepackage{epstopdf}
@@ -171,22 +171,22 @@ According to Fenichel Theory, for $\varepsilon > 0$, the manifold $W^{s}(C^3)$ a
 In \cite{Saeed_Paper} algorithms are presented for the computation of a one-dimensional saddle slow manifold and its (un)stable manifolds in a three-dimensional system.  We build on their work to define and compute unique representatives $S^3$ and $S^2$ as well as their stable and unstable manifolds, respectively.
 
 \subsection{Definition of $S^3$}    
-We define the slow manifold $S^3$ with respect to a closed interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that $[B_{\mathrm{in}},B_{\mathrm{out}}] \subset (B_{F_1}, B_{F_2})$, where $B_{F_1}$ and $B_{F_2}$ are the $B$-values of the fold points $F_1$ and $F_2$, respectively.  Hence, for each $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^3$ such that $p_B = B_p$.  In the three-dimensional subsection $\{ \omega \in \mathbb{R}^4 \; | \; \omega_B=B_p\}$ we define a solid three-sphere $D_\delta(B_p)$ with radius $\delta$ and centre $p$ , given formally by
+We define the slow manifold $S^3$ with respect to a closed interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$ for the slow variable $B$.  The values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that $[B_{\mathrm{in}},B_{\mathrm{out}}] \subset (B_{F_1}, B_{F_2})$, where $B_{F_1}$ and $B_{F_2}$ are the $B$-values of the fold points $F_1$ and $F_2$, respectively.  Hence, for each $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$ there is a unique point $p=(p_A,p_B,p_X,p_Y) \in C^3$ such that $p_B = B_p$.  In the three-dimensional subsection $\{ \omega \in \mathbb{R}^4 \; | \; \omega_B=B_p\}$ we define a solid three-sphere $D^s_\delta(B_p)$ with radius $\delta$ and centre $p$ , given formally by
 
 \begin{equation*}
-D_\delta(B_p)=\{w \in \mathbb{R}^4 \; | \; w_B = B_p, \left\lVert w-p \right\rVert \leq \delta\}.
+D^s_\delta(B_p)=\{w \in \mathbb{R}^4 \; | \; w_B = B_p, \left\lVert w-p \right\rVert \leq \delta\}.
 \end{equation*}    
 \noindent
 The union 
 \begin{equation*}
-\mathscr{D} = \bigcup\limits_{B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]}^{} D_\delta(B_p)
+\mathscr{D}^s = \bigcup\limits_{B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]}^{} D^s_\delta(B_p)
 \end{equation*}
 
 
 \noindent
-forms a four-dimensional compact cylinder.  The radius $\delta$ is small, but it needs to be at least of $O(\varepsilon)$ to ensure that $S^3$ lies in $\mathscr{D}$.  The one-parameter family of orbit segments that enter $\mathscr{D}$ via $D_\delta(B_{\mathrm{in}})$ are candidates for $S^3$.   To select a unique representative $S^3$ we require that the orbit segment representing $S^3$ has maximal integration time in $\mathscr{D}$ while satisfying appropriate boundary conditions.  Our choice of boundary conditions is explained in section 3.2.
+forms a four-dimensional compact cylinder.  The superscript $s$ indicates that   The radius $\delta$ is small, but it needs to be of $O(\varepsilon)$ to ensure that $S^3$ lies in $\mathscr{D}^s$.  The one-parameter family of orbit segments that enter $\mathscr{D}^s$ via $D_\delta(B_{\mathrm{in}})$ are candidates for $S^3$.   To select a unique representative $S^3$ we require that the orbit segment representing $S^3$ has maximal integration time in $\mathscr{D}^s$ while satisfying appropriate boundary conditions.  Our choice of boundary conditions is explained in section 3.2.
     
-Figure \ref{figure_2} illustrates this definition with an enlargement of the critical manifold.  This is an enlargement of Figure \ref{figure_1} near the branch $C^3$ where we now sketch the relevant elements of this definition. The unique representative $S^3$, in projection onto the $(B,A)$-plane, enters $\mathscr{D}$ at $D_\delta(B_{\mathrm{in}})$ and exits at $D_\delta(B_{\mathrm{out}})$.
+Figure \ref{figure_2} illustrates this definition with an enlargement of Figure \ref{figure_1} near the branch $C^3$, where we now sketch the relevant elements of this definition. The unique representative $S^3$, in projection onto the $(B,A)$-plane, enters $\mathscr{D}^s$ at $D^s_\delta(B_{\mathrm{in}})$ and exits at $D^s_\delta(B_{\mathrm{out}})$.
 
 \begin{figure}[!t]
 \begin{center}
@@ -198,16 +198,16 @@ Figure \ref{figure_2} illustrates this definition with an enlargement of the cri
 
 \subsection{Computation of $W^{s}(S^3)$ and  $S^3$}
 
-As $W^{s}(S^3)$ is three dimensional it is challenging to compute and difficult to visualise.  In fact, $W^{s}(S^3)$ can be represented as a two-parameter family of orbit segments that enter $\mathscr{D}$ at $D_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}$ for $O(1)$ slow time.  A natural way forward is to consider $W^{s}(S^3)$ as a one-parameter family of two-dimensional submanifolds.  These submanifolds can be computed by generalizing the approach in \cite{Saeed_Paper}, which can then be implemented in the two-point boundary value problem (2PBVP) continuation package \textsc{Auto} \cite{AUTO}.  
+Since $W^{s}(S^3)$ is three dimensional it is challenging to compute and difficult to visualise.  In fact, $W^{s}(S^3)$ can be represented as a two-parameter family of orbit segments that enter $\mathscr{D}^s$ at $D^s_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}^s$ for $O(1)$ slow time.  A natural way forward is to consider $W^{s}(S^3)$ as a one-parameter family of two-dimensional submanifolds.  These submanifolds can be computed by generalizing the approach in \cite{Saeed_Paper}, which can then be implemented in the two-point boundary value problem (2PBVP) continuation package \textsc{Auto} \cite{AUTO}.  
 
-Similarly to $S^3$, we select and approximate a specific candidate for $W^{s}(S^3)$ by requiring that each orbit segment lying on $W^{s}(S^3)$ have maximal integration time inside $\mathscr{D}$ and satisfy appropriate boundary conditions.  We now turn to the computation of the three-dimensional manifold $W^{s}(S^3)$ in the region where a corresponding two-dimensional stable manifold was investigated in the reduced model in \cite{QSSA}.
+Similarly to $S^3$, we select and approximate a specific candidate for $W^{s}(S^3)$ by requiring that each orbit segment lying on $W^{s}(S^3)$ has maximal integration time inside $\mathscr{D}^s$ and satisfies appropriate boundary conditions.  We now turn to the computation of the three-dimensional manifold $W^{s}(S^3)$ in the region where a corresponding two-dimensional stable manifold was investigated in the reduced model in \cite{QSSA}.
 
-To define a submanifold we first define a two-dimensional plane $\Sigma$ that is transverse to the flow and $E^u(C^3)$.  We can define $\Sigma$ by fixing $A$ and either $X$ or $Y$.  A smooth, one-parameter family of solutions of (\ref{equation_1}) is then given by the property that they begin in $\Sigma$, enter $\mathscr{D}$ at $D_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}$ for $O(1)$ slow time.  We use $W^{s}_{\Sigma}$ to denote the collection of those parts of these orbit segments that enter $\mathscr{D}$ in the fast direction.  The later parts that evolve mostly in the $B$-direction inside $\mathscr{D}$ for $O(1)$ slow time are approximate segments of $S^3$.  If the later part of the orbit segment includes a fast exit from $\mathscr{D}$, the fast part is an approximation of an orbit segment lying on the unstable manifold $W^{u}(S^3)$ of $S^3$.
+To select a submanifold we first define a two-dimensional plane $\Sigma$ that is transverse to the flow and to $E^u(C^3)$.  We can define $\Sigma$ by fixing $A$ and either $X$ or $Y$.  A smooth, one-parameter family of orbit segments of (\ref{equation_1}) is then given by the property that they begin in $\Sigma$, enter $\mathscr{D}^s$ at $D^s_{\delta}(B_p)$ for some $B_p \in [B_{\text{in}}, B_{\text{out}}]$, and remain inside $\mathscr{D}^s$ for $O(1)$ slow time.  We denote by $W^{s}_{\Sigma}$ the collection of those parts of these orbit segments that enter $\mathscr{D}^s$ in the fast direction.  The later parts that evolve mostly in the $B$-direction inside $\mathscr{D}^s$ for $O(1)$ slow time are approximate segments of $S^3$.  If such a later part of the orbit segment includes a fast exit from $\mathscr{D}^s$, the fast part lies on the unstable manifold $W^{u}(S^3)$ of $S^3$ in good approximation.
 
 \begin{figure}[h]
 \centering
 \includegraphics[]{./figures/MKMO_3.pdf}
-\caption{A sketch in projection onto the ($B$,$A$)-plane of the numerical set-up for the computation of submanifolds of $W^s(S^3)$.  Panel (a) shows a sketch at the start of the first homotopy step for computing $W^{s}_{\widehat{\Sigma}}$ with $S^3$ (a green curve), $E^s(p_{\text{out}})$ (blue cross), and the plane $\widehat{\Sigma}$ (mocha line) which is defined by the $A$- and $Y$-coordinates of the point $p_{\text{out}}$.  Panel (b) shows a representative orbit segment $\mathbf{u}$ (magenta curve) of the first homotopy step.  Panel (c) shows an illustration of the selection of a $\mathbf{u}$ (magenta curve) with maximal integration time that starts at $\psi$ (mocha line) and ends on $\Omega$ (blue cube) which is spanned by $E^s(p_{\text{out}})$ and a vector in the $B$-direction; the one-dimensional subset $\psi \subset \widehat{\Sigma}$ is defined by fixing $B = B_{\text{in}}$.  Panel (d) shows a sketch of the selection of a different submanifold $W^{s}_{\Sigma}$ for $\Sigma$ on the other side of the critical manifold.  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$ and $q$.}
+\caption{A sketch in projection onto the ($B$,$A$)-plane of the numerical set-up for the computation of submanifolds of $W^s(S^3)$.  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$ and $q$.  Panel (a) shows a sketch at the start of the first homotopy step for computing $W^{s}_{\Sigma_0}$ with $S^3$ (a green curve), $E^s(p_{\text{out}})$ (blue cross), and the plane $\Sigma_0$ (mocha line) defined by the $A$- and $Y$-coordinates of the point $p_{\text{out}}$.  Panel (b) shows a representative orbit segment $\mathbf{u}$ (magenta curve) of the first homotopy step.  Panel (c) shows an illustration of the selection of a $\mathbf{u}$ with maximal integration time that starts at $\psi$ (mocha line) and ends on $\Omega$ (blue cube); here the one-dimensional subset $\psi \subset \Sigma_0$ is defined by fixing $B = B_{\text{in}}$ and $\Omega$ is spanned by $E^s(p_{\text{out}})$ and a vector in the $B$-direction. Panel (d) is a sketch of the selection of a different submanifold $W^{s}_{\Sigma}$ for $\Sigma$ on the other side of the critical manifold.}
 \label{figure_3}
 \end{figure}
 
@@ -220,7 +220,7 @@ We compute the submanifold $W^s_{\Sigma}$ as a one-parameter family of orbit seg
 \end{equation}
     
 \noindent
-where $\mathbf{u}(s) = (A(s), B(s), X(s), Y(s)) \in \mathbb{R}^4$ is the vector of chemical concentrations, $F$ is the right-hand side of (\ref{equation_1}) and $T$ is the total integration time on the fast timescale $t=Ts$.  Orbit segments $\mathbf{u} \in W^s_{\Sigma}$ must satisfy the boundary conditions
+where $\mathbf{u}(s) = (A(s), B(s), X(s), Y(s)) \in \mathbb{R}^4$ is the vector of chemical concentrations, $F$ is the right-hand side of (\ref{equation_1}) and $T$ is the total integration time on the fast timescale.  Orbit segments $\mathbf{u} \in W^s_{\Sigma}$ must satisfy the boundary conditions
 
  \begin{equation}
 	\mathbf{u}(0) \in \Sigma,
@@ -238,577 +238,509 @@ and
 	T=T^{B}
 	\label{general_conditions_3}
 \end{equation}
-where, for each $B_p \in \begin{bmatrix} B_{\text{in}} & B_{\text{out}} \end{bmatrix}$, $T^{B}$ is the maximum integration time of an orbit segment with $\mathbf{u}(0)_B=B_p$ satisfying (\ref{equation_4}) and (\ref{general_conditions_1}).  Conditions (\ref{general_conditions_1}), (\ref{general_conditions_2})  and (\ref{general_conditions_3}) define four conditions that are satisfied by a one-parameter family of solutions to (\ref{equation_4}).  Once an initial $\mathbf{u}$ satisfying (\ref{equation_4}), (\ref{general_conditions_1}), (\ref{general_conditions_2}), and (\ref{general_conditions_3}) is found, it is possible to sweep out the rest of $W^s_{\Sigma}$ by continuing $\mathbf{u}$ in $T$.  The challenge then becomes the computation of an initial solution.  For this purpose, we use homotopy steps as in  \cite{Saeed_Paper, homotopy_example}.
+where, for each $B_p \in \begin{bmatrix} B_{\text{in}} & B_{\text{out}} \end{bmatrix}$, $T^{B}$ is the maximum integration time of an orbit segment with $\mathbf{u}(0)_B=B_p$ satisfying (\ref{general_conditions_1}) and (\ref{general_conditions_2}).  Equations (\ref{general_conditions_1}), (\ref{general_conditions_2})  and (\ref{general_conditions_3}) define four conditions on solutions of (\ref{equation_4}) so that there is a one-parameter family of solutions to this 2PBVP.  Once an initial $\mathbf{u}$ satisfying (\ref{equation_4}), (\ref{general_conditions_1}), (\ref{general_conditions_2}), and (\ref{general_conditions_3}) is found, it is possible to sweep out the rest of $W^s_{\Sigma}$ by continuing $\mathbf{u}$ with varying $\mathbf{u}(0)_B$ and $T$.  The challenge in this type of set-up is generally the computation of an initial orbit segment that satisfies the boundary conditions.  For this purpose, we use homotopy steps as in  \cite{homotopy_example, Saeed_Paper}.
 
-In the first homotopy step, we take the point $p_{\text{out}}=\begin{pmatrix} 10.6055 & 0.9 & 0.0492484 & 0.000230006 \end{pmatrix}  \in C^3$ and $\Sigma=\Sigma_0=\{\omega \in \mathbb{R} \; | \;  \omega_A=10.6055, \omega_Y=0.000230006\}$.  Then $\mathbf{u}(t)=p_{\text{out}}$ is a solution to (\ref{equation_4}), (\ref{general_conditions_1}), and (\ref{general_conditions_2}) with $T=0$.  In the second homotopy step, we obtain an orbit segment by increasing $T$ until $\mathbf{u}(0)$ is in a region where we can perform the third homotopy step of moving $\Sigma$ to the desired location.  In the final homotopy step, we fix $\mathbf{u}(0)_B$ to ensure that an increase in integration time is the result of the slow segment's approach to $S^3$ and not the result of decreasing $\mathbf{u}(0)_B$.  Integration time $T$ is increased until a local maximum is attained at which point we have found an initial $\mathbf{u}$ satisfying (\ref{general_conditions_1}), (\ref{general_conditions_2}), and (\ref{general_conditions_3}) with which we can sweep out the rest of $W^s_\Sigma$.
-
-Figures \ref{figure_3} illustrate, step-by-step, the algorithm for computing $W^s_\Sigma$ in projection onto ($B$, $A$)-space for the plane $\Sigma$ given by constant values of $A$ and $X$ or $Y$.  Each panel shows $C$ from Figure \ref{figure_1} with additional information for the computation.  For clarity, we move the line representing $\Sigma_0$ so it is not confused with $C^4_+$.  Figures \ref{figure_3}(a)-(c) illustrate the set-up for obtaining a first solution on $W^s_{\Sigma_0}$ via homotopy steps.  We impose the condition (\ref{general_conditions_1}), that is, we impose two restrictions on the startpoint $\mathbf{u}(0)$ of the orbit segment $\mathbf{u}$ because $\Sigma_0$ is two dimensional.  To find a unique $\mathbf{u}$ satisfying (\ref{general_conditions_2}) we require the more restrictive condition
-
+In the first homotopy step, we choose the point $p_{\text{out}}=\begin{pmatrix} p_A, p_B, p_X, p_Y \end{pmatrix}  \in C^3$ by fixing $p_B$ and the section $\Sigma=\Sigma_0=\{\omega \in \mathbb{R} \; | \;  \omega_A=p_A, \omega_Y=p_Y\}$, and define the boundary condition
 \begin{equation}
-	\mathbf{u}(1) \in E^s(p_{out}),
+	\mathbf{u}(1) \in E^s(p_{out}).
 	\label{specific_BC}
 \end{equation}
-that imposes two restrictions on $\mathbf{u}(1)$ and allows for the possibility of $\mathbf{u}(1)$ intersecting $W^u(S^3)$.  The extra restriction of (\ref{specific_BC}) ensures that our 2PBVP is well defined.  Note that $E^s(p_{\text{out}})$ is transverse to $W^u(S^3)$.  In Figure \ref{figure_3}(a) $\Sigma_0$ is sketched as a mocha curve directly under $C^4_+$, intersecting $E^s(p_{\text{out}})$ which is sketched as a blue cross.  Note that by construction, the point $p_{\text{out}}$ is a solution of the 2PBVP defined by (\ref{equation_4}), (\ref{general_conditions_1}), and (\ref{specific_BC}) with $T=0$.
+Then $\mathbf{u}(t)=p_{\text{out}}$ is a solution to (\ref{equation_4}), (\ref{general_conditions_1}), and (\ref{specific_BC}) with $T=0$.  In the second homotopy step, we continue the orbit segment $\mathbf{u}$ by increasing $T$ until $\mathbf{u}(0)_B$ is sufficiently small.  We then can perform a third homotopy step to move $\Sigma$ to a desired location.  In a final homotopy step, we impose the condition
 
-We increase the total integration time while allowing the $B$-value of $\mathbf{u}(0)$ to decrease towards $F_2$.  The continuation is stopped when $\mathbf{u}(0)_B = B_{\text{in}}=0.275$.  Figure 3(b) shows an intermediate orbit segment, a fast segment, followed by a slow segment along $S^3$.  Panel (c) shows $\mathbf{u}$ when the continuation is stopped, just before $\mathbf{u}(0)_B$ reaches the $B$-coordinate value of $F_2$.
-    
-The orbit segment illustrated in Figure \ref{figure_3}(c) belongs to a two-parameter family of solutions $\mathbf{u}$ of (\ref{equation_4}) that satisfy the boundary conditions (\ref{general_conditions_1}) and (\ref{general_conditions_2}) for $\Sigma=\Sigma_0$.  In the case where we would like to compute $W^{s}_{\Sigma}$ for $\Sigma$ defined by different constant values of $A$ and $Y$ (or $X$) we perform additional homotopy steps to move $\Sigma$.  Starting with an intermediate orbit segment from the first homotopy step, we impose (\ref{general_conditions_1}) and (\ref{general_conditions_2}) while keeping as free parameters $T$ and $\mathbf{u}(0)_B$.  In two runs, we continue $\mathbf{u}$ while increasing or decreasing the $A$- and $Y$-values (or $X$-values) of $\Sigma$ until we obtain the desired plane.  We then decrease $\mathbf{u}(0)_B$ and stop the continuation when $\mathbf{u}(0)_B = B_{\text{in}}$.  Depending on $\Sigma$, the value of $B_{\text{in}}$ may need to be increased to avoid running into $C$.
-
-As mentioned before, we would like to find orbit segments with maximal integration time.  To select a one-parameter family of orbit segments from those satisfying (\ref{general_conditions_1}) and (\ref{general_conditions_2}), we select for each $B_p \in [B_{\text{in}}, B_{\text{out}}]$ the $\mathbf{u}$ with maximal integration time such that $\mathbf{u}(0)_B=B_p$.  In other words, we select a one-parameter family of $\mathbf{u}$ that satisfy (\ref{general_conditions_3}).  We fix $\mathbf{u}(0)_B$ to ensure an increase in integration time results from a better approximation of an orbit segment in $W^s_\Sigma$.  To ensure that our 2PBVP is well defined with the extra restriction on $\mathbf{u}(0)$, we allow an extra degree of freedom for $\mathbf{u}(1)$ by swapping out condition (\ref{specific_BC}) for (\ref{general_conditions_2}) which only imposes one restriction on $\mathbf{u}(1)$. To fix $\mathbf{u}(0)_B$, we require
-    
 \begin{equation}
-	\mathbf{u}(0) \in \psi=\Sigma_{0} \cap \{ \omega \in \mathbb{R}^4 \; | \; \omega_B = B_{\text{in}} \},
+	\mathbf{u}(0) \in \psi=\Sigma_{0} \cap \{ \omega \in \mathbb{R}^4 \; | \; \omega_B = B_{\text{in}} \}.
 	\label{BCSTOP}
 \end{equation}
-    
-\noindent
-which imposes three conditions on $\mathbf{u}(0)$ and is more restrictive than (\ref{general_conditions_1}).  Figures 3(c)-(d) show condition (\ref{general_conditions_2}) as a blue cube labeled $\Omega$ and condition (\ref{BCSTOP}) as a mocha line.  Figure 3(c) illustrates the numerical setup for $\Sigma=\Sigma_0$ while Figure 3(d) illustrates the numerical setup for a choice of $\Sigma$ on the other side of $C^3$ with respect to the variable $A$.  We now track the solution $\mathbf{u}$ of the 2PBVP (\ref{equation_4}), (\ref{general_conditions_2}), and (\ref{BCSTOP}) as $T$ increases, forcing $\mathbf{u}(0)$ to approach $W^s(S^3)\cap\Sigma$ and $\mathbf{u}(1)$ to approach $W^u(S^3) \cap \Omega$. When a fold in $T$ is reached, a (local) minimum in the total integration time $T$ is attained.
+By construction the $\mathbf{u}$ at the end of the previous homotopy step is a solution to (\ref{equation_4}), (\ref{general_conditions_2}), and (\ref{BCSTOP}).  Integration time $T$ is then increased until a local maximum $T_B$ is attained.  Here, we fix $\mathbf{u}(0)_B$ to ensure that an increase in integration time is the result of the slow segment's approach to $S^3$ and not the result of decreasing $\mathbf{u}(0)_B$.  We now have an initial $\mathbf{u}$ satisfying (\ref{general_conditions_1}), (\ref{general_conditions_2}), and (\ref{general_conditions_3}) with which we can sweep out the rest of $W^s_\Sigma$..
 
-The orbit segment that is obtained is the desired $\mathbf{u}$ with maximal integration time.  It is not represented in a figure because it is almost identical to the orbit segment illustrated in Figure 3(c): it begins in $\Sigma$ and has a fast approach to $S^3$ before remaining $O(\varepsilon)$ close for $O(1)$ slow time.  By definition it is an orbit segment in $W^{s}_{\Sigma}$.  In addition to finding an orbit segment that approximates a solution to (\ref{equation_4}) laying on $W^s_{\Sigma}$, we can approximate $S^3$ by restricting the orbit segment further inside $(B_{\text{in}},B_{\text{out}})$ to exclude fast segments. At this stage we use (\ref{general_conditions_1}), (\ref{general_conditions_2}), and (\ref{general_conditions_3}) to sweep out a one-parameter family of solutions which gives an accurate approximation of $W^s_\Sigma$.
+Figure \ref{figure_3} illustrates, step-by-step in projection onto the ($B$, $A$)-plane, the homotopy steps for computing $W^s_\Sigma$.  Each panel shows $C$ from Figure \ref{figure_1} with additional information for the computation.  Figures \ref{figure_3}(a)--(c) illustrate the set-up for obtaining a first solution on $W^s_{\Sigma_0}$ via homotopy steps.  The point $p_{\text{out}}=\begin{pmatrix} 10.6055, 0.9, 0.0492484, 0.000230006 \end{pmatrix}$ with $p_B=0.9$ lies on $C^3$ and the section $\Sigma_0=\{\omega \in \mathbb{R} \; | \;  \omega_A=10.6055, \omega_Y=0.000230006\}$ intersects $E^s(p_\text{out})$ at the point $p_{\text{out}}$.  We impose the condition (\ref{general_conditions_1}), that is, we impose two restrictions on the startpoint $\mathbf{u}(0)$ of the orbit segment $\mathbf{u}$ because $\Sigma_0$ is two dimensional.  To find a unique $\mathbf{u}$ satisfying (\ref{general_conditions_2}) we require the more restrictive condition (\ref{specific_BC}) that imposes two restrictions on $\mathbf{u}(1)$.  Hence, the overall 2PBVP is well defined.  Note that $E^s(p_{\text{out}})$ is transverse to $W^u(S^3)$.  In Figure \ref{figure_3}(a) $\Sigma_0$ is sketched as a mocha curve directly under $C^4_+$, intersecting $E^s(p_{\text{out}})$ which is sketched as a blue cross (note that in panels (a)--(b) $\Sigma_0$ is shown slightly lower for visibility).  By construction, the point $p_{\text{out}}$ is a solution of the 2PBVP defined by (\ref{equation_4}), (\ref{general_conditions_1}), and (\ref{specific_BC}) with $T=0$.
+
+We then increase the total integration time while allowing the $B$-value of $\mathbf{u}(0)$ to decrease towards $F_2$.  Figure 3(b) shows an intermediate orbit segment with a fast segment followed by a slow segment along $S^3$.  Panel (c) shows $\mathbf{u}$ when the continuation is stopped at $\mathbf{u}(0)_B = B_{\text{in}}=0.275$, just before $\mathbf{u}(0)_B$ reaches the $B$-coordinate value of $F_2$.
+    
+The orbit segment illustrated in Figure \ref{figure_3}(c) belongs to a two-parameter family of solutions $\mathbf{u}$ of (\ref{equation_4}) that satisfy the boundary conditions (\ref{general_conditions_1}) and (\ref{general_conditions_2}) for $\Sigma=\Sigma_0$.  In the case where we would like to compute $W^{s}_{\Sigma}$ for $\Sigma$ defined by different $A$ and $Y$ (or $X$) we perform an additional homotopy step to move $\Sigma$.  This can be achieved after the first homotopy step, by imposing (\ref{general_conditions_1}) and (\ref{specific_BC}) on an intermediate orbit segment while keeping $T$ and $\mathbf{u}(0)_X$ (or $\mathbf{u}(0)_Y$) as free parameters.  We continue $\mathbf{u}$ while increasing or decreasing the $A$- and/or $Y$-values (or $X$-values) defining $\Sigma$ until we reach the desired plane.  We then also decrease $\mathbf{u}(0)_B$ and stop the continuation when $\mathbf{u}(0)_B = B_{\text{in}}$.  Depending on $\Sigma$, the value of $B_{\text{in}}$ may need to be increased to avoid $\Sigma$ intersecting $C$.  Panel (d) shows an example of a different choice of $\Sigma$ defined by a smaller value of $A$.
+
+Figures (c)--(d), illustrate the final homotopy step in which we find an orbit segment with maximal integration time.  The three-dimensional space $\Omega$ from condition (\ref{general_conditions_2}) is shown as a blue cube and $\phi$ from (\ref{BCSTOP}) is shown as a mocha line.  Panel (c) illustrates the numerical setup for $\Sigma=\Sigma_0$ while panel (d) illustrates the numerical setup for a choice of $\Sigma$ on the other side of $C^3$ with respect to the variable $A$.To define a one-parameter family of orbit segments from those satisfying (\ref{general_conditions_1}) and (\ref{general_conditions_2}), we select for each $B_p \in [B_{\text{in}}, B_{\text{out}}]$ the $\mathbf{u}$ with maximal integration time such that $\mathbf{u}(0)_B=B_p$.  In other words, we select a one-parameter family of $\mathbf{u}$ that satisfy (\ref{general_conditions_3}).  We fix $\mathbf{u}(0)_B$ to ensure an increase in integration time results from a better approximation of an orbit segment in $W^s_\Sigma$.  To ensure that our 2PBVP is well defined with the extra restriction on $\mathbf{u}(0)$, we allow an extra degree of freedom for $\mathbf{u}(1)$ by requiring (\ref{general_conditions_2}) instead of (\ref{specific_BC}) so that only one restriction is imposed on $\mathbf{u}(1)$. To fix $\mathbf{u}(0)_B$, we require (\ref{BCSTOP}) which imposes three conditions on $\mathbf{u}(0)$ and is, hence, more restrictive than (\ref{general_conditions_1}).  We now track the solution $\mathbf{u}$ of the 2PBVP (\ref{equation_4}), (\ref{general_conditions_2}), and (\ref{BCSTOP}) as $T$ increases, forcing $\mathbf{u}(0)$ to approach $W^s(S^3)\cap\Sigma$ and $\mathbf{u}(1)$ to approach $W^u(S^3) \cap \Omega$. When a fold in $T$ is detected, a (local) maximum $T_B$ of the total integration time $T$ is attained.
+
+The orbit segment that is obtained is the desired $\mathbf{u}$ with maximal integration time.  It is not represented in a figure because it is practically identical to the orbit segment illustrated in Figure 3(c): it begins in $\Sigma$ and has a fast approach to $S^3$ before remaining $O(\varepsilon)$ close for $O(1)$ slow time.  By definition it is an orbit segment in $W^{s}_{\Sigma}$.  In addition to finding an orbit segment that approximates a solution to (\ref{equation_4}) laying on $W^s_{\Sigma}$, we can approximate $S^3$ by restricting the orbit segment further to lie entirely inside $(B_{\text{in}},B_{\text{out}})$ to exclude fast segments.
+
+After these homotopy steps we use (\ref{general_conditions_1}), (\ref{general_conditions_2}), and (\ref{general_conditions_3}) to sweep out a one-parameter family of solutions which gives an accurate approximation of $W^s_\Sigma$.  Figure \ref{figure_4} shows $W^s_{\Sigma_0}$ (light blue surface) in projection onto ($B$, $A$, $X$)-space (a) and ($B$, $A$, $Y$)-space (b) with $\Sigma_0$ (mint surface and line).  The plane $\Sigma_0$ appears as a line in panel (b) because it is defined by constant $A$ and $Y$.  The view is rotated relative to earlier figures to help illustrate the geometry of this submanifold.  Also shown are $C^3$, $C^4_+$, $F_1$, and $\Omega$.  Although the manifold is two dimensional, it is necessary to visualise it in both $(B,A,X)$- and $(B,A,Y)$-projections because it exists in a four-dimensional space.  Shown on $W^s_{\Sigma_0}$ is an orbit segment $\mathbf{u}$ (magenta curve) representative of those used to compute $W^s_{\Sigma_0}$.  The orbit segment $\mathbf{u}$ starts at a given $B$ and ends at $\Omega$ with maximum integration time.  It has a fast approach to $S^3$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then, finally, remaining close to $C^3$ for $O(1)$ slow time; this is evidence of a timescale splitting  between $A$, and $X$ and $Y$.
 
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_4.pdf}
-\caption{The submanifold $W^{s}_{\Sigma_0}$ (light blue surface) of $W^s(S^3)$ shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b); also shown are a representative orbit segment (magenta curve), $\Sigma_0$ (mint surface and line), $\Omega$ (represented by a blue cube), $C^3$, $C^4_+$, and $F_1$.}
+\caption{The submanifold $W^{s}_{\Sigma_0}$ (light blue surface) of $W^s(S^3)$, shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b); also shown are a representative orbit segment $\mathbf{u}$ (magenta curve), the plane $\Sigma_0$ (mint surface and line), $\Omega$ (represented by a blue cube), $C^3$, $C^4_+$, and $F_1$.}
 \label{figure_4}
 \end{figure}
 
-Figure \ref{figure_4} shows $W^s_{\Sigma_0}$ (light blue surface) in projection onto ($B$, $A$, $X$)-space and ($B$, $A$, $Y$)-space with 
 
-\noindent
-$\Sigma_0$ (mint surface).  Although the manifold is two dimensional, it is necessary to visualise it in both $(B,A,X)$- and $(B,A,Y)$-projections because it exists in four-dimensional space.  Lying in $W^s_{\Sigma_0}$ is an orbit segment $\mathbf{u}$ (magenta curve) representative of a trajectory in $W^s_{\Sigma_0}$.  Orbits lying on $W^s_{\Sigma_0}$ have a fast approach to $S^3$ in $X$ and $Y$ before approaching mainly in the $A$-direction and then finally remaining close to $C^3$ for $O(1)$ slow time, suggesting the presence of a third timescale in our system.  Also shown are $C^3$, $C^4_+$, $F_1$, and $\Omega$.  The view is rotated relative to earlier figures to help illustrate the geometry of the submanifold.
 
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_5.pdf}
-\caption{The submanifolds $W^{s}_{\Sigma_1}$ (blue surface) and $W^{s}_{\widehat{\Sigma}}$ (light blue surface) of $W^s(S^3)$ shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b); also shown are representative orbit segments (magenta curves), planes $\Sigma_0$ (mint surface and line) and $\Sigma_1$ (mint surface and line), and $\Omega$ (represented by a blue cube), $C^2$, $C^3$, $C^4_+$, $F_1$, and $F_2$.}
+\caption{The submanifolds $W^{s}_{\Sigma_0}$ (blue surface) and $W^{s}_{\Sigma_0}$ (light blue surface) of $W^s$, shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b); also shown are representative orbit segments $\mathbf{u}$ (magenta curves), the planes $\Sigma_0$ (mint surface and line) and $\Sigma_1$ (mint surface and line), and $\Omega$ (represented by a blue cube), $C^2$, $C^3$, $C^4_+$, $F_1$, and $F_2$.}
 \label{figure_5}
 \end{figure}
 
-Figure \ref{figure_5} shows $W^s_{\Sigma_0}$ (light blue surface) together with one other submanifold $W^{s}_{\Sigma_1}$ (blue surface) of $W^{s}(S^3)$ in projection onto ($B$, $A$, $X$)-space and ($B$, $A$, $Y$)-space, for $\Sigma_1$ (mint surface) given by $A=2.0$ and $Y=0.0$.  The submanifold $W^s_{\Sigma_1}$ is an example of a submanifold on the other side of $C$ with respect to the variable $A$, compare with Figure 3(d).  A magenta orbit segment lying in $W^s_{\Sigma_1}$ is shown approaching $S^3$ mainly from the $X$- and $Y$-directions before approaching mostly in the $A$-direction.
+Figure \ref{figure_5} shows $W^s_{\Sigma_0}$ (light blue surface) together with one other submanifold $W^{s}_{\Sigma_1}$ (blue surface) of $W^{s}$ in projection onto ($B$, $A$, $X$)-space and ($B$, $A$, $Y$)-space; here $\Sigma_1$ (mint surface) is given by $A=2.0$ and $Y=0.0$.  The surface $\Sigma_1$ appears as a line in panel (b) because it is defined by constant $A$ and $X$.  The submanifold $W^s_{\Sigma_1}$ is an example of a submanifold on the other side of $C$ with respect to the variable $A$; compare with Figure 3(d).  A representative magenta orbit segment on $W^s_{\Sigma_1}$ is shown approaching $S^3$ mainly from the $X$- and $Y$-directions, before approaching mostly in the $A$-direction.
 
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_6.pdf}
-\caption{The submanifolds from Figure 5 with three additional submanifolds $W^s_{\Sigma_i}$ (blue surfaces) defined by $\Sigma_2$, $\Sigma_3$, and $\Sigma_4$ (mint planes and lines) shown in projection onto ($B$, $A$, $X$)-space (a) and onto ($B$, $A$, $Y$)-space (b); also shown are $\Omega$ (represented by a blue cube).  An example orbit segment (magenta curve) is plotted on each $W^s_{\Sigma_i}$.  Also shown are $C^2$, $C^3$, $C^4_+$, $F_1$, and $F_2$.}
+\caption{The submanifolds from Figure 5 with three additional submanifolds $W^s_{\Sigma_i}$ (blue surfaces) of $W^s$ for $2 \geq i \leq 4$ in projection onto ($B$, $A$, $X$)-space (a) and ($B$, $A$, $Y$)-space (b); also shown are representative orbit segments $\mathbf{u}$ (magenta curves), the planes $\Sigma_i$ (mint surfaces and lines), and $\Omega$ (represented by a blue cube), $C^2$, $C^3$, $C^4_+$, $F_1$, and $F_2$.}
 \label{figure_6}
 \end{figure}
 
-Figure \ref{figure_6} shows the two submanifolds of $W^{s}$ shown in Figure \ref{figure_5} along with three additional submanifolds $W^s_{\Sigma_i}$ (blue surfaces) and the planes $\Sigma_i$ (mint surfaces) that define them.  Also shown are $C^3$, $C^4_+$, $F_1$, and $\Omega$.  The additional submanifolds were selected with $\Sigma_2$ given by $A=4.0$ and $Y=0.75$, $\Sigma_3$ given by $A=4.0$ and $X=0.75$, and $\Sigma_4$ given by $A=6.0$ and $X=0.5$.  Note that each $\Sigma$ appears as a line in one of the two projections, which projection depends on whether they are defined by constant values of $X$ or $Y$.  
+Figure \ref{figure_6} shows the two submanifolds of $W^{s}$ from Figure \ref{figure_5} with three additional submanifolds $W^s_{\Sigma_i}$ (blue surfaces) and the planes $\Sigma_i$ (mint surfaces) that define them.  Also shown are $C^3$, $C^4_+$, $F_1$, and $\Omega$.  The additional submanifolds were selected with $\Sigma_2$ given by $A=4.0$ and $Y=0.75$, $\Sigma_3$ given by $A=4.0$ and $X=0.75$, and $\Sigma_4$ given by $A=6.0$ and $X=0.5$.  Note that $\Sigma_2$ appears as a line in panel (b) because it is defined by constant values of $A$ and $Y$. Similarly, $\Sigma_3$ and $\Sigma_4$ appear as lines in panel (a) because they are defined by constant $A$ and $X$.  Orbit segments in Figure \ref{figure_6} again approach $S^3$ in the $X$- and $Y$-directions before approaching in the $A$-direction.  This is responsible for regions where different submanifolds are extremely close to each other.  In fact, these surfaces are so close that Matlab cannot distinguish them properly.  Different choices of $B_{\text{in}}$ and $B_{\text{out}}$ also cause some submanifolds to extend farther than others in the $B$-direction.
 
-The submanifolds appear to intersect in Figure \ref{figure_6}, however this is due to the variable $A$ being slower than variables $X$ and $Y$.  Orbit segments approach $S^3$ in the $X$- and $Y$-directions before approaching in the $A$-direction.  This is the responsible for the flat regions of the submanifolds that come very near to each other.  Different choices of $B_{\text{in}}$ and $B_{\text{out}}$ also cause some submanifolds to extend farther than others in the $B$-direction.
-
-We can reliably compute any number of submanifolds $W^s_\Sigma$ with conditions (\ref{general_conditions_1}),  (\ref{general_conditions_2}), and (\ref{general_conditions_3}) and the homotopy steps outlined above.  Together, these two-dimensional submanifolds give an understanding of the dynamics inside $W^s(S^3)$.
-    
-Unlike the stable manifold of $S^3$ computed for the reduced system in \cite{QSSA}, none of the $W^{s}_{\Sigma}$ reach $S^2$ in backward time, but rather diverge in the $X$- and $Y$- directions.  The computations in \cite{QSSA} suggest that there exists a choice of $\Sigma$ in (\ref{equation_1}) such that $W^s_{\Sigma}$ spirals around $S^2$ in backwards time.  Such a $W^s_{\Sigma}$ would be in the intersection of the two three-dimensional manifolds $W^s(S^3)$ and $W^u(S^2)$ in the full four-dimensional system.  
+Overall this section and its figures demonstrate that we can reliably compute any number of submanifolds $W^s_\Sigma$ with conditions (\ref{general_conditions_1}),  (\ref{general_conditions_2}), and (\ref{general_conditions_3}) and the homotopy steps outlined above.  Together, these two-dimensional submanifolds provide an understanding of the dynamics inside $W^s(S^3)$.
 
 %unstable
 \subsection{Definition and computation of $W^{u}(S^2)$}  
 
-Before investigating the existence of such an intersection, we first consider the unstable manifold $W^{u}(S^2)$ of $S^2$.  The computation of a submanifold of $W^{u}(S^2)$ is similar to the computation of a $W^{s}_\Sigma$, however adjustments must be made in light of two complicating challenges.  These are the saddle equilibrium $q$ of the full system in $C^2$ at $B = 0.323$ and the Hopf bifurcation of the fast subsystem at $B = 0.897$.  These are respectively shown as a green cross and a pink dot in Figures \ref{figure_1} and \ref{figure_3}.  Additional care must be taken to ensure that the computed orbits do not increase in integration time solely by approaching the saddle equilibrium's stable manifold or by following the stable slow manifold associated with $C^4_+$ backward in time.  Values for $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$ are chosen such that $q_B < B_{\mathrm{out}} < B_{\mathrm{in}}< H_B$.  We can then define the four-dimensional cylinder $\mathscr{D}$ similarly to how it was defined for $W^s(S^3)$, substituting $C^2$ for $C^3$.  We consider a two-parameter family of orbit segments that enter $\mathscr{D}$ at $B_{\mathrm{in}}$, follow $S^2$ for an $O(1)$ amount of slow time and then exit at $B_p$ for some $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ and take the collection of fast, exiting segments of these to be $W^u(S^2)$.  This is the same definition given for $W^s(S^3)$ with the exception that we reverse the direction of time.  We modify the steps for selecting and computing two-dimensional submanifolds of $W^s(S^3)$ in order to ensure that an increase in integration time results only from a more accurate approximation of a submanifold of $W^u(S^2)$.
+We can define $S^2$ and $W^u(S^2)$ similarly to how we defined $S^3$ and $W^s(S^3)$.  The values for $B_{\text{in}}$ and $B_{\text{out}}$ are chosen such that $[B_{\text{out}}, B_{\text{in}}] \subset (B_q, B_H)$ where $B_q=0.323$ and $B_H= 0.897$ are the $B$-values of the saddle equilibrium $q$ and the Hopf point $H$ shown, respectively, as a green cross and a pink dot in Figures \ref{figure_1}, \ref{figure_3}, and \ref{figure_7}. Note that in these figures, the flow near $S^2$ is toward $q$; hence, to the right of $W^u(q)$ the flow is to the left.  Our choice of $B_{\text{out}}>B_{q}$ is to avoid a change in direction of the flow associated with $q$.
 
-To select a submanifold of $W^u(S^2)$, we choose an $r>\delta$ and for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ define a two-dimensional sphere in the subspace $\{B=B_p\}$, centered at $p$ and with radius $r$; here $p \in C^2$ is the unique point such that $p_B = B_p$.  More formally,
+To compute a submanifold of $W^{u}(S^2)$ we use slightly different boundary conditions and homotopy steps compared to those used for $W^s(S^3)$ in light of two complicating challenges arising from $q$ and $H$.  Orbit segments near $S^2$ may increase in integration time by approaching $W^s(q)$ or by following the attracting slow manifold associated with $C^4_-$ backwards in time.  We define a submanifold of $W^u(S^2)$ with boundary conditions that ensure that computed orbit segments do not demonstrate these behaviours and only increase in integration time by approaching $S^2$.  
+
+To define $S^2$ and $W^s(S^2)$, we define a three-dimensional cylinder $\mathscr{D}^u$ that is transverse to the flow and to $E^s(C^2)$.  To this end, we choose a radius $r$ and for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$ define the two-dimensional sphere in the subspace $\{\omega \in \mathbb{R}^4 \; | \; B=B_p\}$ centred at $p$ and with radius $r$; here $p \in C^2$ is the unique point such that $p_B = B_p$.  More formally,
 
 \begin{equation*}
-\widetilde{D}_r(B_p)=\{w \in \mathbb{R}^4 \;|\; w_B = B_p, \left\lVert w-p \right\lVert  = r\}.
+D^u_r(B_p)=\{w \in \mathbb{R}^4 \;|\; w_B = B_p, \left\lVert w-p \right\lVert  = r\}.
+\end{equation*}
+Then 
+\begin{equation*}
+\mathscr{D}^u = \bigcup\limits_{B_p \in [B_{\mathrm{out}}, B_{\mathrm{in}}]}^{}D^u_r(B),
+\end{equation*}
+is a three-dimensional cylinder.  A smooth, one-parameter family of orbit segments of (\ref{equation_1}) is then given by the property that each orbit segment remains inside $\mathscr{D}^u$ for an O(1) amount of slow time, exits $\mathscr{D}^u$ via $D^u_r(B_p)$ for some $B_p \in [B_{\text{out}}, B_{\text{in}}]$ and ends in some plane $\Sigma$.  We denote by $W^u_\Sigma$ those parts of the orbit segments that exit $\mathscr{D}^u$ in the fast direction.  The earlier parts that evolve mostly in the $B$-direction inside $\mathscr{D}^u$ for $O(1)$ slow time are approximate segments of $S^2$.  If such an earlier part of the orbit segment includes a fast entrance into $\mathscr{D}^u$, that fast part lies on $W^s(S^2)$ in good approximation.
+
+We compute the submanifold $W^u_\Sigma$ again as a one-parameter family of orbit segments $\mathbf{w}$ satisfying the rescaled equation (\ref{equation_4}).  Orbit segments $\mathbf{w} \in W^u_\Sigma$ must satisfy the boundary conditions
+\begin{equation}
+	\mathbf{w}(1) \in \Sigma,
+	\label{general_conditions_unstable_1}
+\end{equation}
+
+\begin{equation}
+	\mathbf{w}(0) \in \Phi = E^u(p_0) \times \begin{bmatrix} 0, 1, 0, 0 \end{bmatrix}^{tr},
+\label{general_conditions_unstable_2}
+\end{equation}
+
+\begin{equation}
+	\mathbf{w}(0)_B = \widehat{B},
+	\label{general_conditions_unstable_3}
+\end{equation}
+where $p_0 \in C^2$ is such that $p_{0_B} \in (B_{\text{out}}, B_{\text{in}})$ and $\widehat{B}>B_{\text{in}}$.  Equations (\ref{general_conditions_unstable_1}) and (\ref{general_conditions_unstable_2}) are analogous to equations (\ref{general_conditions_1}) and (\ref{general_conditions_2}) from section 3.2.  Equation (\ref{general_conditions_unstable_3}) serves the purpose of preventing $\mathbf{w}$ from increasing in integration time by following the attracting slow manifold associated with $C^4_-$ backwards in time; it has no analogue in section 3.2.    Equations (\ref{general_conditions_unstable_1}), (\ref{general_conditions_unstable_2}), and (\ref{general_conditions_unstable_3}) define four conditions on solutions of (\ref{equation_4}) so that there is a one-parameter family of solutions to this 2PBVP.  We denote the two-dimensional submanifold given by this one-parameter family by $W^u_\Sigma$.
+
+Note that the above conditions preclude the selection of $\mathbf{w}$ with maximal integration time as was done in section 3.2 with equation (\ref{general_conditions_3}).  In the case that we would like to impose a condition of maximum integration time, we may substitute for (\ref{general_conditions_unstable_1}), the two conditions
+\begin{equation}
+	\mathbf{w}(1) \in \mathscr{D}^u,
+	\label{general_conditions_unstable_4}
+\end{equation}
+and
+\begin{equation}
+	T = T^B,
+	\label{general_conditions_unstable_5}
+\end{equation}
+where for each $B_p \in [B_{\text{out}}, B_{\text{in}}]$, the time $T^B$ is the maximum integration time of an orbit segment that permanently exits $\mathscr{D}^u$ at $B = B_p$ while satisfying (\ref{general_conditions_unstable_2}) and (\ref{general_conditions_unstable_3}).  Equation (\ref{general_conditions_unstable_4}) imposes one condition on $\mathbf{w}(1)$, one less condition than equation (\ref{general_conditions_unstable_1}), allowing us to also impose equation (\ref{general_conditions_unstable_5}).  Equations (\ref{general_conditions_unstable_2}), (\ref{general_conditions_unstable_3}), (\ref{general_conditions_unstable_4}), and (\ref{general_conditions_unstable_5}) define four conditions on solutions of (\ref{equation_4}) so that there is again a one-parameter family of solutions to this 2PBVP.  We denote the two-dimensional submanifold given by this one-parameter family by $W^u_r$.
+
+Once an initial $\mathbf{w}$ satisfying one of the 2PBVPs  is found, it is possible to sweep out a submanifold $W^u_\Sigma$ or $W^u_r$ by continuing $\mathbf{w}$ with varying $\mathbf{w}(1)_B$ and $T_B$.  The challenge is, once again, the computation via homotopy steps of an initial orbit segment satisfying the boundary conditions.
+
+In the first homotopy step, we choose the point $p_0=\begin{pmatrix} p_{0_A}, p_{0_B}, p_{0_X}, p_{0_Y} \end{pmatrix} \in C^2$ by fixing $p_{0_B}=B_0 \in [B_{\text{out}}, B_{\text{in}}]$.  We impose condition (\ref{general_conditions_unstable_2}) as well as the condition
+	\begin{equation}
+		\mathbf{w}(1) \in \chi = \{ \omega \in \mathbb{R}^4 \; | \; \omega_A=p_{0_A}, \omega_B=p_{0_B} \omega_Y=p_{0_Y} \}.
+		\label{specific_BC_unstable1}
+	\end{equation}
+The point $p_0$ is then a solution to (\ref{general_conditions_unstable_2}) and (\ref{specific_BC_unstable1}) for $T=0$.  We increase $\mathbf{w}_B$ with $T$ as a free parameter and stop the continuation when $\mathbf{w}_B=\widehat{B}$.  The value of $\mathbf{w}_B$ is fixed from this step onwards.  We define the two-dimensional space
+
+\begin{equation*}
+	\Phi_{\widehat{B}} = \Phi \cap \{ \omega \in \mathbb{R} \; | \; \omega_B=\widehat{B}\}.
 \end{equation*}
 
-\noindent
-We can then define the three-dimensional cylinder $\mathscr{R} = \cup_{B \in [B_{\mathrm{in}}, B_{\mathrm{out}}]}\widetilde{D}_r(B)$.  
+In the second homotopy step, we substitute equation (\ref{specific_BC_unstable1}) for (\ref{general_conditions_unstable_1}) with $\Sigma=\{ \omega \in \mathbb{R}^4 \;|\; \omega_A=p_{0_A}, \omega_Y=p_{0_Y} \}$ and impose (\ref{general_conditions_unstable_3}).  The orbit segment $\mathbf{w}$ at the end of the first homotopy step is then a solution to this 2PBVP defined by (\ref{equation_4}), (\ref{general_conditions_unstable_1}), (\ref{general_conditions_unstable_2}), and (\ref{general_conditions_unstable_3}).  It is in the second homotopy step that we decide whether to compute a submanifold $W^u_\Sigma$ or $W^u_r$.  If our aim is to compute $W^u_\Sigma$, all that remains to compute an initial $\mathbf{w}$ lying on the manifold is to move $\Sigma$ to a desired location as in section 3.2.
 
-There is then a submanifold $W^u_r$ for $r>\delta$ consisting of a one-parameter family of orbit segments that enter $\mathscr{D}$ at $B_{\mathrm{in}}$ and, for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$, intersect $\mathscr{R}$ after exiting $\mathscr{D}$ at $B_p$ an $O(1)$ amount of slow time later.  To ensure that our choice of $W^u_r$ is unique, we require that orbit segments have maximal integration time for each $B_p \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$.  The radius $r$ is chosen small enough so that $\mathscr{R}$ does not contain a locus of points at which the flow is not transverse to $\mathscr{R}$.  Using the cylinder $\mathscr{R}$ instead of the plane $\Sigma$ described in section 3.2 ensures that endpoints $\mathbf{u}(1)$ remain close enough to $C^2$ so that the $\mathbf{u}$ cannot contain segments that approach $q$.  In the following steps, the computation of a submanifold $W^u_{r^*}$ is outlined for $r^*=0.7$.  We then describe the necessary modifications to obtain $W^u_r$ for more general $r$. 
+To compute $W^u_r$ we increase $T$ until $\mathbf{w}(1) \in \Sigma \cap \mathscr{D}^u$.  This is detected as $\mathbf{w}(1)$ reaching a distance of $r$ away from the point $p \in C^2$ such that $p_B = \mathbf{w}_B$.  We denote the endpoint coordinates $\mathbf{w}(1)_B$ and $\mathbf{w}(1)_X$ by $\widetilde{B}$ and $\widetilde{X}$, respectively, at the end of this step.  
 
-We perform an initial homotopy step analogous to the first homotopy step in section 3.2 to obtain a first orbit segment that enters $\mathscr{D}$ at $B_{\mathrm{in}}$ and intersects $\mathscr{R}$ after exiting $\mathscr{D}$ at some $\tilde{B} \in [B_{\mathrm{in}}, B_{\mathrm{out}}]$.  We select the unique point $\tilde{p} \in C^2$ such that $\tilde{p}_B=0.7$.  The plane $\tilde{\Sigma}$ is defined by fixing the $A$- and $Y$- coordinates of $\tilde{p}$, which are $A \approx 0.940272$ and $Y \approx 1.342954$.  We impose the boundary conditions
+In the event that $D_r(\widetilde{B})$ contains a locus of points at which the flow is tangent to it, we perform a third homotopy step to increase $\widetilde{B}$ until the flow is transverse to $D_r(\widetilde{B})$.  This is achieved by imposing conditions (\ref{general_conditions_unstable_2}), (\ref{general_conditions_unstable_3}), and (\ref{general_conditions_unstable_4}) on $\mathbf{w}$ at the end of the second homotopy step and then increasing $\mathbf{w}_B$ while keeping $T$ as a free parameter.
 
-\begin{equation}
-\mathbf{u}(0) \in E^u(\tilde{p}),
-\label{BC1_unstable}
-\end{equation}
+In the final homotopy step, we replace condition (\ref{general_conditions_unstable_4}) with 
+	\begin{equation}
+		\mathbf{w}(1) \in \Theta = D^u_r(\widetilde{B}) \cap \{ \omega \in \mathbb{R} \; | \; \omega_X = \widetilde{X} \}.
+		\label{specific_BC_unstable2}
+	\end{equation}
+The orbit segment $\mathbf{w}$ at the end of the second homotopy step (or the third homotopy step if one was necessary) is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{general_conditions_unstable_2}), (\ref{general_conditions_unstable_3}), and (\ref{specific_BC_unstable2}).    We then increase $T$ until $T=T^B$, which is detected as a fold in integration time.  The resulting orbit segment $\mathbf{w}$ lies on $W^u_r$.
 
-\noindent
-and 
+Once an initial orbit segment $\mathbf{w}$ on either $W^u_\Sigma$ or $W^u_r$ is found, we may sweep out the remaining part of the submanifold by increasing and decreasing $\mathbf{w}_B$ and keeping $T$ as a free parameter.
 
-\begin{equation}
-\mathbf{u}(1) \in \tilde{\Sigma}
-\label{BC2_unstable}
-\end{equation}
-\noindent
-which each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$, respectively.  The point $\tilde{p}$ is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC1_unstable}), and (\ref{BC2_unstable}) for $T=0$.  We increase $T$ while $\mathbf{u}(1)_B$ decreases and stop the continuation when $\mathbf{u}(1)$ intersects $\mathscr{R}$.  This step is almost identical to the initial homotopy step in section 3.2 except that we reverse the direction of time and instead of stopping the continuation when $\mathbf{u}(1)_B$ attains a certain value, we stop the continuation when $u(1)$ intersects $\mathscr{R}$.  We denote by $B_{\mathrm{stop}}$ the $B$-value of $\mathbf{u}(1)$ at the end of this step and $p_{\text{stop}}$ the corresponding point in $C^2$ such that $p_{\text{stop}_B}=B_{\text{stop}}$.
-
-We perform a second homotopy step to ensure that $\mathbf{u}(0)$ is such that $\mathbf{u}$ comes close to $S^2$ for $O(1)$ slow, but cannot follow the attracting slow manifold for longer backward time.  We define a three-dimensional space $\Xi_{\textsc{hom2}}$ spanned by $E^u(\tilde{p})$ and a vector parallel to the $B$-direction.  We also define a one-dimensional circle $\Theta = \{ w \in \mathbb{R}^4 \; | \; w_Y=\bar{p}_Y, w_B=B_{\mathrm{stop}}, \left\lVert w-p^{\mathrm{stop}} \right\lVert=0.7\}$.  The orbit segment resulting from the first homotopy step is a solution to the 2PBVP defined by (\ref{equation_4}),
-
-\begin{equation}
-\mathbf{u}(0) \in \Xi_{\textsc{hom2}},
-\label{BC3_unstable}
-\end{equation}
-
-\noindent
-and 
-
-\begin{equation}
-\mathbf{u}(1) \in \Theta.
-\label{BC4_unstable}
-\end{equation}
-\noindent
-Our goal is to continue the orbit segment by increasing $T$ such that $u(0)_B$ increases, that is (\ref{BC3_unstable}) drives the continuation.  Condition (\ref{BC4_unstable}) is chosen so that our 2PBVP is well defined and integration time does not increase with decreasing $\mathbf{u}(1)_B$.  The continuation is stopped when $\mathbf{u}(0)_B =1.0$.  The resulting orbit segment is initially attracted to the attracting slow manifold and follows it until it passes near $\mathscr{H}$ at which point $\mathbf{u}$ follows $S^2$.  As following the attracting slow manifold for longer backwards time requires the increase of $\mathbf{u}(0)_B$, we fix $\mathbf{u}(0)_B$ from this step onwards.  This is different from section 3.2 in which $\mathbf{u}(1)_B$ remains free in the final steps of the computation (recall that we consider negative $T$ in section 3.2).
-
-We define the plane $\Phi = \{w \in \Xi_{\textsc{hom2}} \; | \;  w_B=1.0\}$ and impose the boundary conditions
-
-\begin{equation}
-\mathbf{u}(0) \in \Phi,
-\label{BC5_unstable}
-\end{equation}
-
-\noindent
-and 
-
-\begin{equation}
-\mathbf{u}(1) \in \{ w \in \mathscr{R} \; | \; w_B=B_{\mathrm{stop}}\}.
-\label{BC6_unstable}
-\end{equation}
-\noindent
-Condition (\ref{BC6_unstable}) requires that $\mathbf{u}(1)$ remain on a two-dimensional sphere as opposed to the one-dimensional curve $\psi$ described for condition ($\ref{BCSTOP}$) in section 3.2.  We allow this extra degree of freedom for $\mathbf{u}(1)$ because keeping $\mathbf{u}(0)_B$ fixed in condition $(\ref{BC5_unstable}$) imposes an extra constraint compared to condition ($\ref{BC11}$) in section 4.1.  Our aim is to select a smooth, one-parameter family of orbit segments from the two-parameter family of orbit segments satisfying the 2PBVP defined by $(\ref{equation_4})$, ($\ref{BC5_unstable}$), and ($\ref{BC6_unstable}$).  To this end, for each $B_p \in [B_{\mathrm{in}},B_{\mathrm{out}}]$, we select from the one-parameter family of orbit segments exiting $\mathscr{D}$ at $B_p$ the orbit segment with maximal integration time.  The orbit segment resulting from the second homotopy step satisfies (\ref{equation_4}), ($\ref{BC5_unstable}$), and ($\ref{BC6_unstable}$).  To find an orbit segment with maximal integration time, we increase integration time again until a fold in $T$ is detected.  The resulting orbit segment satisfies the conditions for being in $W^u_{r^*}$.  Finally to obtain the rest of the submanifold $W^u_{r^*}$ we switch the endpoint boundary condition to
-
-\begin{equation}
-\mathbf{u}(1) \in \mathscr{R}
-\label{BC7_unstable}
-\end{equation}
-
-\noindent
-which imposes one condition on $\mathbf{u}(1)$.  In two runs, the fold in $T$ is continued until $\mathbf{u}(0)_B=B_{\mathrm{out}}=0.35$ and then again until $\mathbf{u}(0)_B=B_{\mathrm{in}}=H_B$ to sweep out $W^u_{r^*}$.
+Figure \ref{figure_7} illustrates in projection onto $(B,A)$-space, the adjusted homotopy steps for computing $W^u_r$.  Each panel shows an enlargement of $C$ from Figure \ref{figure_1} near $C^2$ with additional information for the computation.   We choose $p_0=\begin{pmatrix} 0.940272, && 0.7, && 1.492271, && 1.342954 \end{pmatrix}$ which lies on $C^2$.  In the first homotopy step, we impose condition (\ref{specific_BC_unstable1}), which imposes three conditions on $\mathbf{w}(1)$, as well as condition (\ref{general_conditions_unstable_2}), which imposes one restriction on $\mathbf{w}(0)$.  Panel (a) shows a sketch of an intermediate $\mathbf{w}$ (forest green curve) in the first homotopy step; here the one-dimensional line $\chi$ is sketched in mint and the three-dimensional $\Phi$ is sketched as a mint prism.  The $B$-coordinate of $\mathbf{w}(0)$ is increased with $T$ as a free parameter.  The continuation is stopped when $\mathbf{w}(0)_B=\widehat{B}$ for $\widehat{B}=1.0$.  In the second homotopy step, we impose (\ref{general_conditions_unstable_1}), (\ref{general_conditions_unstable_2}), and (\ref{general_conditions_unstable_3}), increasing $\mathbf{w}(1)_B$ with $T$ as a free parameter until $\mathbf{w}(1)$ intersects $\mathscr{D}^u$ for $r=0.7$.  We are not required to perform an additional homotopy step because $D_r(\widetilde{B})$, in this case, does not contain a locus points at which the flow is tangent to it.  Figure \ref{figure_7}(b) shows a sketch of the numerical set up before the final homotopy step; here the one-dimensional closed curve $\Theta$ is sketched in mint and $\Phi_{\widehat{B}}$ is sketched as a mint cross. We then impose (\ref{general_conditions_unstable_2}), (\ref{general_conditions_unstable_3}), (\ref{general_conditions_unstable_4}) and (\ref{general_conditions_unstable_5}) and increase $T$.  The continuation is stopped when $T=T^B$ which is detected as a fold.  The resulting orbit segment lies on $W^u_r$.  We can then sweep out the rest of the submanifold $W^u_r$ by continuing the fold in integration time for increasing and decreasing $\mathbf{w}(1)_B$.
 
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_7.pdf}
-\caption{The submanifold $W^u_{r^*}$ (red surface) of $W^u(S^2)$ shown in projection onto $(B,A,X)$-space (a) and $(B,A,Y)$-space (b); also shown are two representative orbit segments (forest green curves) on $W^u_{r^*}$, $\Phi$ (mint surface), and the intersection $W^s_{r^*}\cap\mathscr{R}$ (mint curve).  Also shown are $C^2$, $C^4_-$, and $H$ and the view is rotated relative to previous figures.}
+\caption{A sketch in projection onto the ($B$,$A$)-plane of the homotopy steps for the computation of submanifolds $W^u_r$ of $W^u(S^2)$.  Also shown are $C^2$, $C^4_-$, $H$, $q$, and the orbit segment $\mathbf{w}$ is shown as a forest green curve in each panel.  Panel (a) is a sketch of an intermediate $\mathbf{w}$ in the first homotopy step with $\chi$ (mint line) and $\Phi$ (mint prism); panel (b) is a sketch of the start of the final homotopy step with $\Theta$ (mint circle) and $\Phi_{\widehat{B}}$ (mint cross).}
 \label{figure_7}
+\end{figure} 
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_8.pdf}
+\caption{The submanifold $W^u_{r}$ (red surface) of $W^u(S^2)$ for $r=0.7$ shown in projection onto $(B,A,X)$-space (a) and $(B,A,Y)$-space (b); note that the view is rotated compared to previous figures.  Also shown are two representative orbit segments $\mathbf{w}$ (forest green curves) on $W^u_{r}$, the two-dimensional space $\Phi_{\widehat{B}}$ (mint surface), the one-dimensional intersection $W^s_{r}\cap\mathscr{D}^u$ (mint curve), and $C^2$, $C^4_-$, and $H$.}
+\label{figure_8}
 \end{figure}
 
-Figure \ref{figure_7} shows two projections of the submanifold $W^u_{r^*}$ (red surface) with $W^u_{r^*} \cap \mathscr{R}$ (mint curve) and $\phi$ (mint surface).  Note that $W^u_{r^*}$ is simply the one-parameter family of $\mathbf{u}(1)$.  Two example $\mathbf{u}$ (forest green curves) are plotted and a subset of $C^2$ (dashed raspberry curve) is shown.  To facilitate viewing, the view is rotated relative to previous figures.  From this angle, the radius of $\mathscr{R}$ may, to some readers, appear to decrease with decreasing $\mathbf{u}(1)_B$.  This is due to the eye's erroneous association of points $\mathbf{u}(1)$ with points $p \in C^2$ such that $p_B < \mathbf{u}(1)_B$.
-
-We can compute a different submanifold $W^u_r$ by returning to the second homotopy step in our computation.   Depending on the magnitude of $r$, we may need to perform one or two additional homotopy steps.  In the case where $r$ is large enough that $\widetilde{D}_r(\mathbf{u}(1)_B)$ contains a locus of points at which the flow is not transverse to it, two homotopy steps are needed after the second.  We define a plane $\Xi_{\mathrm{hom3}}$ by fixing the $A$- and $X$-coordinates of $\mathbf{u}(1)$ after the second homotopy step.  To ensure that our 2PBVP is well defined, the orbit segment is continued with the boundary conditions (\ref{BC5_unstable}) and
-
-\begin{equation}
-\mathbf{u}(1) \in \Xi_{\mathrm{hom3}},
-\label{BC8_unstable}
-\end{equation}
-\noindent
-which imposes two conditions on $\mathbf{u}(1)$.  The endpoint $B$-coordinate $\mathbf{u}(1)_B$ is increased until $\widetilde{D}_r(\mathbf{u}(1)_B)$ no longer contains a locus of tangent points.  This step is not necessary if $\tilde{D}_r(\mathbf{u}(1)_B)$ only contains points at which the flow is transverse to it.
-
-The final homotopy step involves defining another plane $\Xi_{\mathrm{homfinal}}$ by fixing the $B$- and $X$- values of $\mathbf{u}(1)$ after the second homotopy step, or the third homotopy step if a third homotopy step is necessary.  Condition (\ref{BC5_unstable}) is imposed while a new restriction
-
-\begin{equation}
-\mathbf{u}(1) \in \Xi_{\mathrm{homfinal}},
-\label{BC9_unstable}
-\end{equation}
-\noindent
-imposes two conditions on $\mathbf{u}(1)$.  The radius $r$ is then increased or decreased in the continuation until the desired value is attained.  All that remains is to follow through with the rest of the steps to compute $W^u_r$.  In the last step, $B_{\text{out}}$ is chosen such that the flow is transverse to $\widetilde{D}(B_{\text{out}})$.  We do not show several submanifolds of $W^u(S^2)$ in the same figure, because the spiralling dynamics near $C^2$ make visualisation difficult in $(B,A,X)$-space and $(B,A,Y)$-space due to (self)-intersections of the submanifolds in these projections.
+Figure \ref{figure_8} shows two projections of the submanifold $W^u_{r}$ for $r=0.7$ with $W^u_{r} \cap \mathscr{D}^u$ (mint curve) and $\Phi_{\widehat{B}}$ (mint surface).  Note that $W^u_{r}\cap\mathscr{D}^u$ is simply the curve traced out by $\mathbf{w}(1)$.  To facilitate viewing, the view is rotated compared to previous figures.  Two example orbit segments $\mathbf{w}$ are plotted and a subset of $C^2$ (dashed raspberry curve) is shown.  From this angle, the radius of $\mathscr{D}^u$ may, to some readers, appear to decrease with decreasing $\mathbf{w}(1)_B$.  This is due to the eye's erroneous association of points $\mathbf{w}(1)$ with points $p \in C^2$ such that $p_B < \mathbf{w}(1)_B$.  Due to the spiralling nature of $W^u_r$, we only show one such submanifold for ease of visualization.
 
 %Lin's method
 
 \section{A heteroclinic connection between two saddle slow manifolds}
 
-\begin{figure}[h]
-\centering
-\includegraphics[]{./figures/MKMO_8.pdf}
-\caption{Sketch of the numerical set up for the computation of $\mathscr{H}$ with Lin's method in projection onto the ($B$,$A$)-plane.  Panel (a) shows $S^2$ and $S^3$ (represented by green curves) and the Lin section $\mathscr{L}$ (represented by a charcoal line).  Panel (b) shows an initial orbit segment $\mathbf{u} \in W^s(S^3)$ (represented by a magenta curve) such that $\mathbf{u}(0) \in \mathscr{L}$ and $\mathbf{u}(1) \in E^s(p_{\text{out}})$ (represented by a blue cross).  Panel (c) additionally an initial orbit segment $\mathbf{w} \in W^u(S^2)$ (represented by a forest green curve) such that $\mathbf{w}(1) \in \mathscr{L}$ and $\mathbf{w}(0) \in E^u(p_{\text{in}})$ (represented by a red cross).  The points $\mathbf{u}(0)$, $\mathbf{w}(1)$ lie in the Lin space $Z \subset \mathscr{L}$ (represented by a gold line) at a distance $\eta$ (also represented by a gold line), called the Lin gap, from each other.  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
-\label{figure_8}
-\end{figure}
-
-
-The generic intersection of the two three-dimensional manifolds $W^s(S^3)$ and $W^u(S^2)$ would be a two-dimensional manifold of heteroclinic connections in the four-dimensional phase space.  We denote by $\mathscr{H}$ the surface of intersections to the right of $W^u(q)$ with respect to the $B$-coordinate in the ($B$, $A$)-projection.  We can compute such a surface of connections with an approach known as Lin's method \cite{Lin_original, Lin_POs, Lin_POs2}.  Since Lin's method is typically used in parameter continuation of heteroclinic connections that are not structurally stable, we explain the set-up here for our context.  
-
-Figure \ref{figure_8} illustrates the set-up step-by-step.  Panel (a) shows the critical manifold in projection onto ($B$, $A$)-space.  The three-dimensional so-called Lin section $\mathscr{L}$ (represented as a charcoal curve) is chosen so that it divides the four-dimensional phase space into two regions respectively containing $S^3$ (represented as a green curve) and $S^2$ (represented as a green curve) and so that, in the ($B$,$A$)-projection and with respect to the variable $A$, it lies between $q$ and the point on $C^3$ with the same $B$-coordinate as $q$.  Our choice of $\mathscr{L}$ allows us to avoid stopping the continuation because $\mathscr{L}$ has intersected $C^2$.  We can instead compute the largest possible portion of $\mathscr{H}$ by continuing orbit segments as close as possible to $q$.  In panel (b) we illustrate the computation of an orbit segment $\mathbf{u}$ (represented as a magenta curve) lying on $W^s(S^3)$ such that $\mathbf{u}(0) \in \mathscr{L}$.  Panel (c) additionally shows a representation of an orbit segment $\mathbf{w}$ (forest green curve) in $W^u(S^2)$ such that  $\mathbf{w}(1) \in \mathscr{L}$.
-
-We define a vector $\mathbf{v}_Z \in \mathbb{R}^4$ called a Lin vector and given by 
-
-	\begin{equation}
-		\mathbf{v}_Z = \frac{\mathbf{u}(0) - \mathbf{w}(1)}{\left\lVert \mathbf{u}(0) - \mathbf{w}(1) \right\lVert}
-		\label{Lin_vector}
-	\end{equation}
-	
-\noindent	
-as well as two unit normal vectors $\mathbf{n}_1, \mathbf{n}_2 \in \mathscr{L}$ such that $\mathbf{n}_i \perp \mathbf{v}_Z$ for $i=1,2$ and $\mathbf{n}_1 \perp \mathbf{n}_2$.  While our choice for the vector $\mathbf{v}_Z$, and normal vectors $\mathbf{n}_1$ and $\mathbf{n}_2$ is arbitrary, their selection remains fixed for the remainder of the computation.  The span of $\mathbf{v}_Z$ defines a one-dimensional space, $Z \subset \mathscr{L}$, called a Lin space and represented as a gold line in panel (c).  The distance between $\mathbf{u}(0)$ and $\mathbf{w}(1)$ in $Z$ defines the a Lin gap which is a regular test function denoted $\eta$ and represented with the same gold line.  We approximate an orbit segment on $\mathscr{H}$ by continuation in the direction of decreasing $\eta$ while requiring $\mathbf{u}(0), \mathbf{w}(1) \in Z$.  When  $\eta = 0$, an orbit segment on $\mathscr{H}$ is detected as the concatenation of $\mathbf{w}$ and $\mathbf{u}$.
-
-In our computations of $\mathbf{u}$ and $\mathbf{w}$ we do not search for orbit segments with maximal integration time as it is not straightforward to track two folds simultaneously with the automatic fold continuation in the package \textsc{Auto} \cite{AUTO}.  Since we are not requiring that $\mathbf{w}$ satisfy the condition of maximal integration time, we do not run into the same issues encountered in section 3.3 for the computation of a submanifold of $W^u(S^2)$.  For this reason we may compute $\mathbf{w}$ in a manner more similar to the computation of $\mathbf{u}$ in section~3.2.
-
-\subsection{Computing an initial orbit segment on $W^s(S^3)$}
-
-We choose $\mathscr{L} = \{\omega \in \mathbb{R}^4 \; | \; \omega_A = 6.0 \}$ and compute the orbit segment $\mathbf{u}$ as in the computation of an initial orbit segment on a submanifold $W^s_{\Sigma}$ in section~3.2 with the exception that we choose $B_{\text{out}}=0.95$ and omit last the step of computing the orbit with maximal integration time.  Here, $\Sigma$ is the plane given by $A=6.0$ and $Y=3.5072 \times 10^{-5}$ which is the $Y$-coordinate of our new $p_{\text{out}}$.
-
-\subsection{Computing an initial orbit segment on $W^u(S^2)$}
-
-We perform three homotopy steps to obtain an initial orbit segment on $W^u(S^2)$.  We begin with the point $\tilde{p}$ that is a solution to the 2PBVP defined by $(\ref{equation_4})$, (\ref{BC1_unstable}), and (\ref{BC2_unstable}) for $T=0$.  We obtain an orbit segment $\mathbf{w}$ by imposing conditions (\ref{BC1_unstable}) and (\ref{BC2_unstable}) while increasing integration time.  The continuation is stopped when $\mathbf{w}(1)_B = 0.6$.
-
-We then impose (\ref{BC3_unstable}) and (\ref{BC2_unstable}) while additionally requiring $\mathbf{w}(1)_B=0.6$.  We continue $\mathbf{w}$ while increasing integration time once more while $\mathbf{w}(0)_B$ increases, and stop the continuation when $\mathbf{w}(0)_B=1.0$.
-
-In the third homotopy step, we impose (\ref{BC5_unstable}) while keeping $\mathbf{w}(1)_B$ and $\mathbf{w}(1)_Y$ fixed.  The $A$-coordinate of $\mathbf{w}(1)$ increases as $T$ is increased.  The continuation is stopped when $\mathbf{w}(1)_A = 6.0$.  In other words, we stop the continuation when $\mathbf{w}(1) \in \mathscr{L}$.
-
-\subsection{Closing the Lin gap}
-
-We are now in a position to define vectors $\mathbf{v}_Z$, $\mathbf{n}_1$, and $\mathbf{n}_2$.  We define $\mathbf{v}_Z$ using the orbit segments $\mathbf{u}$ and $\mathbf{w}$ obtained in sections ~4.1 and ~4.2 and take $\mathbf{n}_1 = \begin{pmatrix} 0, & 0, & \mathbf{v}_{Z_Y}, & -\mathbf{v}_{Z_X} \end{pmatrix}^{tr}$, and $\mathbf{n}_2 = \begin{pmatrix} 0, & \mathbf{v}_{Z_Y}, & 0, & -\mathbf{v}_{Z_B} \end{pmatrix}^{tr}$.  We 
-
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_9.pdf}
-\caption{The surface of heteroclinic connections $\mathscr{H}$ (red/blue surface) and the Lin section $\mathscr{L}$ (charcoal surface) in projection onto $(B,A,X)$-space (a) and onto $(B,A,Y)$-space (b).  The part of $\mathscr{H}$ that was computed as orbit segments in $W^s(S^3)$ is plotted in blue while the part that was computed as orbit segments in $W^u(S^2)$ is plotted in red.  Also shown are three representative orbit segments on $\mathscr{H}$, where the $\mathbf{u} \subset W^s(S^3)$ are magenta and the $\mathbf{w} \subset W^u(S^3)$ are forest green.  Notice the saddle equilibrium $q \in C^2$ (green cross) which is partially obstructed by $\mathscr{H}$ and $\mathscr{L}$.  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
+\caption{The submanifold $W^u_{\Sigma_5}$ (red surface) of $W^u(S^2)$ and the submanifold $W^s_{\Sigma_5}$ (blue surface) of $W^s(S^3)$ in projection onto $(B,A,X)$-space (a) and onto $(B,A,Y)$-space (b). Representative orbit segments $\mathbf{w} \in W^u_{\Sigma_5}$ and $\mathbf{u} \in W^u_{\Sigma_5}$ are plotted in forest green and magenta, respectively; also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$, and $q$ (which is partially obscured by the two-dimensional submanifold $W^u_{\Sigma_5}$). }
 \label{figure_9}
 \end{figure}
+
+The stable manifold of $S^3$ computed for the reduced system in \cite{QSSA} stretches backward in time to reach $S^2$, suggesting the existence of a surface of heteroclinic connections from $S^2$ to $S^3$.  In the full system (\ref{equation_1}), such a surface would be a two-dimensional submanifold of both $W^s(S^3)$ and $W^u(S^2)$ which we denote $\mathscr{H}$.  Supporting the argument for the existence of $\mathscr{H}$ is the fact that two three-dimensional objects in a four-dimensional space  may intersect generically in a two-dimensional manifold.  It follows, then, that the three-dimensional $W^s(S^3)$ and the three-dimensional $W^u(S^2)$ likely intersect in a two-dimensional surface of heteroclinic connections $\mathscr{H}$.  The issue is to see whether this is actually the case by finding the surface of connections $\mathscr{H}$.  A natural way forward is to consider $\mathscr{H}$ as a one-parameter family of concatenations of orbit segments $\mathbf{w} \in W^u(S^2)$ with $\mathbf{u} \in W^u(S^3)$.
+
+A first idea is to compute two two-dimensional submanifolds $W^u_\Sigma$ and $W^s_\Sigma$ up to a suitable choice of a single two-dimensional section $\Sigma$.  However, these two two-dimensional objects do not generically intersect in a four-dimensional space.  Figure \ref{figure_9} demonstrates this difficulty.  The chosen section $\Sigma_5=\{\omega \in \mathbb{R}^4 \;|\; \omega_A= 6.0, \omega_Y=0.5 \}$ yields the submanifolds $W^s_{\Sigma_5}$ (blue surface) and $W^u_{\Sigma_5}$ (red surface) shown in Figure \ref{figure_9}.  Representative orbit segments $\mathbf{w}$ (forest green curves) and $\mathbf{u}$ (magenta curves) are shown coming toward each other mostly in the $A$-direction before diverging away from each other in the faster $X$- and $Y$-directions.  Although the submanifolds appear to intersect in the ($B$, $A$, $Y$)-projection in Figure \ref{figure_9}(b), we can see from the ($B$, $A$, $X$)-projection in Figure \ref{figure_9}(a) that the $W^s_{\Sigma_5}$ and $W^u_{\Sigma_5}$ in fact miss each other in the four-dimensional phase space.  Nevertheless, we are encouraged by the closeness of $W^u_{\Sigma_5}$ and $W^s_{\Sigma_5}$ that suggests that a surface $\mathscr{H}$ of connecting orbits should exist nearby.
+
+We turn to Lin's method to find the actual surface of connecting orbits $\mathscr{H}$.  Lin's method has been used in parameter continuation to locate connections between equilibria and/or periodic orbits \cite{Lin_original, Lin_POs, Lin_POs2}.  We use it here in a novel way to locate structurally stable connections between $S^2$ and $S^3$ for the system parameters given in Table 1.
+
+We begin by choosing a three-dimensional section $\mathscr{L}$, called a Lin section, that divides the four-dimensional phase space into two regions such that $C^3$ lies in one region and $C^2$ lies in the other.  More specifically, the Lin section $\mathscr{L}$ is defined by a constant value of $A$ that is chosen so that $\mathscr{L}$ intersects $C$ to the left of $W^u(q)$ in the ($B$, $A$)-projection; this choice of $\mathscr{L}$ allows us to compute the largest possible portion of $\mathscr{H}$ to the right of $W^u(q)$.  Inside $\mathscr{L}$ we choose a unit vector $\mathbf{v}_Z$ with the generic property that it is not tangent to either $W^u(S^2)$ or $W^s(S^3)$.  The vector $\mathbf{v}_Z$ is called a Lin vector and the space $Z$ spanned by $\mathbf{v}_Z$ the associated Lin space.  We then use the methods outlined in section 3 to compute $\mathbf{u} \in W^s(S^3)$ and $\mathbf{w} \in W^u(S^2)$ such that
+\begin{equation}
+	\mathbf{u}(0) \in \mathscr{L}
+	\label{general_conditions_heteroclinic_1}
+\end{equation}
+and
+\begin{equation}	
+	 \mathbf{w}(1) \in \mathscr{L}.
+	 \label{general_conditions_heteroclinic_2}
+\end{equation}
+Additionally, we require that
+\begin{equation*}
+	\mathbf{u}(0)-\mathbf{w}(1) \in Z.
+\end{equation*}
+Importantly, the signed distance between $\mathbf{u}(0)$ and $\mathbf{w}(1)$ inside $Z$, given by
+\begin{equation}
+	\eta=[\mathbf{u}(0)-\mathbf{w}(1)] \cdot \mathbf{v}_Z,
+	\label{general_conditions_heteroclinic_3}
+\end{equation}
+is a regular test function.  Note that $\left\lvert \eta \right\lvert = \left\lVert \mathbf{u}(0)-\mathbf{w}(1) \right\lVert$.  A pair of orbit segments ($\mathbf{w}$, $\mathbf{u}$) with 
+\begin{equation}
+	\eta = 0
+	\label{general_conditions_heteroclinic_4}
+\end{equation}
+is then a connection between $S^2$ and $S^3$.  Hence, finding a zero of $\eta$ is the way of finding a connecting orbit in $\mathscr{H}$.
+
+To implement $\mathbf{u}(0), \mathbf{w}(1) \in Z$, we define unit normal vectors $\mathbf{n}_1 \perp \mathbf{v}_Z$ and $\mathbf{n}_2 \perp \mathbf{v}_Z$ such that $\mathbf{n}_1 \perp \mathbf{n}_2$ and impose conditions
+
+\begin{equation}
+	[\mathbf{u}(0) - \mathbf{w}(1)] \cdot \mathbf{n}_1 =0
+	\label{general_conditions_heteroclinic_5}
+\end{equation}
+and
+\begin{equation}	
+	 [\mathbf{u}(0) - \mathbf{w}(1)] \cdot \mathbf{n}_2 =0.
+	 \label{general_conditions_heteroclinic_6}
+\end{equation}
+Equations (\ref{general_conditions_heteroclinic_5}) and (\ref{general_conditions_heteroclinic_6}) ensure that $\mathbf{w}(1)-\mathbf{u}(0)$ remains in $Z$.  Conditions (\ref{general_conditions_heteroclinic_3}) and (\ref{general_conditions_heteroclinic_4}) together ensure that $\mathbf{w}(1) = \mathbf{u}(0)$.  Once an initial $(\mathbf{w}, \mathbf{u})$ satisfying the above conditions is found, the surface $\mathscr{H}$ can be swept out, for example by varying $\mathbf{w}(1)_B$ with $\mathbf{u}(0)_B$ and $T$ as additional free parameters.  
+
+The challenge is, as always, the computation via homotopy steps of an initial pair $(\mathbf{w}, \mathbf{u})$ satisfying the required BCs.  In the first homotopy step we compute $\mathbf{w} \in W^u_{\Sigma_{L_1}}$ and $\mathbf{u} \in W^s_{\Sigma_{L_2}}$ for $\Sigma_{L_1} $, $\Sigma_{L_2} \subset \mathscr{L}$, requiring (\ref{general_conditions_1}) and (\ref{specific_BC}) for $\mathbf{u}$ and (\ref{general_conditions_unstable_1}), (\ref{general_conditions_unstable_2}), and (\ref{general_conditions_unstable_3}) for $\mathbf{w}$.  In particular, (\ref{general_conditions_heteroclinic_1}) and (\ref{general_conditions_heteroclinic_2}) are then satisfied and we choose
+	\begin{equation*}
+		\mathbf{v}_Z = \frac{\mathbf{u}(0) - \mathbf{w}(1)}{\left\lVert \mathbf{u}(0) - \mathbf{w}(1) \right\lVert},
+		\label{Lin_vector}
+	\end{equation*}
+which is a convenient choice of a vector that is (generically) transverse to $W^u(S^2)$ and $W^s(S^3)$. We then find the vectors $\mathbf{n}_1$ and $\mathbf{n}_2$ required for conditions (\ref{general_conditions_heteroclinic_1}) and  (\ref{general_conditions_heteroclinic_2}). Once chosen, the vector $\mathbf{v}_Z$ and normal vectors $\mathbf{n}_1$ and $\mathbf{n}_2$ remains fixed throughout the computations.
+
+The conditions imposed in the first homotopy step define a two-parameter family of orbit segment pairs ($\mathbf{w}$, $\mathbf{u}$) that meet in $\mathscr{L}$ along $Z$.  In the second homotopy step, we now relax conditions (\ref{general_conditions_1}) and (\ref{general_conditions_unstable_1}), which respectively are two conditions each on $\mathbf{u}$ and $\mathbf{w}$, and impose instead conditions (\ref{general_conditions_heteroclinic_1}) and (\ref{general_conditions_heteroclinic_2}), (\ref{general_conditions_heteroclinic_3}), (\ref{general_conditions_heteroclinic_5}) and (\ref{general_conditions_heteroclinic_6}).    Conditions (\ref{general_conditions_heteroclinic_1}) and  (\ref{general_conditions_heteroclinic_2}), respectively, impose one condition on $\mathbf{u}$ and one condition on $\mathbf{w}$.  Conditions  (\ref{general_conditions_heteroclinic_5}) and (\ref{general_conditions_heteroclinic_6}) impose two condition on ($\mathbf{w}$, $\mathbf{u}$).  The number of boundary conditions imposed is hence the same as in the first homotopy step, and thus they define a two-parameter family of orbit segment pairs ($\mathbf{w}$, $\mathbf{u}$).  To choose a one-parameter family ($\mathbf{w}$,$\mathbf{u}$) from these, we impose the additional boundary condition 
+	\begin{equation}
+		\mathbf{w}(1)_B = B_1,
+		\label{specific_BC_hetclin}
+	\end{equation}
+where $B_1$ is the value of the $B$-coordinate of $\mathbf{w}(1)$ at the end of the first homotopy step.  We now continue $(\mathbf{w}, \mathbf{u})$ as a solution to the 2PBVP defined by (\ref{specific_BC}), (\ref{general_conditions_unstable_2}), (\ref{general_conditions_heteroclinic_1}) and (\ref{general_conditions_heteroclinic_2}), (\ref{general_conditions_heteroclinic_3}) and (\ref{general_conditions_heteroclinic_5}), (\ref{general_conditions_heteroclinic_6}), and (\ref{specific_BC_hetclin}) with $T$ and $\mathbf{u}(0)_B$ as free parameters.  We monitor condition (\ref{general_conditions_heteroclinic_3}) and stop the continuation when $\eta=0$, at which point condition (\ref{general_conditions_heteroclinic_4}) is satisfied and the concatenation of $\mathbf{w}$ with $\mathbf{u}$ is a connecting orbit segment in $\mathscr{H}$.  We can then sweep out the portion of $\mathscr{H}$ to the right of $W^u(q)$ in the ($B$, $A$)-projection by replacing condition (\ref{specific_BC_hetclin}) with (\ref{general_conditions_heteroclinic_4}), keeping $\mathbf{u}(0)_B$, $\mathbf{w}(1)_B$, and $T$ as free parameters.
+
+Figure \ref{figure_10} illustrates, step-by-step in projection onto the ($B$, $A$)-plane, the homotopy steps for computing the portion of $\mathscr{H}$ to the right of $W^u(q)$.  
+Each panel shows $C$ from Figure \ref{figure_1} with $\mathscr{L} = \{ \omega \in \mathbb{R}^4 \; | \; \omega_A = 6.0 \}$ (charcoal line), $\mathbf{u} \in W^s_{\Sigma_{L_1}}$ (magenta curve), $\mathbf{w} \in W^u_{\Sigma_{L_2}}$ (forest green curve), the stable eigenspace $E^s(p_{\text{out}})$ (blue cross) from condition (\ref{specific_BC}), the two-dimensional space $\Phi_{\widehat{B}}$ (mint cross) from conditions (\ref{general_conditions_unstable_2}) and (\ref{general_conditions_unstable_3}), and additional information for the computation.  
+In the first homotopy step, we choose $\Sigma_{L_1}=\{ \omega \in \mathbb{R}^4 \; | \; \omega_A = 6.0, \omega_Y=-1.0 \}$ and $\Sigma_{L_2}=\{ \omega \in \mathbb{R}^4 \; | \; \omega_A = 6.0, \omega_Y=3.0 \}$.  We compute $\mathbf{w}$ so that $\mathbf{w}(1)_B = B_1 = 0.6$ in the second homotopy step.  Figure \ref{figure_10}(a) is a sketch of the numerical set-up at the end of the first homotopy step.  The points $\mathbf{w}(1)$ and $\mathbf{u}(0)$ lie in the space $Z$ (gold line) from conditions (\ref{general_conditions_heteroclinic_5}) and (\ref{general_conditions_heteroclinic_6}) at a distance $\eta$ from each other.  Panel (b) is a sketch of the numerical set up after the second homotopy step when $\mathbf{w}(1) = \mathbf{u}(0)$ and $\eta=0$.  The resulting pair ($\mathbf{w}$, $\mathbf{u}$) satisfy conditions (\ref{general_conditions_heteroclinic_1}) and (\ref{general_conditions_heteroclinic_2})--(\ref{general_conditions_heteroclinic_4}) and their concatenation lies on the surface $\mathscr{H}$.
+
 
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_10.pdf}
-\caption{The manifold $W^u(q)$ (cardinal surface) is shown in projection onto $(B,A,X)$-space (a) and onto $(B,A,Y)$-space (b) and bounds the computed surface of heteroclinic connections $\mathscr{H}$ (red-blue fade surface).  The saddle equilibrium $q$ (green cross) is partially obstructed by $\mathscr{H}$ and $W^{u}(q)$; compare with Figure 9.   Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
+\caption{A sketch in projection onto the ($B$,$A$)-plane of the numerical set up with Lin's method for the computation of $\mathscr{H}$ to the right of $W^u(q)$.  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$, and $q$.  Panel (a) shows a sketch at the end of the first homotopy step with $\mathbf{u} \in W^u_{L_1}$ (magenta curve)$, \mathbf{w} \in W^u_{L_2}$ (forest green curve), $\Phi_{\widehat{B}}$ from section 3.2, and the Lin space $Z$ (gold line) in which the points $\mathbf{w}(1)$ and $\mathbf{u}(0)$ lie at a distance $\eta$ from each other.  Panel (b) shows $\mathbf{w}$ and $\mathbf{u}$ after the final homotopy step at which point $\eta=0$ and $\mathbf{w}(1)=\mathbf{u}(0)$.}
 \label{figure_10}
 \end{figure}
 
-impose conditions
+After these homotopy steps we use boundary conditions (\ref{general_conditions_heteroclinic_1}) and (\ref{general_conditions_heteroclinic_2}), (\ref{general_conditions_heteroclinic_3}), (\ref{general_conditions_heteroclinic_4}), and (\ref{general_conditions_heteroclinic_5}) and (\ref{general_conditions_heteroclinic_6}) to sweep out a one-parameter family of orbit segment pairs to obtain an accurate approximation of $\mathscr{H}$ to the right of $W^u(q)$.  Figure \ref{figure_11} shows the computed portion of $\mathscr{H}$ (red/blue surface) with $\mathscr{L}$ (charcoal plane) in projection onto ($B$, $A$, $X$)-space (a) and ($B$, $A$, $Y$)-space (b).  Three concatenated orbit segment pairs ($\mathbf{w}$, $\mathbf{u}$) lying on $\mathscr{H}$ are plotted in forest green for $\mathbf{w}$ and magenta for $\mathbf{u}$.  The portion of the surface swept out by $\mathbf{w}$ is shown in red and that by $\mathbf{u}$ in blue.  Orbit segments lying on $\mathscr{H}$ spiral slowly around $S^2$ before crossing the surface mostly in the direction parallel to the $A$-axis to reach and then slowly follow $S^3$.
 
-\begin{align}
-	\begin{split}
-		\mathbf{u}(0), \mathbf{w}(1) \in \mathscr{L},\\ \vspace{2mm}
-		[\mathbf{u}(0) - \mathbf{w}(1)] \cdot \mathbf{n}_1 =0, \\ \vspace{2mm}
-		[\mathbf{u}(0) - \mathbf{w}(1)] \cdot \mathbf{n}_2 =0
-	\end{split}
-	\label{Z}
-\end{align}
-
-\noindent
-to restrict $[\mathbf{u}(0) -\mathbf{w}(1)] \in Z$ as illustrated in panel (c).  Additionally, we impose conditions (\ref{BC7}) and (\ref{BC5_unstable}) while allowing the integration times of $\mathbf{u}$ and $\mathbf{w}$ to move freely.  As illustrated in panel (c), the pair of orbit segments $\mathbf{u}$ and $\mathbf{w}$ obtained at the end of section 4.2 are one of a two-parameter family of orbit-segment pairs satisfying (\ref{BC7}), (\ref{BC5_unstable}), and (\ref{Z}).  To formulate a well-defined 2PBVP, we impose the restriction
-
-\begin{equation}
-\mathbf{w}(1)_B \in \{ \omega \in \mathbb{R}^4 \; | \; \omega_B = 0.6 \},
-\label{fix_B}
-\end{equation}  
-\noindent
-and continue $\mathbf{u}$ and $\mathbf{w}$ while $\eta$ is decreased.  We stop the continuation as soon as $\eta = 0$, at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection in $\mathscr{H}$.
-
-To obtain a one-parameter family of concatenations approximating $\mathscr{H}$, we require $\eta = 0$ while relaxing condition (\ref{fix_B}).  We then decrease $\mathbf{w}(1)_B$ and stop the continuation before $\mathbf{u}$ and $\mathbf{w}$ reach the intersection of $\mathscr{H}$ with $W^u(q)$.  We sweep out the other side of the manifold by continuation in the opposite direction (of increasing $\mathbf{w}(1)_B$) and stop just before $\mathbf{w}(1)_B$ reaches the $B$-coordinate of the Hopf bifurcation point $H$ on $C^2$.
-
-Figure \ref{figure_9} shows $\mathscr{H}$ in projection onto ($B$,$A$,$X$)-space and ($B$,$A$,$Y$)-space with $\mathscr{L}$ (charcoal surface).  The surface of heteroclinic connections $\mathscr{H}$ is divided by $\mathscr{L}$ into a region composed of $\mathbf{w}$ (red surface) and a region composed of $\mathbf{u}$ (blue surface).  Three representative orbit segments are shown as concatenations of $\mathbf{w}$ (forest green curves) with $\mathbf{u}$ (magenta curves).  Orbit segments on $\mathscr{H}$ spiral around and follow $S^2$ for an $O(1)$ amount of slow time and then traverse the region between $C^2$ and $C^3$ to follow $S^3$ for an $O(1)$ amount of slow time.
-
-Figure \ref{figure_10} shows $\mathscr{H}$ (red-blue fade surface) in projection onto ($B$, $A$, $X$)-space and ($B$, $A$, $X$)-space with the two-dimensional $W^u(q)$ (cardinal surface).  The unstable manifold $W^u(q)$ is shown bounding $\mathscr{H}$, preventing us from computing the entire surface of heteroclinic connections.  It partially obstructs the saddle equilibrium $q$ (green cross) in the view shown.  Three representative orbit segments (forest green-magenta fade curves) are also shown originating from $S^2$ before traversing $\mathscr{H}$ to $S^3$.
-
-%Singular surface computation
-
-\section{Computing the singular surface of heteroclinic connections}
-
-We compute the the singular surface analogous to $\mathscr{H}$, denoted $\mathscr{H}_0$, in the interest of analysing its interactions with MMOs for varying $\varepsilon$.  The computation of $\mathscr{H}_0$ for $\varepsilon=0$ is slightly different from the computation of $\mathscr{H}$ for $\varepsilon > 0$.  The time scaling parameter, $\varepsilon$, being zero means that $\mathscr{H}_0 = W^s(C^3) \cap W^u(C^2)$.  The surface $\mathscr{H}_0$ is then composed of the unique family of heteroclinic connections between saddle equilibria of (\ref{equation_2}) which is parameterized by $B$.
-
-An additional challenge of computing $\mathscr{H}_0$ is that equilibria of (\ref{equation_2}) in $C^2$ are not all of the same type.  In ($B$,$A$)-space, the equilibria in $C^2$ to the left of $B \approx 0.476858$ with respect to the $B$-coordinate have all real eigenvectors.  Equilibria in $C^2$ to the right have a complex conjugate pair of eigenvectors.  Due to the change in the type of eigenvectors of equilibria on $C^2$, we compute $\mathscr{H}_0$ in two pieces with two slightly different algorithms.  We first describe the computation for equilibria with real eigenvectors and then for equilibria with complex conjugate eigenvectors.  
-
-For both computations, we consider solutions to the rescaled system
-
-\begin{equation}
-\frac{d\mathbf{u}}{ds} = TG(\mathbf{u}),
-\label{fast_rescale}
-\end{equation}
-
-\noindent
-where $\mathbf{u}(s) = (A(s), X(s), Y(s)) \in \mathbb{R}^3$ is the vector of chemical concentrations, $G$ is the right hand side of (\ref{equation_2}), and $T$ is integration time on the fast timescale $t=Ts$.  The Lin section $\mathscr{L}$ is taken to be the two-dimensional plane defined by a constant $A=6.0$.  Note that in the layer equation, $\mathscr{L}$ is two dimensional and $B$ is a parameter.
-
-\subsection{Real eigenvalues}
-
-For the first three steps of the computation, the parameter $B$ is kept constant at a value of $0.4$.  We compute an initial orbit segment on $W^{s}(C^3)$ following the algorithm for computing a two-dimensional global manifold as a solution family of BVPs outlined in \cite{Red_book}.  We consider the equilibrium $\tilde{p}_{\Re}$ of (\ref{equation_2}) for $B=0.4$ such that $\begin{pmatrix} \tilde{p}_{\Re_A},& 0.4,&\tilde{p}_{\Re_X},&\tilde{p}_{\Re_Y} \end{pmatrix} \in C^3$.  We define a two-dimensional plane $\widetilde{\Sigma}_{\Re} = \{ \omega \in \mathbb{R}^3  \; | \; \omega_Y = \tilde{p}_{\Re_Y} + r_{\Re}\mathbf{v}_{2_Y} \}$ and a one-dimensional circle $\widetilde{\Gamma}_{\Re}= \{ \omega \in \mathbb{R}^3  \; | \; \tilde{p}_{\Re} + r_{\Re}(\mathbf{v}_1\sin(\theta) + \mathbf{v}_2\cos(\theta)), \theta \in [0,2\pi) \}$  where $r_{\Re}=0.0001$ and $\mathbf{v}_1$ and $\mathbf{v}_2$ are the stable eigenvectors of $\tilde{p}_{\Re}$.  The radius $r_{\Re}$ of $\widetilde{\Gamma}_{\Re}$ is chosen small enough that $\widetilde{\Gamma}_{\Re}$ approximates a curve lying on $W^{s}(\tilde{p}_{\Re})$ and large enough that $\textsc{Auto}$ can distinguish points on $\widetilde{\Gamma}_{\Re}$ from $\tilde{p}_{\Re}$ itself.  The point $\tilde{p}_{\Re} + r_{\Re}\mathbf{v}_2$ is then a solution to the 2PBVP defined by (\ref{fast_rescale}) and the conditions
-
-\begin{equation}
-	\mathbf{u}(1) \in \widetilde{\Gamma}_{\Re},
-	\label{top_end}
-\end{equation}
-
-and
-
-\begin{equation}
-	\mathbf{u}(0) \in \widetilde{\Sigma}_{\Re}
-\end{equation}
-
-\noindent
-for $T=0$.  An initial orbit segment $\mathbf{u}$ on $W^{s}(C^3)$ with start point in $\mathscr{L}$ is obtained by decreasing $\mathbf{u}(0)_A$ while allowing integration time to increase in backwards time, corresponding to negative $T$.  The continuation is stopped when $\mathbf{u}(0) \in \mathscr{L}$, in other words, when $\mathbf{u}(0)_A = 6.0$.
-
-In the second step, we obtain an initial orbit segment on $W^{u}(C^2)$ with end point in $\mathscr{L}$ through almost identical means.  We consider the equilibrium $\hat{p}_{\Re}$ of (\ref{equation_2}) for $B=0.4$ such that $\begin{pmatrix} \hat{p}_{\Re_A}, &0.4, & \hat{p}_{\Re_X}, & \hat{p}_{\Re_Y} \end{pmatrix} \in C^2$ and its unstable eigenvectors $\mathbf{k}_1$ and $\mathbf{k}_2$.  We then define a two-dimensional plane $\widehat{\Sigma}_{\Re} = \{ \omega \in \mathbb{R}^3 \; | \; \omega_Y = \hat{p}_{\Re_Y} + r_{\Re}\mathbf{k}_{2_Y}\}$ and a one-dimensional circle $\widehat{\Gamma}_{\Re} = \{ \omega \in \mathbb{R}^3  \; | \; \hat{p}_{\Re} + r_{\Re}(\mathbf{k}_1\sin(\theta) + \mathbf{k}_2\cos(\theta)), \theta \in [0,2\pi) \}$.  The point $\hat{p}_{\Re} + r_{\Re}\mathbf{k}_2$ is then a solution to the 2PBVP defined by (\ref{fast_rescale}) and the conditions
-
-\begin{equation}
-	\mathbf{w}(0) \in \widehat{\Gamma}_{\Re}
-	\label{bottom_start}
-\end{equation}
-
-and
-
-\begin{equation}
-	\mathbf{w}(1) \in \widehat{\Sigma}_{\Re},
-\end{equation}
-
-\noindent
-for $T=0$.  We increase $\mathbf{w}(1)_A$ while also allowing integration time to increase in forward time, corresponding to positive $T$.  The continuation is stopped when $\mathbf{w}(1) \in \mathscr{L}$.
-
-In the third step, we define the Lin vector 
-
-\begin{equation}
-	\mathbf{v}_Z = \frac{\mathbf{u}(0) - \mathbf{w}(1)}{\left\lVert \mathbf{u}(0) - \mathbf{w}(1) \right\lVert},
-	\label{Lin_vector_singular}
-\end{equation}
-
-\noindent
-which is three dimensional.  We also define a normal vector $\mathbf{n} = \begin{pmatrix} 0, & -\mathbf{v}_{Z_Y}, &-\mathbf{v}_{Z_X} \end{pmatrix}$ such that $\mathbf{n} \perp \mathbf{v}_Z$.  We then impose the conditions 
-
-\begin{align}
-	\begin{split}
-		\mathbf{u}(0), \mathbf{w}(1) \in \mathscr{L} \\ \vspace{2mm}
-		\begin{pmatrix}\mathbf{u}(0) - \mathbf{w}(1)\end{pmatrix} \cdot \mathbf{n} =0,
-	\end{split}
-	\label{singular_Z}
-\end{align}
-
-\noindent
-to restrict $[ \mathbf{u}(0)-\mathbf{w}(1)] \in Z$, the space spanned by $\mathbf{v}_Z$.  To close the Lin gap, $\eta$ we impose conditions (\ref{top_end}), (\ref{bottom_start}), and (\ref{singular_Z}) while decreasing $\eta$ and allowing integration time to move freely.  The continuation is stopped when $\eta = 0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}_0$.  We can then sweep out the portion of $\mathscr{H}_0$ corresponding to real eigenvalues increasing and decreasing the parameter $B$ inside the interval ($F_{2_B}$, 0.47685750162] while requiring that $\eta=0$.  We choose to stop our continuation at $B = 0.47685750162$, before the eigenvalues switch from real to complex conjugate.  Unlike the computation of $\mathscr{H}$, the computational set up for $\mathscr{H}_0$ allows us to decrease $B$ past the value of $q_B$.  We are thus able to compute the entire portion of $\mathscr{H}_0$ corresponding to real eigenvalues.
-
-\subsection{Complex conjugate eigenvalues}
-
-The method for computing an initial orbit segment $\mathbf{u}$ in $W^{s}(C^3)$ for complex conjugate eigenvalues is identical to the computation for real eigenvalues except that we choose $B=0.7$ instead of $B=0.4$ and consider the saddle equilibrium $\tilde{p}_{\Im}$ of (\ref{equation_2}) such that $\begin{pmatrix}\tilde{p}_{\Im_A}, &0.7, &\tilde{p}_{\Im_X}, &\tilde{p}_{\Im_Y} \end{pmatrix} \in C^3$.  We choose $\mathscr{L}$ again to be the two-dimensional plane given by $A=6.0$.
+Figure \ref{figure_12} shows that the computed portion of $\mathscr{H}$ is bounded by $W^u(q)$ (cardinal surface; this surface was computed with the BVP approach outlined in \cite{Red_book}).  Here $\mathscr{H}$ is coloured red near $S^2$ and blue near $S^3$ to illustrate that $\mathscr{H}$ is both a submanifold of $W^u(S^2)$ and of $W^s(S^3)$; compare with Figure \ref{figure_11}.  Similarly, concatenated orbit segments ($\mathbf{w}$, $\mathbf{u}$) are plotted fading from forest green to magenta.  Orbits on $\mathscr{H}$ clearly follow $S^2$ on the slow timescale, before traversing across $\mathscr{H}$ on an intermediate timescale and then following $S^3$ on the slow timescale.  As this figure shows, the saddle point $q$ and its two-dimensional unstable manifold $W^u(q)$ bound the computed portion of $\mathscr{H}$.  Notice how the connecting orbits nearest $W^u(q)$ follow this two-dimensional surface to come very close to $q$, before slowly following $S^2$. Hence, we computed the part of $\mathscr{H}$ to this side of $q$ as closely to $W^u(q)$ as possible.
 
 \begin{figure}[H]
 \centering
 \includegraphics[]{./figures/MKMO_11.pdf}
-\caption{Projections onto ($B$, $A$, $X$)-space of $\mathscr{H}$ (red-blue fade surface) (a) and of the portion of $\mathscr{H}_0$ (red-blue fade surface) lying in the region $B < 0.781$ (b) with representative orbit segments (forest green-magenta fade curves).  Also shown are the intersection $W^u(q)\cap\mathscr{H}_0$ (green curve) for $\varepsilon=0$, $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
+\caption{The surface of heteroclinic connections $\mathscr{H}$ (red/blue surface) and the Lin section $\mathscr{L}$ (charcoal surface) in projection onto $(B,A,X)$-space (a) and onto $(B,A,Y)$-space (b).  The portion of $W^u(S^2)$ swept out by the $\mathbf{w}$ is shown in red and the portion of $W^s(S^3)$ swept out by the $\mathbf{u}$ is shown in blue.  Also shown are representative orbit segments pairs ($\mathbf{w}$,$\mathbf{u}$) (forest green/magenta curves), $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$ and $q$ which is partially obscured by $\mathscr{H}$ and $\mathscr{L}$.}
 \label{figure_11}
 \end{figure}
 
-The computation of orbit segments on $W^u(C^2)$ for complex conjugate eigenvalues presents an additional challenge.  Some orbit segments on $W^u(C^2)$ contain a segment that spirals tightly around $C^2$ while others do not.  Orbit segments that spiral tightly require larger mesh sizes than those that do not, however mesh size is held constant in our continuation.  To address this issue, we define a radius $r_{\Im} =  r_{\Im}(B)$, where $r_{\Im}(B)$ is the linear function such that $r_{\Im}(0.47685750164)=0.0001$ and $r_{\Im}(0.86)=0.2$.  By choosing a start point farther away from $C^2$ in regions where orbit segments spiral tightly, we avoid computing those tightly spiralling pieces of the orbit segments.
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_12.pdf}
+\caption{The computed portion of $\mathscr{H}$ (red-blue fade surface) is shown in projection onto $(B,A,X)$-space (a) and onto $(B,A,Y)$-space (b) with $W^u(q)$ (cardinal surface).  The unstable manifold $W^u(q)$ bounds the computed portion of $\mathscr{H}$.  Also shown are representative orbit segment pairs ($\mathbf{w}$, $\mathbf{u}$) (forest green-magenta fade curves), $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, $H$ and $q$ which is partially obscured by $\mathscr{H}$ and $W^u(q)$.  Here $\varepsilon=0.0037$ as in Table 1.}
+\label{figure_12}
+\end{figure}
+%%%%%%%%singular limit surface
+\section{Computing the surface of heteroclinic connections in the singular limit}
 
-We consider the equilibrium $\hat{p}_{\Im}$ of (\ref{equation_2}) for $B=0.7$ such that $\begin{pmatrix} \hat{p}_{\Im_A},& 0.7,&\hat{p}_{\Im_X},&\hat{p}_{\Im_Y} \end{pmatrix} \in C^2$.  We define a two-dimensional plane $\widehat{\Sigma}_{\Im} = \{ \omega \in \mathbb{R}^3  \; | \; \omega_Y = \hat{p}_{\Im_Y} + r_{\Im}(0.7) \mathbf{h}_{2_Y} \}$ and a one-dimensional circle $\widehat{\Gamma}_{\Re}= \{ \omega \in \mathbb{R}^3  \; | \; \hat{p}_{\Im} + r_{\Im}(0.7)(\mathbf{h}_1\sin(\theta) + \mathbf{h}_2\cos(\theta)), \theta \in [0,2\pi) \}$  where $\mathbf{h}_1$ and $\mathbf{h}_2$ are the real and complex parts of the unstable complex conjugate eigenvectors of $\hat{p}_{\Im}$.  The point $\hat{p}_{\Im} + r_{\Im}(0.7)\mathbf{h}_2$ then becomes a solution to the 2PBVP defined by (\ref{fast_rescale}) and the boundary conditions
+We now consider the limiting surface $\mathscr{H}_0$ of connecting orbits from $C^2$ to $C^3$ for $\varepsilon = 0$.  Since then system (\ref{equation_1}) reduces to the three-dimensional system (\ref{equation_2}) in which $B$ is a parameter,  the surface $\mathscr{H}_0$ is the one-parameter family, parametrized by $B$, of connections between the saddle equilibria of (\ref{equation_2}) on $C^2$ and on $C^3$, respectively.  It is simple to sweep out $\mathscr{H}_0$ with varying $B$ once an initial connection is found for fixed $B$.  This is exactly the situation addressed in \cite{Red_book} and we now briefly explain how this approach can be used for our purposes.
+
+We compute $\mathscr{H}_0$ as the one parameter family of concatenated of orbit segment pairs, denoted ($\mathbf{w}$, $\mathbf{u}$), of the rescaled system
+\begin{equation}
+\frac{d\mathbf{u}}{ds} = TG(\mathbf{u}),
+\label{fast_rescale}
+\end{equation}
+where now $\mathbf{u}(s) = (A(s), X(s), Y(s)) \in \mathbb{R}^3$ is the vector of chemical concentrations, $G$ is the right-hand side of (\ref{equation_2}), and $T$ is the integration time on the fast timescale.
+
+We again turn to Lin's method to find an initial orbit segment pair lying on $\mathscr{H}_0$ via homotopy steps.  We begin by choosing a $\widehat{B} \in (B_{\text{in}}, B_{\text{out}})$ corresponding to points $\widehat{p}^2 \in C^2$ and $\widehat{p}^3 \in C^3$.  A two-dimensional Lin section, denoted $\widehat{\mathscr{L}}$, is chosen such that, for any value of $\widehat{B} \in (B_{\text{in}}, B_{\text{out}})$ it divides the three-dimensional phase space into a region containing $\widehat{p}^2$ and a region containing $\widehat{p}^2$.  Inside $\widehat{\mathscr{L}}$, we choose a Lin vector $\mathbf{v}_Z$ with the property that it is not tangent to $W^u(\widehat{p}^2)$ or $W^s(\widehat{p}^3)$.  The Lin vector $\mathbf{v}_Z$ then defines the associated Lin space $Z$.    We then use the methods outlined in \cite{Red_book} to compute $\mathbf{w} \in W^u(\widehat{p}^2)$ and $\mathbf{u} \in W^s(\widehat{p}^3)$ satisfying appropriate boundary conditions.  We first impose two conditions,
 
 \begin{equation}
-	\mathbf{w}(0) \in \widehat{\Gamma}_{\Im}
-	\label{bottom_start_complex}
+	\mathbf{u}(1) \in \Upsilon^3= \{ \omega \in \mathbb{R}^3  \; | \; \left\lVert \widehat{p}^3 - \omega \right\lVert = r_3 \} \cap E^s(\widehat{p}^3),
+	\label{general_conditions_heteroclinic_singular_1}
 \end{equation}
-
 and
-
 \begin{equation}
-	\mathbf{w}(1) \in \widehat{\Sigma}_{\Im},
+	\mathbf{w}(0) \in \Upsilon^2= \{ \omega \in \mathbb{R}^3  \; | \; \left\lVert \widehat{p}^2 - \omega \right\lVert = r_2 \} \cap E^u(\widehat{p}^2),
+	\label{general_conditions_heteroclinic_singular_2}
 \end{equation}
 
-\noindent
-for $T=0$.  To obtain a $\mathbf{w}$ such that $\mathbf{w}(1) \in \mathscr{L}$, we increase $\mathbf{w}(1)_A$ while allowing $T$ to increase and stop the continuation when $\mathbf{w}(1)_A=6.0$.
+where radii $r_2$ and $r_3$ are chosen such that the closed curves $\Upsilon_2$ and $\Upsilon_3$ are close to $\widehat{p}^2$ and $\widehat{p}^3$, respectively.  We next impose the conditions
 
-We close the Lin gap by imposing the conditions (\ref{top_end}), (\ref{singular_Z}), and (\ref{bottom_start_complex}) while decreasing $\eta$ and allowing integration time to move freely.  The continuation is stopped when $\eta=0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}_0$.  We can then sweep out the portion of the manifold corresponding to complex conjugate eigenvalues by increasing and decreasing the parameter B inside the interval $[0.47685750164, H)$ while requiring that $\eta=0$.  We choose to stop the continuation at $B=0.47685750164$ before the eigenvalues switch from complex conjugate to real.
+\begin{equation}
+	\mathbf{u}(0) \in \widehat{\mathscr{L}},
+	\label{general_conditions_heteroclinic_singular_3}
+\end{equation}
+and
+\begin{equation}
+	\mathbf{w}(1) \in \widehat{\mathscr{L}}
+	\label{general_conditions_heteroclinic_singular_4}.
+\end{equation}
+while additionally requiring that
+	\begin{equation*}
+		\mathbf{w}(1)-\mathbf{u}(0) \in Z.
+	\end{equation*}
+The signed distance between $\mathbf{w}(0)$ and $\mathbf{u}(1)$ inside $Z$ is given by
+	\begin{equation}
+		\eta = [ \mathbf{w}(0)-\mathbf{u}(1) ] \cdot \mathbf{v}_Z
+		\label{general_conditions_heteroclinic_singular_5}
+	\end{equation}
+which is a regular test function.  As before, a pair of orbit segments ($\mathbf{w}$, $\mathbf{u}$) with 
+	\begin{equation}
+		\eta=0
+		\label{general_conditions_heteroclinic_singular_6}
+	\end{equation}
+is then a connection between $\widehat{p}^2$ and $\widehat{p}^3$.  To implement $\mathbf{u}(0), \mathbf{w}(1) \in Z$, we now define a single unit normal vector $\mathbf{n} \perp \mathbf{v}_Z$ and impose the condition
 
-In Figure \ref{figure_11} we compare $\mathscr{H}$ (red-blue fade surface) (a) and $\mathscr{H}_0$ (red-blue fade surface) (b) in projection onto ($B$,$A$,$X$)-space.  In panel (a), for visual comparison with $\mathscr{H}$, we show only the portion of $\mathscr{H}_0$ that lies in the region $B < 0.781$.  In panels (a) and (b), three representative orbit segments are shown in each surface (forest green-magenta fade curves).  Unlike orbit segments in $\mathscr{H}$, orbit segments in $\mathscr{H}_0$ do not exhibit any drift in the direction parallel to the $B$-axis.  Also shown in Figure \ref{figure_11} are  $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.  The intersection of $\mathscr{H}_0$ with the singular $W^u(q)$ (green curve) is analogous to the border of $\mathscr{H}$ near $q$.  The border of $\mathscr{H}_0$ near $H$ also does contain segments that spiral as tightly as the border of $\mathscr{H}$ near $H$.  This is due to our requirement that orbit segments on $\mathscr{H}_0$ remain farther away from $C^2$ in this region to avoid numerical difficulties.
+	\begin{equation}
+		[\mathbf{u}(0) - \mathbf{w}(1)] \cdot \mathbf{n} =0
+		\label{general_conditions_heteroclinic_singular_7}
+	\end{equation}
+which ensures that $\mathbf{w}(1)-\mathbf{u}(0)$ remains in $Z$.  Conditions (\ref{general_conditions_heteroclinic_singular_5}) and (\ref{general_conditions_heteroclinic_singular_6}) together ensure that $\mathbf{u}(0)=\mathbf{w}(1)$, while (\ref{general_conditions_heteroclinic_singular_1}) and (\ref{general_conditions_heteroclinic_singular_2}) ensure that $\mathbf{w} \in W^u(\widehat{p}^2)$ and $\mathbf{u} \in W^s(\widehat{p}^3)$.
 
-\subsection{Distance from $\mathscr{H}_0$}
+Again, two homotopy steps are used to find an initial pair ($\mathbf{w}$, $\mathbf{u}$) of connecting orbits.  First, we use the method outlined in \cite{Red_book} to compute $\mathbf{w} \in W^u(\widehat{p}^2)$ and $\mathbf{u} \in W^u(\widehat{p}^3)$ such that (\ref{general_conditions_heteroclinic_singular_3}) and (\ref{general_conditions_heteroclinic_singular_4}) are satisfied; then $\mathbf{w}$ and $\mathbf{u}$ automatically satisfy conditions (\ref{general_conditions_heteroclinic_singular_1}) and (\ref{general_conditions_heteroclinic_singular_2}).  We then choose $\mathbf{v}_Z$ again as
 
-We analyse the difference between $\mathscr{H}$ and $\mathscr{H}_0$ using the integral norm to measure the distance between intersection curves of $\mathscr{H}$ and $\mathscr{H}_0$ with different subspaces of the phase space defined by constant values of $B$.
+	\begin{equation*}
+		\mathbf{v}_Z = \frac{\mathbf{u}(0) - \mathbf{w}(1)}{\left\lVert \mathbf{u}(0) - \mathbf{w}(1) \right\lVert}
+		\label{Lin_vector_singular}
+	\end{equation*}
+and find the unit normal $\mathbf{n}$ required for condition (\ref{general_conditions_heteroclinic_singular_7}); which then remain fixed for throughout the computation.
+
+By construction, the pair ($\mathbf{w}$, $\mathbf{u}$) at the end of the first homotopy step is a solution to the 2PBVP defined by (\ref{general_conditions_heteroclinic_singular_1}), (\ref{general_conditions_heteroclinic_singular_2}), (\ref{general_conditions_heteroclinic_singular_3}), (\ref{general_conditions_heteroclinic_singular_4}), (\ref{general_conditions_heteroclinic_singular_5}), and (\ref{general_conditions_heteroclinic_singular_7}); keeping $\eta$, $T$, $\mathbf{u}(0)_B$, and $\mathbf{w}(1)_B$ as free parameters allows us to close the Lin gap and satisfy $\eta = 0$, at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an orbit segment in $\mathscr{H}_0$.
+
+Specifically we choose $\widehat{B}=0.4$, $r_3 = 0.0001$, and $\widehat{\mathscr{L}}=\{ \omega \in \mathbb{R}^4 \; | \omega_A = 6.0\; \}$.  We then sweep out $\mathscr{H}_0$ by imposing condition (\ref{general_conditions_heteroclinic_singular_6}) and increasing and decreasing the parameter $\widehat{B}$, keeping $T$, $\mathbf{w}(1)_B$, $\mathbf{u}(0)_B$, and the coordinates of $\widehat{p}^2$ and $\widehat{p}^3$ as free parameters.  Note that we are not limited by the location of $W^u(q)$ in the computation of $\mathscr{H}_0$.  However, we are faced with an additional challenge due to a change in the type of equilibria on $C^2$ because $q$ is just one of the equilibria on $C^2$.  For $\widehat{B} < 0.476858$, the saddle $\widehat{p}^2$ has real eigenvalues, for $\widehat{B} > 0.476858$ the eigenvalues are complex conjugate, causing spiralling of $\mathbf{w}$ to increase as $\widehat{B}$ approaches $H_B$.  A larger mesh size is needed to numerically approximate $\mathbf{w}$ with more spirals.  On the other hand, keeping the mesh size constant throughout the computation is an advantage when one wants to render the overall surface $\mathscr{H}_0$.  We keep the mesh fixed, but allow the radius $r_2$ to increase as follows
+\[r_2= \begin{cases} 
+      0.0001 & \widehat {B} < 0.476858 \\
+      0.521789(\widehat{B} - 0.476858) + 0.0001 & \widehat {B} < 0.476858
+   \end{cases}
+\]
+Hence, $r_2$ increases linearly from $0.0001$ to $0.2$ between $\widehat{B}=0.476858$ and $\widehat{B}=0.86$, that is, where $p^2$ is complex conjugate. By making $r_2$ larger in this way in regions where orbit segments exhibit more spiralling near $C^2$, we avoid computing tightly spiralling pieces of the orbit segments and thus eliminate the need for a larger mesh size.
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_13.pdf}
+\caption{Projections onto ($B$, $A$, $X$)-space of the portion of $\mathscr{H}_0$ lying in the region $B < 0.781$ (red-blue fade surface) (a) and of $\mathscr{H}$ for $\varepsilon=0.0037$ (red-blue fade surface) (b).   Also shown in panel (a) for $\varepsilon=0$ are the intersection $W^u(q)\cap\mathscr{H}_0$ (green curve) for $\varepsilon=0$ and the point $p \in C^2$ (periwinkle dot) with $p_B=0.476858$ where the eigenvalues become complex conjugate.    Both panels also show representative orbit segments (forest green-magenta fade curves), $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
+\label{figure_13}
+\end{figure}
+
+Figure \ref{figure_13} shows the two computed surfaces $\mathscr{H}_0$ for $\varepsilon=0$ (red-blue fade surface) in panel (a) in comparison with the surface $\mathscr{H}$ for $\varepsilon=0.0037$ (red-blue fade surface) in panel (b) in projection into ($B$,$A$,$X$)-space.  To aid a visual comparison with $\mathscr{H}$ in panel (b), we show only the portion of $\mathscr{H}_0$ in panel (a) that lies in the region $B < 0.781$.  Notice how $\mathscr{H}_0$ starts to spiral increasingly from the equilibrium (periwinkle dot) on $C^2$ where the eigenvalues become complex conjugate.  In both panels, three representative orbit segments are shown on the surface (forest green-magenta fade curves).  Unlike orbit segments on $\mathscr{H}$, for $\varepsilon=0$ orbit segments on $\mathscr{H}_0$ do not exhibit any drift in the direction along $C^2$ and $C^3$, respectively.  The intersection of $\mathscr{H}_0$ with the singular $W^u(q)$ (green curve) is analogous to the border of $\mathscr{H}$ near $q$; compare with Figure \ref{figure_12}.  Notice due to the $B$-dependence of $r_2$, the surface does not spiral all the way into $C^3$ in panel (a).
+
+\subsection{Distance of $\mathscr{H}$ from $\mathscr{H}_0$}
+
+Fenichel theory states that $\mathscr{H}$ will converge to $\mathscr{H}_0$ with decreasing $\varepsilon$ \cite{Fenichel}.  A natural question is then how close $\mathscr{H}_0$ and $\mathscr{H}$ are to each other for $\varepsilon=0.0037$.  To investigate the distance between $\mathscr{H}_0$ and $\mathscr{H}$, we stratify the surfaces into intersections with sections $\Lambda = \{ \omega \in \mathbb{R}^4 \; | \; \omega_B = \widehat{B}\}$ for several values of $\widehat{B}$.  We denote intersections $\mathscr{H} \cap \Lambda$ and $\mathscr{H}_0 \cap \Lambda$ by $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$, respectively.  The integral norms between $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ are approximated to estimate the distance between $\mathscr{H}$ and $\mathscr{H}_0$.
+
+Any $\mathscr{H}_0^{\widehat{B}}$ can be readily obtained by including the requirement that $B=\widehat{B}$ in the computation of $\mathscr{H}_0$.  Since we do not intend to render a surface after the computation of $\mathscr{H}_0^{\widehat{B}}$, we can increase the mesh size in the computation and take $r_2=1\times10^{-3}$.  The curve $\mathscr{H}_0^{\widehat{B}}$ can be compared with the corresponding $\mathscr{H}^{\widehat{B}}$ on $\mathscr{H}$.  We can use a computer package such as $\textsc{MATLAB}$ to approximate the intersection curve $\mathscr{H}^{\widehat{B}} = \mathscr{H} \cap \Lambda$ with the data from the previously computed surface, however it's much more accurate and elegant to compute $\mathscr{H}^{\widehat{B}}$ via continuation.
+
+We follow the steps for computing $\mathscr{H}$ and stop the continuation when $\mathbf{u}(0)_B = \widehat{B}$ instead of sweeping out the entire surface.  We swap conditions (\ref{general_conditions_heteroclinic_1}) and (\ref{general_conditions_heteroclinic_2}) for conditions
+	\begin{equation}
+		\mathbf{u}(0) \in \Lambda
+		\label{general_conditions_intersection_1}
+	\end{equation}
+and
+	\begin{equation}
+		\mathbf{w}(0) \in \Lambda
+		\label{general_conditions_intersection_2}
+	\end{equation}	
+to sweep out the one-parameter family of pairs ($\mathbf{w}$, $\mathbf{u}$) satisfying (\ref{general_conditions_heteroclinic_3}), (\ref{general_conditions_heteroclinic_4}), (\ref{general_conditions_heteroclinic_5}), (\ref{general_conditions_heteroclinic_6}), (\ref{general_conditions_intersection_1}), and (\ref{general_conditions_intersection_2}) with varying $\mathbf{u}(0)_A$ and $T$.  The curve $\mathscr{H}^{\widehat{B}}$ is then taken to be the one-parameter family of $\mathbf{u}(0)$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_14.pdf}
+\caption{Portions of the surface $\mathscr{H}$ (red/blue surface) computed as a one-parameter family of ($\mathbf{w}$, $\mathbf{u}$) (forest green/magenta curves) with $\mathbf{u}(0)$ capturing the first intersection of ($\mathbf{w}$, $\mathbf{u}$) with $\Lambda$ (charcoal surface) (a) and with $\mathbf{u}(0)$ capturing the second intersection of ($\mathbf{w}$, $\mathbf{u}$) with (b).  Global views of the surface are shown in panels (a1) and (b1).  Enlargements of the region near $\mathscr{H} \cap \Lambda$ are shown in panels (a2) and (b2).  The full surface $\mathscr{H}$ is not computed in either panel due to the backwards time contraction near $C^2$ rendering the $\mathbf{u}(0)$ near $C^2$ indistinguishable for different ($\mathbf{w}$, $\mathbf{u}$) pairs.  Also shown are two representative ($\mathbf{w}$, $\mathbf{u}$) pairs (forest green/magenta curves), $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
+\label{figure_14}
+\end{figure}
+
+When computing $\mathscr{H}^{\widehat{B}}$ with the above conditions, some orbit segments lying on $\mathscr{H}$ are computed twice as distinct ($\mathbf{w}$, $\mathbf{u}$) pairs.  This is due to a tangency with $\Lambda$ of an orbit segment lying on $\mathscr{H}$ that causes all except the tangent orbit segment to intersect $\Lambda$ twice.  Figure \ref{figure_14}(a) shows $\mathscr{H}$ computed with $\mathbf{u}(0)$ capturing the first intersection of orbit segments with $\Lambda$ for $\widehat{B}=0.75$.  Figure \ref{figure_14}(b) shows a portion of $\mathscr{H}$ computed again with $\mathbf{u}(0)$ capturing the second intersection.  Global views are shown in panels (a1) and (b1) and enlargements of the region near $\mathscr{H} \cap \Lambda$ are shown in panels (a2) and (b2).  The entire surface is not computed in either panel because the backwards time contraction near $C^2$ causes many ($\mathbf{w}$, $\mathbf{u}$) pairs to have $\mathbf{u}(0)$ that are too similar to be distinguished by $\textsc{Auto}$.  Both panels show representative ($\mathbf{w}$, $\mathbf{u}$) (forest green/magenta curve), $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_15.pdf}
+\caption{Intersection curves $\mathscr{H}^{\widehat{B}}$ (royal purple) and $\mathscr{H}_0^{\widehat{B}}$ (lime green) for $\widehat{B}=0.75$ projected onto the ($A$, $X$)-plane (a).  An enlargement of the spiralling region near the endpoints of the curves is shown in panel (b) with the line of length $d$ connecting them.  Panel (c) shows a further enlargement of the spiralling region inside the ($A$, $X$, $Y$)-space, $\Lambda$, with the plane $\mathscr{N}_i$ (charcoal surface) that is normal to $\mathscr{H}_0^{\widehat{B}}$ at the point $l_i$ (magenta dot).  The corresponding point $k_i$ on $\mathscr{H}^{\widehat{B}}$ is also shown in magenta.}
+\label{figure_15}
+\end{figure}
+
+To approximate the integral norm between $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$, we discretize the integral to a sum.  For any point $l_i \in \mathscr{H}_0^{\widehat{B}}$, we want to find an associated point $k_i \in \mathscr{H}^{\widehat{B}}$.  The integral norm between $\mathscr{H}^{\widehat{B}}$ and the truncated $\mathscr{H}_0^{\widehat{B}}$ is approximated with the formula
+	\begin{equation}
+		\sum_{i=1}^{N} \frac{1}{N} \left \lVert l_i - k_i\right \lVert
+		\label{integral_norm}
+	\end{equation}
+where $N$ is the number of computed mesh points approximating $\mathscr{H}_0^{\widehat{B}}$.  We must then choose an appropriate method for picking a $k_i$ for each $l_i$.  We pick a $k_i$ to be an approximation of $\mathscr{H}^{\widehat{B}} \cap \mathscr{N}_i$ where $\mathscr{N}_i$ is the plane normal to $\mathscr{H}_0^{\widehat{B}}$ at the point $l_i$.  Figure \ref{figure_15} shows several zooms of $\mathscr{H}_0^{\widehat{B}}$ (lime green curve) and $\mathscr{H}^{\widehat{B}}$ (royal purple curve) for $\widehat{B}=0.75$ projected onto the ($A$, $X$)-plane (a), (b) and in the full ($A$, $X$, $Y$)-space inside $\Lambda$ (c).  The global view of $\mathscr{H}_0^{\widehat{B}}$ and $\mathscr{H}^{\widehat{B}}$  is shown in panel (a).  The curves appear are closest in the flat region, except where $\mathscr{H}_0^{\widehat{B}}$ extends past $\mathscr{H}^{\widehat{B}}$ on the right-hand side of the projection.  This is due to $S^3$ being $O(\varepsilon)$ away from $C^3$.  To accurately compare the curves, we truncate $\mathscr{H}_0^{\widehat{B}}$ at the first point $l_i$ such that $\mathscr{N}_i\cap\mathscr{H}^{\widehat{B}}$ is non empty and call that point $l_1$.  The curves $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ differ the most in the region where they are spiralling.  Panel (b) shows an enlargement near the endpoints of $\mathscr{H}_0^{\widehat{B}}$ and $\mathscr{H}^{\widehat{B}}$.  The distance, $d$, between the endpoints on $\mathscr{H}_0^{\widehat{B}}$ and $\mathscr{H}^{\widehat{B}}$ is shown as a black line.  It is again due to $S^2$ being $O(\varepsilon)$ away from $C^2$.  We truncate $\mathscr{H}_0^{\widehat{B}}$ at the $l_i$ with a distance of $2d$ from the $\mathscr{H}_0^{\widehat{B}}$ endpoint and call that point $l_N$, as we take $N$ to be the number of data points on the truncated curve.  Panel (c) shows a further enlargement of the curves shown in panel (b) in the full ($A$, $X$, $Y$)-space, $\Lambda$.  An example $l_i$ (magenta dot) is shown lying on the associated plane $\mathscr{N}_i$ (charcoal surface) that intersects $\mathscr{H}^{\widehat{B}}$ at the point $k_i$ (magenta dot).
+
+We compute the $k_i$ by first fitting splines $Spl$ and $Spl_0$ to the mesh points approximating $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$, respectively, shown in Figure \ref{figure_15}.  To fit $Spl$ and $Spl_0$, we use the built-in \textsc{MATLAB} function \textsc{spline}.  For each mesh point $l_i \in \mathscr{H}_0^{\widehat{B}}$ we then use the built-in \textsc{MATLAB} function \textsc{fnder} with $Spl_0$ to compute the vector tangent to $\mathscr{H}_0^{\widehat{B}}$ at the point $l_i$.  With the tangent vector, we define $\mathscr{N}_i$ and compute the intersection of $\mathscr{N}_i$ with $Spl_0$ as shown in Figure \ref{figure_15}(c) where $l_i$ and $k_i$ are shown as magenta dots for a fixed value of $i$.  For $i=1$ in the flat region of $\mathscr{H}_0^{\widehat{B}}$, the intersection $Spl \cap \mathscr{N}_i$ is unique and our choice of $k_i$ is obvious.  In later regions where $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ are spiralling, intersections $Spl \cap \mathscr{N}_i$ are not always unique.  We make a unique choice of $k_i$ by requiring that it has the smallest arclength distance from $k_{i-1}$ along $\mathscr{H}_0^{\widehat{B}}$.  Some points $k_i$ are outside the convolute of $\mathscr{H}_0^{\widehat{B}}$, however we still include them in our computation.  In panel (c), the point $k_i$ (magenta dot) lies on $\mathscr{H}^{\widehat{B}}$ where it is intersected by $\mathscr{N}_i$.  The approximated integral norm between the two curves for $\widehat{B} = 0.75$ is $7.63856 \times 10^{-3}$.
+
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_16.pdf}
+\caption{Projection into the ($A$, $X$)-plane of the intersection curves $\mathscr{H}^{\widehat{B}}$ (royal purple) and $\mathscr{H}_0^{\widehat{B}}$ (lime green) of $\mathscr{H}$ and $\mathscr{H}_0$ the with section $\Lambda$ for $\widehat{B}=0.8$, $\widehat{B}=0.75$, $\widehat{B}=0.62$, and $\widehat{B}=0.4$ (front to back).  The curve $\mathscr{H}^{\widehat{B}}$ is visible behind $\mathscr{H}^{\widehat{B}}$ only in the region where the curves are spiralling.}
+\label{figure_16}
+\end{figure}
+
+Figure \ref{figure_16} shows curves $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ given by $\widehat{B}=0.8$, $\widehat{B}=0.75$, $\widehat{B}=0.62$, and $\widehat{B}=0.4$ (front to back) in projection into ($B$, $A$, $X$)-space.  The difference in $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ is more pronounced for $\widehat{B}$ closer to $H_B$ because $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ spiral more as $\widehat{B}$ approaches $H_B$.  The integral norm is $findthislater$ for $\widehat{B} = 0.8$, $1.153728 \times 10^{-2}$ for $\widehat{B} = 0.62$, and $4.62565 \times 10^{-4}$ for $\widehat{B} = 0.4$.  Note that in this view $\mathscr{H}^{\widehat{B}}$ and $\mathscr{H}_0^{\widehat{B}}$ given by $\widehat{B}=0.75$ are slightly obscured by the curves given by $\widehat{B}=0.8$.
 
 
 %%MMO section
 \section{Implications for mixed-mode oscillation geometry}
 
 
-\begin{figure}[H]
-\centering
-\includegraphics[]{./figures/MKMO_12.pdf}
-\caption{The isola of MMO $\Gamma$ over $\varepsilon$.  The PO $\Gamma$ is stable along the blue part and unstable along the red part of the isola.  Green dots labeled (a), (b), and (c) correspond to $\Gamma$ as shown in Figure 14.}
-\label{figure_12}
-\end{figure}
+
 
 \begin{figure}[H]
 \centering
-\includegraphics[]{./figures/MKMO_13.pdf}
+\includegraphics[]{./figures/MKMO_17.pdf}
 \caption{The MMO $\Gamma$ (green curve) and the surface of heteroclinic connections $\mathscr{H}$ (red-blue fade) extended in backwards time past the Hopf bifurcation point $H$ are shown in projection onto ($B$,$A$,$X$)-space.  Panel (a) shows the global view of $\Gamma$ tracking $\mathscr{H}$ from $C^2$ to $C^3$ and making a LAO to $C^4_-$.  Panel (b) shows the subsequent slow passage of $\Gamma$ through $H$.  Also shown are $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.}
-\label{figure_13}
+\label{figure_17}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[]{./figures/MKMO_14.pdf}
-\caption{Projections onto ($B$, $A$, $X$)-space of the portion of $\mathscr{H}_0$ (red-blue fade surface) lying in the region $B<0.781$, of the jump back trajectory $\mathscr{J}$ (magenta curve) and its dual $\mathscr{J}^*$ (magenta curve), and of the surface of singular POs $\mathscr{P}$ (midnight grape surface).  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.  Panel (a) shows $\Gamma$ (green curve) for the orignal value of $\varepsilon$.  The entry and exit of $\Gamma$ into the region of SAOs are near $\mathscr{J}$ and $\mathscr{J}^*$, respectively.  Panel (b) shows shows a representative $\Gamma$ (green curve) that remains near $\mathscr{P}$.  Panel (c) shows a representative $\Gamma$ (green curve) that has two LAOs.  Entry and exits into the region of SAOs are again near $\mathscr{J}$ and $\mathscr{J}^*$, respectively.}
-\label{figure_14}
+\includegraphics[]{./figures/MKMO_18.pdf}
+\caption{The isola of MMO $\Gamma$ over $\varepsilon$.  The PO $\Gamma$ is stable along the blue part and unstable along the red part of the isola.  Green dots labeled (a), (b), and (c) correspond to $\Gamma$ as shown in Figure 14.}
+\label{figure_18}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[]{./figures/MKMO_19.pdf}
+\caption{Projections onto ($B$, $A$, $X$)-space of the portion of $\mathscr{H}_0$ (red-blue fade surface) lying in the region $B<0.781$, of the jump back trajectory $\mathscr{J}$ (magenta curve) and its dual $\mathscr{J}^*$ (magenta curve), and of the surface of singular POs $\mathscr{P}$ (midnight grape surface).  Also shown are $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.  Panel (a) shows $\Gamma$ (green curve) for the orignal value of $\varepsilon$.  The entry and exit of $\Gamma$ into the region of SAOs are near $\mathscr{J}$ and $\mathscr{J}^*$, respectively.  Panel (b) shows shows a representative $\Gamma$ (green curve) that remains near $\mathscr{P}$ in both the regions of SAOs and LAOs.  Panel (c) shows a representative $\Gamma$ (green curve) that has two LAOs.  Entry and exits into the region of SAOs are again near $\mathscr{J}$ and $\mathscr{J}^*$, respectively.}
+\label{figure_19}
+\end{figure}
 
-Figure \ref{figure_12} shows the isola (red and blue curve) of the MMO $\Gamma$ over the time scaling parameter $\varepsilon$.  The red segment of the isola indicates where $\Gamma$ has at least one unstable Floquet multiplier and the blue segment indicates where $\Gamma$ is stable.  Green dots labeled (a), (b), and (c) refer to panels of Figure \ref{figure_14}.  Only the green dot labeled (a) corresponds to stable $\Gamma$.  Green dots labeled (b) and (c) correspond to $\Gamma$ that have at least one unstable Floquet multiplier.
+Figure \ref{figure_17} shows $\Gamma$ (green curve) for the original value $\varepsilon=0.0037$ in projection onto ($B$, $A$, $X$)-space with $\mathscr{H}$ (red-blue fade surface) which is extended in backwards time past $H$.  Also shown are $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.  Figure \ref{figure_17}(a) shows the global view of $\Gamma$.  We observe $\Gamma$ entering into the region of SAOs near the stable branch $C^4_-$ of $C$.  The MMO spirals as it enters the scroll-like region of $\mathscr{H}$ and makes a slow passage through the Hopf point $H$ to $S^2$.  An enlargement of $\Gamma$'s entry into the scrolls of $\mathscr{H}$ (red surface) and its slow passage through $H$ are shown in inlay (b).  In the enlargement, we also see $\Gamma$ exit the region of SAOs by spiralling out of the scrolls of $\mathscr{H}$ to the underside of the flatter region of $\mathscr{H}$.  In the global view (a), we observe $\Gamma$ subsequently tracking an orbit segment in this flatter area of $\mathscr{H}$.  The MMO travels into the blue region of $\mathscr{H}$ before following $S^3$.  Near $F_1$, $\Gamma$ falls off $S^3$ and makes a single LAO back to the attracting slow manifold near $C^4_-$.
 
-Figure \ref{figure_13} shows $\Gamma$ (green curve) for the original value $\varepsilon=0.0037$ in projection onto ($B$, $A$, $X$)-space with $\mathscr{H}$ (red-blue fade surface) which is extended in backwards time past $H$.  Also shown are $q$, $C^2$, $C^3$, $C^4_\pm$, $F_1$, $F_2$, and $H$.  The MMO corresponds to the green dot in Figure \ref{figure_12} labeled (a) on the stable segment of the isola.  Figure \ref{figure_13}(a) shows the global view of $\Gamma$.  We observe $\Gamma$ entering into the region of SAOs near the stable branch $C^4_-$ of $C$.  The MMO spirals as it enters the scroll-like region of $\mathscr{H}$ and makes a slow passage through the Hopf point $H$ to $S^2$.  An enlargement of $\Gamma$'s entry into the scrolls of $\mathscr{H}$ (red surface) and its slow passage through $H$ are shown in inlay (b).  In the enlargement, we also see $\Gamma$ exit the region of SAOs by spiralling out of the scrolls of $\mathscr{H}$ to the underside of the flatter region of $\mathscr{H}$.  In the global view (a), we observe $\Gamma$ subsequently tracking an orbit segment in this flatter area of $\mathscr{H}$.  The MMO travels into the blue region of $\mathscr{H}$ before following $S^3$.  Near $F_1$, $\Gamma$ falls off $S^3$ and makes a single LAO back to the attracting slow manifold near $C^4_-$.
+Figure \ref{figure_18} shows the isola (red and blue curve) of the MMO $\Gamma$ over the time scaling parameter $\varepsilon$.  The red segment of the isola indicates where $\Gamma$ has at least one unstable Floquet multiplier and the blue segment indicates where $\Gamma$ is stable.  The green dot labeled (a) corresponds to the MMO shown in Figure \ref{figure_17} as well as Figure \ref{figure_18}(a).  Green dots labeled (b), and (c) refer to Figures \ref{figure_16}(b) and  \ref{figure_16}(c), respectively.  Only the green dot labeled (a), corresponding to the original value of epsilon, has an associated $\Gamma$ that is stable.  The $\Gamma$s associated with green dots labeled (b) and (c) correspond to $\Gamma$ that have at least one unstable Floquet multiplier.
 
-Figure \ref{figure_14} shows $\mathscr{H}_0$ (red-blue fade surface) and several objects of system ($\ref{equation_2}$) with the full system MMO $\Gamma$ in projection onto ($B$,$A$,$X$)-space.  Panels (a), (b), and (c) respectively show $\Gamma$ for values of $\varepsilon$ corresponding to green dots labeled (a), (b), and (c) in Figure \ref{figure_12}.  Also shown are segments of $C^3$, $C^2$, and $C^4_-$ with $F_1$ and $H$.  A jump back trajectory $\mathscr{J}$ (magenta curve) connects $F_1$ to the equilibrium of (\ref{equation_2}) in $C^4_-$ corresponding to $B=F_{1_B}$.  The jump back trajectory's dual $\mathscr{J}^* \in \mathscr{H}_0$ (magenta curve) lies on the other side of and at an equal distance away from $H$.  A surface of singular POs $\mathscr{P}$ (midnight grape surface) for varying $\varepsilon$ forms a cone that originates from $H$ and terminates in a homoclinic connection of a saddle of $(\ref{equation_2})$ in $C^3$.  Panel (a) shows $\Gamma$ for the original value of $\varepsilon=0.0037$.  The LAO after $\Gamma$ passes $F_1$ can be seen tracking $\mathscr{J}$ into the region of SAOs.  We can easily see the passage of $\Gamma$ through the Hopf point $H$, compare with Figure \ref{figure_13}.  As $\Gamma$ passes through $H$, we observe it spiralling through the interior of $\mathscr{P}$.  The MMO's exit out of the region of LAOs occurs near $\mathscr{J}^*$. Drift in the $B$-direction causes $\Gamma$ to distances itself from $\mathscr{J}^*$ on its way to $C^3$.  Panel (b) shows $\Gamma$ for $\varepsilon=0.0005$.  The MMO makes an LAO to the region of SAOs via the homoclinic connection at the widest end of $\mathscr{P}$.  The SAOs of $\Gamma$ track $\mathscr{P}$, but do not pass through $H$.  Rather, $\Gamma$ leaves $C^4_-$ before reaching $C^3$, passing through $\mathscr{P}$ in the ($B$, $A$, $X$)-projection.  When $\Gamma$ is away from $C$, we see less drift of $\Gamma$ in the $B$-direction due to the smaller value of $\varepsilon$, compare with panel (a).  Panel (c) shows $\Gamma$ for $\varepsilon=0.0038$ which has two LAOs.  For this value of $\varepsilon$, $\Gamma$ enters and exits the region of SAOs near $\mathscr{J}$ and $\mathscr{J}^*$ respectively.  An early LAO back to $C^2$ occurs between exit and reentry into the region of SAOs.
+Figure \ref{figure_16} shows $\mathscr{H}_0$ (red-blue fade surface) and several objects of system ($\ref{equation_2}$) with the full system MMO $\Gamma$ in projection onto ($B$,$A$,$X$)-space.  Panels (a), (b), and (c) respectively show $\Gamma$ for values of $\varepsilon$ corresponding to green dots labeled (a), (b), and (c) in Figure \ref{figure_18}.  Also shown are segments of $C^3$, $C^2$, and $C^4_-$ with $F_1$ and $H$.  A jump back trajectory $\mathscr{J}$ (magenta curve) connects $F_1$ to the equilibrium of (\ref{equation_2}) in $C^4_-$ corresponding to $B=F_{1_B}$.  The jump back trajectory's dual $\mathscr{J}^* \in \mathscr{H}_0$ (magenta curve) lies on the other side of and at an equal distance away from $H$.  A surface of singular POs $\mathscr{P}$ (midnight grape surface) for varying $\varepsilon$ forms a cone that originates from $H$ and terminates in a homoclinic connection of a saddle of $(\ref{equation_2})$ in $C^3$.  Panel (a) shows $\Gamma$ for the original value of $\varepsilon=0.0037$.  The LAO after $\Gamma$ passes $F_1$ can be seen tracking $\mathscr{J}$ into the region of SAOs.  We can easily see the passage of $\Gamma$ through the Hopf point $H$, compare with Figure \ref{figure_15}.  As $\Gamma$ passes through $H$, we observe it spiralling through the interior of $\mathscr{P}$.  The MMO's exit out of the region of LAOs occurs near $\mathscr{J}^*$. Drift in the $B$-direction causes $\Gamma$ to distances itself from $\mathscr{J}^*$ on its way to $C^3$.  Panel (b) shows $\Gamma$ for $\varepsilon=0.0005$.  The MMO makes an LAO to the region of SAOs via the homoclinic connection at the widest end of $\mathscr{P}$.  The SAOs of $\Gamma$ track $\mathscr{P}$, but do not pass through $H$.  Rather, $\Gamma$ leaves $C^4_-$ before reaching $C^3$, passing through $\mathscr{P}$ in the ($B$, $A$, $X$)-projection.  When $\Gamma$ is away from $C$, we see less drift of $\Gamma$ in the $B$-direction due to the smaller value of $\varepsilon$, compare with panel (a).  Panel (c) shows $\Gamma$ for $\varepsilon=0.0038$ which has two LAOs.  For this value of $\varepsilon$, $\Gamma$ enters and exits the region of SAOs near $\mathscr{J}$ and $\mathscr{J}^*$ respectively.  An early LAO back to $C^2$ occurs between exit and reentry into the region of SAOs.
 
-An animation of the change in $\Gamma$'s geometry for varying $\varepsilon$ can be found in the supplementary materials.  In this animation, we see the $\Gamma$ shown in Figure \ref{figure_14}(a) morphing smoothly into the $\Gamma$ shown in Figure \ref{figure_14}(b).  We then see $\Gamma$ shown in Figure \ref{figure_14}(b) morphing into the $\Gamma$ shown in Figure \ref{figure_14}(c).  Finally, we see $\Gamma$ shown in Figure \ref{figure_14}(c) morph back into $\Gamma$ shown in Figure \ref{figure_14}(a).  The green dot shown in the inlay tracks the location of $\Gamma$ around the isola from figure \ref{figure_12}.
-
-%\newpage
-%\vspace*{22cm}
-%
-%\begin{figure}[H]
-%\begin{picture}(9,5)(0,0)
-%\put(-60,350){\subfigure[]{\label{MMO2_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
-%\put(-60,15){\subfigure[]{\label{MMO2_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
-%\put(340,200){\subfigure[]{\label{MMO2_isola}\includegraphics[width=0.4\textwidth, height=0.2\textheight, page=28]{figures.pdf}}}
-%\put(440,207){\Large $\varepsilon$}
-%\put(335,250){\Large \rotatebox{90}{max  $A$}}
-%\end{picture}
-%\caption{The MMO for $\varepsilon = 0.0005$, neon green, is shown with $\mathscr{H}_0$, red to blue fade, in ($B$,$A$,$X$)-, (a), and ($B$,$A$,$Y$)-, (b), projections.  Also shown is the critical manifold, the jump back trajectory and its dual in magenta, and the surface of singular POs in midnight grape.  The isola on which the MMO lies is shown in (c) where red curves indicate where the MMO has at least one unstable Floquet multiplier and blue curves indicate where the MMO is stable.  A neon green dot indicates the MMOs on the rightmost fold of the isola.}
-%\label{MMO2}
-%\end{figure}
-%
-%
-%\newpage
-%
-%
-%\newpage
-%\vspace*{22cm}
-%
-%\begin{figure}[H]
-%\begin{picture}(9,5)(0,0)
-%\put(-60,350){\subfigure[]{\label{MMO3_BAX}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
-%\put(-60,15){\subfigure[]{\label{MMO3_BAY}\includegraphics[width=\textwidth, height=0.42\textheight, page=28]{figures.pdf}}}
-%\put(340,200){\subfigure[]{\label{MMO3_isola}\includegraphics[width=0.4\textwidth, height=0.2\textheight, page=28]{figures.pdf}}}
-%\put(440,207){\Large $\varepsilon$}
-%\put(335,250){\Large \rotatebox{90}{max  $A$}}
-%\end{picture}
-%\caption{The MMO for $\varepsilon = 0.0038$, neon green, is shown with $\mathscr{H}_0$, red to blue fade, in ($B$,$A$,$X$)-, (a), and ($B$,$A$,$Y$)-, (b), projections.  Also shown is the critical manifold, the jump back trajectory and its dual in magenta, and the surface of singular POs in midnight grape.  The isola on which the MMO lies is shown in (c) where red curves indicate where the MMO has at least one unstable Floquet multiplier and blue curves indicate where the MMO is stable.  A neon green dot indicates the MMOs near the leftmost fold of the isola.}
-%\label{MMO3}
-%\end{figure}
-%%%stuff from here down probably isn't that good, but provides information needed to rewrite the figure descriptions
-
-
-%\newpage
-%
-%We investigate the interaction between the MMO and $\mathscr{H}$ and $\mathscr{H}_0$ respectively for varying $\varepsilon$.  We consider the original MMO of interest corresponding to the original value $\varepsilon=0.0037$ as well as MMOs corresponding to $\varepsilon=0.0038$ and $\varepsilon=0.0005$.  These are representative MMOs of different type within the MMO parameter regime.  For the original MMO, we consider the effect of the surface $\mathscr{H}$ and then explore the singular objects, including $\mathscr{H}_0$, that also affect the geometry.  For the MMOs corresponding to $\varepsilon=0.0038$ and $\varepsilon=0.0005$ we only consider the singular objects that organize the MMO geometry.  Our analysis in section 5.3 shows that the difference between $\mathscr{H}$ and $\mathscr{H}_0$ is minimal and so it is reasonable to only consider $\mathscr{H}_0$ for MMOs corresponding to small $\varepsilon$.
-%
-%Figures \ref{MMO_hetclin}(a) and (b)  show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections of the mixed-mode oscillation, neon green, plotted with $\mathscr{H}$, red to blue fade.  In this figure, we have extended $\mathscr{H}$ so that $\mathbf{u}(0)_B = \mathbf{w}(1)_B = 0.8724$. This facilitates comprehension of the MMO's entry into the region of SAOs, although it obscures some of the geometry of $\mathscr{H}$.  The surface serves as a reinjection mechanism from the region of SAOs into the region of LAOs.  The MMO begins near $C^4_-$ and spirals as it passes through the $H$ point to $C^2$.  The distance in $B$ between $H$ and the MMO's exit from the region of SAOs is approximately the same as the distance in $B$ between the MMO's entry and $H$.  After exiting the region of SAOs, the MMO traverses $\mathscr{H}$ to reach $C^3$.  The MMO follows $C^3$ and then makes a large, fast excursion mostly in the $X$ and $Y$ directions before being attracted back to $C^4_-$ again.  Shown in the inlays are enlargements of the region of SAOs.  In these enlargements, we see the details of the scrolling region of $\mathscr{H}$ and the slow passage of the MMO through the Hopf bifurcation.
-%
-%Figure \ref{MMO1}(a) and (b) show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)- projections of an enlargement of the original MMO with several singular objects.  The singular surface of heteroclinic connections $\mathscr{H}_0$ is plotted fading from red to blue.  The jump back trajectory, plotted in magenta, is the trajectory in \ref{equation_2} that connects $F_1$ to the equilibrium of (\ref{equation_2}) for $B=F_{1_B}$ lying on $C^4_-$.  The jump trajectory's dual is the trajectory lying on $\mathscr{H}_0$ that is at the same distance from $H$ with respect to $B$ as the jump trajectory.  A surface of saddle periodic orbits (POs) of system (\ref{equation_2}) is plotted in midnight grape.  These originate from $H$ and terminate in a homoclinic connection of an equilibrium of (\ref{equation_2}) lying on $C^3$.  The MMO's entry into and exit from the region of SAOs remain close to the jump orbit and it's dual respectively.  A significant amount of drift in the $B$ direction can be seen in the MMO away from the slow manifolds.  Figure \ref{MMO1}(c) shows an isola in parameter space that the MMO lies on.  The horizontal axis indicates the value of $\varepsilon$ and the vertical axis indicates the maximum value of the variable $A$ on the MMO.  Red curves indicate where the MMO has at least one unstable Floquet multiplier while blue curves indicate where the MMO is stable.  The location of the MMO on the isola is indicated with a green dot and signifies that the original MMO is stable.
-%
-%Figure \ref{MMO2}(a) and (b) show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections of a zoom of the MMO for $\varepsilon=0.0005$ with the singular objects described above.  The MMO, plotted in neon green, remains close to the surface of singular POs.  The MMO enters the region of SAOs via the homoclinic connection of the equilibrium lying on $C^3$ and the SAOs track the interior of the surface of singular POs in the ($B$,$A$,$X$)- and ($B$,$A$,$Y$)- projections.  The MMO exits the region of SAOs by passing through the surface of singular POs in the ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections and then being repelled away from it.  Figure \ref{MMO2}(a) shows the location of the MMO on the leftmost fold of the isola.
-%
-%Figure \ref{MMO3}(a) and (b) show ($B$,$A$,$X$)- and ($B$,$A$,$Y$)-projections of a zoom of the MMO for $\varepsilon=0.0005$ with the singular objects described above.  Similarly to the MMO at $\varepsilon=0.0037$, the SAOs for the MMO at $\varepsilon = 0.0038$ are due to a slow passage through $H$.  The entry and exits from the region of SAOs are close to the jump trajectory and its dual.  An early return to $C^2$ occurs between the MMO's exit and reentry into the region of SAOs.  This MMO differs from the other MMOs discussed as it has two LAOs instead of one.  Figure \ref{MMO3}(c) shows the location of the MMO at $\varepsilon=0.0038$ on the isola, near to the rightmost fold.
+An animation of the change in $\Gamma$'s geometry for varying $\varepsilon$ can be found in the supplementary materials.  In this animation, we see the $\Gamma$ shown in Figure \ref{figure_16}(a) morphing smoothly into the $\Gamma$ shown in Figure \ref{figure_16}(b).  We then see $\Gamma$ shown in Figure \ref{figure_16}(b) morphing into the $\Gamma$ shown in Figure \ref{figure_16}(c).  Finally, we see $\Gamma$ shown in Figure \ref{figure_16}(c) morph back into $\Gamma$ shown in Figure \ref{figure_16}(a).  The green dot shown in the inlay tracks the location of $\Gamma$ around the isola from figure \ref{figure_14}.
 
 \newpage
 \bibliography{elle}
 
 \end{document}
 
-%%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-%                                                                                                                                                                                                   SECTION GRAVEYARD: RESURRECTIONS AVAILABLE UPON REQUEST
+%\subsection{Real eigenvalues}
 %
-
-%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-%%---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-%                                                                         2PBVP SET-UP FOR S^3
-%%---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-%\subsection{Boundary value implementation}
-%    
-%We compute $S^3$ by setting up an appropriately defined two-point boundary-value problem (2PBVP) with the pseudo-arclength continuation package \textsc{Auto} \cite{AUTO}.  We view $S^3$ as an orbit segment $\mathbf{u} = \{\mathbf{u}(s)| 0 \leq s \leq 1 \}$ of the rescaled system
-%
+%For the first three steps of the computation, the parameter $B$ is kept constant at a value of $0.4$.  We compute an initial orbit segment on $W^{s}(C^3)$ following the algorithm for computing a two-dimensional global manifold as a solution family of BVPs outlined in \cite{Red_book}.  We consider the equilibrium $\widetilde{p}_{\Re}$ of (\ref{equation_2}) for $B=0.4$ such that $\begin{pmatrix} \widetilde{p}_{\Re_A},& 0.4,&\widetilde{p}_{\Re_X},&\widetilde{p}_{\Re_Y} \end{pmatrix} \in C^3$.  We define a two-dimensional plane $\widetilde{\Sigma}_{\Re} = \{ \omega \in \mathbb{R}^3  \; | \; \omega_Y = \widetilde{p}_{\Re_Y} + r_{\Re}\mathbf{v}_{2_Y} \}$ and a one-dimensional circle $\widetilde{\Gamma}_{\Re}= \{ \omega \in \mathbb{R}^3  \; | \; \widetilde{p}_{\Re} + r_{\Re}(\mathbf{v}_1\sin(\theta) + \mathbf{v}_2\cos(\theta)), \theta \in [0,2\pi) \}$  where $r_{\Re}=0.0001$ and $\mathbf{v}_1$ and $\mathbf{v}_2$ are the stable eigenvectors of $\widetilde{p}_{\Re}$.  The radius $r_{\Re}$ of $\widetilde{\Gamma}_{\Re}$ is chosen small enough that $\widetilde{\Gamma}_{\Re}$ approximates a curve lying on $W^{s}(\widetilde{p}_{\Re})$ and large enough that $\textsc{Auto}$ can distinguish points on $\widetilde{\Gamma}_{\Re}$ from $\widetilde{p}_{\Re}$ itself.  The point $\widetilde{p}_{\Re} + r_{\Re}\mathbf{v}_2$ is then a solution to the 2PBVP defined by (\ref{fast_rescale}) and the conditions
 %
 %\begin{equation}
-%\frac{d\mathbf{u}}{ds} = TF(\mathbf{u}),
-%\label{equation_4}
-%\end{equation}
-%    
-%\noindent
-%where $\mathbf{u}(s) = (A(s), B(s), X(s), Y(s)) \in \mathbb{R}^4$ is the vector of chemical concentrations, $F$ is the right-hand side of (\ref{equation_1}) and $T$ is the total integration time on the fast timescale, $t=Ts$.
-%    
-%To obtain an initial solution of (\ref{equation_4}), we perform a homotopy step as follows.  First, we choose $B_{\mathrm{out}} = 0.75$ at a value that corresponds to a point $p_{\mathrm{out}} \in C^3$ close to $F_1$.  We then impose the conditions
-%    
-%\begin{equation}
-%\mathbf{u}(0) \in \cup_{p \in C^3} E^u(p),
-%\label{BC3}
-%\end{equation}
-%and
-%\begin{equation}
-%\mathbf{u}(1) \in E^s(p^t_{\mathrm{out}}),
-%\label{BC2}
-%\end{equation}
-%\noindent
-%that each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$, respectively.  The point $p$ is then a solution to the two-point boundary-value problem defined by (\ref{equation_4})--(\ref{BC2}) with $T=0$.  We then  decrease $\mathbf{u}_B(0)$ towards $F_2$ while the total integration time increases.  The integration is stopped when $\mathbf{u}_B(0)=B_{\text{in}}=0.4$, corresponding to a point $p_{\text{out}} \in C^3$, before it reaches $F_2$.
-%    
-%We remark that $D_\delta(B_{\mathrm{in}})$ defines a three-parameter family of orbit segments with initial conditions in the sphere.  We can refine our search for orbits that enter the cylinder via $D_\delta(B_{\mathrm{in}})$ and exit it via $D_\delta(B_{\mathrm{out}})$ by observing that, because $S^3$ is of saddle type, the initial point of a candidate orbit segment must lie in a small neighborhood of $W^s$ in the sphere $D_\delta(B_{\mathrm{in}})$.  Similarly the end point must remain in a small neighborhood of $W^u$ in the sphere $D_\delta(B_{\mathrm{out}})$.
-%    
-%We define the two-dimensional plane $\Phi = \{E^u(p^t_{\mathrm{in}}) + \begin{pmatrix} 0 & 0 & 0 & B \end{pmatrix}^{tr}| B \in \mathbb{R} \}$ that is transverse to $W^s \cap D_{\delta}(B_{\mathrm{in}})$ and contains $E^u(p_{\text{stop}})$.  We impose the boundary conditions
-%    
-%\begin{equation}
-%\mathbf{u}(0) \in \Phi
-%\label{BC1}
-%\end{equation}
-%    
-%\noindent
-%which impose two conditions on $\mathbf{u}(0)$.  The orbit segment resulting from the homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC2}), and (\ref{BC1}).  The total integration time $T$ is a free parameter in this 2PBVP, which means that there exists a one-parameter family of solutions.  To select a unique orbit segment from this solution family, we impose the additional condition that $T$ be locally maximal.  This will be the orbit segment which locally has the longest slow segment in the geometric sense and will be the best approximation of $S^3$.  In the case where there are two such candidates, we choose one.
-%    
-%In the final continuation run we increase the integration time until a fold in $T$ is detected.  The resulting orbit segment approximates the saddle slow manifold, $S^3$.
-%   
-%A projection of $S^3$ into the $(B,A)$-plane is shown as the green curve in Figure \ref{figure_2}.  A keen observer will note that, near $D_\delta(B_{\mathrm{in}})$, $S^3$ includes a segment of sharp decrease mostly in the $A$-direction.  This is due to the final step in our computation, where we restrict $\mathbf{u}(0)$ to move in the plane $\Phi$.  In order to increase the integration time, $\mathbf{u}(0)$ then moves toward the one-dimensional $W^s \cap \Sigma$ while $\mathbf{u}(1)$ moves toward the point $W^u \cap E^s(p^t_{\mathrm{out}})$.  The fold in $T$ signals that maximal integration time is reached and $\mathbf{u}(0)$ and $\mathbf{u}(1)$ are near respective intersection points. The result is an orbit segment containing a slow segment between two fast segments near $W^s$ and $W^u$ respectively.  In Figure \ref{figure_2}, the segment lying near $W^u$ is so short that it is not visible.  We obtain an approximation of $S^3$ that does not include fast segments by restricting the orbit segment further within the interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$.
-%   
-%The computation of the slow manifold $S^2$ associated with $C^2$ presents some extra challenges due to a saddle equilibrium of the full system lying on $C^2$ at $B = 0.323$ and the Hopf bifurcation of the fast subsystem at $B = 0.897$.  The saddle equilibrium causes a change in the direction of the flow near $C^2$ which causes a locus of points in $\mathscr{D}(B_{\mathrm{out}})$ at which the flow is tangent to the sphere for $\Delta$ sufficiently large.  It is important to note that the locus of tangency points approaches $C^2$ as $B$ decreases toward the $B$-coordinate value of $F_1$.  Orbit segments in the region of $C^2$ may also increase in integration time by including segments that follow the nearby stable slow manifold further in backwards time.  These problematic segments may be inside or outside the tube $\cup_{B \in [B_{\mathrm{in}},B_{\mathrm{out}}]}\mathscr{D}(B)$ depending on our choice of $B_{\mathrm{in}}$ and $B_{\mathrm{out}}$.  In order to overcome these difficulties, boundary conditions need to be chosen carefully to ensure that an increase in integration time results only from an approach to a saddle slow manifold $S^2$.  To this end, we follow the steps for computing $S^3$ while making necessary modifications to boundary conditions.
-%
-%We begin by choosing $B_{\mathrm{in}} = 0.35$ slightly larger than the $B$-coordinate value of the saddle equilibrium of the full system and choosing $B_{\mathrm{out}}=1.0 > H_B$.  We select the unique point $\bar{p} \in C^2$ such that $\bar{p}_B = 0.45$.  We denote by $\Xi_{\textsc{hom}}$ the plane passing through $\bar{p}$ spanned by the real and imaginary parts of the complex conjugate eigenvectors of the stable equilibrium of the fast subsystem at $B=1.0$.  The plane $\Xi_{\textsc{hom}}$ is transverse to $W^s(\bar{p})$ because the complex conjugate eigenvectors at $B=1.0$ change stability as the stable fast-subsystem equilibrium passes through the Hopf bifurcation with decreasing $B$.  For this reason, they are perturbations of the vectors spanning $E^u(\bar{p})$ which is transverse to $W^s(\bar{p})$.  We also define the two-dimensional section $\Gamma = \{ w \in \mathbb{R}^4 | w_A=\bar{p}_A, w_Y=\bar{p}_Y \}$.  A homotopy step is performed by imposing the boundary conditions
-%
-%\begin{equation}
-%\mathbf{u}(0) \in \Xi_{\textsc{hom1}},
-%\label{BC_unstable1}
+%	\mathbf{u}(1) \in \widetilde{\Gamma}_{\Re},
+%	\label{top_end}
 %\end{equation}
 %
 %and
 %
 %\begin{equation}
-%\mathbf{u}(1) \in \Gamma
-%\label{BC_unstable2}
+%	\mathbf{u}(0) \in \widetilde{\Sigma}_{\Re}
 %\end{equation}
 %
 %\noindent
-%which impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$ respectively.  The point $\bar{p}$ is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable1}), and (\ref{BC_unstable2}).  We then increase $T$ until $\mathbf{u}(1)$ attains a Euclidean distance of $0.1$ from the intersection of $C^2$ with the three-dimensional $B = \mathbf{u}_B(1)$ section.  This occurs when $ \mathbf{u}_B(1) = 0.437$ corresponding to the point $\bar{p} \in C^2$.  Keeping $\mathbf{u}(1)$ at a Euclidean distance of $0.1$ rom the intersection of $C^2$ with the three-dimensional $B = \mathbf{u}_B(1)$ section ensures that $\mathbf{u}(1)$ remains in a region of $\cup_{B \in [B_{\mathrm{in}}, B_{\mathrm{out}}]}\mathscr{D}(B)$ where the flow is from right to left in the $(B,A)$-projection.  The resulting orbit segment has a fast approach to $C^2$ at $B=0.45$ and remains $O(\epsilon)$ close to it for an $O(1)$ amount of slow time before making a fast exit from $\cup_{B\in[B_{\textsc{in}}, B_{\textsc{out}}]} \mathscr{D}(B)$ at $B=0.437$.
+%for $T=0$.  An initial orbit segment $\mathbf{u}$ on $W^{s}(C^3)$ with start point in $\mathscr{L}$ is obtained by decreasing $\mathbf{u}(0)_A$ while allowing integration time to increase in backwards time, corresponding to negative $T$.  The continuation is stopped when $\mathbf{u}(0) \in \mathscr{L}$, in other words, when $\mathbf{u}(0)_A = 6.0$.
 %
-%A second homotopy step is performed to extend $\mathbf{u}(t)$ backwards in time past $H$.  We define a one-dimensional circle $l = \{w \in \mathbb{R}^4 | w_B = 0.437, w_Y =\bar{p}_Y, |w-\bar{p}| = 0.1\}$ and the three-dimensional $\Xi_{\textsc{hom2}} = \{\Xi_{\textsc{hom1}} + \begin{pmatrix} 0 & B & 0 & 0 \end{pmatrix}^{tr}| B \in \mathbb{R} \}$.  We perform a second homotopy step by imposing the boundary conditions
+%In the second step, we obtain an initial orbit segment on $W^{u}(C^2)$ with end point in $\mathscr{L}$ through almost identical means.  We consider the equilibrium $\hat{p}_{\Re}$ of (\ref{equation_2}) for $B=0.4$ such that $\begin{pmatrix} \hat{p}_{\Re_A}, &0.4, & \hat{p}_{\Re_X}, & \hat{p}_{\Re_Y} \end{pmatrix} \in C^2$ and its unstable eigenvectors $\mathbf{k}_1$ and $\mathbf{k}_2$.  We then define a two-dimensional plane $\widehat{\Sigma}_{\Re} = \{ \omega \in \mathbb{R}^3 \; | \; \omega_Y = \hat{p}_{\Re_Y} + r_{\Re}\mathbf{k}_{2_Y}\}$ and a one-dimensional circle $\widehat{\Gamma}_{\Re} = \{ \omega \in \mathbb{R}^3  \; | \; \hat{p}_{\Re} + r_{\Re}(\mathbf{k}_1\sin(\theta) + \mathbf{k}_2\cos(\theta)), \theta \in [0,2\pi) \}$.  The point $\hat{p}_{\Re} + r_{\Re}\mathbf{k}_2$ is then a solution to the 2PBVP defined by (\ref{fast_rescale}) and the conditions
 %
 %\begin{equation}
-%\mathbf{u}(0) \in \Xi_{\textsc{hom2}},
-%\label{BC_unstable3}
+%	\mathbf{w}(0) \in \widehat{\Gamma}_{\Re}
+%	\label{bottom_start}
 %\end{equation}
 %
 %and
 %
 %\begin{equation}
-%\mathbf{u}(1) \in l.
-%\label{BC_unstable4}
+%	\mathbf{w}(1) \in \widehat{\Sigma}_{\Re},
 %\end{equation}
-%\noindent
-%The orbit segment $\mathbf{u}(t)$ obtained from the first homotopy step is then a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable3}), and (\ref{BC_unstable4}).  In the second homotopy step, we increase integration time while $\mathbf{u}(0)_B$ increases.  The continuation is stopped when $\mathbf{u}(0)_B=1.0$.  The resulting orbit segment has a fast approach to the stable slow manifold at $B=1.0$ before passing $H$ and remaining close to $C^2$ until its fast exit at $B = 0.437$.  
 %
-%In the next step, we aim to find the orbit segment that has the highest integration time in the tube $\cup_{b\in[B_{\textsc{in}}, = 0.437]} \mathscr{D}(B)$.  We define the two-dimensional plane $\Xi = \Xi_{\textsc{hom2}} \cap \{w \in \mathbb{R}^4 | w_B=1.0 \}$ and the two-dimensional sphere  $\mathscr{D} = \{w \in \mathbb{R}^4 | w_B = 0.437, |w-\bar{p}| = 0.1\}$.  We impose the boundary conditions
+%\noindent
+%for $T=0$.  We increase $\mathbf{w}(1)_A$ while also allowing integration time to increase in forward time, corresponding to positive $T$.  The continuation is stopped when $\mathbf{w}(1) \in \mathscr{L}$.
+%
+%In the third step, we define the Lin vector 
 %
 %\begin{equation}
-%\mathbf{u}(0) \in \Xi,
-%\label{BC_unstable5}
+%	\mathbf{v}_Z = \frac{\mathbf{u}(0) - \mathbf{w}(1)}{\left\lVert \mathbf{u}(0) - \mathbf{w}(1) \right\lVert},
+%	\label{Lin_vector_singular}
+%\end{equation}
+%
+%\noindent
+%which is three dimensional.  We also define a normal vector $\mathbf{n} = \begin{pmatrix} 0, & -\mathbf{v}_{Z_Y}, &-\mathbf{v}_{Z_X} \end{pmatrix}$ such that $\mathbf{n} \perp \mathbf{v}_Z$.  We then impose the conditions 
+%
+%\begin{align}
+%	\begin{split}
+%		\mathbf{u}(0), \mathbf{w}(1) \in \mathscr{L} \\ \vspace{2mm}
+%		\begin{pmatrix}\mathbf{u}(0) - \mathbf{w}(1)\end{pmatrix} \cdot \mathbf{n} =0,
+%	\end{split}
+%	\label{singular_Z}
+%\end{align}
+%
+%\noindent
+%to restrict $[ \mathbf{u}(0)-\mathbf{w}(1)] \in Z$, the space spanned by $\mathbf{v}_Z$.  To close the Lin gap, $\eta$ we impose conditions (\ref{top_end}), (\ref{bottom_start}), and (\ref{singular_Z}) while decreasing $\eta$ and allowing integration time to move freely.  The continuation is stopped when $\eta = 0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}_0$.  We can then sweep out the portion of $\mathscr{H}_0$ corresponding to real eigenvalues increasing and decreasing the parameter $B$ inside the interval ($F_{2_B}$, 0.47685750162] while requiring that $\eta=0$.  We choose to stop our continuation at $B = 0.47685750162$, before the eigenvalues switch from real to complex conjugate.  Unlike the computation of $\mathscr{H}$, the computational set up for $\mathscr{H}_0$ allows us to decrease $B$ past the value of $q_B$.  We are thus able to compute the entire portion of $\mathscr{H}_0$ corresponding to real eigenvalues.
+%
+%\subsection{Complex conjugate eigenvalues}
+%
+%The method for computing an initial orbit segment $\mathbf{u}$ in $W^{s}(C^3)$ for complex conjugate eigenvalues is identical to the computation for real eigenvalues except that we choose $B=0.7$ instead of $B=0.4$ and consider the saddle equilibrium $\widetilde{p}_{\Im}$ of (\ref{equation_2}) such that $\begin{pmatrix}\widetilde{p}_{\Im_A}, &0.7, &\widetilde{p}_{\Im_X}, &\widetilde{p}_{\Im_Y} \end{pmatrix} \in C^3$.  We choose $\mathscr{L}$ again to be the two-dimensional plane given by $A=6.0$.
+%
+
+%
+%The computation of orbit segments on $W^u(C^2)$ for complex conjugate eigenvalues presents an additional challenge.  Some orbit segments on $W^u(C^2)$ contain a segment that spirals tightly around $C^2$ while others do not.  Orbit segments that spiral tightly require larger mesh sizes than those that do not, however mesh size is held constant in our continuation.  To address this issue, we define a radius $r_{\Im} =  r_{\Im}(B)$, where $r_{\Im}(B)$ is the linear function such that $r_{\Im}(0.47685750164)=0.0001$ and $r_{\Im}(0.86)=0.2$.  By choosing a start point farther away from $C^2$ in regions where orbit segments spiral tightly, we avoid computing those tightly spiralling pieces of the orbit segments.
+%
+%We consider the equilibrium $\hat{p}_{\Im}$ of (\ref{equation_2}) for $B=0.7$ such that $\begin{pmatrix} \hat{p}_{\Im_A},& 0.7,&\hat{p}_{\Im_X},&\hat{p}_{\Im_Y} \end{pmatrix} \in C^2$.  We define a two-dimensional plane $\widehat{\Sigma}_{\Im} = \{ \omega \in \mathbb{R}^3  \; | \; \omega_Y = \hat{p}_{\Im_Y} + r_{\Im}(0.7) \mathbf{h}_{2_Y} \}$ and a one-dimensional circle $\widehat{\Gamma}_{\Re}= \{ \omega \in \mathbb{R}^3  \; | \; \hat{p}_{\Im} + r_{\Im}(0.7)(\mathbf{h}_1\sin(\theta) + \mathbf{h}_2\cos(\theta)), \theta \in [0,2\pi) \}$  where $\mathbf{h}_1$ and $\mathbf{h}_2$ are the real and complex parts of the unstable complex conjugate eigenvectors of $\hat{p}_{\Im}$.  The point $\hat{p}_{\Im} + r_{\Im}(0.7)\mathbf{h}_2$ then becomes a solution to the 2PBVP defined by (\ref{fast_rescale}) and the boundary conditions
+%
+%\begin{equation}
+%	\mathbf{w}(0) \in \widehat{\Gamma}_{\Im}
+%	\label{bottom_start_complex}
 %\end{equation}
 %
 %and
 %
 %\begin{equation}
-%\mathbf{u}(1) \in D
-%\label{BC_unstable6}
-%\end{equation}
-%\noindent
-%which each impose two conditions on $\mathbf{u}(0)$ and $\mathbf{u}(1)$ respectively.  The orbit segment resulting from the second homotopy step is a solution to the 2PBVP defined by (\ref{equation_4}), (\ref{BC_unstable5}), and (\ref{BC_unstable6}).  Keeping the $\mathbf{u}(1)$ close to $C^2$ in the $B = 0.437$ section ensures that $\mathbf{u}(1)$ does not encounter a change in direction of the flow caused by the saddle equilibrium of the full system.  Maximal integration then corresponds to the orbit segment that remains slow for the longest amount of time inside $\cup_{b\in[B_{\textsc{in}}, = 0.437]} \mathscr{D}(B)$.  The integration time is increased until a fold in $T$ corresponding to maximal integration time is detected.
-%
-%Finally, to we perform a final homotopy step to obtain the orbit segment $S^2$ that enters $\cup_{b\in[B_{\mathrm{in}}, B_{\mathrm{out}}]} \mathscr{D}(B)$ at $B_{\mathrm{in}}$ and exits at $B_{\mathrm{out}}$.  We impose the boundary condition
-%
-%\begin{equation}
-%\mathbf{u}(1) \in \cup_{p \in C^2}\{w \in \mathbb{R}^4 | |w-p| = 0.1\},
-%\label{BC_unstable7}
+%	\mathbf{w}(1) \in \widehat{\Sigma}_{\Im},
 %\end{equation}
 %
 %\noindent
-%and continue the fold in $T$ with decreasing $\mathbf{u}_B(1)$.  The continuation is stopped when $\mathbf{u}_B(1) = B_{\textsc{in}}$.
+%for $T=0$.  To obtain a $\mathbf{w}$ such that $\mathbf{w}(1) \in \mathscr{L}$, we increase $\mathbf{w}(1)_A$ while allowing $T$ to increase and stop the continuation when $\mathbf{w}(1)_A=6.0$.
 %
-%\begin{figure}[!t]
-%\begin{center}
-%\includegraphics[page=14, width=\textwidth]{figures.pdf}
-%\end{center}
-%\caption{A computation $S^2$ is projected into the $(B,A)$-plane in green.  A segment of $C^2$ is plotted as a raspberry dotted line.  The stable branch of the critical manifold near $C^2$ is plotted in black.}
-%\label{figure_2_unstable}
-%\end{figure}
-%
-%A projection of $S^2$ into the $(B,A)$-plane is plotted in green in Figure \ref{figure_2_unstable}.  The orbit segment includes a portion of the stable slow manifold to the right of the $H$ as well as a portion of the unstable manifold of $S^2$.  To obtain an orbit segment that only includes segments of the saddle slow manifold associated with $C^2$, we can restrict the orbit segment further inside the interval $[B_{\mathrm{in}},B_{\mathrm{out}}]$.
+%We close the Lin gap by imposing the conditions (\ref{top_end}), (\ref{singular_Z}), and (\ref{bottom_start_complex}) while decreasing $\eta$ and allowing integration time to move freely.  The continuation is stopped when $\eta=0$ at which point the concatenation of $\mathbf{w}$ with $\mathbf{u}$ forms an approximation of a heteroclinic connection on $\mathscr{H}_0$.  We can then sweep out the portion of the manifold corresponding to complex conjugate eigenvalues by increasing and decreasing the parameter B inside the interval $[0.47685750164, H)$ while requiring that $\eta=0$.  We choose to stop the continuation at $B=0.47685750164$ before the eigenvalues switch from complex conjugate to real.
