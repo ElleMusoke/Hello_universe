@@ -1,0 +1,82 @@
+\documentclass{ws-ijbc}
+
+%%%%%%%%%%%%%%%%
+% Instructions %
+%%%%%%%%%%%%%%%%
+% Set the document class and settings to match the final document that these figures_raw will be included into
+% This will output a pdf with a page for each figure, nicely cropped according to picture dimenstions as defined below in the `Figure' Section. Inlcude in the final document by using package 'graphicx' and command \includegraphics[page=<page of figure>]{figures_raw.pdf}
+% The following package is used to create the cropping mentioned above, and apparently should be the last loaded package: \usepackage[active,tightpage]{preview}
+% The following command re-writes the figure enviroment to become a preview enviroment - without this spacing is off, and captions and labels may appear
+%\renewenvironment{figure}[1][]{%
+%	\begin{preview}%
+%		\renewcommand{\caption}[2][]{}}
+%	{\end{preview}}
+
+%%%%%%%%%%%%%%%%%
+% Load Packages %
+%%%%%%%%%%%%%%%%%
+\usepackage{epsfig}
+\usepackage{amssymb}
+\pagestyle{empty}
+\usepackage{epstopdf}
+\usepackage{mathrsfs}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{xcolor}    % \nopagecolor
+\usepackage{fp}
+\usepackage[T1]{fontenc}
+\usepackage{bm}    % boldmath \bm{}
+\usepackage[pdftex,active,tightpage]{preview}    % should be loaded lasts
+% adjust borders added to figures_raw: left, lower, right and upper borders. - useful to increase lower border not to cut off labels placed below figure bounds. 
+\renewcommand{\PreviewBbAdjust}{0mm -0.25mm 0mm 0mm}
+\renewenvironment{figure}[1][]{%
+	\begin{preview}%
+		\renewcommand{\caption}[2][]{}}
+	{\end{preview}}
+
+\setlength{\unitlength}{1mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Get various dimensions for the documentclass %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\newcommand*{\getlength}[1]{\strip@pt\dimexpr0.035136\dimexpr#1\relax\relax}
+\newcommand{\showfont}{%
+encoding: \f@encoding{},\\
+family: \f@family{},\\
+series: \f@series{},\\
+shape: \f@shape{},\\
+size: \f@size{} pt,\\
+text height: \getlength{\the\textheight} cm,\\
+text width:     \getlength{\the\textwidth} cm}
+\makeatother
+
+\begin{document}
+%\begin{figure}
+%	\begin{picture}(20,5)(0,0)
+%		\showfont
+%	\end{picture}
+%\end{figure}
+%\newpage
+%%%%%%%%%%%%%%%%
+%%% Figure 1: Critical manifold %%%
+%%%%%%%%%%%%%%%%
+\nopagecolor
+\begin{figure}
+	\begin{picture}(81,59)(10,10)
+	\put(10.25,10){\includegraphics[width=8cm]{./figures_raw/Bernd_ENOCH.eps}}
+	    \put(32,11.5){$C^{4}_{+}$}
+	     \put(27,37){$C^{4}_{-}$}
+	     \put(70,38){$\mathscr{H}_0$}
+	     \put(56,50){$\mathscr{P}$}
+	     \put(14,40){$\Gamma$}
+	     \put(33.5,49){$\mathscr{J}$}
+	     \put(83,37){$\mathscr{J}^*$}
+	     \put(18,13.5){$F_1$}
+	\end{picture}
+	\caption{}
+\end{figure}
+\newpage
+
+\end{document}
