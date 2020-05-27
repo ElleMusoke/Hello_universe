@@ -52,13 +52,31 @@ text height: \getlength{\the\textheight} cm,\\
 text width:     \getlength{\the\textwidth} cm}
 \makeatother
 
+
+
+
+
+
+
+
+
 \begin{document}
+
+
+
+
+
+
+
+
 %\begin{figure}
 %	\begin{picture}(20,5)(0,0)
 %		\showfont
 %	\end{picture}
 %\end{figure}
 %\newpage
+
+
 %%%%%%%%%%%%%%%%
 %%% Figure 1: Critical manifold %%%
 %%%%%%%%%%%%%%%%
@@ -95,8 +113,8 @@ text width:     \getlength{\the\textwidth} cm}
 	\begin{picture}(114.75,63)(94.75,97)
 	    \put(100,100){\includegraphics[width=11cm]{./figures_raw/paper_slow.eps}}
 	    \put(196.5,153.5){$F_1$}
-	    \put(173.5,148){$D_\delta(B_{\mathrm{out}})$}
-	    \put(107,127){$D_\delta(B_{\mathrm{in}})$}
+	    \put(173.5,148){$D^s_\delta(B_{\mathrm{out}})$}
+	    \put(107,127){$D^s_\delta(B_{\mathrm{in}})$}
 	    \put(121.5,110){$C^3$}
 	    \put(120,151){$C^4_+$}
 	    \put(147.5,133.5){$S^3$}
@@ -427,7 +445,7 @@ text width:     \getlength{\the\textwidth} cm}
 \put(100,160){
 	\begin{picture}(180,100)(0,0)
 	    \put(0,24){\includegraphics[width=12.6cm]{./figures_raw/unstable_piece_BAX.eps}}
-	    \put(70,59.5){$W^{u}_{r}\cap\mathscr{R}$}
+	    \put(70,59.5){$W^{u}_{r}\cap\mathscr{D}^u$}
 	    \put(70,36){$W^{u}_{r}$}
 	    \put(11,69.5){$\Phi_{\widehat{B}}$}
 	     \put(15,55){$H$}
@@ -441,7 +459,7 @@ text width:     \getlength{\the\textwidth} cm}
 \put(100,85){
 	\begin{picture}(180,100)(0,0)
 	    \put(3,19.5){\includegraphics[width=12.6cm]{./figures_raw/unstable_piece_BAY.eps}}
-	    \put(70,40){$W^{u}_{r}\cap\mathscr{R}$}
+	    \put(70,40){$W^{u}_{r}\cap\mathscr{D}^u$}
 	    \put(70,23.5){$W^{u}_{r}$}
 	    \put(13.75,62){$\Phi_{\widehat{B}}$}	    
 	    \put(14,62.5){$$}
@@ -679,127 +697,27 @@ text width:     \getlength{\the\textwidth} cm}
 \end{figure}
 \newpage
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Figure 14: Calculating full intersection curve with B=0.75 %% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{figure}
-\begin{picture}(126.5,143)(51,89.5)
-\put(50,90){
-	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/B_Lin_BAX_2.eps}}
-	    \put(7,55){(b1)}
-	    \put(80,57){(b2)}
-	    \put(34,45){$\Lambda$}
-	    \put(107,62){$\Lambda$}	
-	     \put(92.5,23.5){$q$}
-	   \put(79,25){$C^2$}
-	    \put(79,13){$C^3$}
-	    \put(110,18.5){$F_2$}
-	    \put(108,2){$C^{4}_{+}$}
-	    \put(15,2){$F_1$}
-	     \put(2.5,42.5){$C^{4}_{-}$}
-	     \put(7,37){$H$}	           	        
-	\end{picture}
-	\caption{}
-}
-
-\put(50,162){
-	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/B_Lin_BAX_1.eps}}
-	    \put(7,55){(a1)}
-	    \put(80,57){(a2)}
-	    \put(34,45){$\Lambda$}
-	    \put(107,62){$\Lambda$}	
-	     \put(92.5,23.5){$q$}
-	   \put(79,25){$C^2$}
-	    \put(79,13){$C^3$}
-	    \put(110,18.5){$F_2$}
-	    \put(108,2){$C^{4}_{+}$}
-	    \put(15,2){$F_1$}
-	     \put(2.5,42.5){$C^{4}_{-}$}
-	     \put(7,37){$H$}	  
-	\end{picture}
-	\caption{}
-}
-\end{picture}
-\end{figure}
-\newpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%% Figure 15: Intersection curve comparisons %%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{figure}
-\begin{picture}(171,140)(0,0)
-\put(0,3){
-	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=17cm]{./figures_raw/error_compare.eps}}
-	    \put(136,57){$q$}
-	    \put(100.5,20){$C^3$}
-	    \put(100.5,66){$C^2$}
-	    \put(161,45.5){$F_2$}
-	    \put(108,4.25){$C^{4}_{+}$}
-	    \put(34.5,1){$F_1$}
-	     \put(4.5,95.5){$C^{4}_{-}$}
-	      \put(11.5,88){$H$} 
-	      \put(22.5,44){$\mathscr{H}^{\widehat{B}}$}
-	      \put(13.5,44){$\mathscr{H}_0^{\widehat{B}},$}	       	    
-	\end{picture}
-	\caption{}
-}
-\end{picture}
-\end{figure}
-\newpage
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%% Figure 16: B=0.75 intersection curve calculation %%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{figure}
-\begin{picture}(172,107)(0,0)
-\put(0,0){
-	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=17cm]{./figures_raw/error_75.eps}}
-	    \put(7,100){(a)}
-	    \put(73, 85){(b)}
-	    \put(161,78){(c)}
-	    \put(115,38){$\mathscr{H}_0^{\widehat{B}}$}
-	    \put(97,41){$\mathscr{H}^{\widehat{B}}$}
-	    \put(90,65.5){$\mathscr{N}_i$}
-	    \put(130,51.5){$l_i$}
-	    \put(120,55){$k_i$}
-	     \put(55, 43){$\Delta$}	    	    	    
-	\end{picture}
-	\caption{}
-}
-\end{picture}
-\end{figure}
-\newpage
-
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Figure 17: MMO surface interaction %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-\begin{picture}(107,93)(64,137.5)
+\begin{picture}(130,111.6)(64,137.5)
 \put(50,140){
 	\begin{picture}(180,100)(0,0)
-	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/MMO_surface_interaction_BAX.eps}}
-	    \put(114,13.25){$C^2$}
-	    \put(107,4){$C^3$}
-	    \put(108,81){(b)}
-	    \put(95,42){$\mathscr{H}$}
-	    \put(65,-1){$C^{4}_{+}$}
+	    \put(0,0){\includegraphics[width=15.12cm]{./figures_raw/MMO_surface_interaction_BAX.eps}}
+	    \put(136,16.5){$C^2$}
+	    \put(128,5){$C^3$}
+	    \put(130,97){(b)}
+	    \put(115,50){$\mathscr{H}$}
+	    \put(75,0){$C^{4}_{+}$}
 	    \put(16,1){$F_1$}
-	    \put(20,17.5){$C^{4}_{-}$}
-	    \put(80,19){$\mathscr{H}$}
-	    \put(14,50){$\Gamma$}
-	    \put(13,81){(a)}
-	    \put(115.5,8){$F_2$}
+	    \put(27,22){$C^{4}_{-}$}
+	    \put(92,23.5){$\mathscr{H}$}
+	    \put(20,70){$\Gamma$}
+	    \put(20,100){(a)}
+	    \put(138.5,10.5){$F_2$}
 	\end{picture}
 	\caption{}
 }
@@ -807,12 +725,14 @@ text width:     \getlength{\the\textwidth} cm}
 \end{figure}
 \newpage
 
-%%%%%%%%%%%%%%%%%%%
-%%%% Figure 18: Isola figure %%%
-%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% Figure 13: isola%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-	\begin{picture}(124,64.5)(86.5,96.5)
+\begin{picture}(124,131)(51,53)
+\put(50,120){
+\begin{picture}(124,64.5)(86.5,96.5)
 	    \put(100,100){\includegraphics[width=11cm]{./figures_raw/paper_isola.eps}}
 	    \put(87,157){max($A$)}
 	    \put(89,139){\footnotesize $10.3667$}
@@ -822,15 +742,39 @@ text width:     \getlength{\the\textwidth} cm}
             \put(144.5,97){\footnotesize$1.9E-3$}
             \put(167.5,97){\footnotesize$2.7E-3$}
             \put(190.5,97){\footnotesize$3.5E-3$}
-            \put(194.5,156){(a)}
-            \put(104,137.5){(b)}
-            \put(196.25,110){(c)}
+            \put(197,155){[a]}
+            \put(104,137.5){[b]}
+            \put(197,110){[c]}
+            \put(204,155.5){(a)}
             
 	\end{picture}
-	\caption{}
-\end{figure}
 
+	\caption{}
+}
+
+\put(50,55){
+	\begin{picture}(124,64.5)(86.5,96.5)
+	    \put(100,100){\includegraphics[width=11cm]{./figures_raw/paper_isola_period.eps}}
+	    \put(95,157){$T_\Gamma$}
+	    \put(96.5,139){\footnotesize $95$}
+	    \put(96.5,119){\footnotesize $85$}
+            \put(207,96.75){\Large $\varepsilon$}
+            \put(120.5,97){\footnotesize$1.1E-3$}
+            \put(144.5,97){\footnotesize$1.9E-3$}
+            \put(167.5,97){\footnotesize$2.7E-3$}
+            \put(190.5,97){\footnotesize$3.5E-3$}
+            \put(202,125.5){[c]}
+            \put(101.5,156){[b]}
+            \put(196.5,106){[a]}
+            \put(204,155.5){(b)}            
+	\end{picture}
+
+	\caption{}
+}
+\end{picture}
+\end{figure}
 \newpage
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% Figure 19: Compare MMOs and singular objects%%%%%%
@@ -847,7 +791,7 @@ text width:     \getlength{\the\textwidth} cm}
 	     \put(26,16){$C^{4}_{-}$}
 	     \put(90,18){$\mathscr{H}_0$}
 	     \put(65,50){$\mathscr{P}$}
-	     \put(56,40){$\Gamma$}
+	     \put(56.5,47){$\Gamma$}
 	     \put(34,49){$\mathscr{J}$}
 	     \put(105.5,17.5){$\mathscr{J}^*$}
 	     \put(33,-1){$F_1$}
@@ -863,7 +807,7 @@ text width:     \getlength{\the\textwidth} cm}
 	     \put(26,16){$C^{4}_{-}$}
 	     \put(90,18){$\mathscr{H}_0$}
 	     \put(64,50){$\mathscr{P}$}
-	     \put(24.5,40){$\Gamma$}
+	     \put(26,47){$\Gamma$}
 	     \put(34,49){$\mathscr{J}$}
 	     \put(105.5,17.5){$\mathscr{J}^*$}
 	     \put(33,-1){$F_1$}
@@ -879,7 +823,7 @@ text width:     \getlength{\the\textwidth} cm}
 	     \put(26,16){$C^{4}_{-}$}
 	     \put(90,18){$\mathscr{H}_0$}
 	     \put(64,50){$\mathscr{P}$}
-	     \put(25,40){$\Gamma$}
+	     \put(26,46){$\Gamma$}
 	     \put(34,49){$\mathscr{J}$}
 	     \put(105.5,17.5){$\mathscr{J}^*$}
 	     \put(33,-1){$F_1$}
@@ -898,114 +842,123 @@ text width:     \getlength{\the\textwidth} cm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}
-\begin{picture}(172.75,182)(0,-47)
+\begin{picture}(172.75,217.0)(0,-47)
 
 
 %row 1
-\put(-5.6,87){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_1.png}}
-	\put(11,50.5){(a)}
-	\put(30,50.5){$\varepsilon=0.0037$}
+\put(-5.6,113.25){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_1.png}}
+	\put(15,59){$C^4_+$}
+	\put(20,52.5){$C^3$}
+	\put(15.5,37){$\mathscr{J}^*$}
+	\put(49.5,37){$\mathscr{J}$}
+	\put(35,35){$\mathscr{P}$}
+	\put(28,45){$\Gamma$}
+	\put(33,15.5){$H$}
+	\put(60,14.5){$C^4_-$}
+	\put(54,58.5){$F_1$}
+	\put(61.5,58.75){[a]}
+	\put(30,58.75){$\varepsilon=0.0037$}
 	\end{picture}
 	\caption{}
 	}
 
-\put(51.9,87){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_2.png}}
-	\put(30,50.5){$\varepsilon=0.0014$}	
+\put(51.9,113.25){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_2.png}}
+	\put(30,58.75){$\varepsilon=0.00136$}	
 	\end{picture}
 	\caption{}
 	}
 	
 	
-\put(109,87){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_3.png}}
-	\put(11,50.5){(b)}
-	\put(30,50.5){$\varepsilon=0.0005$}		
+\put(109.25,113.25){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_3.png}}
+	\put(61.5,58.75){[b]}
+	\put(30,58.75){$\varepsilon=0.00055$}		
 	\end{picture}
 	\caption{}
 	}	
 	
 %row 2
-\put(-5.6,41.5){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_4.png}}
-	\put(30,50.5){$\varepsilon=0.0007$}	
+\put(-5.6,59){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_4.png}}
+	\put(30,58.75){$\varepsilon=0.00071$}	
 	\end{picture}
 	\caption{}
 	}
 
-\put(51.9,41.5){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_5.png}}
-	\put(30,50.5){$\varepsilon=0.0012$}		
+\put(51.9,59){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_5.png}}
+	\put(30,58.75){$\varepsilon=0.00118$}		
 	\end{picture}
 	\caption{}
 	}
 	
 	
-\put(109,41.5){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_6.png}}
-	\put(30,50.5){$\varepsilon=0.0026$}		
+\put(109.25,59){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_6.png}}
+	\put(30,58.75){$\varepsilon=0.00261$}		
 	\end{picture}
 	\caption{}
 	}	
 	
 
 %row 3
-\put(-5.5,-4){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_7.png}}
-	\put(30,50.5){$\varepsilon=0.0031$}		
+\put(-5.5,4.75){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_7.png}}
+	\put(30,58.75){$\varepsilon=0.00309$}		
 	\end{picture}
 	\caption{}
 	}
 
-\put(51.9,-4){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_8.png}}
-	\put(30,50.5){$\varepsilon=0.0038$}			
-	\put(11,50.5){(c)}
+\put(51.9,4.75){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_8.png}}
+	\put(30,58.75){$\varepsilon=0.00383$}			
+	\put(61.5,58.75){[c]}
 	\end{picture}
 	\caption{}
 	}
 	
 	
-\put(109,-4){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_9.png}}
-	\put(30,50.5){$\varepsilon=0.0038$}		
+\put(109.25,4.75){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_9.png}}
+	\put(30,58.75){$\varepsilon=0.00379$}		
 	\end{picture}
 	\caption{}
 	}
 	
 %row 4
 \put(-5.5,-49.5){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_10.png}}
-	\put(30,50.5){$\varepsilon=0.0038$}		
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_10.png}}
+	\put(30,58.75){$\varepsilon=0.00377$}		
 	\end{picture}
 	\caption{}
 	}
 
 \put(51.9,-49.5){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_11.png}}
-	\put(30,50.5){$\varepsilon=0.0038$}		
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_11.png}}
+	\put(30,58.75){$\varepsilon=0.00376$}		
 	\end{picture}
 	\caption{}
 	}
 	
 	
-\put(109,-49.5){
-	\begin{picture}(85,43)(5,7)
-	\put(10.25,10){\includegraphics[width=5.6cm]{./figures_raw/MMO_series_elle_12.png}}
-	\put(30,50.5){$\varepsilon=0.0037$}		
-	\put(11,50.5){(a)}
+\put(109.25,-49.5){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_series_elle_12.png}}
+	\put(30,58.75){$\varepsilon=0.0037$}		
+	\put(61.5,58.75){[a]}
 	\end{picture}
 	\caption{}
 	}				
@@ -1013,5 +966,226 @@ text width:     \getlength{\the\textwidth} cm}
 
 \end{picture}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure 20: time series movie stills %%%%%%%%%l%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}
+\begin{picture}(172.75,217.0)(0,-47)
+
+
+%row 1
+\put(-5.6,113.25){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_1.png}}
+	\put(61.5,58.75){[a]}
+	\put(12,58.75){$\varepsilon=0.0037,   T_\Gamma=80.5569$}
+	\end{picture}
+	\caption{}
+	}
+
+\put(51.9,113.25){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_2.png}}
+	\put(12,58.75){$\varepsilon=0.00136,    T_\Gamma=85.9311$}	
+	\end{picture}
+	\caption{}
+	}
+	
+	
+\put(109.25,113.25){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_3.png}}
+	\put(61.5,58.75){[b]}
+	\put(12,58.75){$\varepsilon=0.00055, T_\Gamma=103.6546$}		
+	\end{picture}
+	\caption{}
+	}	
+	
+%row 2
+\put(-5.6,59){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_4.png}}
+	\put(12,58.75){$\varepsilon=0.00071, T_\Gamma=100.5629$}	
+	\end{picture}
+	\caption{}
+	}
+
+\put(51.9,59){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_5.png}}
+	\put(12,58.75){$\varepsilon=0.00118, T_\Gamma=94.7174$}		
+	\end{picture}
+	\caption{}
+	}
+	
+	
+\put(109.25,59){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_6.png}}
+	\put(12,58.75){$\varepsilon=0.00261, T_\Gamma=90.9891$}		
+	\end{picture}
+	\caption{}
+	}	
+	
+
+%row 3
+\put(-5.5,4.75){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_7.png}}
+	\put(12,58.75){$\varepsilon=0.00309, T_\Gamma=90.5799$}		
+	\end{picture}
+	\caption{}
+	}
+
+\put(51.9,4.75){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_8.png}}
+	\put(12,58.75){$\varepsilon=0.00383, T_\Gamma= 89.7610$}			
+	\put(61.5,58.75){[c]}
+	\end{picture}
+	\caption{}
+	}
+	
+	
+\put(109.25,4.75){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_9.png}}
+	\put(12,58.75){$\varepsilon=0.00379, T_\Gamma=88.7281$}		
+	\end{picture}
+	\caption{}
+	}
+	
+%row 4
+\put(-5.5,-49.5){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_10.png}}
+	\put(12,58.75){$\varepsilon=0.00377, T_\Gamma=87.1586$}		
+	\end{picture}
+	\caption{}
+	}
+
+\put(51.9,-49.5){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_11.png}}
+	\put(12,58.75){$\varepsilon=0.00376, T_\Gamma=84.3881$}		
+	\end{picture}
+	\caption{}
+	}
+	
+	
+\put(109.25,-49.5){
+	\begin{picture}(85,52)(5,7)
+	\put(10.25,10){\includegraphics[width=5.6cm, height=5.3cm]{./figures_raw/MMO_time_series_12.png}}
+	\put(12,58.75){$\varepsilon=0.0037, T_\Gamma=80.5569$}		
+	\put(61.5,58.75){[a]}
+	\end{picture}
+	\caption{}
+	}				
+
+
+\end{picture}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure 14: Calculating full intersection curve with B=0.75 %% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}
+\begin{picture}(126.5,143)(51,89.5)
+\put(50,90){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/B_Lin_BAX_2.png}}
+	    \put(7,55){(b1)}
+	    \put(80,57){(b2)}
+	    \put(34,45){$\Lambda$}
+	    \put(107,62){$\Lambda$}	
+	     \put(92.5,23.5){$q$}
+	   \put(79,25){$C^2$}
+	    \put(79,13){$C^3$}
+	    \put(110,18.5){$F_2$}
+	    \put(108,2){$C^{4}_{+}$}
+	    \put(15,2){$F_1$}
+	     \put(2.5,43){$C^{4}_{-}$}
+	     \put(7,37){$H$}	           	        
+	\end{picture}
+	\caption{}
+}
+
+\put(50,162){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=12.6cm]{./figures_raw/B_Lin_BAX_1.png}}
+	    \put(7,55){(a1)}
+	    \put(80,57){(a2)}
+	    \put(34,45){$\Lambda$}
+	    \put(107,62){$\Lambda$}	
+	     \put(92.5,23.5){$q$}
+	   \put(79,25){$C^2$}
+	    \put(79,13){$C^3$}
+	    \put(110,18.5){$F_2$}
+	    \put(108,2){$C^{4}_{+}$}
+	    \put(15,2){$F_1$}
+	     \put(2.5,43){$C^{4}_{-}$}
+	     \put(7,37){$H$}	  
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Figure 19: Intersection curve comparisons %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}
+\begin{picture}(172,146)(1,1)
+\put(0,3){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=17cm]{./figures_raw/error_compare.png}}
+	    \put(137,54.5){$q$}
+	    \put(100.5,18){$C^3$}
+	    \put(100.5,63){$C^2$}
+	    \put(163,42){$F_2$}
+	    \put(108,-1){$C^{4}_{+}$}
+	    \put(35,0){$F_1$}
+	     \put(4.5,89.5){$C^{4}_{-}$}
+	      \put(11,81.5){$H$} 
+	      \put(17.5,44){$\mathscr{H}^{\widehat{B}}$}
+	      \put(8.5,44){$\mathscr{H}_0^{\widehat{B}},$}	       	    
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Figure 20: B=0.75 intersection curve calculation %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}
+\begin{picture}(172,107)(0,0)
+\put(0,0){
+	\begin{picture}(180,100)(0,0)
+	    \put(0,0){\includegraphics[width=17cm]{./figures_raw/error_75.eps}}
+	    \put(7,100){(a)}
+	    \put(73, 85){(b)}
+	    \put(161,78){(c)}
+	    \put(115,38){$\mathscr{H}_0^{\widehat{B}}$}
+	    \put(97,41){$\mathscr{H}^{\widehat{B}}$}
+	    \put(90,65.5){$\mathscr{N}_i$}
+	    \put(130,51.5){$l_i$}
+	    \put(120,55){$k_i$}
+	     \put(55, 43){$\Delta_{\widehat{B}}$}
+	    \put(35,80){$\mathscr{H}_0^{\widehat{B}}$}
+	    \put(21,36){$\mathscr{H}^{\widehat{B}}$}	     
+	\end{picture}
+	\caption{}
+}
+\end{picture}
+\end{figure}
+\newpage
 
 \end{document}

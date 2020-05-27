@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: mko_het_olsen_v1.aux
+The style file: ws-ijbc.bst
+Database file #1: elle.bib
+Warning--I didn't find a database entry for "England"
+<ws-ijbc.bst>
+World Scientific's Bibliography Style File for IJBC
+version 1.0 (2005/03/26), Sorted
+for support: Rajesh, rajesh@wspc.com.sg
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in AUTO
+You've used 42 entries,
+            3241 wiz_defined-function locations,
+            944 strings with 12294 characters,
+and the built_in function-call counts, 27979 in all, are:
+= -- 2473
+> -- 945
+< -- 54
++ -- 377
+- -- 321
+* -- 2076
+:= -- 4062
+add.period$ -- 80
+call.type$ -- 42
+change.case$ -- 319
+chr.to.int$ -- 49
+cite$ -- 43
+duplicate$ -- 2170
+empty$ -- 2115
+format.name$ -- 442
+if$ -- 5805
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 396
+newline$ -- 136
+num.names$ -- 170
+pop$ -- 784
+preamble$ -- 1
+purify$ -- 274
+quote$ -- 0
+skip$ -- 1030
+stack$ -- 0
+substring$ -- 1459
+swap$ -- 1263
+text.length$ -- 30
+text.prefix$ -- 0
+top$ -- 4
+type$ -- 366
+warning$ -- 1
+while$ -- 217
+width$ -- 0
+write$ -- 471
+(There were 2 warnings)

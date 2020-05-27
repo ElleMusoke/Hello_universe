@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  18 DEC 2019 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.19)  27 MAY 2020 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,21 +304,29 @@ Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
 (./heteroclinic_paper.aux)
 \openout1 = `heteroclinic_paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -334,255 +342,277 @@ LaTeX Font Info:    ... okay on input line 35.
 \makeMPintoPDFobject=\count131
 \everyMPtoPDFconversion=\toks25
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 50.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ) [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
- [3]
+ [3] [4]
+[5]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_1.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_1.pdf, id=28, 241.84753pt x 125.90237pt>
+<./figures/MKMO_1.pdf, id=35, 241.84753pt x 125.90237pt>
 File: ./figures/MKMO_1.pdf Graphic file (type pdf)
 <use ./figures/MKMO_1.pdf>
-Package pdftex.def Info: ./figures/MKMO_1.pdf  used on input line 151.
+Package pdftex.def Info: ./figures/MKMO_1.pdf  used on input line 169.
 (pdftex.def)             Requested size: 241.84694pt x 125.90205pt.
-[4 <./figures/MKMO_1.pdf>] [5]
+[6 <./figures/MKMO_1.pdf>] [7]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_2.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_2.pdf, id=66, 326.49376pt x 179.96233pt>
+<./figures/MKMO_2.pdf, id=77, 326.49376pt x 179.96233pt>
 File: ./figures/MKMO_2.pdf Graphic file (type pdf)
 <use ./figures/MKMO_2.pdf>
-Package pdftex.def Info: ./figures/MKMO_2.pdf  used on input line 193.
+Package pdftex.def Info: ./figures/MKMO_2.pdf  used on input line 212.
 (pdftex.def)             Requested size: 326.49297pt x 179.96188pt.
-[6 <./figures/MKMO_2.pdf>]
+[8 <./figures/MKMO_2.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_3.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_3.pdf, id=111, 491.51831pt x 253.93971pt>
+<./figures/MKMO_3.pdf, id=118, 491.51831pt x 253.93971pt>
 File: ./figures/MKMO_3.pdf Graphic file (type pdf)
 <use ./figures/MKMO_3.pdf>
-Package pdftex.def Info: ./figures/MKMO_3.pdf  used on input line 209.
+Package pdftex.def Info: ./figures/MKMO_3.pdf  used on input line 279.
 (pdftex.def)             Requested size: 491.5171pt x 253.93907pt.
-[7 <./figures/MKMO_3.pdf>] [8]
+[9]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_4.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_4.pdf, id=178, 381.26541pt x 510.01341pt>
+<./figures/MKMO_4.pdf, id=122, 381.26541pt x 510.01341pt>
 File: ./figures/MKMO_4.pdf Graphic file (type pdf)
 <use ./figures/MKMO_4.pdf>
-Package pdftex.def Info: ./figures/MKMO_4.pdf  used on input line 270.
+Package pdftex.def Info: ./figures/MKMO_4.pdf  used on input line 298.
 (pdftex.def)             Requested size: 381.26447pt x 510.01216pt.
-[9]
+[10 <./figures/MKMO_3.pdf>] [11 <./figures/MKMO_4.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_5.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_5.pdf, id=182, 344.2762pt x 485.82805pt>
+<./figures/MKMO_5.pdf, id=217, 344.2762pt x 485.82805pt>
 File: ./figures/MKMO_5.pdf Graphic file (type pdf)
 <use ./figures/MKMO_5.pdf>
-Package pdftex.def Info: ./figures/MKMO_5.pdf  used on input line 279.
+Package pdftex.def Info: ./figures/MKMO_5.pdf  used on input line 309.
 (pdftex.def)             Requested size: 344.27536pt x 485.82686pt.
-[10 <./figures/MKMO_4.pdf>]
+
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_6.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_6.pdf, id=215, 341.4316pt x 558.38213pt>
+<./figures/MKMO_6.pdf, id=218, 341.4316pt x 558.38213pt>
 File: ./figures/MKMO_6.pdf Graphic file (type pdf)
 <use ./figures/MKMO_6.pdf>
-Package pdftex.def Info: ./figures/MKMO_6.pdf  used on input line 288.
+Package pdftex.def Info: ./figures/MKMO_6.pdf  used on input line 320.
 (pdftex.def)             Requested size: 341.43076pt x 558.38075pt.
-[11 <./figures/MKMO_5.pdf>] [12 <./figures/MKMO_6.pdf>] [13] [14]
+[12 <./figures/MKMO_5.pdf>] [13 <./figures/MKMO_6.pdf>] [14]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_7.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_7.pdf, id=292, 491.51831pt x 87.49187pt>
+<./figures/MKMO_7.pdf, id=291, 491.51831pt x 87.49187pt>
 File: ./figures/MKMO_7.pdf Graphic file (type pdf)
 <use ./figures/MKMO_7.pdf>
-Package pdftex.def Info: ./figures/MKMO_7.pdf  used on input line 376.
+Package pdftex.def Info: ./figures/MKMO_7.pdf  used on input line 421.
 (pdftex.def)             Requested size: 491.5171pt x 87.49164pt.
-
+[15]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_8.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_8.pdf, id=293, 372.72952pt x 406.16142pt>
+<./figures/MKMO_8.pdf, id=296, 372.72952pt x 406.16142pt>
 File: ./figures/MKMO_8.pdf Graphic file (type pdf)
 <use ./figures/MKMO_8.pdf>
-Package pdftex.def Info: ./figures/MKMO_8.pdf  used on input line 383.
+Package pdftex.def Info: ./figures/MKMO_8.pdf  used on input line 432.
 (pdftex.def)             Requested size: 372.7286pt x 406.16043pt.
-[15 <./figures/MKMO_7.pdf>]
+
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_9.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_9.pdf, id=341, 372.72952pt x 470.1796pt>
+<./figures/MKMO_9.pdf, id=297, 372.72952pt x 470.1796pt>
 File: ./figures/MKMO_9.pdf Graphic file (type pdf)
 <use ./figures/MKMO_9.pdf>
-Package pdftex.def Info: ./figures/MKMO_9.pdf  used on input line 396.
+Package pdftex.def Info: ./figures/MKMO_9.pdf  used on input line 450.
 (pdftex.def)             Requested size: 372.7286pt x 470.17844pt.
-[16 <./figures/MKMO_8.pdf>] [17 <./figures/MKMO_9.pdf>] [18]
+[16 <./figures/MKMO_7.pdf>] [17 <./figures/MKMO_8.pdf>] [18 <./figures/MKMO_9.p
+df>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_10.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
 <./figures/MKMO_10.pdf, id=416, 490.80765pt x 128.748pt>
 File: ./figures/MKMO_10.pdf Graphic file (type pdf)
 <use ./figures/MKMO_10.pdf>
-Package pdftex.def Info: ./figures/MKMO_10.pdf  used on input line 467.
+Package pdftex.def Info: ./figures/MKMO_10.pdf  used on input line 533.
 (pdftex.def)             Requested size: 490.80644pt x 128.74767pt.
-[19 <./figures/MKMO_10.pdf>]
+[19]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_11.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_11.pdf, id=463, 347.12186pt x 492.94164pt>
+<./figures/MKMO_11.pdf, id=421, 347.12186pt x 492.94164pt>
 File: ./figures/MKMO_11.pdf Graphic file (type pdf)
 <use ./figures/MKMO_11.pdf>
-Package pdftex.def Info: ./figures/MKMO_11.pdf  used on input line 478.
+Package pdftex.def Info: ./figures/MKMO_11.pdf  used on input line 546.
 (pdftex.def)             Requested size: 347.121pt x 492.94043pt.
-[20]
+
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_12.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_12.pdf, id=467, 352.81209pt x 498.6319pt>
+<./figures/MKMO_12.pdf, id=422, 352.81209pt x 498.6319pt>
 File: ./figures/MKMO_12.pdf Graphic file (type pdf)
 <use ./figures/MKMO_12.pdf>
-Package pdftex.def Info: ./figures/MKMO_12.pdf  used on input line 485.
+Package pdftex.def Info: ./figures/MKMO_12.pdf  used on input line 557.
 (pdftex.def)             Requested size: 352.81122pt x 498.63068pt.
-[21 <./figures/MKMO_11.pdf>] [22 <./figures/MKMO_12.pdf>] [23]
+[20 <./figures/MKMO_10.pdf>] [21 <./figures/MKMO_11.pdf>] [22 <./figures/MKMO_1
+2.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_13.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_13.pdf, id=535, 352.81209pt x 481.56009pt>
+<./figures/MKMO_13.pdf, id=532, 352.81209pt x 481.56009pt>
 File: ./figures/MKMO_13.pdf Graphic file (type pdf)
 <use ./figures/MKMO_13.pdf>
-Package pdftex.def Info: ./figures/MKMO_13.pdf  used on input line 566.
+Package pdftex.def Info: ./figures/MKMO_13.pdf  used on input line 652.
 (pdftex.def)             Requested size: 352.81122pt x 481.5589pt.
-[24] [25 <./figures/MKMO_13.pdf>]
+[23] [24 <./figures/MKMO_13.pdf>]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_17.pdf): PDF 
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_14.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_17.pdf, id=569, 304.44238pt x 265.32024pt>
-File: ./figures/MKMO_17.pdf Graphic file (type pdf)
-<use ./figures/MKMO_17.pdf>
-Package pdftex.def Info: ./figures/MKMO_17.pdf  used on input line 578.
-(pdftex.def)             Requested size: 304.44164pt x 265.31958pt.
+<./figures/MKMO_14.pdf, id=565, 369.8839pt x 318.24196pt>
+File: ./figures/MKMO_14.pdf Graphic file (type pdf)
+<use ./figures/MKMO_14.pdf>
+Package pdftex.def Info: ./figures/MKMO_14.pdf  used on input line 670.
+(pdftex.def)             Requested size: 369.88298pt x 318.24117pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_15.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_15.pdf, id=566, 352.81209pt x 373.44019pt>
+File: ./figures/MKMO_15.pdf Graphic file (type pdf)
+<use ./figures/MKMO_15.pdf>
+Package pdftex.def Info: ./figures/MKMO_15.pdf  used on input line 681.
+(pdftex.def)             Requested size: 352.81122pt x 373.43927pt.
+
+Package natbib Warning: Citation `Forest_pest_model' on page 25 undefined on in
+put line 687.
+
+[25 <./figures/MKMO_14.pdf>] [26 <./figures/MKMO_15.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_16.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/MKMO_16.pdf, id=637, 455.24176pt x 547.0016pt>
+File: ./figures/MKMO_16.pdf Graphic file (type pdf)
+<use ./figures/MKMO_16.pdf>
+Package pdftex.def Info: ./figures/MKMO_16.pdf  used on input line 694.
+(pdftex.def)             Requested size: 455.24063pt x 547.00026pt.
+<./figures/MKMO_17_scan.png, id=638, 570.13pt x 716.6775pt>
+File: ./figures/MKMO_17_scan.png Graphic file (type png)
+<use ./figures/MKMO_17_scan.png>
+Package pdftex.def Info: ./figures/MKMO_17_scan.png  used on input line 712.
+(pdftex.def)             Requested size: 495.07777pt x 622.3343pt.
+
+LaTeX Warning: Float too large for page by 2.36421pt on input line 715.
+
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_18.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_18.pdf, id=570, 352.81209pt x 184.23029pt>
+<./figures/MKMO_18.pdf, id=640, 491.51831pt x 618.13332pt>
 File: ./figures/MKMO_18.pdf Graphic file (type pdf)
 <use ./figures/MKMO_18.pdf>
-Package pdftex.def Info: ./figures/MKMO_18.pdf  used on input line 587.
-(pdftex.def)             Requested size: 352.81122pt x 184.22983pt.
-[26 <./figures/MKMO_17.pdf>]
+Package pdftex.def Info: ./figures/MKMO_18.pdf  used on input line 721.
+(pdftex.def)             Requested size: 491.5171pt x 618.1318pt.
+[27] [28 <./figures/MKMO_16.pdf>] [29 <./figures/MKMO_17_scan.png>] [30 <./figu
+res/MKMO_18.pdf>] [31
+
+] [32] [33]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_19.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_19.pdf, id=599, 455.24176pt x 547.0016pt>
+<./figures/MKMO_19.pdf, id=741, 359.92567pt x 407.58374pt>
 File: ./figures/MKMO_19.pdf Graphic file (type pdf)
 <use ./figures/MKMO_19.pdf>
-Package pdftex.def Info: ./figures/MKMO_19.pdf  used on input line 597.
-(pdftex.def)             Requested size: 455.24063pt x 547.00026pt.
-[27 <./figures/MKMO_18.pdf>] [28 <./figures/MKMO_19.pdf>]
+Package pdftex.def Info: ./figures/MKMO_19.pdf  used on input line 810.
+(pdftex.def)             Requested size: 359.92479pt x 407.58273pt.
+
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_20.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_20.pdf, id=666, 491.51831pt x 518.54831pt>
+<./figures/MKMO_20.pdf, id=742, 489.38434pt x 416.11961pt>
 File: ./figures/MKMO_20.pdf Graphic file (type pdf)
 <use ./figures/MKMO_20.pdf>
-Package pdftex.def Info: ./figures/MKMO_20.pdf  used on input line 612.
-(pdftex.def)             Requested size: 491.5171pt x 518.54704pt.
-[29] [30 <./figures/MKMO_20.pdf>]
+Package pdftex.def Info: ./figures/MKMO_20.pdf  used on input line 821.
+(pdftex.def)             Requested size: 489.38313pt x 416.11859pt.
+[34] [35 <./figures/MKMO_19.pdf>]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_14.pdf): PDF 
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_21.pdf): PDF 
 inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_14.pdf, id=708, 359.92567pt x 407.58374pt>
-File: ./figures/MKMO_14.pdf Graphic file (type pdf)
-<use ./figures/MKMO_14.pdf>
-Package pdftex.def Info: ./figures/MKMO_14.pdf  used on input line 651.
-(pdftex.def)             Requested size: 359.92479pt x 407.58273pt.
-[31] [32 <./figures/MKMO_14.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_15.pdf): PDF 
-inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_15.pdf, id=752, 486.53969pt x 399.04785pt>
-File: ./figures/MKMO_15.pdf Graphic file (type pdf)
-<use ./figures/MKMO_15.pdf>
-Package pdftex.def Info: ./figures/MKMO_15.pdf  used on input line 660.
-(pdftex.def)             Requested size: 486.53848pt x 399.04688pt.
-[33 <./figures/MKMO_15.pdf>]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/MKMO_16.pdf): PDF 
-inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<./figures/MKMO_16.pdf, id=780, 489.38434pt x 305.15405pt>
-File: ./figures/MKMO_16.pdf Graphic file (type pdf)
-<use ./figures/MKMO_16.pdf>
-Package pdftex.def Info: ./figures/MKMO_16.pdf  used on input line 679.
+<./figures/MKMO_21.pdf, id=768, 489.38434pt x 305.15405pt>
+File: ./figures/MKMO_21.pdf Graphic file (type pdf)
+<use ./figures/MKMO_21.pdf>
+Package pdftex.def Info: ./figures/MKMO_21.pdf  used on input line 842.
 (pdftex.def)             Requested size: 489.38313pt x 305.1533pt.
-[34 <./figures/MKMO_16.pdf>] [35] (./heteroclinic_paper.bbl [36]) [37]
-(./heteroclinic_paper.aux) ) 
+[36 <./figures/MKMO_20.pdf>] [37 <./figures/MKMO_21.pdf>] [38] [39]
+
+Package natbib Warning: There were undefined citations.
+
+[40] (./heteroclinic_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3761 strings out of 492649
- 50814 string characters out of 6129622
- 126965 words of memory out of 5000000
- 7520 multiletter control sequences out of 15000+600000
- 22499 words of font info for 84 fonts, out of 8000000 for 9000
+ 3860 strings out of 492649
+ 52125 string characters out of 6129622
+ 130567 words of memory out of 5000000
+ 7614 multiletter control sequences out of 15000+600000
+ 22667 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,27p,2375b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cmextra/cmex7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cmextra/cmmib8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on heteroclinic_paper.pdf (37 pages, 20928609 bytes).
+ 42i,13n,28p,2571b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmib10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on heteroclinic_paper.pdf (40 pages, 19494115 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 689 compressed objects within 7 object streams
+ 931 PDF objects out of 1000 (max. 8388607)
+ 706 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
